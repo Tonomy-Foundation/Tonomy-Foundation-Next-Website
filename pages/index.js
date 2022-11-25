@@ -17,7 +17,7 @@ export default function Home() {
         </h1>
 
         <p className={styles.description}>
-          We're currently {' '}
+          We are currently {' '}
           <code className={styles.code}>under construction</code>
           , check back soon!
         </p>
