@@ -1,6 +1,6 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from "next/head";
+import Image from "next/image";
+import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -13,13 +13,15 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to the <a href="https://www.linkedin.com/company/tonomy-foundation/?">Tonomy Foundation</a> website!
+          Welcome to the{" "}
+          <a href="https://www.linkedin.com/company/tonomy-foundation/?">
+            Tonomy Foundation
+          </a>{" "}
+          website!
         </h1>
 
         <p className={styles.description}>
-          We are currently {' '}
-          <code className={styles.code}>under construction</code>
-          , check back soon!
+          We are currently under construction, check back soon!
         </p>
 
         {/* <div className={styles.grid}>
@@ -61,9 +63,9 @@ export default function Home() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Powered by{' '} <b>Tonomy</b>
+          Powered by <b>Tonomy</b>
         </a>
       </footer>
     </div>
-  )
+  );
 }
