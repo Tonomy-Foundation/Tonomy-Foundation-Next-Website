@@ -3,7 +3,7 @@
 }
 
 .main {
-  min-height: 100vh;
+  min-height: 91vh;
   padding: 4rem 0;
   flex: 1;
   display: flex;
@@ -21,15 +21,18 @@
   align-items: center;
 }
 
-.footer a {
+.footer p {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
 }
+.footer a b {
+  color: #67D7ED;  
+}
 
 .title a {
-  color: #0070f3;
+  color: #67D7ED;
   text-decoration: none;
 }
 
