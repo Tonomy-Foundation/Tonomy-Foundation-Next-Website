@@ -2,9 +2,6 @@
 const { EDGE_RUNTIME_WEBPACK } = require('next/dist/shared/lib/constants')
 const path = require('path')
 const nextConfig = {
-  experimental: {
-    runtime: 'experimental-edge',
-  },
   reactStrictMode: true,
   trailingSlash: true,
   distDir: 'build',
