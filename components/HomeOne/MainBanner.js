@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Specialized Artificial Intelligence Startup</h1>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida risus commodo</p>	
+                            <h1>What is the Tonomy Foundation?</h1>
+                            <p>The Tonomy Foundation is a dutch non-profit organization/foundation. We run our foundation transparently with a lot of different people from around the world. Everything we do is open source and our goal is that we want to make sure that people know what your institution, government, business or initiative is and does, so that it can be verified, so that people know you can be trusted. To do this, we need systems to be transparent, and thus these tools need to be transparent too, thus we are Open Source.</p>	
 
                             <div className="banner-btn">
                                 <Link href="/about-1">

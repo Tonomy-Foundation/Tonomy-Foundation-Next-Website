@@ -17,7 +17,7 @@ const Index = () => {
             
             <MainBanner />
 
-            <Features />
+            {/* <Features />
 
             <About />
 
@@ -33,7 +33,7 @@ const Index = () => {
 
             <News />
             
-            <Footer />
+            <Footer /> */}
         </>
     )
 }
