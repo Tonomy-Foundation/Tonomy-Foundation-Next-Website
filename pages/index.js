@@ -21,9 +21,9 @@ const Index = () => {
 
             <About />
 
-            <WhyChooseUs />
+            <WhyChooseUs />*
 
-            <Services />
+            <Services />*
 
             <MakeYourBusiness />
 
@@ -32,7 +32,7 @@ const Index = () => {
             <Testimonials />
 
             <News />
-
+            
             <Footer />
         </>
     )
