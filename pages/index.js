@@ -21,17 +21,17 @@ const Index = () => {
 
             <About />
 
-            <WhyChooseUs />*
+            <WhyChooseUs />
 
-            <Services />*
+            <Services />
 
             <MakeYourBusiness />
-
+            
             <WhatWeOffer />
 
             <Testimonials />
 
-            <News />
+            <News /> 
             
             <Footer />
         </>
