@@ -14,7 +14,7 @@ const Index = () => {
     return (
         <>
             <Navbar />
-            
+
             <MainBanner />
 
             <Features />
@@ -32,7 +32,7 @@ const Index = () => {
             <Testimonials />
 
             <News />
-            
+
             <Footer />
         </>
     )
