@@ -14,24 +14,24 @@ const Index = () => {
     return (
         <>
             <Navbar />
-            
+
             <MainBanner />
 
             <Features />
 
-           {/* <About /> */}
+            <About />
 
-            {/*<WhyChooseUs />*/}
+            <WhyChooseUs />
 
             <Services />
 
-            {/* <MakeYourBusiness />
-
+            <MakeYourBusiness />
+            
             <WhatWeOffer />
 
             <Testimonials />
 
-            <News /> */}
+            <News /> 
             
             <Footer />
         </>
