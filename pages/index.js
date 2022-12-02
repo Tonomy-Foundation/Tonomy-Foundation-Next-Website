@@ -31,9 +31,9 @@ const Index = () => {
 
             <Testimonials />
 
-            <News />
+            <News /> */}
             
-            <Footer /> */}
+            <Footer />
         </>
     )
 }
