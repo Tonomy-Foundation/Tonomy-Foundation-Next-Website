@@ -47,6 +47,7 @@ class About extends Component {
                                                 <i className="flaticon-checked"></i>
                                                 24/7 Free extra support
                                             </li>
+                                            
                                             <li>
                                                 <i className="flaticon-checked"></i>
                                                 Optimized stack
