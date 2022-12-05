@@ -12,37 +12,42 @@ class Footer extends Component {
                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <a href="/" className="logo">
-                                        <img src="/images/white-logo.png" alt="Image" />
+                                        <img src="/images/logo.png" width="80" height="80" alt="Image" />
                                     </a>
 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat molestiae corporis, magni maxime perferendis ducimus totam officiis sit exercitationem sed odio debitis minus cumque dolores dicta.</p>
+                                    <p>To contact us click below and if you want to know more about us, our team and goals join our Discord.</p>
 
                                     <ul className="social-icon">
-                                        <li>
+                                        {/* <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
-                                        </li>
+                                        </li> */}
                                         <li>
-                                            <a href="https://twitter.com/" target="_blank">
+                                        <a href="https://twitter.com/TonomyF" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.linkedin.com/" target="_blank">
+                                            <a href="https://discord.gg/95J74ZbAgw" target="_blank">
+                                                <i className="bx bxl-discord"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="https://www.linkedin.com/company/tonomy-foundation/" target="_blank">
                                                 <i className="bx bxl-linkedin"></i>
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
+                                            <a href="https://www.linkedin.com/company/tonomy-foundation/jobs/" target="_blank">
+                                                <i className="bx bxs-briefcase"></i>
                                             </a>
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
-                            <div className="col-lg-3 col-md-6">
+                            {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <h3>Services</h3>
                                     <ul>
@@ -96,9 +101,9 @@ class Footer extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="col-lg-3 col-md-6">
+                            {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <h3>Important Links</h3>
 
@@ -153,13 +158,13 @@ class Footer extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
 
-                            <div className="col-lg-3 col-md-6">
+                            {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
-                                    <h3>Information</h3>
+                                    <h3>Information</h3> */}
 
-                                    <ul className="information">
+                                    {/* <ul className="information">
                                         <li className="address">
                                             <i className="flaticon-call"></i>
                                             <span>Phone</span>
@@ -177,9 +182,9 @@ class Footer extends Component {
                                             <span>Address</span>
                                             123, Western Road, Melbourne Australia
                                         </li>
-                                    </ul>
-                                </div>
-                            </div>
+                                    </ul> */}
+                                {/* </div>
+                            </div> */}
                         </div>
                     </div>
 
@@ -190,12 +195,12 @@ class Footer extends Component {
                 </footer>
     
                 {/* Footer Bottom Area   */}
-                <footer className="footer-bottom-area">
+                 <footer className="footer-bottom-area">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} Jumpx. All Rights Reserved</p>
+                                    <p>Copyright &copy; {currentYear} TonomyFoundation. All Rights Reserved</p>
                                 </div>
                             </div>
 
@@ -216,16 +221,16 @@ class Footer extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-lg-3">
+                            {/* <div className="col-lg-3">
                                 <div className="designed">
                                     <p>
                                         Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
                                     </p>
                                 </div>
-                            </div>
+                            </div> */}
                         </div>
-                    </div>
-                </footer>
+                    </div> 
+                 </footer>
             </>
         );
     }

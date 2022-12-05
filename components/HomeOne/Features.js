@@ -37,7 +37,7 @@ const Features = () => {
                             <div className="single-features">
                                 <i className="flaticon-success"></i>
                                 <h3>Autonomous</h3>
-                                <p>Allowing people to access their personal data autonomously, which makes sure that your data stays with you. you are the master of your own data.</p>
+                                <p>Allowing people to access their personal data autonomously, which makes sure that your data stays with you. Which also means that you are the master of your own data.</p>
                                 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">
