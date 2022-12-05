@@ -37,11 +37,10 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    <img src="/images/white-logo.png" alt="logo" />
+                                    <img src="/images/logo.png"  width= "80" height="80 "alt="logo" />
                                 </a>
                             </Link>
-
-                            <button 
+                            <button
                                 onClick={this.toggleNavbar} 
                                 className={classTwo}
                                 type="button" 
@@ -60,44 +59,46 @@ class Navbar extends Component {
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Home <i className='bx bx-chevron-down'></i>
+                                                Home
                                             </a>
                                         </Link>
+                                        </li>
+                                        </ul>
 
-                                        <ul className="dropdown-menu">
+                                        {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link href="/" activeClassName="active">
                                                     <a className="nav-link">Home One</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/index-2" activeClassName="active">
                                                     <a className="nav-link">Home Two</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/index-3" activeClassName="active">
                                                     <a className="nav-link">Home Three</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/index-4" activeClassName="active">
                                                     <a className="nav-link">Home Four</a>
                                                 </Link>
-                                            </li>
-                                            
+                                            </li> */}
+{/*                                             
                                             <li className="nav-item">
                                                 <Link href="/index-5" activeClassName="active">
                                                     <a className="nav-link">Home Five</a>
                                                 </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
+                                            </li> */}
+                                        {/* </ul>
+                                    </li> */}
 
-                                    <li className="nav-item">
+                                    {/* <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 About <i className='bx bx-chevron-down'></i>
@@ -308,7 +309,7 @@ class Navbar extends Component {
                                             Log In <i className="bx bx-log-in-circle"></i>
                                         </a>
                                     </Link>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                     </nav>

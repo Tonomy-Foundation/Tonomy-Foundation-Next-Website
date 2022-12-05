@@ -7,7 +7,7 @@ const Index = () => {
     return (
         <>
             <Navbar />
-            
+
             <MainBanner />
 
             <Features />
