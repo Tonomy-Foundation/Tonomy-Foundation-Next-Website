@@ -36,10 +36,13 @@ class Navbar extends Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link href="/">
-                                <a className="navbar-brand">
+                                <a>
                                     <img src="/images/logo.png"  width= "80" height="80 "alt="logo" />
                                 </a>
                             </Link>
+                            <a>
+                                Tonomy Foundation
+                            </a>
                             <button
                                 onClick={this.toggleNavbar} 
                                 className={classTwo}
