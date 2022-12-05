@@ -1,71 +1,41 @@
-import Head from "next/head";
-import Image from "next/image";
-import styles from "../styles/Home.module.css";
+import Navbar from '../components/Layouts/Navbar'
+import MainBanner from '../components/HomeOne/MainBanner'
+import Features from '../components/HomeOne/Features'
+import About from '../components/AboutOne/About'
+import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import Services from '../components/HomeOne/Services'
+import MakeYourBusiness from '../components/Common/MakeYourBusiness'
+import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
+import Testimonials from '../components/Common/Testimonials'
+import News from '../components/Common/News'
+import Footer from '../components/Layouts/Footer'
 
-export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>Tonomy Foundation</title>
-        <meta name="description" content="Welcome to the Tonomy Foundation!" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+const Index = () => {
+    return (
+        <>
+            <Navbar />
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to the{" "}
-          <a href="https://www.linkedin.com/company/tonomy-foundation/?">
-            Tonomy Foundation
-          </a>{" "}
-          website!
-        </h1>
+            <MainBanner />
 
-        <p className={styles.description}>
-          We are currently under construction, check back soon!
-        </p>
+            <Features />
 
-        {/* <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
-            <h2>Documentation &rarr;</h2>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
+            <About />
 
-          <a href="https://nextjs.org/learn" className={styles.card}>
-            <h2>Learn &rarr;</h2>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
+            <WhyChooseUs />
 
-          <a
-            href="https://github.com/vercel/next.js/tree/canary/examples"
-            className={styles.card}
-          >
-            <h2>Examples &rarr;</h2>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
+            <Services />
 
-          <a
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-            className={styles.card}
-          >
-            <h2>Deploy &rarr;</h2>
-            <p>
-              Instantly deploy your Next.js site to a public URL with Vercel.
-            </p>
-          </a>
-        </div> */}
-      </main>
+            <MakeYourBusiness />
+            
+            <WhatWeOffer />
 
-      <footer className={styles.footer}>
-        <a
-          href="https://www.linkedin.com/company/tonomy-foundation/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by <b>Tonomy</b>
-        </a>
-      </footer>
-    </div>
-  );
+            <Testimonials />
+
+            <News /> 
+            
+            <Footer />
+        </>
+    )
 }
+
+export default Index
