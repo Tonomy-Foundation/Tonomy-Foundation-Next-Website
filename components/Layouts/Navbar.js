@@ -37,19 +37,19 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a>
-                                    <img src="/images/logo.png"  width= "80" height="80 "alt="logo" />
+                                    <img src="/images/logo.png"  width= "100" height="100 "alt="logo" />
                                 </a>
                             </Link>
-                            <a>
+                            <h5>
                                 Tonomy Foundation
-                            </a>
+                            </h5>
                             <button
-                                onClick={this.toggleNavbar} 
+                                onClick={this.toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
