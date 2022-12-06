@@ -25,19 +25,15 @@ const Index = () => {
             <WhyChooseUs />
 
             <Services />
-
-            {/* <MakeYourBusiness /> */}
-
-            <div className="pb-50">
-                    <Partner />
-                </div>
             
-            {/*<WhatWeOffer />
+            <MakeYourBusiness />
+
+            <WhatWeOffer />
 
             <Testimonials />
 
-            <News />  */}
-            
+            <News />
+
             <Footer />
         </>
     )
