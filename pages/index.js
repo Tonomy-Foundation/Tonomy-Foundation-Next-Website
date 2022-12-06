@@ -9,6 +9,7 @@ import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
 import Testimonials from '../components/Common/Testimonials'
 import News from '../components/Common/News'
 import Footer from '../components/Layouts/Footer'
+import Partner from '../components/Common/Partner';
 
 const Index = () => {
     return (
@@ -19,19 +20,23 @@ const Index = () => {
 
             <Features />
 
-            <About />
+            {/* <About /> */}
 
             <WhyChooseUs />
 
             <Services />
 
-            <MakeYourBusiness />
+            {/* <MakeYourBusiness /> */}
+
+            <div className="pb-50">
+                    <Partner />
+                </div>
             
-            <WhatWeOffer />
+            {/*<WhatWeOffer />
 
             <Testimonials />
 
-            <News /> 
+            <News />  */}
             
             <Footer />
         </>
