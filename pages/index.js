@@ -24,7 +24,7 @@ const Index = () => {
 
             <Services />
 
-            <News /> 
+            <Partner /> 
             
             <Footer />
         </>
