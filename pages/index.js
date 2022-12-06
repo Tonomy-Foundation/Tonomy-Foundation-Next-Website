@@ -25,14 +25,16 @@ const Index = () => {
             <WhyChooseUs />
 
             <Services />
+        
+            <Partner />
             
-            <MakeYourBusiness />
+        {/* <MakeYourBusiness />
 
             <WhatWeOffer />
 
             <Testimonials />
 
-            <News />
+            <News /> */}
 
             <Footer />
         </>
