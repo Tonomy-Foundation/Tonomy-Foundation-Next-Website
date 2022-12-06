@@ -6,9 +6,9 @@ const Services = () => {
         <section className="offer-area pt-100 pb-70">
             <div className="container">
                 <div className="section-title">
-                    <span>Services</span>
-                    <h2>Our Professional Services For You</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure architecto quaerat eaque sapiente accusantium ad ut explicabo consequuntur fuga quidem? Sint.</p>
+                    <span></span>
+                    <h2>Why tonomy?</h2>
+                    <p>Why does it matter what we are doing? Why should people care about what is going on here? Well see, here at the Tonomy Foundation we strive for a society where transparency and democracy are the top priorities.We want everyone to have a voice, a vote and we want that there is no crucial information held back by anyone..</p>
                 </div>
 
                 <div className="row">
@@ -17,10 +17,10 @@ const Services = () => {
                             <i className="flaticon-chip"></i>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Robotics & Drones</a>
+                                    <a>Our technology</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>prioritize user trust and happiness minimize privacy and security breaches and impact</p>
                         </div>
                     </div>
 
@@ -29,10 +29,10 @@ const Services = () => {
                             <i className="flaticon-vr"></i>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Virtually Reality</a>
+                                    <a>Infrastructure</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>participation of users in decisions together, more user following policy automated budget management</p>
                         </div>
                     </div>
 
@@ -44,7 +44,7 @@ const Services = () => {
                                     <a>Blockchain Project</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>we have easy to use blockchain so its accessable for every one and user retention</p>
                         </div>
                     </div>
 
@@ -53,10 +53,10 @@ const Services = () => {
                             <i className="flaticon-target"></i>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Image Processing</a>
+                                    <a>Secure</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>automated data privacy and security compliance and less passwords so its easier for your users.</p>
                         </div>
                     </div>
 
@@ -65,10 +65,10 @@ const Services = () => {
                             <i className="flaticon-choice"></i>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Order Management</a>
+                                    <a>Data acces</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>sovereign architecture - privacy, security, cybersecurity and autonomous access to your data</p>
                         </div>
                     </div>
 
@@ -77,10 +77,10 @@ const Services = () => {
                             <i className="flaticon-deep-learning"></i>
                             <h3>
                                 <Link href="/service-details">
-                                    <a>Machine Learning</a>
+                                    <a>Legal</a>
                                 </Link>
                             </h3>
-                            <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
+                            <p>Lower legal frictions and automated instant document verification lower administration</p>
                         </div>
                     </div>
                 </div>

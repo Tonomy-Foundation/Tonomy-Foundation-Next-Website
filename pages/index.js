@@ -1,7 +1,7 @@
 import Navbar from '../components/Layouts/Navbar'
 import MainBanner from '../components/HomeOne/MainBanner'
 import Features from '../components/HomeOne/Features'
-import About from '../components/HomeOne/About'
+import About from '../components/AboutOne/About'
 import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
 import Services from '../components/HomeOne/Services'
 import MakeYourBusiness from '../components/Common/MakeYourBusiness'
@@ -14,7 +14,7 @@ const Index = () => {
     return (
         <>
             <Navbar />
-            
+
             <MainBanner />
 
             <Features />
@@ -26,12 +26,12 @@ const Index = () => {
             <Services />
 
             <MakeYourBusiness />
-
+            
             <WhatWeOffer />
 
             <Testimonials />
 
-            <News />
+            <News /> 
             
             <Footer />
         </>
