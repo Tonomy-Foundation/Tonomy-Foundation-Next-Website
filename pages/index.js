@@ -10,6 +10,7 @@ import Testimonials from '../components/Common/Testimonials'
 import News from '../components/Common/News'
 import Footer from '../components/Layouts/Footer'
 import Partner from '../components/Common/Partner';
+import Newsletter from '../components/Common/Newsletter'
 
 const Index = () => {
     return (
@@ -25,6 +26,8 @@ const Index = () => {
             <Services />
         
             <Partner />
+
+            <Newsletter/>
                         
             <Footer />
         </>

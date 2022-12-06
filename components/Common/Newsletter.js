@@ -27,8 +27,8 @@ class Newsletter extends Component {
 
                         <div className="col-lg-5">
                             <div className="call-us">
-                                <h2>Sign Up To The Free Newsletter</h2>
-                                <span>+882-569-756</span>
+                                <h2>Why and how could you help the Tonomy Foundation?</h2>
+                                <p>Tech partners who we are working with could help us out by helping us build and maybe giving their opinions about certain things we want a second opinion on. Tech Integrators could help us by  using and testing our tech so that we may eliminate possible flaws.Investors who share our dream to make the world a better place. throughout transparency, democracy, and partnership (helping each other).</p>
                             </div>
                         </div>
                     </div>
