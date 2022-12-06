@@ -117,6 +117,13 @@ button:focus {
           box-shadow: none;
 }
 
+.newsletter-text {
+  font-size: 15px;
+  margin-bottom: 15px;
+  line-height: 1.8;
+  color: #ffffff;
+}
+
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color: #212121;
   font-family: "Dosis", sans-serif;
@@ -140,7 +147,6 @@ p {
   font-size: 15px;
   margin-bottom: 15px;
   line-height: 1.8;
-  color: #ffffff;
 }
 
 p:last-child {
