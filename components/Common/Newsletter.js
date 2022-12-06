@@ -30,7 +30,7 @@ class Newsletter extends Component {
                                 <h2>Why and how could you help the Tonomy Foundation?</h2>
                                 <p>Tech partners who we are working with could help us out by helping us build and maybe giving their opinions about certain things we want a second opinion on. Tech Integrators could help us by  using and testing our tech so that we may eliminate possible flaws.Investors who share our dream to make the world a better place. throughout transparency, democracy, and partnership (helping each other).</p>
                             </div>
-                        </div>
+                        </div> 
                     </div>
                 </div>
 
