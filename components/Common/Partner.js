@@ -9,7 +9,7 @@ class Partner extends Component {
                     <div className="brand-list">
                         <div className="single-brand">
                             <a href="https://thenewfork.com/" target="_blank">
-                                <img src="/images/brands/The_New_Fork.png" alt="Image" />
+                                <img src="/images/brands/The_New_fork.png" alt="Image" />
                             </a>
                         </div>
 
