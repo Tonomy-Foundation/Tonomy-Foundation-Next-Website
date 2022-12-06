@@ -19,17 +19,9 @@ const Index = () => {
 
             <Features />
 
-            <About />
-
             <WhyChooseUs />
 
             <Services />
-
-            <MakeYourBusiness />
-            
-            <WhatWeOffer />
-
-            <Testimonials />
 
             <News /> 
             
