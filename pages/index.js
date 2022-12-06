@@ -9,6 +9,7 @@ import WhatWeOffer from '../components/HomeOne/WhatWeOffer'
 import Testimonials from '../components/Common/Testimonials'
 import News from '../components/Common/News'
 import Footer from '../components/Layouts/Footer'
+import Partner from '../components/Common/Partner';
 
 const Index = () => {
     return (
