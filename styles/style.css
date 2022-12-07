@@ -224,12 +224,20 @@ textarea.form-control {
   padding-bottom: 100px;
 }
 
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
 
 .pt-70 {
   padding-top: 70px;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
 
 .pb-70 {
