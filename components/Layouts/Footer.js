@@ -6,7 +6,7 @@ class Footer extends Component {
         let currentYear = new Date().getFullYear();
         return (
             <>
-                <footer className="footer-top-area pt-100 pb-70">
+                <footer className="footer-top-area pt-20 pb-10">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-3 col-md-6">
@@ -15,7 +15,7 @@ class Footer extends Component {
                                         <img src="/images/logo.png" width="80" height="80" alt="Image" />
                                     </a>
 
-                                    <p>To contact us click below and if you want to know more about us, our team and goals join our Discord.</p>
+                                    <p>Check out our socials below!</p>
 
                                     <ul className="social-icon">
                                         {/* <li>
@@ -200,11 +200,11 @@ class Footer extends Component {
                         <div className="row align-items-center">
                             <div className="col-lg-4">
                                 <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} TonomyFoundation. All Rights Reserved</p>
+                                    <p>Copyright &copy; {currentYear} Tonomy Foundation. All Rights Reserved</p>
                                 </div>
                             </div>
 
-                            <div className="col-lg-5">
+                            {/* <div className="col-lg-5">
                                 <div className="privacy">
                                     <ul>
                                         <li>
@@ -219,7 +219,7 @@ class Footer extends Component {
                                         </li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
 
                             {/* <div className="col-lg-3">
                                 <div className="designed">
