@@ -40,13 +40,13 @@ const WhyChooseUs = () => {
                                     <p>Tonomy Gov is all about the governance of your ecosystem. It will operate democratically which in our case would mean everyone has a voice and an opinion.</p>
                                 </li>
 
-                                <li className="ml">
+                                {/* <li className="ml">
                                     <span>
                                         04 <i className="flaticon-shield"></i>
                                     </span>
                                     <h3>Tonomy Token (Partially created)</h3>
                                     <p>Tonomy Token is creating and managing digital tokens and make payments  between entities.</p>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                     </div>
