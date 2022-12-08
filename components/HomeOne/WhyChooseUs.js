@@ -7,7 +7,7 @@ const WhyChooseUs = () => {
                     <div className="col-8">
                         <div className="choose-title">
                             <h2>What are we working on?</h2>
-                            <span>Currently we are working on:</span>
+                            {/* <span>Currently we are working on:</span> */}
                         </div>
                     </div>
                 </div>
