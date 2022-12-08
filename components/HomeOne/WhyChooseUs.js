@@ -43,6 +43,7 @@ const WhyChooseUs = () => {
                                         03 <i className="flaticon-support"></i>
                                     </span>
                                     <h3>Tonomy Gov (Partially built) </h3>
+                                    
                                     <p>Tonomy Gov is all about enforcing the decisions within your ecosystem and organization.
                                         It allows you to make policies/rules together and see how decisions are made.
                                         It gives the flexibility of several governance models, both traditional democratic or share-based,
