@@ -9,7 +9,7 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         <div className="banner-text">
                             <h1>The Tonomy Foundation</h1>
-                                <p>The Tonomy Foundation is a dutch non-profit organization/foundation. We run our foundation transparently with a lot of different people from around the world. Everything we do is open source and our goal is that we want to make sure that people know what your institution, government, business or initiative is and does, so that it can be verified, so that people know you can be trusted. To do this, we need systems to be transparent, and thus these tools need to be transparent too, thus we are Open Source.</p>
+                                <p>We build ecosystems that are worthy of our trust. Systems that are worthy of our agreement and keep decisions with us as individuals and communities. We call this autonomy! Without autonomy, is not truly your decision. To receive and keep your autonomy is not easy. At the Tonomy Foundation, we take the pain out of autonomy.</p>
                         </div>
                     </div>
 
