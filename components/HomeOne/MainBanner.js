@@ -22,7 +22,7 @@ const MainBanner = () => {
 
             
           <div className="banner-btn">
-            <Link href="discord.gg/QqVJz5XF8d">
+            <Link href="https://www.discord.gg/QqVJz5XF8d" target="_blank">
               <a className="default-btn">Join us!</a>
             </Link>
           </div>
