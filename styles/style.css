@@ -133,6 +133,8 @@ h5{
 
 h3 {
   font-size: 22px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
 }
 
 .d-table {
@@ -222,12 +224,20 @@ textarea.form-control {
   padding-bottom: 100px;
 }
 
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
 
 .pt-70 {
   padding-top: 70px;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
 
 .pb-70 {
