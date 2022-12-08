@@ -15,7 +15,7 @@ class Footer extends Component {
                                         <img src="/images/logo.png" width="80" height="80" alt="Image" />
                                     </a>
 
-                                    <p>To contact us click below or if you are one of these on the right and are interested in working with us click there, our team works mostly via Discord hope to see u there.</p>
+                                    <p>Check out our socials below!</p>
 
                                     <ul className="social-icon">
                                         <li>
