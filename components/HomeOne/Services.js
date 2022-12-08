@@ -8,7 +8,10 @@ const Services = () => {
                 <div className="section-title">
                     <span></span>
                     <h2>Why tonomy?</h2>
-                    <p>Why does it matter what we are doing? Why should people care about what is going on here? Well see, here at the Tonomy Foundation we strive for a society where transparency and democracy are the top priorities.We want everyone to have a voice, a vote and we want that there is no crucial information held back by anyone..</p>
+                    <p>Why does it matter what we are doing? Why should people care about what is going on here? 
+                        Well see, here at the Tonomy Foundation we strive for a society where transparency and 
+                        democracy are the top priorities.We want everyone to have a voice, a vote and we want that 
+                        there is no crucial information held back by anyone.</p>
                 </div>
 
                 <div className="row">
