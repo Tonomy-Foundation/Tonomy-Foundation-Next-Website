@@ -58,15 +58,15 @@ class Navbar extends Component {
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
-                                {/* <ul className="navbar-nav m-auto">
+                                <ul className="navbar-nav m-auto">
                                     <li className="nav-item">
-                                        <Link href="#">
+                                        <Link href="discord.gg/QqVJz5XF8d">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Home
+                                                Join us!
                                             </a>
                                         </Link>
                                         </li>
-                                        </ul> */}
+                                        </ul>
 
                                         {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
