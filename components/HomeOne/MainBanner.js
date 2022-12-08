@@ -9,7 +9,15 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         <div className="banner-text">
                             <h1>The Tonomy Foundation</h1>
-                                <p>We build ecosystems that are worthy of our trust. Systems that are worthy of our agreement and keep decisions with us as individuals and communities. We call this autonomy! Without autonomy, is not truly your decision. To receive and keep your autonomy is not easy. At the Tonomy Foundation, we take the pain out of autonomy.</p>
+                            <p>We build ecosystems that are worthy of our trust. Systems that are worthy of our agreement and keep decisions with us as individuals and communities. We call this autonomy! Without autonomy, is not truly your decision. To receive and keep your autonomy is not easy. At the Tonomy Foundation, we take the pain out of autonomy.</p>
+                            
+                            <div className="banner-btn">
+                                <Link href="https://discord.gg/95J74ZbAgw">
+                                    <a className="default-btn">
+                                    Build with us
+                                    </a>
+                                </Link>
+                            </div>
                         </div>
                     </div>
 
