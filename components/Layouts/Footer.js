@@ -15,14 +15,9 @@ class Footer extends Component {
                                         <img src="/images/logo.png" width="80" height="80" alt="Image" />
                                     </a>
 
-                                    <p>To contact us click below and if you want to know more about us, our team and goals join our Discord.</p>
+                                    <p>To contact us click below or if you are one of these on the right and are interested in working with us click there, our team works mostly via Discord hope to see u there.</p>
 
                                     <ul className="social-icon">
-                                        {/* <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li> */}
                                         <li>
                                         <a href="https://twitter.com/TonomyF" target="_blank">
                                                 <i className="bx bxl-twitter"></i>
@@ -47,43 +42,43 @@ class Footer extends Component {
                                 </div>
                             </div>
 
-                            {/* <div className="col-lg-3 col-md-6">
+                             <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
-                                    <h3>Services</h3>
+                                    <h3>Contact Us</h3>
                                     <ul>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="https://discord.gg/95J74ZbAgw">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Big Data
+                                                    Developers
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="https://discord.gg/95J74ZbAgw">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    UI/UX Design
+                                                    Contributors
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="https://discord.gg/95J74ZbAgw">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Desktop Application
+                                                    Investors
                                                 </a>
                                             </Link>
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            <Link href="https://discord.gg/95J74ZbAgw">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
-                                                    Mobile Application
+                                                    Partners
                                                 </a>
                                             </Link>
                                         </li>
-                                        <li>
+                                        {/* <li>
                                             <Link href="/service-details">
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
@@ -98,10 +93,10 @@ class Footer extends Component {
                                                     Machine Learning
                                                 </a>
                                             </Link>
-                                        </li>
+                                        </li> */}
                                     </ul>
                                 </div>
-                            </div> */}
+                            </div> 
 
                             {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">

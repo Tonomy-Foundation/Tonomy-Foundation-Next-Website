@@ -2473,6 +2473,8 @@ Footer Top Area Style
   position: relative;
   z-index: 1;
   overflow: hidden;
+  text-align: center;
+  padding: 70px 0;
 }
 
 .footer-top-area .footer-shape img {
@@ -2530,7 +2532,7 @@ Footer Top Area Style
   background-color: #ffffff;
 }
 
-.single-widget ul {
+ .single-widget ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
@@ -2595,7 +2597,7 @@ Footer Top Area Style
   font-family: "Dosis", sans-serif;
   font-size: 20px;
   font-weight: 600;
-}
+} 
 
 .single-widget .social-icon {
   line-height: 1;
