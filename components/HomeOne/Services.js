@@ -59,7 +59,7 @@ const Services = () => {
                                     <a>Security</a>
                                 </Link>
                             </h3>
-                            <p>automated data privacy and security compliance - less passwords so its easier for your users.</p>
+                            <p>Automated data privacy and security compliance - fewer passwords so it's easier for your users.</p>
                         </div>
                     </div>
 
@@ -71,7 +71,7 @@ const Services = () => {
                                     <a>Data access</a>
                                 </Link>
                             </h3>
-                            <p>sovereign architecture - privacy, security, cybersecurity and autonomous access to your data</p>
+                            <p>Sovereign architecture - privacy, security, cybersecurity and autonomous access to your data</p>
                         </div>
                     </div>
 
