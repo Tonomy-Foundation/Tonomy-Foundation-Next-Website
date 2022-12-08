@@ -8,8 +8,8 @@ const Features = () => {
                         <div className="col-lg-4 col-sm-6 p-0">
                             <div className="single-features">
                                 <i className="flaticon-cloud-computing-1"></i>
-                                <h3>NON PROFIT</h3>
-                                <p>We are a Dutch non-profit foundation. This is to ensure we remain financially neutral while building software systems to empower people, industries, communities and governments.  We are an inclusive, transparent and open community-driven projec.</p>
+                                <h3>NON-PROFIT</h3>
+                                <p>We are a Dutch non-profit foundation. This is to ensure we remain financially neutral while building software systems to empower people, industries, communities and governments.  We are an inclusive, transparent and open community-driven project.</p>
 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">
@@ -23,7 +23,7 @@ const Features = () => {
                             <div className="single-features">
                                 <i className="flaticon-engineer"></i>
                                 <h3>OPEN SOURCE</h3>
-                                <p>Systems like these need to be neutral and transparent. We use open source and open knowledge to ensure our software is hardened by community knowledge, and that anyone can see what software and algorithms are run to bring trust back to identity. Run it yourself, see the flows and then decide.</p>
+                                <p>Systems like these need to be neutral and transparent. We use open source and open knowledge to ensure our software is hardened by community knowledge, and that anyone can see what software and algorithms are running to bring trust back to identity. Run it yourself, see the flows and then decide.</p>
                                 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">
