@@ -8,8 +8,8 @@ const Features = () => {
                         <div className="col-lg-4 col-sm-6 p-0">
                             <div className="single-features">
                                 <i className="flaticon-cloud-computing-1"></i>
-                                <h3>Legality</h3>
-                                <p>The Tonomy Foundation is trying to improve the bonds that we have with governments to make sure everything we do is legal and correct. since we can’t really help our partners if everything we are doing isn’t legal in any way.</p>
+                                <h3>NON PROFIT</h3>
+                                <p>We are a Dutch non-profit foundation. This is to ensure we remain financially neutral while building software systems to empower people, industries, communities and governments.  We are an inclusive, transparent and open community-driven projec.</p>
 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">
@@ -22,8 +22,8 @@ const Features = () => {
                         <div className="col-lg-4 col-sm-6 p-0">
                             <div className="single-features">
                                 <i className="flaticon-engineer"></i>
-                                <h3>Transparency</h3>
-                                <p>Transparency is really important for us,that is why we are striving for a transparent governance which has nothing to hide so they can't hold information from you and me.</p>
+                                <h3>OPEN SOURCE</h3>
+                                <p>Systems like these need to be neutral and transparent. We use open source and open knowledge to ensure our software is hardened by community knowledge, and that anyone can see what software and algorithms are run to bring trust back to identity. Run it yourself, see the flows and then decide.</p>
                                 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">
@@ -36,8 +36,8 @@ const Features = () => {
                         <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
                             <div className="single-features">
                                 <i className="flaticon-success"></i>
-                                <h3>Autonomous</h3>
-                                <p>Allowing people to access their personal data autonomously, which makes sure that your data stays with you. Which also means that you are the master of your own data.</p>
+                                <h3>WHITE LABEL </h3>
+                                <p>We encourage you to take this tool and make it your own. To use it, as if it belonged to you alone. This allows our partners and clients to flexibly use our tools within their institutions, businesses, supply chains and governments.</p>
                                 
                                 {/*<Link href="/service-details">
                                     <a className="read-more-icon">

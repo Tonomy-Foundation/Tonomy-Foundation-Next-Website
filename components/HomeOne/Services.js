@@ -44,7 +44,7 @@ const Services = () => {
                                     <a>Blockchain Project</a>
                                 </Link>
                             </h3>
-                            <p>we have easy to use blockchain so its accessable for every one and user retention</p>
+                            <p>we have easy to use blockchain so its accessable for every one with user retention</p>
                         </div>
                     </div>
 
