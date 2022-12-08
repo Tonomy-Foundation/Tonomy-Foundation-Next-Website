@@ -13,24 +13,22 @@ const About = () => {
 
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <span>About Us</span>
-                            <h2>We Complete Every Project With Extra Care As Customer Need</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
-                            
+                            <h2>Who is our technology for?</h2>
+                            <p>Who is the technology for, what is our target audience? We do not know what our target audience will eventually be, but right now in this exact moment, our technology which we are creating will mostly be for different kinds of institutions. Think of companies, organizations, foundations. but also schools or even local municipalities and governments. Right now those are the ones we are trying to provide for, we are striving to make a good almost perfect product to help all those different kinds of people to achieve something they never thought they could achieve and all with a little help from Tonomy!</p>
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Advanced caching
+                                            governments
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Unlimited  applications
+                                            Governments on national level
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP 7 ready transfer
+                                            Governments on local level
                                         </li>
                                     </ul>
                                 </div>
@@ -39,15 +37,15 @@ const About = () => {
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP ready serves
+                                            Industry
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            24/7 Free extra support
+                                            Medical Industry
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Optimized stack
+                                            The supply chain Industry
                                         </li>
                                     </ul>
                                 </div>
