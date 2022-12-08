@@ -57,12 +57,12 @@ class Navbar extends Component {
                                 <span className="icon-bar bottom-bar"></span>
                             </button>
 
-                            {/* <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav m-auto">
+                            <div className={classOne} id="navbarSupportedContent">
+                                {/* <ul className="navbar-nav m-auto">
                                     <li className="nav-item">
-                                        <Link href="discord.gg/QqVJz5XF8d">
+                                        <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Join us!
+                                                Home
                                             </a>
                                         </Link>
                                         </li>
@@ -313,7 +313,7 @@ class Navbar extends Component {
                                         </a>
                                     </Link>
                                 </div> */}
-                            {/* </div> */}
+                            </div>
                         </div>
                     </nav>
                 </div>
