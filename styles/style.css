@@ -2642,14 +2642,15 @@ Footer Top Area Style
 }
 
 .single-widget .social-icon li a {
-  width: 30px;
-  height: 30px;
+  padding-top: 5px;
+  width: 40px;
+  height: 40px;
   line-height: 32px;
   background-color: #3955bc;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
-  font-size: 15px;
+  font-size: 30px;
   position: relative;
   padding-left: 0;
 }
