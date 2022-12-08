@@ -36,17 +36,20 @@ class Navbar extends Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link href="/">
-                                <a className="navbar-brand">
-                                    <img src="/images/logo.png"  width= "80" height="80 "alt="logo" />
+                                <a>
+                                    <img src="/images/logo.png"  width= "55" height="55 "alt="logo" />
                                 </a>
                             </Link>
+                            <h5>
+                                Tonomy Foundation
+                            </h5>
                             <button
-                                onClick={this.toggleNavbar} 
+                                onClick={this.toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
@@ -55,7 +58,7 @@ class Navbar extends Component {
                             </button>
 
                             <div className={classOne} id="navbarSupportedContent">
-                                <ul className="navbar-nav m-auto">
+                                {/* <ul className="navbar-nav m-auto">
                                     <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -63,7 +66,7 @@ class Navbar extends Component {
                                             </a>
                                         </Link>
                                         </li>
-                                        </ul>
+                                        </ul> */}
 
                                         {/* <ul className="dropdown-menu">
                                             <li className="nav-item">

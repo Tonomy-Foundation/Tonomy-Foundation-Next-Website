@@ -15,7 +15,6 @@ class Partner extends Component {
                                     <img src="/images/brands/The_New_Fork.png" alt="Image" />
                                 </a>
                             </div>
-
                             <div className="single-brand">
                                 <a href="https://sparklivinglab.nl/" target="_blank">
                                     <img src="/images/brands/spark.png" alt="Image" />

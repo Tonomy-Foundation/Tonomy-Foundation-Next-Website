@@ -117,7 +117,15 @@ button:focus {
           box-shadow: none;
 }
 
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+h5{
+  padding-left: 17px;
+  color: #ffffff;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.h1, .h2, .h3, .h4, .h6, h1, h2, h3, h4,h6 {
   color: #212121;
   font-family: "Dosis", sans-serif;
   font-weight: 700;
@@ -125,6 +133,8 @@ button:focus {
 
 h3 {
   font-size: 22px;
+  font-family: "Dosis", sans-serif;
+  font-weight: 700;
 }
 
 .d-table {
@@ -214,12 +224,20 @@ textarea.form-control {
   padding-bottom: 100px;
 }
 
+.pb-10 {
+  padding-bottom: 10px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
 
 .pt-70 {
   padding-top: 70px;
+}
+
+.pt-20 {
+  padding-top: 20px;
 }
 
 .pb-70 {
