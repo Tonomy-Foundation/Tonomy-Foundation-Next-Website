@@ -10,23 +10,23 @@ const MainBanner = () => {
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-                We build ecosystems that are worthy of our trust; Systems that
-                are worthy of our agreement and keep decisions with us as
-                individuals and communities. We call this autonomy! Without
-                autonomy, it is not truly your decision. To receive, and keep,
-                your autonomy is not easy nowadays.
+                We build ecosystems that are worthy of your trust; the systems
+                that are worthy of your involvement and taking action along side
+                with us as individuals and communities. This is what we call
+                true autonomy! And without autonomy, it is not you who truly
+                makes decisions - it is always somebody else. As you may know,
+                obtaining and maintaining autonomy is not an easy task these
+                days. And this is exactly what we do;
                 <br></br>
-                <br></br>At the Tonomy Foundation, we take the pain out of
-                autonomy.
+                <br></br> Here at the Tonomy Foundation, we bring autonomy into the masses.
               </p>
 
-            
-          <div className="banner-btn">
-            <Link href="https://www.discord.gg/QqVJz5XF8d" target="_blank">
-              <a className="default-btn">Join us!</a>
-            </Link>
-          </div>
-          </div>
+              <div className="banner-btn">
+                <Link href="https://www.discord.gg/QqVJz5XF8d" target="_blank">
+                  <a className="default-btn">Join us!</a>
+                </Link>
+              </div>
+            </div>
           </div>
 
           <div className="col-lg-6">
