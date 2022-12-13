@@ -23,7 +23,7 @@ const WhatWeOffer = () => {
         <section className="industries-area pb-100">
             <div className="container">
                 <div className="section-title">
-                     {/* <span>What We Offer</span> */}
+                    <span></span>
                     <h2>Join Tonomy</h2>
                     <p>We need you to make a better society and for a more transparant future.</p>
                 </div>
