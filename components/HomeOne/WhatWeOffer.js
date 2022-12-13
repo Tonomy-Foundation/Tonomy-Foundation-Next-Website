@@ -23,9 +23,9 @@ const WhatWeOffer = () => {
         <section className="industries-area pb-100">
             <div className="container">
                 <div className="section-title">
-                    <span>What We Offer</span>
-                    <h2>Industries We Serve</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias eos ea obcaecati et similique incidunt animi, sed, quos officiis placeat. Id ipsa molestias.</p>
+                     {/* <span>What We Offer</span> */}
+                    <h2>Join Tonomy</h2>
+                    <p>We need you to make a better society and for a more transparant future.</p>
                 </div>
 
                 <div className="tab industries-list-tab">
@@ -39,8 +39,8 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3>Heavy Industry</h3>
-                                        <p>All kind of industry</p>
+                                        <h3>Developer</h3>
+                                        <p>Developer</p>
                                     </span>
                                 </li>
 
@@ -49,8 +49,8 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Transportation</h3>
-                                        <p>All kind of industry</p>
+                                        <h3>Investor</h3>
+                                        <p>Investor</p>
                                     </span>
                                 </li>
 
@@ -59,12 +59,12 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-health"></i>
-                                        <h3>Health Care</h3>
-                                        <p>All kind of industry</p>
+                                        <h3>Tech Partner</h3>
+                                        <p>Tech Partner</p>
                                     </span>
                                 </li>
 
-                                <li
+                                {/* <li
                                     onClick={(e) => openTabSection(e, 'tab4')}
                                 >
                                     <span>
@@ -72,7 +72,7 @@ const WhatWeOffer = () => {
                                         <h3>Manufacturing</h3>
                                         <p>All kind of industry</p>
                                     </span>
-                                </li>
+                                </li> */}
                             </ul>
                         </div>
                         
@@ -89,8 +89,8 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Heavy Industry</h3>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque recusandae esse alias reprehenderit.</p>
+                                                <h3>Developer</h3>
+                                                <p>Join us to help build our future.</p>
                                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea doloribus molestias illo ad aperiam quo natus voluptatum, eos laboriosam vel deserunt?</p>
                                                 
                                                 <div className="row">
@@ -130,8 +130,8 @@ const WhatWeOffer = () => {
                                                 </div>
                                             
                                                 <div className="text-center">
-                                                    <Link href="/services">
-                                                        <a className="default-btn">Discover More</a>
+                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                        <a className="default-btn">Join Us</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -144,8 +144,8 @@ const WhatWeOffer = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Transportation</h3>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque recusandae esse alias reprehenderit.</p>
+                                                <h3>Investor</h3>
+                                                <p>Invest in our Tonomy.</p>
                                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea doloribus molestias illo ad aperiam quo natus voluptatum, eos laboriosam vel deserunt? Ab rerum eaque aperiam sequi dolore minus itaque eos!</p>
 
                                                 <div className="row">
@@ -185,8 +185,8 @@ const WhatWeOffer = () => {
                                                 </div>
                                                 
                                                 <div className="text-center">
-                                                    <Link href="/services">
-                                                        <a className="default-btn">Discover More</a>
+                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                        <a className="default-btn">Join Us</a>
                                                     </Link>
                                                 </div>
                                             </div>
@@ -211,8 +211,8 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Health Care</h3>
-                                                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Est atque recusandae esse alias reprehenderit.</p>
+                                                <h3>Tech partner</h3>
+                                                <p>Help us become the better tomorrow.</p>
                                                 <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea doloribus molestias illo ad aperiam quo natus voluptatum, eos laboriosam vel deserunt? Ab rerum eaque aperiam sequi dolore minus itaque eos!</p>
                                                 
                                                 <div className="row">
@@ -252,8 +252,8 @@ const WhatWeOffer = () => {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="/services">
-                                                        <a className="default-btn">Discover More</a>
+                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                        <a className="default-btn">Join us</a>
                                                     </Link>
                                                 </div>
                                             </div>

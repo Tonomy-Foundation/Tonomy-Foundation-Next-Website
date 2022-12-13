@@ -6,6 +6,7 @@ import Services from '../components/HomeOne/Services'
 import Footer from '../components/Layouts/Footer'
 import Partner from '../components/Common/Partner';
 import Newsletter from '../components/Common/Newsletter'
+import WhatWeOffer from "../components/HomeOne/WhatWeOffer"
 
 const Index = () => {
     return (
@@ -19,6 +20,8 @@ const Index = () => {
             <WhyChooseUs />
 
             <Services />
+            
+            <WhatWeOffer/>
             
             {/* <MakeYourBusiness /> */}
 
