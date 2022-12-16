@@ -86,14 +86,14 @@ const WhatWeOffer = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Developer</h3>
-                                                <p>Developers should consider joining Tonomy because it is an organization that builds open source technology with the goal of making society more transparent and democratic. This mission aligns with the values of many developers, and working on open source projects can be a rewarding way to contribute to positive social change. Additionally, collaborating on open source projects can provide opportunities for learning, personal growth, and professional development.</p>
+                                                <p>Developers should consider joining Tonomy because it is an organization that builds open source technology with the goal of making society more transparent and democratic. This mission aligns with the values of many developers, and working on open source projects will be a rewarding way to contribute to positive social change. Additionally, collaborating on open source projects will provide opportunities for learning, personal growth, and professional development.</p>
                                                 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Collaboration
+                                                                Blockchain
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
@@ -101,7 +101,7 @@ const WhatWeOffer = () => {
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Transparency
+                                                                Open source
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -110,15 +110,15 @@ const WhatWeOffer = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Democracy
+                                                                SSI
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fairness
+                                                                Web3
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Trust
+                                                                Standards - W3C
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -140,14 +140,15 @@ const WhatWeOffer = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Investor</h3>
-                                                <p>Investing in Tonomy may be a good opportunity for investors because the organization's mission to build open source technology that promotes transparency and democracy aligns with increasing demand for accountability and trust in society. Tonomy's work in this area may lead to innovation and the development of robust and secure systems, potentially resulting in financial returns for investors.</p>
+                                                <p>Investing in Tonomy is a good opportunity for investors because the organization's mission to build open source technology that promotes transparency and democracy aligns with increasing demand for accountability and trust in society. 
+                                                    Tonomy's work in this area may lead to innovation and the development of robust and secure systems, resulting in financial returns for investors.</p>
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Trancparency
+                                                                Ethical investment
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
@@ -206,7 +207,8 @@ const WhatWeOffer = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Tech partner</h3>
-                                                <p>Being a technical partner of Tonomy can be beneficial because it allows organizations to contribute to and support the development of open source technology that promotes transparency and democracy in society. This can lead to innovation and the creation of more robust and secure systems, as well as opportunities for collaboration and the exchange of ideas with other technical partners. Additionally, being a technical partner can help organizations align with the values of Tonomy and demonstrate their commitment to promoting transparency and democracy in society.</p>
+                                                <p>Tech partners will benefit from adapting our technology and running it on our ecosystem because it will provide them with a secure and efficient solution for managing digital interactions and transactions.
+                                                     By leveraging our cutting-edge technology, tech partners can improve their services and offerings, and provide a better experience for their customers. In addition, by running our technology on our ecosystem, tech partners can take advantage of the scalability, reliability, and support that we offer.</p>
                                                 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
@@ -234,11 +236,11 @@ const WhatWeOffer = () => {
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Transparency
+                                                                Faster user onboarding
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Democracy
+                                                                Faster decision making
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -260,7 +262,7 @@ const WhatWeOffer = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Contributors</h3>
-                                                <p>Being a contributor to Tonomy can allow you to make a positive impact on society by helping to build open source technology that promotes transparency and democracy. It also offers the opportunity to collaborate with a diverse group of individuals and organizations, learn new skills, and contribute to the development of innovative and robust systems.</p>
+                                                <p>Being a contributor to Tonomy will allow you to make a positive impact on society by helping to build open source technology that promotes transparency and democracy. It also offers the opportunity to collaborate with a diverse group of individuals and organizations, learn new skills, and contribute to the development of innovative and robust systems.</p>
                                                 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
