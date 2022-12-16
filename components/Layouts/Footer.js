@@ -22,7 +22,7 @@ class Footer extends Component {
                     />
                   </a>
 
-                  <p>Check out our socials below!</p>
+                  {/* <p>Check out our socials below!</p> */}
 
                   <ul className="social-icon">
                     {/* <li>
