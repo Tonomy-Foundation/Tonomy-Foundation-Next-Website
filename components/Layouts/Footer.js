@@ -1,53 +1,72 @@
-import React, { Component } from 'react';
-import Link from 'next/link';
+import React, { Component } from "react";
+import Link from "next/link";
 
 class Footer extends Component {
-    render() {
-        let currentYear = new Date().getFullYear();
-        return (
-            <>
-                <footer className="footer-top-area pt-20 pb-10">
-                    <div className="container">
-                        <div className="row">
-                            <div className="col-lg-3 col-md-6">
-                                <div className="single-widget">
-                                    <a href="/" className="logo">
-                                        <img src="/images/logo.png" width="80" height="80" alt="Image" />
-                                    </a>
+  render() {
+    let currentYear = new Date().getFullYear();
+    return (
+      <>
+        <footer className="footer-top-area pt-20 pb-10">
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-3 col-md-6">
+                <div className="single-widget">
+                  <a href="/" className="logo">
+                    <img
+                      src="/images/logo.png"
+                      width="80"
+                      height="80"
+                      alt="Image"
+                    />
+                  </a>
 
-                                    <p>Check out our socials below!</p>
+                  <p>Check out our socials below!</p>
 
-                                    <ul className="social-icon">
-                                        {/* <li>
+                  <ul className="social-icon">
+                    {/* <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li> */}
-                                        <li>
-                                        <a href="https://twitter.com/TonomyF" target="_blank">
-                                                <i className="bx bxl-twitter"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://discord.gg/95J74ZbAgw" target="_blank">
-                                                <i className="bx bxl-discord"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/company/tonomy-foundation/" target="_blank">
-                                                <i className="bx bxl-linkedin"></i>
-                                            </a>
-                                        </li>
-                                        <li>
-                                            <a href="https://www.linkedin.com/company/tonomy-foundation/jobs/" target="_blank">
-                                                <i className="bx bxs-briefcase"></i>
-                                            </a>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                    <li>
+                      <a href="https://twitter.com/TonomyF" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="https://discord.gg/95J74ZbAgw" target="_blank">
+                        <i className="bx bxl-discord"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/tonomy-foundation/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
+                        target="_blank"
+                      >
+                        <i className="bx bxs-briefcase"></i>
+                      </a>
+                    </li>
+                    {/* <li>
+                      <a
+                        href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
+                        target="_blank"
+                      >
+                        <i className="bx bxs-briefcase"></i>
+                      </a>
+                    </li> */}
+                  </ul>
+                </div>
+              </div>
 
-                            {/* <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <h3>Services</h3>
                                     <ul>
@@ -103,7 +122,7 @@ class Footer extends Component {
                                 </div>
                             </div> */}
 
-                            {/* <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <h3>Important Links</h3>
 
@@ -160,11 +179,11 @@ class Footer extends Component {
                                 </div>
                             </div> */}
 
-                            {/* <div className="col-lg-3 col-md-6">
+              {/* <div className="col-lg-3 col-md-6">
                                 <div className="single-widget">
                                     <h3>Information</h3> */}
 
-                                    {/* <ul className="information">
+              {/* <ul className="information">
                                         <li className="address">
                                             <i className="flaticon-call"></i>
                                             <span>Phone</span>
@@ -183,28 +202,31 @@ class Footer extends Component {
                                             123, Western Road, Melbourne Australia
                                         </li>
                                     </ul> */}
-                                {/* </div>
+              {/* </div>
                             </div> */}
-                        </div>
-                    </div>
+            </div>
+          </div>
 
-                    <div className="footer-shape">
-                        <img src="/images/shape/footer-shape-one.png" alt="Image" />
-                        <img src="/images/shape/footer-shape-two.png" alt="Image" />
-                    </div>
-                </footer>
-    
-                {/* Footer Bottom Area   */}
-                 <footer className="footer-bottom-area">
-                    <div className="container">
-                        <div className="row align-items-center">
-                            <div className="col-lg-4">
-                                <div className="copy-right">
-                                    <p>Copyright &copy; {currentYear} Tonomy Foundation. All Rights Reserved</p>
-                                </div>
-                            </div>
+          <div className="footer-shape">
+            <img src="/images/shape/footer-shape-one.png" alt="Image" />
+            <img src="/images/shape/footer-shape-two.png" alt="Image" />
+          </div>
+        </footer>
 
-                            {/* <div className="col-lg-5">
+        {/* Footer Bottom Area   */}
+        <footer className="footer-bottom-area">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-4">
+                <div className="copy-right">
+                  <p>
+                    Copyright &copy; {currentYear} Tonomy Foundation. All Rights
+                    Reserved
+                  </p>
+                </div>
+              </div>
+
+              {/* <div className="col-lg-5">
                                 <div className="privacy">
                                     <ul>
                                         <li>
@@ -221,19 +243,19 @@ class Footer extends Component {
                                 </div>
                             </div> */}
 
-                            {/* <div className="col-lg-3">
+              {/* <div className="col-lg-3">
                                 <div className="designed">
                                     <p>
                                         Designed By <i className='bx bx-heart'></i> <a href="https://envytheme.com/" target="_blank">EnvyTheme</a>
                                     </p>
                                 </div>
                             </div> */}
-                        </div>
-                    </div> 
-                 </footer>
-            </>
-        );
-    }
+            </div>
+          </div>
+        </footer>
+      </>
+    );
+  }
 }
 
 export default Footer;

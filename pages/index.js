@@ -5,6 +5,8 @@ import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
 import Services from '../components/HomeOne/Services'
 import Footer from '../components/Layouts/Footer'
 import Partner from '../components/Common/Partner';
+import Newsletter from '../components/Common/Newsletter'
+import WhatWeOffer from "../components/HomeOne/WhatWeOffer"
 
 const Index = () => {
     return (
@@ -19,16 +21,14 @@ const Index = () => {
 
             <Services />
             
+            <WhatWeOffer/>
+            
             {/* <MakeYourBusiness /> */}
 
             <Partner />
 
-            {/* <WhatWeOffer />
+            {/* <Newsletter/> */}
 
-            <Testimonials />
-
-            <News /> */}
-            
             <Footer />
         </>
     )
