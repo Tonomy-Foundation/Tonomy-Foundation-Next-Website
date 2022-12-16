@@ -8,7 +8,8 @@ const Services = () => {
           <span></span>
           <h2>Why Tonomy?</h2>
           <p>
-          It is important for society to be transparent and democratic in order to promote fairness, accountability, and trust. The Tonomy Foundation's mission to build open source technology that supports these values can potentially have a positive impact on society by making it easier for people to access and use information, participate in decision-making processes, and hold those in positions of power accountable for their actions.
+          Tonomy is a powerful and reliable tool for managing digital identities and transactions. 
+          Its open source nature and self-sovereign identity technology make it a highly secure and efficient solution for government agencies and commercial companies. By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.
           </p>
         </div>
 
