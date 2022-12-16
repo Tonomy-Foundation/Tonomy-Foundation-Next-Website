@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-let iconBackground = {backgroundColor: "#67D7ED"}
+let iconBackground = {backgroundColor: "#29C7E2"}
 
 class Footer extends Component {
   render() {
