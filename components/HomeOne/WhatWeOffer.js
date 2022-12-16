@@ -38,7 +38,7 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Investor</h3>
+                                        <h3>Investors</h3>
                                     </span>
                                 </li>
 
