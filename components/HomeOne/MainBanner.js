@@ -64,8 +64,7 @@ const MainBanner = () => {
       </div>
 
       <div className="white-shape">
-        <img src="/images/home-one/bottom-shape.png" alt="Image" />
-      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,256L48,261.3C96,267,192,277,288,288C384,299,480,309,576,304C672,299,768,277,864,266.7C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>      </div>
     </section>
   );
 };
