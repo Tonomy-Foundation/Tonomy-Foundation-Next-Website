@@ -22,8 +22,8 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-                We prioritize user trust and happiness & minimize privacy and
-                security breaches.
+              Based on self-sovereign identity (SSI) 
+              and is designed to facilitate secure and efficient digital identification for government agencies and commercial companies.
               </p>
             </div>
           </div>
@@ -33,11 +33,12 @@ const Services = () => {
               <i className="flaticon-vr"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>The infrastructure</a>
+                  <a>GDPR compliance</a>
                 </Link>
               </h3>
               <p>
-              Making decisions together, the feeling of community - automated budget management
+              GDPR compliance refers to protect the personal data of individuals 
+              and give them control over how their information is collected, used, and shared.
               </p>
             </div>
           </div>
@@ -47,12 +48,12 @@ const Services = () => {
               <i className="flaticon-blockchain"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Our blockchain</a>
+                  <a>Open governance</a>
                 </Link>
               </h3>
               <p>
-                We have an easy to use blockchain so it's accessable for
-                everyone, with user retention!
+              Open governance refers to the principles and practices of 
+              transparency, accountability, and participation in the decision-making processes of an organization.
               </p>
             </div>
           </div>
@@ -66,8 +67,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-                Automated data privacy and security compliance - fewer passwords
-                so it's easier for your users.
+              We take great care to ensure that all of our products and solutions are designed to protect sensitive information and prevent unauthorized access.
               </p>
             </div>
           </div>
@@ -81,8 +81,8 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-                Sovereign architecture - privacy, security, cybersecurity and
-                autonomous access to your data
+              Our organization aims to provide secure and efficient access to data through 
+              the use of open source solutions for digital ID and self-sovereign identity technology.
               </p>
             </div>
           </div>
@@ -92,12 +92,12 @@ const Services = () => {
               <i className="flaticon-deep-learning"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Legality</a>
+                  <a>Streamlining</a>
                 </Link>
               </h3>
               <p>
-                We lower legal frictions and automate instant document
-                verification to lower administrational needs
+              Our organization aims to reduce administration 
+              friction through the development of open source solutions for digital identification using self-sovereign identity (SSI) technology.
               </p>
             </div>
           </div>

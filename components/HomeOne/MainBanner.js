@@ -10,9 +10,9 @@ const MainBanner = () => {
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-              Welcome to the world of digital government, where blockchain technology and open source development are transforming the way we manage and protect personal information. As a nonprofit organization dedicated to advancing these cutting-edge technologies, we are proud to introduce our website and the innovative products we are developing to help create a more secure and efficient digital society. From digital identity solutions to blockchain-based systems for managing public records, we are working to build a better future for all.
+              Welcome to our nonprofit organization's website! We are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology. Our goal is to make it easier for government agencies and commercial companies to securely and efficiently manage digital interactions and transactions. With our innovative products and cutting-edge technology, we are leading the charge in the digital government revolution.
                 <br></br>
-                <br></br> Join us on our journey to a more connected, transparent, and secure world.
+                <br></br> Thank you for visiting and we hope you will join us in our mission to bring the benefits of digital identification to everyone.
               </p>
 
               <div className="banner-btn">
