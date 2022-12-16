@@ -6,15 +6,9 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <span></span>
-          <h2>Why tonomy?</h2>
+          <h2>Why Tonomy?</h2>
           <p>
-            You may be wondering why what we are doing here matters, or why
-            people should even care about our projects. Well, the answer is
-            simple: here at the Tonomy Foundation we strive for a society in
-            which transparency and democracy are the top priorities. We want
-            everyone to voice their opinion and make a difference. We want to
-            make sure that there is not a single vote or a piece of crucial
-            information held back.
+          It is important for society to be transparent and democratic in order to promote fairness, accountability, and trust. The Tonomy Foundation's mission to build open source technology that supports these values can potentially have a positive impact on society by making it easier for people to access and use information, participate in decision-making processes, and hold those in positions of power accountable for their actions.
           </p>
         </div>
 
