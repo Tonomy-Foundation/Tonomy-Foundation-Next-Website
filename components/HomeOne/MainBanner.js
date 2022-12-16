@@ -10,15 +10,9 @@ const MainBanner = () => {
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-                We build ecosystems that are worthy of your trust; the systems
-                that are worthy of your involvement and taking action along side
-                with us as individuals and communities. This is what we call
-                true autonomy! And without autonomy, it is not you who truly
-                makes decisions - it is always somebody else. As you may know,
-                obtaining and maintaining autonomy is not an easy task these
-                days. And this is exactly what we do;
+              Welcome to the world of digital government, where blockchain technology and open source development are transforming the way we manage and protect personal information. As a nonprofit organization dedicated to advancing these cutting-edge technologies, we are proud to introduce our website and the innovative products we are developing to help create a more secure and efficient digital society. From digital identity solutions to blockchain-based systems for managing public records, we are working to build a better future for all.
                 <br></br>
-                <br></br> Here at the Tonomy Foundation, we bring autonomy into the masses.
+                <br></br> Join us on our journey to a more connected, transparent, and secure world.
               </p>
 
               <div className="banner-btn">
