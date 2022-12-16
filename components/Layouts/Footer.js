@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
+let iconBackground = {backgroundColor: "#67D7ED"}
+
 class Footer extends Component {
   render() {
     let currentYear = new Date().getFullYear();
@@ -29,17 +31,19 @@ class Footer extends Component {
                                             </a>
                                         </li> */}
                     <li>
-                      <a href="https://twitter.com/TonomyF" target="_blank">
+                      <a style={iconBackground}
+                        href="https://twitter.com/TonomyF" target="_blank">
                         <i className="bx bxl-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a href="https://discord.gg/95J74ZbAgw" target="_blank">
+                      <a style={iconBackground}
+                        href="https://discord.gg/95J74ZbAgw" target="_blank">
                         <i className="bx bxl-discord"></i>
                       </a>
                     </li>
                     <li>
-                      <a
+                      <a style={iconBackground}
                         href="https://www.linkedin.com/company/tonomy-foundation/"
                         target="_blank"
                       >
@@ -47,21 +51,21 @@ class Footer extends Component {
                       </a>
                     </li>
                     <li>
-                      <a
+                      <a style={iconBackground}
                         href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
                         target="_blank"
                       >
                         <i className="bx bxs-briefcase"></i>
                       </a>
                     </li>
-                    {/* <li>
-                      <a
-                        href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
+                    <li>
+                      <a style={iconBackground}
+                        href="https://github.com/Tonomy-Foundation"
                         target="_blank"
                       >
-                        <i className="bx bxs-briefcase"></i>
+                        <i className="bx bxl-github"></i>
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>
