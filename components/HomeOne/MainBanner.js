@@ -10,53 +10,47 @@ const MainBanner = () => {
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-                We build ecosystems that are worthy of our trust; Systems that
-                are worthy of our agreement and keep decisions with us as
-                individuals and communities. We call this autonomy! Without
-                autonomy, it is not truly your decision. To receive, and keep,
-                your autonomy is not easy nowadays.
+              Welcome to our nonprofit organization's website! We are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology. Our goal is to make it easier for government agencies and commercial companies to securely and efficiently manage digital interactions and transactions. With our innovative products and cutting-edge technology, we are leading the charge in the digital government revolution.
                 <br></br>
-                <br></br>At the Tonomy Foundation, we take the pain out of
-                autonomy.
+                <br></br> Thank you for visiting and we hope you will join us in our mission to bring the benefits of digital identification to everyone.
               </p>
 
-            
-          <div className="banner-btn">
-            <Link href="https://www.discord.gg/QqVJz5XF8d" target="_blank">
-              <a className="default-btn">Join us!</a>
-            </Link>
-          </div>
-          </div>
+              <div className="banner-btn">
+                <Link href="https://www.discord.gg/QqVJz5XF8d" target="_blank">
+                  <a className="default-btn">Join us!</a>
+                </Link>
+              </div>
+            </div>
           </div>
 
           <div className="col-lg-6">
             {/* Main Image */}
             <div className="banner-main-img banner-one-main-img">
-              <img src="/images/home-one/main-img1.png" alt="Image" />
+              <img src="/images/home-one/mainbanner.svg" alt="Image" />
             </div>
 
             {/* Banner Shape Images */}
             <div className="banner-img">
-              <img
+              {/* <img
                 className="animate__animated animate__fadeInUp animate__fast"
                 src="/images/home-one/shape1.png"
                 alt="Image"
-              />
+              /> */}
               <img
                 className="animate__animated animate__fadeInUp animate__fast"
-                src="/images/home-one/shape2.png"
+                src="/images/home-one/mainbanner.svg"
                 alt="Image"
               />
-              <img
+              {/* <img
                 className="animate__animated animate__fadeInRight animate__fast"
                 src="/images/home-one/shape3.png"
                 alt="Image"
-              />
-              <img
+              /> */}
+              {/* <img
                 className="animate__animated animate__fadeInRight animate__fast"
                 src="/images/home-one/shape4.png"
                 alt="Image"
-              />
+              /> */}
             </div>
           </div>
         </div>
@@ -70,8 +64,7 @@ const MainBanner = () => {
       </div>
 
       <div className="white-shape">
-        <img src="/images/home-one/bottom-shape.png" alt="Image" />
-      </div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fillOpacity="1" d="M0,256L48,261.3C96,267,192,277,288,288C384,299,480,309,576,304C672,299,768,277,864,266.7C960,256,1056,256,1152,245.3C1248,235,1344,213,1392,202.7L1440,192L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"></path></svg>      </div>
     </section>
   );
 };

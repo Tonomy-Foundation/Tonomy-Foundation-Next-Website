@@ -1,105 +1,120 @@
-import Link from 'next/link'
-
+import Link from "next/link";
+// What's a tough tea to swallow? Reali-tea!
 const Services = () => {
-    
-    return (
-        <section className="offer-area pt-100 pb-70">
-            <div className="container">
-                <div className="section-title">
-                    <span></span>
-                    <h2>Why tonomy?</h2>
-                    <p>Why does it matter what we are doing? Why should people care about what is going on here? 
-                        Well see, here at the Tonomy Foundation we strive for a society where transparency and 
-                        democracy are the top priorities. We want everyone to have a voice, a vote and we want that 
-                        there is no crucial information held back by anyone.</p>
-                </div>
-
-                <div className="row">
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-chip"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>Our technology</a>
-                                </Link>
-                            </h3>
-                            <p>We prioritize user trust and happiness & minimize privacy and security breaches.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-vr"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>The infrastructure</a>
-                                </Link>
-                            </h3>
-                            <p>The participation of users in decisions together, feeling of community - automated budget management</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-blockchain"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>Our blockchain</a>
-                                </Link>
-                            </h3>
-                            <p>We have an easy to use blockchain so it's accessable for everyone, with user retention!</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-target"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>Security</a>
-                                </Link>
-                            </h3>
-                            <p>Automated data privacy and security compliance - fewer passwords so it's easier for your users.</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-choice"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>Data access</a>
-                                </Link>
-                            </h3>
-                            <p>Sovereign architecture - privacy, security, cybersecurity and autonomous access to your data</p>
-                        </div>
-                    </div>
-
-                    <div className="col-lg-4 col-sm-6">
-                        <div className="single-offer">
-                            <i className="flaticon-deep-learning"></i>
-                            <h3>
-                                <Link href="/service-details">
-                                    <a>Legality</a>
-                                </Link>
-                            </h3>
-                            <p>We lower legal frictions and automate instant document verification to lower administrational needs</p>
-                        </div>
-                    </div>
-                </div>
+  return (
+    <section className="offer-area pt-100 pb-70">
+      <div className="container">
+        <div className="section-title">
+          <span></span>
+          <h2>Why Tonomy?</h2>
+          <p>
+          Tonomy is a powerful and reliable tool for managing digital identities and transactions. 
+          Its open source nature and self-sovereign identity technology make it a highly secure and efficient solution for government agencies and commercial companies. By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.
+          </p>
+        </div>
+        <div className="row">
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-chip"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>Our technology</a>
+                </Link>
+              </h3>
+              <p>
+              Based on self-sovereign identity (SSI) 
+              and is designed to facilitate secure and efficient digital identification for government agencies and commercial companies.
+              </p>
             </div>
+          </div>
 
-            {/* Shape Images */}
-            <div className="offer-shape">
-                <img src="/images/shape/services-shape/1.png" alt="Image" />
-                <img src="/images/shape/services-shape/2.png" alt="Image" />
-                <img src="/images/shape/services-shape/3.png" alt="Image" />
-                <img src="/images/shape/services-shape/4.png" alt="Image" />
-                <img src="/images/shape/services-shape/5.png" alt="Image" />
-                <img src="/images/shape/services-shape/6.png" alt="Image" />
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-vr"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>GDPR compliance</a>
+                </Link>
+              </h3>
+              <p>
+              GDPR compliance refers to protect the personal data of individuals 
+              and give them control over how their information is collected, used, and shared.
+              </p>
             </div>
-        </section>
-    )
-}
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-blockchain"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>Open governance</a>
+                </Link>
+              </h3>
+              <p>
+              Open governance refers to the principles and practices of 
+              transparency, accountability, and participation in the decision-making processes of an organization.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-target"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>Security</a>
+                </Link>
+              </h3>
+              <p>
+              We take great care to ensure that all of our products and solutions are designed to protect sensitive information and prevent unauthorized access.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-choice"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>Data access</a>
+                </Link>
+              </h3>
+              <p>
+              Our organization aims to provide secure and efficient access to data through 
+              the use of open source solutions for digital ID and self-sovereign identity technology.
+              </p>
+            </div>
+          </div>
+
+          <div className="col-lg-4 col-sm-6">
+            <div className="single-offer">
+              <i className="flaticon-deep-learning"></i>
+              <h3>
+                <Link href="/service-details">
+                  <a>Streamlining</a>
+                </Link>
+              </h3>
+              <p>
+              Our organization aims to reduce administration 
+              friction through the development of open source solutions for digital identification using self-sovereign identity (SSI) technology.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* Shape Images */}
+      <div className="offer-shape">
+        <img src="/images/shape/services-shape/1.png" alt="Image" />
+        <img src="/images/shape/services-shape/2.png" alt="Image" />
+        <img src="/images/shape/services-shape/3.png" alt="Image" />
+        <img src="/images/shape/services-shape/4.png" alt="Image" />
+        <img src="/images/shape/services-shape/5.png" alt="Image" />
+        <img src="/images/shape/services-shape/6.png" alt="Image" />
+      </div>
+    </section>
+  );
+};
 
 export default Services;
