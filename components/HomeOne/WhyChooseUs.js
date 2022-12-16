@@ -21,15 +21,8 @@ const WhyChooseUs = () => {
                   </span>
                   <h3>Tonomy ID (Under development)</h3>
                   <p>
-                    Tonomy ID is a self-sovereign identity ( SSI ) and a
-                    blockchain wallet allowing your users to log in to apps in
-                    your ecosystem in a secure and private manner. All personal
-                    information and passwords are stored on the user's phone
-                    exclusively automatically complying with GDPR. This will
-                    allow you to onboard and retain more users, reduce security
-                    and privacy breaches and regulatory compliance work and
-                    time. This will also reduce data entry duplication and bring
-                    systems together like never before.
+                    Tonomy ID is a secure and private self-sovereign identity and blockchain wallet that allows users to log in to apps in your ecosystem.
+                    Personal information and passwords are stored exclusively on the user's phone, automatically complying with GDPR.
                   </p>
                 </li>
 
@@ -43,9 +36,7 @@ const WhyChooseUs = () => {
                     organizations, and their employees.It will allow the members
                     of your system to self-organize their projects and entities
                     significantly faster and cheaper and help gain traction for
-                    your decisions within the organization. It will also provide
-                    internal and external trust, as well as make processes more
-                    insightful.
+                    your decisions within the organization.
                   </p>
                 </li>
 
@@ -61,11 +52,7 @@ const WhyChooseUs = () => {
                     policies/rules and see how the decisions are made. It gives
                     the flexibility of several governance models, both
                     traditional democratic or share-based, as well as more
-                    modern liquid, open and adjustable governance models. This
-                    provides the members of your organization or ecosystem with
-                    more trust in the policies and rules allowing greater
-                    decision-making power, and greater synergy between its
-                    members.
+                    modern liquid, open and adjustable governance models.
                   </p>
                 </li>
               </ul>
@@ -74,7 +61,7 @@ const WhyChooseUs = () => {
 
           <div className="col-lg-6">
             <div className="choose-img">
-              <img src="/images/choose-img.png" alt="Image" />
+              <img src="/images/teamwork.svg" alt="Image" />
             </div>
           </div>
         </div>

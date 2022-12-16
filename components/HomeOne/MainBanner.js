@@ -26,31 +26,31 @@ const MainBanner = () => {
           <div className="col-lg-6">
             {/* Main Image */}
             <div className="banner-main-img banner-one-main-img">
-              <img src="/images/home-one/main-img1.png" alt="Image" />
+              <img src="/images/home-one/mainbanner.svg" alt="Image" />
             </div>
 
             {/* Banner Shape Images */}
             <div className="banner-img">
-              <img
+              {/* <img
                 className="animate__animated animate__fadeInUp animate__fast"
                 src="/images/home-one/shape1.png"
                 alt="Image"
-              />
+              /> */}
               <img
                 className="animate__animated animate__fadeInUp animate__fast"
-                src="/images/home-one/shape2.png"
+                src="/images/home-one/mainbanner.svg"
                 alt="Image"
               />
-              <img
+              {/* <img
                 className="animate__animated animate__fadeInRight animate__fast"
                 src="/images/home-one/shape3.png"
                 alt="Image"
-              />
-              <img
+              /> */}
+              {/* <img
                 className="animate__animated animate__fadeInRight animate__fast"
                 src="/images/home-one/shape4.png"
                 alt="Image"
-              />
+              /> */}
             </div>
           </div>
         </div>
