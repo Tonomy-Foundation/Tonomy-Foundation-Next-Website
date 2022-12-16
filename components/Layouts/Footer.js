@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-let iconBackground = {backgroundColor: "#29C7E2"}
+let iconBackground = { backgroundColor: "#29C7E2" };
 
 class Footer extends Component {
   render() {
@@ -9,41 +9,49 @@ class Footer extends Component {
     return (
       <>
         <footer className="footer-top-area pt-20 pb-10">
-          <div className="container">
-            <div className="row">
+          <div className="container align-self-center">
+            <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
-                  <a href="/" className="logo">
-                    <img
-                      src="/images/logo.png"
-                      width="80"
-                      height="80"
-                      alt="Image"
-                    />
-                  </a>
-
+                  <div>
+                    <a href="/" className="logo">
+                      <img
+                        src="/images/logo.png"
+                        width="80"
+                        height="80"
+                        alt="Tonomy Logo"
+                      />
+                    </a>
+                  </div>
                   {/* <p>Check out our socials below!</p> */}
 
-                  <ul className="social-icon">
+                  <ul className="social-icon column justify-content-center">
                     {/* <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li> */}
                     <li>
-                      <a style={iconBackground}
-                        href="https://twitter.com/TonomyF" target="_blank">
+                      <a
+                        style={iconBackground}
+                        href="https://twitter.com/TonomyF"
+                        target="_blank"
+                      >
                         <i className="bx bxl-twitter"></i>
                       </a>
                     </li>
                     <li>
-                      <a style={iconBackground}
-                        href="https://discord.gg/95J74ZbAgw" target="_blank">
+                      <a
+                        style={iconBackground}
+                        href="https://discord.gg/95J74ZbAgw"
+                        target="_blank"
+                      >
                         <i className="bx bxl-discord"></i>
                       </a>
                     </li>
                     <li>
-                      <a style={iconBackground}
+                      <a
+                        style={iconBackground}
                         href="https://www.linkedin.com/company/tonomy-foundation/"
                         target="_blank"
                       >
@@ -51,7 +59,8 @@ class Footer extends Component {
                       </a>
                     </li>
                     <li>
-                      <a style={iconBackground}
+                      <a
+                        style={iconBackground}
                         href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
                         target="_blank"
                       >
@@ -59,7 +68,8 @@ class Footer extends Component {
                       </a>
                     </li>
                     <li>
-                      <a style={iconBackground}
+                      <a
+                        style={iconBackground}
                         href="https://github.com/Tonomy-Foundation"
                         target="_blank"
                       >

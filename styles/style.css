@@ -2536,6 +2536,7 @@ Footer Top Area Style
   margin-bottom: 25px;
   font-size: 25px;
   font-weight: bold;
+  align-items: center;
 }
 
 .single-widget p {
