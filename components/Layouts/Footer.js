@@ -54,14 +54,14 @@ class Footer extends Component {
                         <i className="bx bxs-briefcase"></i>
                       </a>
                     </li>
-                    {/* <li>
+                    <li>
                       <a
-                        href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
+                        href="https://github.com/Tonomy-Foundation"
                         target="_blank"
                       >
-                        <i className="bx bxs-briefcase"></i>
+                        <i className="bx bxl-github"></i>
                       </a>
-                    </li> */}
+                    </li>
                   </ul>
                 </div>
               </div>
