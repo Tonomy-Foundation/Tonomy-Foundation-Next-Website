@@ -25,7 +25,7 @@ const Index = () => {
             
             {/* <MakeYourBusiness /> */}
 
-            {/* <Partner /> */}
+            <Partner />
 
             {/* <Newsletter/> */}
 

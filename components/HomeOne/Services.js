@@ -11,7 +11,6 @@ const Services = () => {
           It is important for society to be transparent and democratic in order to promote fairness, accountability, and trust. The Tonomy Foundation's mission to build open source technology that supports these values can potentially have a positive impact on society by making it easier for people to access and use information, participate in decision-making processes, and hold those in positions of power accountable for their actions.
           </p>
         </div>
-
         <div className="row">
           <div className="col-lg-4 col-sm-6">
             <div className="single-offer">
