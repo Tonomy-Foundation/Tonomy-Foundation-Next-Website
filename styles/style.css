@@ -169,6 +169,15 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.footerlogo {
+  width: 100%;
+}
+
+.FooterLogoDiv {
+  display: flex;
+  align-self: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -2631,10 +2640,13 @@ Footer Top Area Style
 }
 
 .single-widget .social-icon {
+  display: flex;
+  justify-content: center;
   line-height: 1;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .single-widget .social-icon li {
