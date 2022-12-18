@@ -279,6 +279,10 @@ textarea.form-control {
   padding-left: 30px;
 }
 
+.pl-50 {
+  padding-left: 50px;
+}
+
 .pr-30 {
   padding-right: 30px;
 }
