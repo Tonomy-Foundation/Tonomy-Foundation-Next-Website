@@ -118,7 +118,7 @@ const WhatWeOffer = () => {
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                W3C Standards
+                                                                W3C web standards
                                                             </li>
                                                         </ul>
                                                     </div>
