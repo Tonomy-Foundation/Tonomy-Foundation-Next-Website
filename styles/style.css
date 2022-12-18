@@ -171,6 +171,7 @@ p:last-child {
 
 .footerlogo {
   width: 100%;
+  padding-bottom: 10px;
 }
 
 .FooterLogoDiv {
@@ -2707,7 +2708,7 @@ Footer Bottom Area Style
 ======================================================*/
 .footer-bottom-area {
   background-color: #0d1240;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .footer-bottom-area .copy-right {

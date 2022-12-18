@@ -8,7 +8,7 @@ class Footer extends Component {
     let currentYear = new Date().getFullYear();
     return (
       <>
-        <footer className="footer-top-area pt-20 pb-10">
+        <footer className="footer-top-area pt-20 pb-20">
           <div className="container align-self-center">
             <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6">
