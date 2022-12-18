@@ -38,7 +38,7 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Investors</h3>
+                                        <h3 className="pl-20">Investors</h3>
                                     </span>
                                 </li>
 
@@ -47,7 +47,7 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-health"></i>
-                                        <h3>Tech Partners</h3>
+                                        <h3 className="pl-20">Tech Partners</h3>
                                     </span>
                                 </li>
                                 <li
@@ -55,7 +55,7 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-automation"></i>
-                                        <h3>Contributors</h3>
+                                        <h3 className="pl-20">Contributors</h3>
                                     </span>
                                 </li>
                                 <li
@@ -64,7 +64,7 @@ const WhatWeOffer = () => {
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3>Developers</h3>
+                                        <h3 className="pl-20">Developers</h3>
                                     </span>
                                 </li>
 
@@ -277,7 +277,7 @@ const WhatWeOffer = () => {
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                To develop new skills
+                                                                Develop new skills
                                                             </li>
                                                         </ul>
                                                     </div>
