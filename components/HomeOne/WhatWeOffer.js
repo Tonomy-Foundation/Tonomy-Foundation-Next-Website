@@ -21,7 +21,7 @@ const WhatWeOffer = () => {
 
     return (
         <section className="industries-area pb-100">
-            <div className="container">
+            <div className="container pt-20">
                 <div className="section-title">
                     <span></span>
                     <h2>Join Tonomy</h2>
