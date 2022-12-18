@@ -8,7 +8,7 @@ class Partner extends Component {
                 <span></span>
                 <h2>Our trusted partners</h2>
             </div><div className="brand-area">
-                    <div className="container">
+                    <div className="container pb-20">
                         <div className="brand-list">
                             <div className="single-brand">
                                 <a href="https://thenewfork.com/" target="_blank">

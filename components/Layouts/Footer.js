@@ -1,72 +1,82 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-let iconBackground = {backgroundColor: "#29C7E2"}
+let iconBackground = { backgroundColor: "#29C7E2" };
 
 class Footer extends Component {
   render() {
     let currentYear = new Date().getFullYear();
     return (
       <>
-        <footer className="footer-top-area pt-20 pb-10">
-          <div className="container">
-            <div className="row">
+        <footer className="footer-top-area pt-20 pb-20">
+          <div className="container align-self-center">
+            <div className="row justify-content-center">
               <div className="col-lg-3 col-md-6">
                 <div className="single-widget">
-                  <a href="/" className="logo">
+                  <a href="/" className="footerlogo">
                     <img
                       src="/images/logo.png"
                       width="80"
                       height="80"
-                      alt="Image"
+                      alt="Tonomy Logo"
+                      className="rounded mx-auto d-block"
                     />
                   </a>
-
                   {/* <p>Check out our socials below!</p> */}
-
-                  <ul className="social-icon">
-                    {/* <li>
+                  <div className="FooterLogoDiv">
+                    <ul className="social-icon">
+                      {/* <li>
                                             <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
                                             </a>
                                         </li> */}
-                    <li>
-                      <a style={iconBackground}
-                        href="https://twitter.com/TonomyF" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a style={iconBackground}
-                        href="https://discord.gg/95J74ZbAgw" target="_blank">
-                        <i className="bx bxl-discord"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a style={iconBackground}
-                        href="https://www.linkedin.com/company/tonomy-foundation/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a style={iconBackground}
-                        href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
-                        target="_blank"
-                      >
-                        <i className="bx bxs-briefcase"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a style={iconBackground}
-                        href="https://github.com/Tonomy-Foundation"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-github"></i>
-                      </a>
-                    </li>
-                  </ul>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://twitter.com/TonomyF"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-twitter"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://discord.gg/95J74ZbAgw"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-discord"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://www.linkedin.com/company/tonomy-foundation/"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-linkedin"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
+                          target="_blank"
+                        >
+                          <i className="bx bxs-briefcase"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://github.com/Tonomy-Foundation"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-github"></i>
+                        </a>
+                      </li>
+                    </ul>
+                  </div>
                 </div>
               </div>
 

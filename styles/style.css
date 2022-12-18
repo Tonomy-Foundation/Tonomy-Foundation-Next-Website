@@ -169,6 +169,16 @@ p:last-child {
   margin-bottom: 0;
 }
 
+.footerlogo {
+  width: 100%;
+  padding-bottom: 10px;
+}
+
+.FooterLogoDiv {
+  display: flex;
+  align-self: center;
+}
+
 img {
   max-width: 100%;
   height: auto;
@@ -241,6 +251,10 @@ textarea.form-control {
   padding-bottom: 10px;
 }
 
+.pb-20 {
+  padding-bottom: 10px;
+}
+
 .pb-50 {
   padding-bottom: 50px;
 }
@@ -261,8 +275,16 @@ textarea.form-control {
   margin-bottom: 30px;
 }
 
+.pl-20 {
+  padding-left: 20px;
+}
+
 .pl-30 {
   padding-left: 30px;
+}
+
+.pl-50 {
+  padding-left: 50px;
 }
 
 .pr-30 {
@@ -2536,6 +2558,7 @@ Footer Top Area Style
   margin-bottom: 25px;
   font-size: 25px;
   font-weight: bold;
+  align-items: center;
 }
 
 .single-widget p {
@@ -2630,15 +2653,19 @@ Footer Top Area Style
 }
 
 .single-widget .social-icon {
+  display: flex;
+  justify-content: center;
   line-height: 1;
   list-style-type: none;
   padding: 0;
   margin: 0;
+  width: 100%;
 }
 
 .single-widget .social-icon li {
   display: inline-block;
   margin-right: 8px;
+  margin-left: 8px;
   margin-bottom: 0;
 }
 
@@ -2693,7 +2720,7 @@ Footer Bottom Area Style
 ======================================================*/
 .footer-bottom-area {
   background-color: #0d1240;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 
 .footer-bottom-area .copy-right {
