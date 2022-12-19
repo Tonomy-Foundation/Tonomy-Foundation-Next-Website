@@ -22,8 +22,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              Based on self-sovereign identity (SSI) 
-              and is designed to facilitate secure and efficient digital identification for government agencies and commercial companies.
+              Using self-sovereign identity (SSI) and other cutting-edge technologies to provide secure and efficient solutions for government agencies and commercial companies.
               </p>
             </div>
           </div>
@@ -96,8 +95,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              Our organization aims to reduce administration 
-              friction through the development of open source solutions for digital identification using self-sovereign identity (SSI) technology.
+              We aim to improve organizational efficiency processes through open source solutions like digital ID, DAO, and governance systems to reduce administrative friction.
               </p>
             </div>
           </div>
