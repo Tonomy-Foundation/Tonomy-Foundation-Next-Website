@@ -10,9 +10,8 @@ const MainBanner = () => {
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-              Welcome to our nonprofit organization's website! We are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology. Our goal is to make it easier for government agencies and commercial companies to securely and efficiently manage digital interactions and transactions. With our innovative products and cutting-edge technology, we are leading the charge in the digital government revolution.
-                <br></br>
-                <br></br> Thank you for visiting and we hope you will join us in our mission to bring the benefits of digital identification to everyone.
+              We at the Tonomy Foundation are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology.
+              Our goal is to make it easier for government agencies and commercial companies to securely and efficiently manage digital interactions and transactions.
               </p>
 
               <div className="banner-btn">
