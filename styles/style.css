@@ -1339,8 +1339,9 @@ jumpx Nav Area Style
 
 .navbar-area.is-sticky nav {
   background-color: #000000;
-  padding-top: 15px;
-  padding-bottom: 15px;
+  opacity: .9;
+  padding-top: 5px;
+  padding-bottom: 5px;
 }
 
 .navbar-toggler {

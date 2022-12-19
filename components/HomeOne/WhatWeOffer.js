@@ -85,9 +85,8 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Developers</h3>
-                                                <p>Developers should consider joining Tonomy because it is an organization that builds open source technology with the goal of making society more transparent and democratic. This mission aligns with the values of many developers, and working on open source projects will be a rewarding way to contribute to positive social change. Additionally, collaborating on open source projects will provide opportunities for learning, personal growth, and professional development.</p>
-                                                
+                                                <h3>Developer</h3>
+                                                <p>Attention Developers! Are you ready to make a real impact in the world through your work? Then you need to join Tonomy! This organization is dedicated to building open source technology with the goal of making society more transparent and democratic. This is a mission that aligns with your values and working on open source projects will be a fulfilling way to contribute to positive social change. Don't miss out on this opportunity to not only make a difference, but also to learn, grow, and develop professionally. Don't wait any longer, join Tonomy now and make your mark on the world!</p>                          
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
@@ -139,10 +138,8 @@ const WhatWeOffer = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Investors</h3>
-                                                <p>Investing in Tonomy is a good opportunity for investors because the organization's mission to build open source technology that promotes transparency and democracy aligns with increasing demand for accountability and trust in society. 
-                                                    Tonomy's work in this area may lead to innovation and the development of robust and secure systems, resulting in financial returns for investors.</p>
-
+                                                <h3>Investor</h3>
+                                                <p>Tonomy is leading the charge in the development of open source technology that is driving the demand for accountability and trust in society. With their cutting-edge approach and commitment to excellence, Tonomy is positioning itself as the go-to choice for investors looking to get in on the ground floor of something big. Don't miss out on the opportunity to be a part of something special – invest in Tonomy now and watch your returns soar as they continue to innovate and build secure, robust systems that drive financial success.</p>
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
@@ -206,10 +203,8 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Tech partners</h3>
-                                                <p>Tech partners will benefit from adapting our technology and running it on our ecosystem because it will provide them with a secure and efficient solution for managing digital interactions and transactions.
-                                                     By leveraging our cutting-edge technology, tech partners can improve their services and offerings, and provide a better experience for their customers. In addition, by running our technology on our ecosystem, tech partners can take advantage of the scalability, reliability, and support that we offer.</p>
-                                                
+                                                <h3>Tech partner</h3>
+                                                <p>Our technology provides a secure and efficient solution for managing digital interactions and transactions, which will greatly benefit many industries. By leveraging our state-of-the-art technology, tech partners can improve their services and offerings, ultimately providing a better experience for their customers. And by running our technology on our ecosystem, tech partners can take advantage of the scalability, reliability, and support that we offer. Don't miss out on this opportunity to improve your business and provide value to your customers.</p>                           
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
@@ -262,7 +257,7 @@ const WhatWeOffer = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Contributors</h3>
-                                                <p>Being a contributor to Tonomy will allow you to make a positive impact on society by helping to build open source technology that promotes transparency and democracy. It also offers the opportunity to collaborate with a diverse group of individuals and organizations, learn new skills, and contribute to the development of innovative and robust systems.</p>
+                                                <p>Your involvement will not only allow you to make a real difference in the world through the development of open source technology that promotes transparency and democracy, but it will also provide you with the chance to work with a diverse group of individuals and organizations. You will have the opportunity to learn new skills and contribute to the creation of innovative and robust systems. Do not let this opportunity pass you by - join us as a contributor to Tonomy and make a positive impact on society today! </p>
                                                 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
