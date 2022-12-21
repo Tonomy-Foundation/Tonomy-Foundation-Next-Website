@@ -16,7 +16,7 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-single-img">
-                                    <img src="/images/team/team5.png" alt="Image" />
+                                    <img src="/images/team/Jack.jpg" alt="Image" classname="epic"/>
 
                                     <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
@@ -24,14 +24,14 @@ class TeamTwo extends Component {
                                 </div>
 
                                 <div className="team-content">
-                                    <h3>Karen Peter</h3>
-                                    <span>CEO</span>
+                                    <h3>Jack Tanner - CTO</h3>
+                                    <span>our tech-savvy CTO and co-founder. Not only is Jack passionate about blockchain development, he's also an avid fan of techno music. With his expertise in all things tech, Jack is a valuable asset to our team and we're thrilled to have him on board</span>
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            {/* <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                         <li>
                                             <a href="https://twitter.com/" target="_blank">
@@ -44,9 +44,9 @@ class TeamTwo extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            {/* <a href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                     </ul>
                                 </div>
@@ -69,9 +69,9 @@ class TeamTwo extends Component {
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            {/* <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                         <li>
                                             <a href="https://twitter.com/" target="_blank">
@@ -84,9 +84,9 @@ class TeamTwo extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            {/* <a href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                     </ul>
                                 </div>
@@ -109,9 +109,9 @@ class TeamTwo extends Component {
 
                                     <ul>
                                         <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
+                                            {/* <a href="https://www.facebook.com/" target="_blank">
                                                 <i className="bx bxl-facebook"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                         <li>
                                             <a href="https://twitter.com/" target="_blank">
@@ -124,9 +124,9 @@ class TeamTwo extends Component {
                                             </a>
                                         </li>
                                         <li>
-                                            <a href="https://www.pinterest.com/" target="_blank">
+                                            {/* <a href="https://www.pinterest.com/" target="_blank">
                                                 <i className="bx bxl-pinterest-alt"></i>
-                                            </a>
+                                            </a> */}
                                         </li>
                                     </ul>
                                 </div>
