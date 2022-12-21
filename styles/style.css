@@ -609,6 +609,11 @@ Video wave Style
 /*
 Default Btn Area Style
 ======================================================*/
+
+.AboutUsText {
+  color: #FFFFFF;
+}
+
 .default-btn {
   font-size: 15px;
   font-weight: 600;
@@ -3766,9 +3771,9 @@ Team Area Four Style
 }
 
 .single-team .team-single-img {
-  position: relative;
   margin-top: 15px;
   margin-bottom: 55px;
+  min-height: 356px;
 }
 
 .single-team .team-single-img img {
