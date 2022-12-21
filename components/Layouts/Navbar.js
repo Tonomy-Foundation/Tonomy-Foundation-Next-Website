@@ -251,9 +251,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="/about-us">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                About us
-                                            </a>
+                                        <a className="nav-link">About us</a>
                                         </Link>
 
                                         {/* <ul className="dropdown-menu">
