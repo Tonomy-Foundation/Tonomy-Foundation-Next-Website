@@ -15,17 +15,17 @@ class About1 extends Component {
                 <Navbar />
 
                 <PageBanner 
-                    pageTitle="About Style One" 
+                    pageTitle="About us" 
                     homePageUrl="/" 
                     homePageText="Home" 
-                    activePageText="About Style One" 
+                    activePageText="About us" 
                 /> 
 
                 {/* <About /> */}
 
                 {/* <MakeYourBusiness /> */}
 
-                <Testimonials />    
+                {/* <Testimonials />     */}
 
                 <TeamTwo />
 
