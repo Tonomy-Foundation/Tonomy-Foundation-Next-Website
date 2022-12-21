@@ -16,9 +16,9 @@ class About1 extends Component {
 
                 <PageBanner 
                     pageTitle="About us" 
-                    homePageUrl="/" 
-                    homePageText="Home" 
-                    activePageText="About us" 
+                    // homePageUrl="/" 
+                    // homePageText="Home" 
+                    // activePageText="About us" 
                 /> 
 
                 {/* <About /> */}
