@@ -119,7 +119,9 @@ class Navbar extends Component {
                                         </ul>
                                     </li> */}
 
-                                    <li className="nav-item">
+
+
+                                    {/* <li className="nav-item">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 Products <i className='bx bx-chevron-down'></i>
                                             </a>
@@ -129,7 +131,9 @@ class Navbar extends Component {
                                                 <Link href="/products/tonomy-id" activeClassName="active">
                                                     <a className="nav-link">Tonomy ID</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
+
+
 
                                             {/* <li className="nav-item">
                                                 <Link href="/services-2" activeClassName="active">
@@ -154,8 +158,8 @@ class Navbar extends Component {
                                                     <a className="nav-link">Service Details</a>
                                                 </Link>
                                             </li> */}
-                                        </ul>
-                                    </li>
+                                        {/* </ul>
+                                    </li> */}
 
                                     {/* <li className="nav-item">
                                         <Link href="#">
@@ -275,12 +279,16 @@ class Navbar extends Component {
                                         </ul> */}
                                     </li>
 
-                                    <li className="nav-item">
+
+
+                                    {/* <li className="nav-item">
                                         <Link href="/contact">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
                                                 Contact
                                             </a>
-                                        </Link>
+                                        </Link> */}
+
+
 
                                         {/* <ul className="dropdown-menu">
                                             <li className="nav-item">
@@ -295,7 +303,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
                                         </ul> */}
-                                    </li>
+                                    {/* </li> */}
                                 </ul>
 
                                 {/* <div className="others-options">

@@ -18,7 +18,7 @@ class TeamTwo extends Component {
                                         <img src="/images/team/team-shape.png" alt="Image" />
                                     </div> */}
                   <img
-                    src="/images/team/Jack.jpg"
+                    src="/images/team/Jack.png"
                     alt="Image"
                     classname="epic"
                   />
