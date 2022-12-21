@@ -75,6 +75,33 @@ class Footer extends Component {
                           <i className="bx bxl-github"></i>
                         </a>
                       </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://www.instagram.com/tonomyfoundation/"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-instagram"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://www.youtube.com/@tonomyfoundation"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-youtube"></i>
+                        </a>
+                      </li>
+                      <li>
+                        <a
+                          style={iconBackground}
+                          href="https://www.facebook.com/profile.php?id=100088511093616"
+                          target="_blank"
+                        >
+                          <i className="bx bxl-facebook"></i>
+                        </a>
+                      </li>
                     </ul>
                   </div>
                 </div>
