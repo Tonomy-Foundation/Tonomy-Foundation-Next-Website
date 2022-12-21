@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
-
 class Navbar extends Component {
     _isMounted = false;
     state = {
@@ -25,7 +24,6 @@ class Navbar extends Component {
     componentWillUnmount() {
         this._isMounted = false;
     }
-
     render() {
         const { collapsed } = this.state;
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
@@ -36,18 +34,20 @@ class Navbar extends Component {
                     <nav className="navbar navbar-expand-md navbar-light">
                         <div className="container">
                             <Link href="/">
-                                <a className="navbar-brand">
-                                    <img src="/images/white-logo.png" alt="logo" />
+                                <a>
+                                    <img src="/images/logo.png"  width= "55" height="55 "alt="logo" />
                                 </a>
                             </Link>
-
-                            <button 
-                                onClick={this.toggleNavbar} 
+                            <h5>
+                                Tonomy Foundation
+                            </h5>
+                            <button
+                                onClick={this.toggleNavbar}
                                 className={classTwo}
-                                type="button" 
-                                data-toggle="collapse" 
-                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
-                                aria-expanded="false" 
+                                type="button"
+                                data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false"
                                 aria-label="Toggle navigation"
                             >
                                 <span className="icon-bar top-bar"></span>
@@ -251,9 +251,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="/about-us">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                About us
-                                            </a>
+                                        <a className="nav-link">About us</a>
                                         </Link>
 
                                         {/* <ul className="dropdown-menu">
