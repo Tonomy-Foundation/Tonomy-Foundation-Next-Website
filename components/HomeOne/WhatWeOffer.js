@@ -85,7 +85,7 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Developer</h3>
+                                                <h3>Developers</h3>
                                                 <p>Attention Developers! Are you ready to make a real impact in the world through your work? Then you need to join Tonomy! This organization is dedicated to building open source technology with the goal of making society more transparent and democratic. This is a mission that aligns with your values and working on open source projects will be a fulfilling way to contribute to positive social change. Don't miss out on this opportunity to not only make a difference, but also to learn, grow, and develop professionally. Don't wait any longer, join Tonomy now and make your mark on the world!</p>                          
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
@@ -138,7 +138,7 @@ const WhatWeOffer = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Investor</h3>
+                                                <h3>Investors</h3>
                                                 <p>Tonomy is leading the charge in the development of open source technology that is driving the demand for accountability and trust in society. With their cutting-edge approach and commitment to excellence, Tonomy is positioning itself as the go-to choice for investors looking to get in on the ground floor of something big. Don't miss out on the opportunity to be a part of something special – invest in Tonomy now and watch your returns soar as they continue to innovate and build secure, robust systems that drive financial success.</p>
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
@@ -203,7 +203,7 @@ const WhatWeOffer = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Tech partner</h3>
+                                                <h3>Tech partners</h3>
                                                 <p>Our technology provides a secure and efficient solution for managing digital interactions and transactions, which will greatly benefit many industries. By leveraging our state-of-the-art technology, tech partners can improve their services and offerings, ultimately providing a better experience for their customers. And by running our technology on our ecosystem, tech partners can take advantage of the scalability, reliability, and support that we offer. Don't miss out on this opportunity to improve your business and provide value to your customers.</p>                           
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
