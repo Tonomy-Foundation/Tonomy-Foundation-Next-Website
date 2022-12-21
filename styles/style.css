@@ -3755,6 +3755,7 @@ Industries Area Four Style
 Team Area Four Style
 ======================================================*/
 .epic {
+ position: relative;
   width: 30px;
   height: 30px;
 }

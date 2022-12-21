@@ -16,11 +16,10 @@ class TeamTwo extends Component {
                         <div className="col-lg-4 col-sm-6">
                             <div className="single-team active">
                                 <div className="team-single-img">
-                                    <img src="/images/team/Jack.jpg" alt="Image" classname="epic"/>
-
-                                    <div className="team-img">
+                                    {/* <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div>
+                                    </div> */}
+                                    <img src="/images/team/Jack.jpg" alt="Image" classname="epic"/>
                                 </div>
 
                                 <div className="team-content">
@@ -58,9 +57,9 @@ class TeamTwo extends Component {
                                 <div className="team-single-img">
                                     <img src="/images/team/team6.png" alt="Image" />
 
-                                    <div className="team-img">
+                                    {/* <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="team-content">
@@ -98,9 +97,9 @@ class TeamTwo extends Component {
                                 <div className="team-single-img">
                                     <img src="/images/team/team7.png" alt="Image" />
 
-                                    <div className="team-img">
+                                    {/* <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div>
+                                    </div> */}
                                 </div>
 
                                 <div className="team-content">
