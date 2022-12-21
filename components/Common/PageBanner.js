@@ -9,12 +9,12 @@ class PageBanner extends Component {
         return (
             <div className="page-title-area item-bg1">
                 <div className="container">
-                    <div className="page-title-content">
-                        <h2>{pageTitle}</h2>
-                        <h3 className="AboutUsText">
+                    <div className="page-title-content ">
+                        <h2 className="AboutUsHeader">{pageTitle}</h2>
+                        <p className="AboutUsText">
                         At the Tonomy Foundation, our mission is to empower democracy through transparent, open source tools. From digital IDs to DAOs and beyond, we strive to provide innovative solutions for a wide range of blockchains, including Antelope, EOS, Telos, and WAX. Join us in our commitment to building a better, more democratic future.
 
-                        </h3>
+                        </p>
                         {/* <ul>
                             <li>
                                 <Link href={homePageUrl}>
