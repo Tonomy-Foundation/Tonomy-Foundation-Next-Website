@@ -11,14 +11,18 @@ class PageBanner extends Component {
                 <div className="container">
                     <div className="page-title-content">
                         <h2>{pageTitle}</h2>
-                        <ul>
+                        <h3 className="AboutUsText">
+                        At the Tonomy Foundation, our mission is to empower democracy through transparent, open source tools. From digital IDs to DAOs and beyond, we strive to provide innovative solutions for a wide range of blockchains, including Antelope, EOS, Telos, and WAX. Join us in our commitment to building a better, more democratic future.
+
+                        </h3>
+                        {/* <ul>
                             <li>
                                 <Link href={homePageUrl}>
                                     <a>{homePageText}</a>
                                 </Link>
                             </li>
                             <li>{activePageText}</li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
             </div>
