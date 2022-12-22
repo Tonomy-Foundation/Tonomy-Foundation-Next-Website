@@ -3936,6 +3936,15 @@ Page Title Area Style
   overflow: hidden;
   text-align: center;
 }
+.page-title-area-id {
+  position: relative;
+  z-index: 1;
+  padding-top: 0px;
+  padding-bottom: 90px;
+  background-color: #04063c;
+  overflow: hidden;
+  text-align: center;
+}
 
 .page-title-area .page-title-content h2 {
   margin-bottom: 20px;
