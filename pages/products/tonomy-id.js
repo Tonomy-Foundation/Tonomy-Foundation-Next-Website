@@ -1,31 +1,40 @@
 import React, { Component } from 'react';
-import Navbar from '../components/Layouts/Navbar';
-import Footer from '../components/Layouts/Footer';
+import Navbar from '../../components/Layouts/Navbar';
+import Footer from '../../components/Layouts/Footer';
+import IdBanner from '../../components/Common/IdBanner';
 
-class ServiceDetailsContent extends Component {
+class Tonomyid extends Component {
     render() {
         return (
-            <section className="service-details-area ptb-100">
+            <>
+                <Navbar />
+                <IdBanner
+                pageTitle="Tonomy ID"
+                homePageUrl="/"
+                homePageText="Home"
+                activePageText="Contact Style One"
+                />
+
+                <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
                             <div className="service-details-wrap">
                                 <div className="service-img">
-                                    <img src="/images/services-details/services-details.jpg" alt="Image" />
+                                    {/* <img src="/images/tonomy-id.jpg" alt="Image" /> */}
                                 </div>
 
                                 <h3>Tonomy ID</h3>
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis ducimus rerum sunt dignissimos libero et eum modi! Consequuntur rem incidunt et ducimus magnam sunt rerum hic beatae sed obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium asperiores eos obcaecati nostrum sed, corporis placeat quasi pariatur id, est iure, minus quibusdam! Facilis.</p>
+                                <p>Tonomy ID with SSI <a href="https://www.youtube.com/watch?v=vuSPy1xMNVg">(Self-Sovereign Identity) </a> is a revolutionary way to securely and privately store your personal identity information. It allows you to digitally replace your wallet, storing all your important documents such as bank cards, passport, driver's license, medical records, diplomas, and property deeds. With SSI, you can also log into internet apps and share data privately, securely, and with consent.</p>
+                                <p>Our open-source <a href="https://play.google.com/store/apps/details?id=foundation.tonomy.projects.tonomyidstaging">mobile app</a> software offers sovereign recovery, sybil protection, and SSI, making it more secure than traditional web-based systems. It is available for both iOS and Android devices.
+                                Digital ID with SSI can also serve as a replacement for existing custodial identity systems such as email, oAuth, and openID connect. It offers a new sovereign internet architecture, allowing for autonomous access and data control without the need for SPF or custodians.
+                                For more information, <a href="https://www.youtube.com/watch?v=HXTB2_Fki6s&t=2s">watch our Digital ID workshop</a> and discover the many ways that this innovative technology can benefit you.</p>
 
-                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
-
-                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem, you to be sure there isn't anything.</p>
-
-                                {/* <div className="car-service-list-wrap">
+                                 {/*<div className="car-service-list-wrap">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6 col-md-6">
                                             <div className="service-list-img">
-                                                <img src="/images/services-details/services-details2.png" alt="Image" />
+                                                <img src="/images/tonomy-id.jpg" alt="Image" />
                                             </div>
                                         </div>
 
@@ -56,13 +65,12 @@ class ServiceDetailsContent extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
 
                                 {/* <AskQuestionForm /> */}
                             </div>
                         </div>
-
-
+                        
                         {/* <div className="col-lg-4">
                             <ServiceSidebar />
                         </div> */}
@@ -70,7 +78,9 @@ class ServiceDetailsContent extends Component {
                 </div>
             </section>
         );
+                <Footer />
+            </>
+        );
     }
 }
-
-export default ServiceDetailsContent;
+export default Tonomyid;
