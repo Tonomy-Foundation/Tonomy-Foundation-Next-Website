@@ -189,7 +189,7 @@ class TeamTwo extends Component {
                   <h3>Rebal Alhaqash</h3>
                   <span>Developer</span>
                   <span>
-                    Rebal, our blockchain and SSI developer. With his abilities or competence
+                    Rebal, our blockchain and SSI developer. With his abilities 
                     in these areas, he makes valuable contributions to the
                     foundation of our company. When he's not working, Rebal
                     enjoys spending time playing a variety of video games. We're
