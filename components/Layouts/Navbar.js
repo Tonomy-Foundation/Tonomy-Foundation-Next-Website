@@ -281,12 +281,11 @@ class Navbar extends Component {
 
 
 
-                                    {/* <li className="nav-item">
+                                    <li className="nav-item">
                                         <Link href="/contact">
-                                            <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Contact
-                                            </a>
-                                        </Link> */}
+                                        <a className="nav-link">Contact</a>
+                                        </Link>
+                                    </li>
 
 
 
