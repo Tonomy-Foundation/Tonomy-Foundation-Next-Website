@@ -46,7 +46,7 @@ const WhatWeOffer = () => {
                                     onClick={(e) => openTabSection(e, 'tab3')}
                                 >
                                     <span>
-                                        <i className="flaticon-health"></i>
+                                        <i className="flaticon-technical-support"></i>
                                         <h3 className="pl-20">Tech Partners</h3>
                                     </span>
                                 </li>
