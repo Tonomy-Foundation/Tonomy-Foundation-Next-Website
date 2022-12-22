@@ -1,37 +1,74 @@
-import Navbar from '../../components/Layouts/Navbar'
-import MainBanner from '../../components/HomeOne/MainBanner'
-import Features from '../../components/HomeOne/Features'
-import WhyChooseUs from '../../components/HomeOne/WhyChooseUs'
-import Services from '../../components/HomeOne/Services'
-import Footer from '../../components/Layouts/Footer'
-import Partner from '../../components/Common/Partner';
-import Newsletter from '../../components/Common/Newsletter'
-import WhatWeOffer from "../../components/HomeOne/WhatWeOffer"
+import React, { Component } from 'react';
 
-const Index = () => {
-    return (
-        <>
-            <Navbar />
+class ServiceDetailsContent extends Component {
+    render() {
+        return (
+            <section className="service-details-area ptb-100">
+                <div className="container">
+                    <div className="row">
+                        <div className="col-lg-8">
+                            <div className="service-details-wrap">
+                                <div className="service-img">
+                                    <img src="/images/services-details/services-details.jpg" alt="Image" />
+                                </div>
 
-            <MainBanner />
+                                <h3>Service Of Warehousing</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas veritatis ducimus rerum sunt dignissimos libero et eum modi! Consequuntur rem incidunt et ducimus magnam sunt rerum hic beatae sed obcaecati. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium asperiores eos obcaecati nostrum sed, corporis placeat quasi pariatur id, est iure, minus quibusdam! Facilis.</p>
 
-            {/* <Features />
+                                <p>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classNameical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words.</p>
 
-            <WhyChooseUs />
+                                <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem, you to be sure there isn't anything.</p>
 
-            <Services />
-            
-            <WhatWeOffer/> */}
-            
-            {/* <MakeYourBusiness /> */}
+                                {/* <div className="car-service-list-wrap">
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6 col-md-6">
+                                            <div className="service-list-img">
+                                                <img src="/images/services-details/services-details2.png" alt="Image" />
+                                            </div>
+                                        </div>
 
-            {/* <Partner /> */}
+                                        <div className="col-lg-6 col-md-6">
+                                            <div className="car-service-list">
+                                                <ul>
+                                                    <li>
+                                                        <i className='bx bx-check'></i>
+                                                        Engine bay cleaned and dressed
+                                                    </li>
+                                                    <li>
+                                                        <i className='bx bx-check'></i>
+                                                        Door card panels cleaned
+                                                    </li>
+                                                    <li>
+                                                        <i className='bx bx-check'></i>
+                                                        Plastic trim enhanced
+                                                    </li>
+                                                    <li>
+                                                        <i className='bx bx-check'></i>
+                                                        Paint surface clay barred
+                                                    </li>
+                                                    <li>
+                                                        <i className='bx bx-check'></i>
+                                                        Alloy wheel treatment inside and out
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
 
-            {/* <Newsletter/> */}
+                                {/* <AskQuestionForm /> */}
+                            </div>
+                        </div>
 
-            <Footer />
-        </>
-    )
+
+                        {/* <div className="col-lg-4">
+                            <ServiceSidebar />
+                        </div> */}
+                    </div>
+                </div>
+            </section>
+        );
+    }
 }
 
-export default Index
+export default ServiceDetailsContent;
