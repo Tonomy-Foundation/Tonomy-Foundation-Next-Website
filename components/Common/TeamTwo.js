@@ -28,7 +28,7 @@ class TeamTwo extends Component {
                   <h3>Jack Tanner</h3>
                   <span>CTO</span>
                   <span>
-                    Our tech-savvy CTO and Co-founder. Not only is Jack
+                    Our tech-savvy CTO and Co-Founder. Not only is Jack
                     passionate about blockchain development, he's also an avid
                     fan of techno music. With his expertise in all things tech,
                     Jack is a valuable asset to our team and we're thrilled to
@@ -81,7 +81,7 @@ class TeamTwo extends Component {
                   <h3>Christiaan Verhoef</h3>
                   <span>CMO</span>
                   <span>
-                    Chris is one of our energetic Co-founders, with a passion
+                    Chris is one of our energetic Co-Founders, with a passion
                     for empowering people and solving tough problems. His
                     extensive background in marketing makes him a valuable asset
                     to our team. Chris is always ready to roll up his sleeves
@@ -189,7 +189,7 @@ class TeamTwo extends Component {
                   <h3>Rebal Alhaqash</h3>
                   <span>Developer</span>
                   <span>
-                    Rebal, our blockchain and SSI developer. With his expertise
+                    Rebal, our blockchain and SSI developer. With his abilities or competence
                     in these areas, he makes valuable contributions to the
                     foundation of our company. When he's not working, Rebal
                     enjoys spending time playing a variety of video games. We're
