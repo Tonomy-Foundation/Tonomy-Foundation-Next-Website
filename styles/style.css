@@ -5834,6 +5834,11 @@ Service Details Area Style
 .service-details-wrap .mb-30 {
   margin-bottom: 30px;
 }
+.tonomy-id-app {
+  height: 30px;
+  width: 30px;
+  margin-bottom: 30px;
+}
 
 .service-details-wrap .service-img {
   margin-bottom: 30px;
