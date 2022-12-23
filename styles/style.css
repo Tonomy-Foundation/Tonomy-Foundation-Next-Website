@@ -177,6 +177,11 @@ p:last-child {
 .FooterLogoDiv {
   display: flex;
   align-self: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 10%; /* or any other percentage value */
 }
 
 img {
