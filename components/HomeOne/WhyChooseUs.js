@@ -59,7 +59,7 @@ const WhyChooseUs = () => {
             </div>
           </div>
 
-          <div className="col-md-6 pl-50">
+          <div className="col-lg-6 pl-50">
             <div className="choose-img">
               <img src="/images/teamwork.svg" alt="Image" />
             </div>
