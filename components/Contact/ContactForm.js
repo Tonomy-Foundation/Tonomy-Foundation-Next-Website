@@ -1,25 +1,4 @@
-<script src="https://smtpjs.com/v3/smtp.js"></script>
-<script>import React, { useState } from 'react'
-
-const   form=document.querySelector('.contact_form')
-
-function SendEmail(e){
-    e.preventDefault();
-const   name=document.querySelector('.name'),
-        email=document.querySelector('.email'),
-        msg=document.querySelector('msg');
-
-Email.send({
-    SecureToken : "4acac167-8e8a-4b10-bb57-ac0bcc5c37e8",
-    To : 'contact@tonomy.foundation',
-    From :  email.value,
-    Subject : "Contact form",
-    Body : msg.value
-}).then(
-  message => alert(message)
-);
-}
- form.addEventListener('submit',SendEmail)
+import React, { useState } from 'react'
 const ContactForm = () => {
     return (
         <div className="main-contact-area pb-100">
@@ -118,4 +97,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;</script>
+export default ContactForm;
