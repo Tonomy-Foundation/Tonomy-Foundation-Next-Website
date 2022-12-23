@@ -189,7 +189,7 @@ class TeamTwo extends Component {
                   <h3>Rebal Alhaqash</h3>
                   <span>Developer</span>
                   <span>
-                    Rebal, our blockchain and SSI developer. With his abilities 
+                    Rebal, our blockchain and SSI developer. With his abilities
                     in these areas, he makes valuable contributions to the
                     foundation of our company. When he's not working, Rebal
                     enjoys spending time playing a variety of video games. We're
@@ -300,8 +300,8 @@ class TeamTwo extends Component {
                     language experience to his role as grant writer. He has a
                     talent for taking complex ideas and breaking them down into
                     simpler terms, making it easier for others to understand.
-                    Yegor's dedication and expertise make him a valuable asset
-                    to the foundation.
+                    Prefers to spend his free time studying something new and
+                    working out. Has a cat, her name is Leia.
                   </span>
 
                   <ul>
