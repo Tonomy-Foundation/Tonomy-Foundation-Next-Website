@@ -11,15 +11,15 @@ const transporter = {
 const mailer = nodemailer.createTransport(sgTransport(transporter));
 
 export default async (req, res) => {
-    // console.log(req.body)
+     console.log(req.body)
 
     const {name, email, text} = req.body;
 
     const data = {
         // Update your email here
-        to: 'exampleyour@gmail.com',
+        to: 'contact@tonomy.foundation',
         from: email,
-        subject: 'Hi there',
+        subject: 'Contact form',
         text: text,
         html: `
             <b>From:</b> ${name} <br />
