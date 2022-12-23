@@ -750,14 +750,14 @@ class TeamTwo extends Component {
                                                 <i className="bx bxl-facebook"></i>
                                             </a> */}
                     {/* </li> */}
-                    <li>
+                    {/* <li>
                       <a
                         href="https://twitter.com/NadiaAUqaili"
                         target="_blank"
                       >
                         <i className="bx bxl-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="https://www.linkedin.com/in/nadia-ahmed-uqaili-2a948823b/"
