@@ -760,7 +760,7 @@ class TeamTwo extends Component {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/nadia-ahmed-uqaili-2a948823b/"
+                        href="https://www.linkedin.com/in/suneet-bendre"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>
