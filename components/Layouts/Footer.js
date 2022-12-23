@@ -24,13 +24,13 @@ class Footer extends Component {
                   </a>
                   <div className="flex-container FooterLogoDiv">
                     <ul className="social-icons d-flex flex-wrap justify-content-center">
-                      <li className="item mx-2 mb-3">
+                      <li className="item mx-2 mb-3 text-center">
                         <a
                           style={iconBackground}
                           href="https://twitter.com/TonomyF"
                           target="_blank"
                         >
-                          <i className="bx bxl-twitter"></i>
+                          <i className="icon bx bxl-twitter bx-md mx-auto"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -39,7 +39,7 @@ class Footer extends Component {
                           href="https://discord.gg/95J74ZbAgw"
                           target="_blank"
                         >
-                          <i className="bx bxl-discord"></i>
+                          <i className="bx bxl-discord bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -48,7 +48,7 @@ class Footer extends Component {
                           href="https://www.linkedin.com/company/tonomy-foundation/"
                           target="_blank"
                         >
-                          <i className="bx bxl-linkedin"></i>
+                          <i className="bx bxl-linkedin bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -57,7 +57,7 @@ class Footer extends Component {
                           href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
                           target="_blank"
                         >
-                          <i className="bx bxs-briefcase"></i>
+                          <i className="bx bxs-briefcase bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -66,7 +66,7 @@ class Footer extends Component {
                           href="https://github.com/Tonomy-Foundation"
                           target="_blank"
                         >
-                          <i className="bx bxl-github"></i>
+                          <i className="bx bxl-github bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -75,7 +75,7 @@ class Footer extends Component {
                           href="https://www.instagram.com/tonomyfoundation/"
                           target="_blank"
                         >
-                          <i className="bx bxl-instagram"></i>
+                          <i className="bx bxl-instagram bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -84,7 +84,7 @@ class Footer extends Component {
                           href="https://www.youtube.com/@tonomyfoundation"
                           target="_blank"
                         >
-                          <i className="bx bxl-youtube"></i>
+                          <i className="bx bxl-youtube bx-md"></i>
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
@@ -93,7 +93,7 @@ class Footer extends Component {
                           href="https://www.facebook.com/profile.php?id=100088511093616"
                           target="_blank"
                         >
-                          <i className="bx bxl-facebook"></i>
+                          <i className="bx bxl-facebook bx-md"></i>
                         </a>
                       </li>
                     </ul>
