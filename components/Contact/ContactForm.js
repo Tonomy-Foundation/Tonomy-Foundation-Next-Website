@@ -49,7 +49,7 @@ const ContactForm = () => {
                                                 />
                                             </div>
                                         </div> */}
-                                        {/* <div className="col-lg-6 col-sm-6">
+                                        <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
                                                 <input
                                                     type="text"
@@ -59,7 +59,7 @@ const ContactForm = () => {
                                                     required
                                                 />
                                             </div>
-                                        </div> */}
+                                        </div>
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
                                                 <textarea
