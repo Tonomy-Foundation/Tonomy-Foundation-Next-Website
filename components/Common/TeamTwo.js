@@ -300,8 +300,8 @@ class TeamTwo extends Component {
                     language experience to his role as grant writer. He has a
                     talent for taking complex ideas and breaking them down into
                     simpler terms, making it easier for others to understand.
-                    Yegor's dedication and expertise make him a valuable asset
-                    to the foundation.
+                    Yegor prefers to spend his free time studying something 
+                    new and working out. Has a cat, her name is Leia.
                   </span>
 
                   <ul>
@@ -760,7 +760,7 @@ class TeamTwo extends Component {
                     </li>
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/nadia-ahmed-uqaili-2a948823b/"
+                        href="https://www.linkedin.com/in/suneet-bendre"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>
