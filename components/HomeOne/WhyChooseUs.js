@@ -21,7 +21,7 @@ const WhyChooseUs = () => {
                   </span>
                   <h3>Tonomy ID (Under development)</h3>
                   <p>
-                    Tonomy ID is a secure and private self-sovereign identity and blockchain wallet that allows users to log in to apps in your ecosystem.
+                    <a href="/products/tonomy-id">Tonomy ID</a> is a secure and private self-sovereign identity and blockchain wallet that allows users to log in to apps in your ecosystem.
                     Personal information and passwords are stored exclusively on the user's phone, automatically complying with GDPR.
                   </p>
                 </li>
