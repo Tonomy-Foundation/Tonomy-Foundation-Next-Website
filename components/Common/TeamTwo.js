@@ -29,7 +29,7 @@ class TeamTwo extends Component {
                   <span>CTO</span>
                   <span>
                     Our tech-savvy CTO and Co-Founder. Not only is Jack
-                    passionate about blockchain development, he's also an avid
+                    passionate about SSI development, he's also an avid
                     fan of techno music. With his expertise in all things tech,
                     Jack is a valuable asset to our team and we're thrilled to
                     have him on board.
