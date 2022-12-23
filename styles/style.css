@@ -377,6 +377,7 @@ Go Top Style
   line-height: 42px;
   -webkit-transition: .9s;
   transition: .9s;
+  margin-bottom: 50px;
 }
 
 .scroll-to-top .top i {
