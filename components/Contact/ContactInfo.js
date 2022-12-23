@@ -6,16 +6,16 @@ class ContactInfo extends Component {
       <div className="contact-info-area pt-100 pb-70">
         <div className="container">
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            {/* <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-discord-alt"></i>
                 <h3>Chat with us:</h3>
                 <a href="https://www.discord.gg/b4AAjehsMM" target="_blank">
-                  <button className="default-btn btn-two"><p>Discord</p></button>
+                  <button className="default-btn"><p>Discord</p></button>
                 </a>
                 <br></br>
               </div>
-            </div>
+            </div> */}
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
