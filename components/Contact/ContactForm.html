@@ -1,5 +1,25 @@
-import React, { useState } from 'react'
+<script src="https://smtpjs.com/v3/smtp.js"></script>
+<script>import React, { useState } from 'react'
 
+const   form=document.querySelector('.contact_form')
+
+function SendEmail(e){
+    e.preventDefault();
+const   name=document.querySelector('.name'),
+        email=document.querySelector('.email'),
+        msg=document.querySelector('msg');
+
+Email.send({
+    SecureToken : "4acac167-8e8a-4b10-bb57-ac0bcc5c37e8",
+    To : 'contact@tonomy.foundation',
+    From :  email.value,
+    Subject : "Contact form",
+    Body : msg.value
+}).then(
+  message => alert(message)
+);
+}
+ form.addEventListener('submit',SendEmail)
 const ContactForm = () => {
     return (
         <div className="main-contact-area pb-100">
@@ -19,57 +39,57 @@ const ContactForm = () => {
                                     <div className="row">
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="name" 
-                                                    placeholder="Name" 
-                                                    className="form-control" 
-                                                    required 
+                                                <input
+                                                    type="text"
+                                                    name="name"
+                                                    placeholder="Name"
+                                                    className="form-control"
+                                                    required
                                                 />
                                             </div>
                                         </div>
                                         <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="email" 
-                                                    placeholder="Email" 
-                                                    className="form-control" 
-                                                    required 
+                                                <input
+                                                    type="text"
+                                                    name="email"
+                                                    placeholder="Email"
+                                                    className="form-control"
+                                                    required
                                                 />
                                             </div>
                                         </div>
                                         {/* <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="number" 
-                                                    placeholder="Phone number" 
-                                                    className="form-control" 
-                                                    required 
+                                                <input
+                                                    type="text"
+                                                    name="number"
+                                                    placeholder="Phone number"
+                                                    className="form-control"
+                                                    required
                                                 />
                                             </div>
                                         </div> */}
                                         {/* <div className="col-lg-6 col-sm-6">
                                             <div className="form-group">
-                                                <input 
-                                                    type="text" 
-                                                    name="subject" 
-                                                    placeholder="Subject" 
-                                                    className="form-control" 
-                                                    required 
+                                                <input
+                                                    type="text"
+                                                    name="subject"
+                                                    placeholder="Subject"
+                                                    className="form-control"
+                                                    required
                                                 />
                                             </div>
                                         </div> */}
                                         <div className="col-lg-12 col-md-12">
                                             <div className="form-group">
-                                                <textarea 
-                                                    name="text" 
-                                                    cols="30" 
-                                                    rows="6" 
-                                                    placeholder="Please introduce yourself and write your message here." 
-                                                    className="form-control" 
-                                                    required 
+                                                <textarea
+                                                    name="text"
+                                                    cols="30"
+                                                    rows="6"
+                                                    placeholder="Please introduce yourself and write your message here."
+                                                    className="form-control"
+                                                    required
                                                 />
                                             </div>
                                         </div>
@@ -98,4 +118,4 @@ const ContactForm = () => {
     )
 }
 
-export default ContactForm;
+export default ContactForm;</script>
