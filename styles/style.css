@@ -377,6 +377,7 @@ Go Top Style
   line-height: 42px;
   -webkit-transition: .9s;
   transition: .9s;
+  margin-bottom: 50px;
 }
 
 .scroll-to-top .top i {
@@ -3138,7 +3139,7 @@ Pricing Area Style
 Newsletter Area Style
 ======================================================*/
 .newsletter-area {
-  background-color: #060542;
+  /* background-color: #060542; */
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -3773,7 +3774,7 @@ Business Area Four Style
 Offer Area Four Style
 ======================================================*/
 .offer-area-four {
-  background-color: #060542;
+  /* background-color: #060542; */
 }
 
 .offer-area-four .offer-shape img:nth-child(1) {
@@ -3838,9 +3839,9 @@ Team Area Four Style
           animation: rotation 20s linear infinite;
 }
 
-.single-team .team-content h3 {
+/* .single-team .team-content h3 {
   color: #212121;
-}
+} */
 
 .single-team .team-content span {
   margin-bottom: 15px;
@@ -4456,9 +4457,9 @@ Ask Question Area Style
 /*
 Ask Question Area Style
 =====================================================*/
-.team-inner-area .single-team {
+/* .team-inner-area .single-team {
   background-color: #060542;
-}
+} */
 
 .team-inner-area .single-team:hover {
   -webkit-transform: translateY(-5px);

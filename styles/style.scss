@@ -265,6 +265,7 @@ Go Top Style
 		height: 42px;
 		line-height: 42px;
 		transition: .9s;
+		margin-bottom: 30px;
 
 		i {
 			position: absolute;
@@ -3845,7 +3846,7 @@ Ask Question Area Style
 =====================================================*/
 .team-inner-area {
 	.single-team {
-		background-color: #060542;
+		// background-color: #060542;
 		&:hover {
 			transform: translateY(-5px);
 		}

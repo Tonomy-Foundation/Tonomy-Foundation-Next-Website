@@ -12,7 +12,7 @@ class TeamTwo extends Component {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
+              <div className="single-team">
                 <div className="team-single-img">
                   {/* <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
