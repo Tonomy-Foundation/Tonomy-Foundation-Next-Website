@@ -12,10 +12,10 @@ class Contact extends Component {
                 <Navbar />
 
                 <PageBanner
-                    pageTitle="Contact Style One"
+                    pageTitle="Contact us"
                     homePageUrl="/"
                     homePageText="Home"
-                    activePageText="Contact Style One"
+                    activePageText="Contact us"
                 />
 
                 <ContactInfo />
