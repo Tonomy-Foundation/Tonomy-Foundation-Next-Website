@@ -263,7 +263,7 @@ class Navbar extends Component {
                                     </li>
                                     <li className="nav-item">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
-                                                Products <i className='bx bx-chevron-down'></i>
+                                                Solutions <i className='bx bx-chevron-down'></i>
                                             </a>
 
                                         <ul className="dropdown-menu">
