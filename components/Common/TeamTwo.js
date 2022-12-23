@@ -12,7 +12,7 @@ class TeamTwo extends Component {
 
           <div className="row">
             <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
+              <div className="single-team">
                 <div className="team-single-img">
                   {/* <div className="team-img">
                                         <img src="/images/team/team-shape.png" alt="Image" />
@@ -28,8 +28,8 @@ class TeamTwo extends Component {
                   <h3>Jack Tanner</h3>
                   <span>CTO</span>
                   <span>
-                    Our tech-savvy CTO and Co-founder. Not only is Jack
-                    passionate about blockchain development, he's also an avid
+                    Our tech-savvy CTO and Co-Founder. Not only is Jack
+                    passionate about SSI development, he's also an avid
                     fan of techno music. With his expertise in all things tech,
                     Jack is a valuable asset to our team and we're thrilled to
                     have him on board.
@@ -81,7 +81,7 @@ class TeamTwo extends Component {
                   <h3>Christiaan Verhoef</h3>
                   <span>CMO</span>
                   <span>
-                    Chris is one of our energetic Co-founders, with a passion
+                    Chris is one of our energetic Co-Founders, with a passion
                     for empowering people and solving tough problems. His
                     extensive background in marketing makes him a valuable asset
                     to our team. Chris is always ready to roll up his sleeves
@@ -189,7 +189,7 @@ class TeamTwo extends Component {
                   <h3>Rebal Alhaqash</h3>
                   <span>Developer</span>
                   <span>
-                    Rebal, our blockchain and SSI developer. With his expertise
+                    Rebal, our blockchain and SSI developer. With his abilities
                     in these areas, he makes valuable contributions to the
                     foundation of our company. When he's not working, Rebal
                     enjoys spending time playing a variety of video games. We're
@@ -300,8 +300,8 @@ class TeamTwo extends Component {
                     language experience to his role as grant writer. He has a
                     talent for taking complex ideas and breaking them down into
                     simpler terms, making it easier for others to understand.
-                    Yegor's dedication and expertise make him a valuable asset
-                    to the foundation.
+                    Prefers to spend his free time studying something new and
+                    working out. Has a cat, her name is Leia.
                   </span>
 
                   <ul>
@@ -750,14 +750,14 @@ class TeamTwo extends Component {
                                                 <i className="bx bxl-facebook"></i>
                                             </a> */}
                     {/* </li> */}
-                    <li>
+                    {/* <li>
                       <a
                         href="https://twitter.com/NadiaAUqaili"
                         target="_blank"
                       >
                         <i className="bx bxl-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="https://www.linkedin.com/in/nadia-ahmed-uqaili-2a948823b/"

@@ -83,7 +83,7 @@ body {
   padding: 0;
   margin: 0;
   font-size: 15px;
-  line-height: 1.8;
+  line-height: 2.0;
   font-family: "Open Sans", sans-serif;
   color: #4d4d4d;
 }
@@ -177,6 +177,28 @@ p:last-child {
 .FooterLogoDiv {
   display: flex;
   align-self: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 15%; /* or any other percentage value */
+}
+
+.item a {
+  width: 40px;
+  height: 40px;
+  border-radius: 50px;
+  margin: 0 auto;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+ }
+
+ .icon {
+  margin-left: -17px;
+  margin-top: 2px;
 }
 
 img {
@@ -1691,7 +1713,7 @@ About Area Style
 }
 
 .about-content {
-  margin-top: -8px;
+  margin-top: 20px;
 }
 
 .about-content span {
@@ -2535,6 +2557,16 @@ News Area Style
 /*
 Footer Top Area Style
 ======================================================*/
+
+.social-icons {
+  list-style: none;
+}
+
+.item {
+  display: inline-block;
+  border-radius: 50px;
+}
+
 .footer-top-area {
   background-color: #00042c;
   position: relative;
@@ -3106,7 +3138,7 @@ Pricing Area Style
 Newsletter Area Style
 ======================================================*/
 .newsletter-area {
-  background-color: #060542;
+  /* background-color: #060542; */
   position: relative;
   overflow: hidden;
   z-index: 1;
@@ -3741,7 +3773,7 @@ Business Area Four Style
 Offer Area Four Style
 ======================================================*/
 .offer-area-four {
-  background-color: #060542;
+  /* background-color: #060542; */
 }
 
 .offer-area-four .offer-shape img:nth-child(1) {
@@ -3806,9 +3838,9 @@ Team Area Four Style
           animation: rotation 20s linear infinite;
 }
 
-.single-team .team-content h3 {
+/* .single-team .team-content h3 {
   color: #212121;
-}
+} */
 
 .single-team .team-content span {
   margin-bottom: 15px;
@@ -3932,6 +3964,15 @@ Page Title Area Style
   z-index: 1;
   padding-top: 200px;
   padding-bottom: 150px;
+  background-color: #04063c;
+  overflow: hidden;
+  text-align: center;
+}
+.page-title-area-id {
+  position: relative;
+  z-index: 1;
+  padding-top: 0px;
+  padding-bottom: 90px;
   background-color: #04063c;
   overflow: hidden;
   text-align: center;
@@ -4415,9 +4456,9 @@ Ask Question Area Style
 /*
 Ask Question Area Style
 =====================================================*/
-.team-inner-area .single-team {
+/* .team-inner-area .single-team {
   background-color: #060542;
-}
+} */
 
 .team-inner-area .single-team:hover {
   -webkit-transform: translateY(-5px);
@@ -5824,6 +5865,10 @@ Service Details Area Style
 
 .service-details-wrap .mb-30 {
   margin-bottom: 30px;
+}
+.tonomy-id-app {
+  height: 40%;
+  width: 40%;
 }
 
 .service-details-wrap .service-img {
