@@ -22,84 +22,78 @@ class Footer extends Component {
                       className="rounded mx-auto d-block"
                     />
                   </a>
-                  {/* <p>Check out our socials below!</p> */}
-                  <div className="FooterLogoDiv">
-                    <ul className="social-icon">
-                      {/* <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li> */}
-                      <li>
+                  <div className="flex-container FooterLogoDiv">
+                    <ul className="social-icons d-flex flex-wrap justify-content-center">
+                      <li className="item mx-2 mb-3 text-center">
                         <a
                           style={iconBackground}
                           href="https://twitter.com/TonomyF"
                           target="_blank"
                         >
-                          <i className="bx bxl-twitter"></i>
+                          <i className="icon bx bxl-twitter bx-md text-center"></i>{" "}
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://discord.gg/95J74ZbAgw"
                           target="_blank"
                         >
-                          <i className="bx bxl-discord"></i>
+                          <i className="icon bx bxl-discord bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/"
                           target="_blank"
                         >
-                          <i className="bx bxl-linkedin"></i>
+                          <i className="icon bx bxl-linkedin bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
                           target="_blank"
                         >
-                          <i className="bx bxs-briefcase"></i>
+                          <i className="icon bx bxs-briefcase bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://github.com/Tonomy-Foundation"
                           target="_blank"
                         >
-                          <i className="bx bxl-github"></i>
+                          <i className="icon bx bxl-github bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.instagram.com/tonomyfoundation/"
                           target="_blank"
                         >
-                          <i className="bx bxl-instagram"></i>
+                          <i className="icon bx bxl-instagram bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.youtube.com/@tonomyfoundation"
                           target="_blank"
                         >
-                          <i className="bx bxl-youtube"></i>
+                          <i className="icon bx bxl-youtube bx-md"></i>
                         </a>
                       </li>
-                      <li>
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.facebook.com/profile.php?id=100088511093616"
                           target="_blank"
                         >
-                          <i className="bx bxl-facebook"></i>
+                          <i className="icon bx bxl-facebook bx-md"></i>
                         </a>
                       </li>
                     </ul>
