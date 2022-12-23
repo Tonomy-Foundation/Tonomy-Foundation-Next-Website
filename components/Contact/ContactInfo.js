@@ -6,7 +6,7 @@ class ContactInfo extends Component {
             <div className="contact-info-area pt-100 pb-70">
                 <div className="container">
                     <div classname="justify-content-center">
-                        <div className="row">
+                        <div className="row justify-content-center">
                             <div className="col-lg-3 col-sm-6">
                                 <div className="single-contact-info">
                                     <i className="bx bx-envelope"></i>
