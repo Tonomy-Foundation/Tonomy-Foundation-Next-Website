@@ -2540,6 +2540,16 @@ News Area Style
 /*
 Footer Top Area Style
 ======================================================*/
+
+.social-icons {
+  list-style: none;
+}
+
+.item {
+  display: inline-block;
+  border-radius: 50px;
+}
+
 .footer-top-area {
   background-color: #00042c;
   position: relative;

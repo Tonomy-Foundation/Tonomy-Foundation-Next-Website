@@ -22,15 +22,9 @@ class Footer extends Component {
                       className="rounded mx-auto d-block"
                     />
                   </a>
-                  {/* <p>Check out our socials below!</p> */}
-                  <div className="FooterLogoDiv">
-                    <ul className="social-icon ">
-                      {/* <li>
-                                            <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a>
-                                        </li> */}
-                      <li className="item">
+                  <div className="flex-container FooterLogoDiv">
+                    <ul className="social-icons d-flex flex-wrap justify-content-center">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://twitter.com/TonomyF"
@@ -39,7 +33,7 @@ class Footer extends Component {
                           <i className="bx bxl-twitter"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://discord.gg/95J74ZbAgw"
@@ -48,7 +42,7 @@ class Footer extends Component {
                           <i className="bx bxl-discord"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/"
@@ -57,7 +51,7 @@ class Footer extends Component {
                           <i className="bx bxl-linkedin"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
@@ -66,7 +60,7 @@ class Footer extends Component {
                           <i className="bx bxs-briefcase"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://github.com/Tonomy-Foundation"
@@ -75,7 +69,7 @@ class Footer extends Component {
                           <i className="bx bxl-github"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.instagram.com/tonomyfoundation/"
@@ -84,7 +78,7 @@ class Footer extends Component {
                           <i className="bx bxl-instagram"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.youtube.com/@tonomyfoundation"
@@ -93,7 +87,7 @@ class Footer extends Component {
                           <i className="bx bxl-youtube"></i>
                         </a>
                       </li>
-                      <li className="item">
+                      <li className="item mx-2 mb-3">
                         <a
                           style={iconBackground}
                           href="https://www.facebook.com/profile.php?id=100088511093616"
