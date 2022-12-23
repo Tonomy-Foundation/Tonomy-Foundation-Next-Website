@@ -29,7 +29,7 @@ class TeamTwo extends Component {
                   <span>CTO</span>
                   <span>
                     Our tech-savvy CTO and Co-Founder. Not only is Jack
-                    passionate about blockchain development, he's also an avid
+                    passionate about SSI development, he's also an avid
                     fan of techno music. With his expertise in all things tech,
                     Jack is a valuable asset to our team and we're thrilled to
                     have him on board.
@@ -189,7 +189,7 @@ class TeamTwo extends Component {
                   <h3>Rebal Alhaqash</h3>
                   <span>Developer</span>
                   <span>
-                    Rebal, our blockchain and SSI developer. With his abilities 
+                    Rebal, our blockchain and SSI developer. With his abilities
                     in these areas, he makes valuable contributions to the
                     foundation of our company. When he's not working, Rebal
                     enjoys spending time playing a variety of video games. We're
@@ -300,8 +300,8 @@ class TeamTwo extends Component {
                     language experience to his role as grant writer. He has a
                     talent for taking complex ideas and breaking them down into
                     simpler terms, making it easier for others to understand.
-                    Yegor prefers to spend his free time studying something 
-                    new and working out. Has a cat, her name is Leia.
+                    Prefers to spend his free time studying something new and
+                    working out. Has a cat, her name is Leia.
                   </span>
 
                   <ul>
@@ -750,14 +750,14 @@ class TeamTwo extends Component {
                                                 <i className="bx bxl-facebook"></i>
                                             </a> */}
                     {/* </li> */}
-                    <li>
+                    {/* <li>
                       <a
                         href="https://twitter.com/NadiaAUqaili"
                         target="_blank"
                       >
                         <i className="bx bxl-twitter"></i>
                       </a>
-                    </li>
+                    </li> */}
                     <li>
                       <a
                         href="https://www.linkedin.com/in/suneet-bendre"
