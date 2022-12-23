@@ -493,6 +493,11 @@ Page-navigation Area Style
   padding: 0;
 }
 
+.CenterDiv {
+  align-self: center;
+  display: flex;
+}
+
 .page-navigation-area .page-link i {
   margin-right: -4px;
 }
