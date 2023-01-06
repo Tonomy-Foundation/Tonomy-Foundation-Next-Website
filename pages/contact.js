@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from '../components/Layouts/Navbar';
 import ContactBanner from '../components/Common/ContactBanner';
 import ContactInfo from '../components/Contact/ContactInfo';
-import ContactForm from '../components/Contact/ContactForm';
+import ContactFormStyleTwo from '../components/Contact/ContactFormStyleTwo';
 import Footer from '../components/Layouts/Footer';
 
 class Contact extends Component {
@@ -20,7 +20,7 @@ class Contact extends Component {
 
                 <ContactInfo />
 
-                <ContactForm />
+                <ContactFormStyleTwo />
 
                 <Footer />
             </>
