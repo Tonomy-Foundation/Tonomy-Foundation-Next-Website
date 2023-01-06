@@ -4,19 +4,21 @@ import MailchimpSubscribe from "react-mailchimp-subscribe"
 const url = "https://us12.list-manage.com/contact-form?u=fdd40ebf441b888a2d75c41fd&form_id=eee2e8567ab48c31cc20a0349787ec09";
 
 const ContactFormStyleTwo = ({ status, message, subject, onValidated }) => {
-    let email, name;
-    const submit = () =>
-      email &&
-      name &&
-      subject &&
-      message &&
-      email.value.indexOf("@") > -1 &&
-      onValidated({
-        EMAIL: email.value,
-        NAME: name.value,
-        SUBJECT: subject.value,
-        MESSAGE: message.value
-      });
+    let email, name, subjectInput, messageInput;
+    const submit = (e) => {
+        e.preventDefault();
+        email &&
+        name &&
+        subjectInput &&
+        messageInput &&
+        email.value.indexOf("@") > -1 &&
+        onValidated({
+            EMAIL: email.value,
+            NAME: name.value,
+            SUBJECT: subjectInput.value,
+            MESSAGE: messageInput.value
+        });
+    }
 
     return (
         <div
@@ -56,14 +58,14 @@ const ContactFormStyleTwo = ({ status, message, subject, onValidated }) => {
         <br />
         <input
           style={{ fontSize: "2em", padding: 5 }}
-          ref={node => (subject = node)}
+          ref={node => (subjectInput = node)}
           type="subject"
           placeholder="Your subject"
         />
         <br />
         <input
           style={{ fontSize: "2em", padding: 5 }}
-          ref={node => (message = node)}
+          ref={node => (messageInput = node)}
           type="message"
           placeholder="Your message"
         />
@@ -72,6 +74,6 @@ const ContactFormStyleTwo = ({ status, message, subject, onValidated }) => {
         </button>
       </div>
     )
-        };
+};
 
 export default ContactFormStyleTwo;
