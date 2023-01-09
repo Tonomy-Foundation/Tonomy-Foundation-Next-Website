@@ -33,13 +33,15 @@ Reading and following these guidelines will help us make the contribution proces
 3. Run `npm run dev` to start the development server.
 
 
-## Component picking
+## Website branches
 
-You can browse & pick components in the [Template branch]()
+You can browse & pick components in the [Template branch](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/template).
+
+You can find our deployed [Template branch](https://tonomy-foundation-template.vercel.app/), [Staging branch](https://staging-website.tonomy.foundation/) and our [Production branch](https://tonomy.foundation/) here.
 
 ## Template source
 
-This template is from [This website]().
+This template is from [This website](https://themeforest.net/item/jumpx-react-next-ai-it-startup-template/26128611).
 
 
 ### Issues
@@ -58,4 +60,4 @@ PRs are the best and quickest way to get your fix, improvement or feature merged
 
 ## Getting Help
 
-Send a message to contact@tonomy.foundation, or join our [Discord]() for help.
+Send a message to contact@tonomy.foundation, or join our [Discord](https://www.discord.gg/b4AAjehsMM) for help.
