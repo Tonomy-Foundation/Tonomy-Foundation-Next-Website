@@ -15,11 +15,12 @@ Reading and following these guidelines will help us make the contribution proces
 * [Getting Started](#getting-started)
 * [Dependencies](#Dependencies)
 * [Run](#Run)
+* [Feature branch policy](#feature-branch-policy)
 * [Component picking](#Component-picking)
-* [Template source](#Template-source)
-* [General Practices](#general-practices)
-* [Issues](#issues)
 * [Pull Requests](#pull-requests)
+* [Miscellaneous](#Miscellaneous)
+* [Template source](#Template-source)
+* [Issues](#issues)
 * [Getting Help](#getting-help)
 
 # Getting Started
@@ -32,16 +33,31 @@ Reading and following these guidelines will help us make the contribution proces
 1. Install packages with `npm i`.
 3. Run `npm run dev` to start the development server.
 
+## Feature branch policy
 
+We work with a specific policy for making feature branches to contribute.
+
+ - Branches should be named feature/(task number)-(task name).
+ - If applicable, PRs of feature branches should be linked to the Zenhub task(s) using the browser extension.
 ## Website branches
 
-You can browse & pick components in the [Template branch](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/template).
+You can browse & pick components in the [Template branch](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/template) on Github.
 
-You can find our deployed [Template branch](https://tonomy-foundation-template.vercel.app/), [Staging branch](https://staging-website.tonomy.foundation/) and our [Production branch](https://tonomy.foundation/) here.
+You can find our deployed [Template branch](https://tonomy-foundation-template.vercel.app/), [Staging branch](https://staging-website.tonomy.foundation/) and [Production branch](https://tonomy.foundation/) here.
 
-## Template source
+## Pull Requests
 
-This template is from [This website](https://themeforest.net/item/jumpx-react-next-ai-it-startup-template/26128611).
+PRs are the best and quickest way to get your fix, improvement or feature merged. In general, PRs should:
+
+* Only fix/add the functionality in the issue
+* Address a single concern in the least number of changed lines as possible
+* Be named 'feature/(issue number)-(task name)
+
+## Miscellaneous
+
+### Template source
+
+This template is from [Themeforest](https://themeforest.net/item/jumpx-react-next-ai-it-startup-template/26128611).
 
 
 ### Issues
@@ -49,14 +65,6 @@ This template is from [This website](https://themeforest.net/item/jumpx-react-ne
 Issues should be used to report problems with the project, request a new feature, or to discuss potential changes before a PR is created.
 
 If you find an issue that adresses the problems you're having, please add your own reproduction information to the existing issue rather than creating a new one.
-
-### Pull Requests
-
-PRs are the best and quickest way to get your fix, improvement or feature merged. In general, PRs should:
-
-* Only fix/add the functionality in the issue
-* Address a single concern in the least number of changed lines as possible
-* Be named 'feature/(issue number)-(task name)
 
 ## Getting Help
 
