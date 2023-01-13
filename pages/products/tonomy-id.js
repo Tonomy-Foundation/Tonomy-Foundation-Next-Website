@@ -2,7 +2,8 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Layouts/Navbar';
 import Footer from '../../components/Layouts/Footer';
 import IdBanner from '../../components/Common/IdBanner';
-import AboutID from '../../components/tonomy-id/about-id'
+import AboutID from '../../components/tonomy-id/about-id';
+import UseCases from '../../components/tonomy-id/UseCases';
 
 class Tonomyid extends Component {
     render() {
@@ -16,6 +17,8 @@ class Tonomyid extends Component {
                 activePageText="Contact Style One"
                 />
                 <AboutID/>
+
+                <UseCases/>
 
                 {/*old tonomy id section*/}
 
