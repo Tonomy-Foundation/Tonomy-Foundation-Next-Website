@@ -21,8 +21,8 @@ const AboutID = () => {
                         </div>
                     </div>
 
-                <div className="about-content">
-                    <br></br>
+            <div className="col-lg-6">
+                <div className="industries-content">
                     <h3>Features</h3>
                 </div>
                         <div className="row">
@@ -65,7 +65,11 @@ const AboutID = () => {
                                     </li>
                                     <li>
                                         <i className="flaticon-checked"></i>
-                                        Decentralized. No Single Point of Failure
+                                        Decentralized
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        No Single Point of Failure
                                     </li>
                                     <li>
                                         <i className="flaticon-checked"></i>
@@ -82,6 +86,7 @@ const AboutID = () => {
                                 </ul>
                             </div>
                         </div>
+                    </div>
                 </div>
             </div>
         </section>
