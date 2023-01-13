@@ -13,12 +13,75 @@ const AboutID = () => {
                                 Digital ID with SSI can also serve as a replacement for existing custodial identity systems such as email, oAuth, and openID connect. It offers a new sovereign internet architecture, allowing for autonomous access and data control without the need for SPF or custodians.
                                 For more information, <a href="https://www.youtube.com/watch?v=HXTB2_Fki6s&t=2s">watch our Digital ID workshop</a> and discover the many ways that this innovative technology can benefit you.</p>
                         </div>
-                    </div>
-                    <div className="col-lg-6">
+                </div>
+
+                <div className="col-lg-6">
                         <div className="about-img">
                             <img src="/images/tonomy-id.jpg" alt="Image" className="tonomy-id-app" />
                         </div>
                     </div>
+
+                <div className="about-content">
+                    <br></br>
+                    <h3>Features</h3>
+                </div>
+                        <div className="row">
+                            <div className="col-lg-6 col-sm-6">
+                                <ul className="industries-item">
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Self sovereign identity
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Verifiable credentials
+
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Peer-to-peer communication
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        smart contracts / Transaction signing
+
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        white labelled
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Built in MFA
+                                    </li>
+                                    </ul>
+                            </div>
+
+                            <div className="col-lg-6 col-sm-6">
+                                <ul className="industries-item">
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Multipurpose
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Decentralized. No Single Point of Failure
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        Data minimization
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        cross-platform
+                                    </li>
+                                    <li>
+                                        <i className="flaticon-checked"></i>
+                                        sovereign security
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
                 </div>
             </div>
         </section>
