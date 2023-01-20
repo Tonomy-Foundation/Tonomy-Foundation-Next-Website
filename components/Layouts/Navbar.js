@@ -35,7 +35,7 @@ class Navbar extends Component {
                         <div className="container">
                             <Link href="/">
                                 <a>
-                                    <img src="/images/logo.png"  width= "55" height="55 "alt="logo" />
+                                    <img src="/images/logo.webp"  width= "55" height="55 "alt="logo" />
                                 </a>
                             </Link>
                             <h5>
