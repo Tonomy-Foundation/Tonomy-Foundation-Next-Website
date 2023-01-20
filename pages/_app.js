@@ -14,7 +14,7 @@ import App from "next/app";
 import Head from "next/head";
 import Loader from "../components/Shared/Loader";
 import GoTop from "../components/Shared/GoTop";
-import script from "next/script";
+import Script from "next/script";
 
 export default class MyApp extends App {
   // Preloader
