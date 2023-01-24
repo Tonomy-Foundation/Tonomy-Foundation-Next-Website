@@ -26,7 +26,6 @@ class Footer extends Component {
                     <ul className="social-icons d-flex flex-wrap justify-content-center">
                       <li className="item mx-2 mb-3 text-center">
                         <a
-                          style={iconBackground}
                           href="https://twitter.com/TonomyF"
                           target="_blank"
                         >
@@ -35,7 +34,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://discord.gg/95J74ZbAgw"
                           target="_blank"
                         >
@@ -44,7 +42,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/"
                           target="_blank"
                         >
@@ -53,7 +50,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://www.linkedin.com/company/tonomy-foundation/jobs/"
                           target="_blank"
                         >
@@ -62,7 +58,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://github.com/Tonomy-Foundation"
                           target="_blank"
                         >
@@ -71,7 +66,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://www.instagram.com/tonomyfoundation/"
                           target="_blank"
                         >
@@ -80,7 +74,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://www.youtube.com/@tonomyfoundation"
                           target="_blank"
                         >
@@ -89,7 +82,6 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          style={iconBackground}
                           href="https://www.facebook.com/profile.php?id=100088511093616"
                           target="_blank"
                         >
