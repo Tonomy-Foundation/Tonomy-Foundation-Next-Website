@@ -243,38 +243,34 @@ class PricingStyleOne extends Component {
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
                                                 <h3>DIY</h3>
-                                                {/* <p>Build A Website</p> */}
+                                                <p>Run the open source software yourself</p>
                                             </div>
                                             <span>€0<sub>/m</sub></span>
 
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Customer Service
+                                                    Documentation access
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Up to 1000 Subscribers
+                                                    Upgrade support
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
+                                                    24-7-365 support with direct slack channel access. Phone support.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
+                                                    Customise consulting
+                                                </li>
+                                                <li>
+                                                    <i className='bx bx-x'></i>
+                                                    Assistance in while label
+                                                </li>
+                                                <li>
+                                                    <i className='bx bx-x'></i>
+                                                    Assistance into new app integration
                                                 </li>
                                             </ul>
 
@@ -297,31 +293,27 @@ class PricingStyleOne extends Component {
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    Documentation access
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
+                                                    Upgrade support
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Customer Service
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
+                                                    24-7-365 support with direct slack channel access. Phone support.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
+                                                    Customise consulting
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
+                                                    Assistance in while label
+                                                </li>
+                                                <li>
+                                                    <i className='bx bx-x'></i>
+                                                    Assistance into new app integration
                                                 </li>
                                             </ul>
 
@@ -346,31 +338,27 @@ class PricingStyleOne extends Component {
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    Documentation access
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
+                                                    Upgrade support
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
+                                                    24-7-365 support with direct slack channel access. Phone support.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Customer Service
+                                                    Customise consulting
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
+                                                    Assistance in while label
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Landing Pages & Web Widgets
+                                                    Assistance into new app integration
                                                 </li>
                                             </ul>
 
