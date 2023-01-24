@@ -268,11 +268,18 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/products/tonomy-id" activeClassName="active">
+                                                <Link href="/solutions/tonomy-id" activeClassName="active">
                                                     <a className="nav-link">Tonomy ID</a>
                                                 </Link>
-                                            </li>
 
+                                            <li className="nav-item">
+                                                <Link href="/solutions/pricing" activeClassName="active">
+                                                    <a className="nav-link">Pricing</a>
+                                                </Link>
+                                    
+                                    
+                                    </li>
+                                    </li>
 
 
                                             {/* <li className="nav-item">
