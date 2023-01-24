@@ -6,11 +6,11 @@ const MainBanner = () => {
     <section className="main-banner-area main-banner-area-one">
       <div className="container-fluid">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 pl-10">
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
-              We at the Tonomy Foundation are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology.
+              We at the Tonomy Foundation. We are a Dutch non-profit foundation,we are dedicated to developing open source solutions for digital identification using self-sovereign identity (SSI) technology.
               Our goal is to make it easier for government agencies and commercial companies to securely and efficiently manage digital interactions and transactions.
               </p>
 
