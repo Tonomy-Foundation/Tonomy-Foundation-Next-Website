@@ -52,39 +52,39 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Basic</h3>
-                                                <p>Build A Website</p>
+                                                <h3>Tester</h3>
+                                                {/* <p>Tonomy ID</p> */}
                                             </div>
-                                            <span>$29<sub>/m</sub></span>
 
                                             <ul>
+                                            <span>€150<sub>/m</sub></span>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Drag & Drop Builder
+                                                    White-labelled .apk (Android) and .ipa (iOS) files
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Lead Generation & Sales
+                                                    Shared blockchain.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Boot & Digital Assistants
+                                                    Not suitable for production.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Customer Service
+                                                    Approximately 500 trx/s and up to 100,000 accounts
+                                                </li>
+                                                <li>
+                                                    <i className='bx bx-check'></i>
+                                                    Documentation access
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Up to 1000 Subscribers
+                                                    Automated upgrades
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-x'></i>
-                                                    Unlimited Broadcasts
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Landing Pages & Web Widgets
+                                                    LSLAs for production deployments, including 24-7-365 support 
                                                 </li>
                                             </ul>
 
@@ -99,10 +99,10 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Standard</h3>
-                                                <p>Build A Website</p>
+                                                <h3>production</h3>
+                                                {/* <p>Build A Website</p> */}
                                             </div>
-                                            <span>$59<sub>/m</sub></span>
+                                            <span>€500-2000<sub>/m</sub></span>
 
                                             <ul>
                                                 <li>
@@ -148,10 +148,10 @@ class PricingStyleOne extends Component {
                                     <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
-                                                <h3>Premium</h3>
-                                                <p>Build A Website</p>
+                                                <h3>Enterprise</h3>
+                                                <p>Contact Us</p>
                                             </div>
-                                            <span>$79 <sub>/m</sub></span>
+                                            {/* <span>$79 <sub>/m</sub></span> */}
 
                                             <ul>
                                                 <li>
