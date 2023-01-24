@@ -38,7 +38,7 @@ const UseCases = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3 className="pl-20">Investors</h3>
+                                        <h3 className="pl-20">SSO</h3>
                                     </span>
                                 </li>
 
@@ -47,7 +47,7 @@ const UseCases = () => {
                                 >
                                     <span>
                                         <i className="flaticon-technical-support"></i>
-                                        <h3 className="pl-20">Tech Partners</h3>
+                                        <h3 className="pl-20">Web 3.0</h3>
                                     </span>
                                 </li>
                                 <li
@@ -58,15 +58,16 @@ const UseCases = () => {
                                         <h3 className="pl-20">Medical</h3>
                                     </span>
                                 </li>
-                                <li
+                                {/* copy this for new section button*/}
+                                {/* <li
                                     className="current"
                                     onClick={(e) => openTabSection(e, 'tab1')}
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3 className="pl-20">Developers</h3>
+                                        <h3 className="pl-20">section name here</h3>
                                     </span>
-                                </li>
+                                </li> */}
 
 
                             </ul>
@@ -74,8 +75,10 @@ const UseCases = () => {
                         
                         <div className="col-lg-9">
                             <div className="tab_content">
-                                {/* Tab item #1 */}
-                                <div id="tab1" className="tabs_item">
+
+                                {/* copy this if you want to make a new section */}
+                                
+                                {/* <div id="tab1" className="tabs_item">
                                     <div className="row align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-img left-img">
@@ -85,8 +88,8 @@ const UseCases = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>W.I.P.</h3>
-                                                <p>Attention Developers! Are you ready to make a real impact in the world through your work? Then you need to join Tonomy! This organization is dedicated to building open source technology with the goal of making society more transparent and democratic. This is a mission that aligns with your values and working on open source projects will be a fulfilling way to contribute to positive social change. Don't miss out on this opportunity to not only make a difference, but also to learn, grow, and develop professionally. Don't wait any longer, join Tonomy now and make your mark on the world!</p>                          
+                                                <h3>Tonomy ID</h3>
+                                                <p> </p>                          
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
@@ -131,29 +134,29 @@ const UseCases = () => {
                                             </div>
                                         </div>
                                     </div>
-                                </div>
+                                </div> */}
                                 
                                 {/* Tab item #2 */}
                                 <div id="tab2" className="tabs_item">
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>W.I.P.</h3>
-                                                <p>Tonomy is leading the charge in the development of open source technology that is driving the demand for accountability and trust in society. With their cutting-edge approach and commitment to excellence, Tonomy is positioning itself as the go-to choice for investors looking to get in on the ground floor of something big. Don't miss out on the opportunity to be a part of something special – invest in Tonomy now and watch your returns soar as they continue to innovate and build secure, robust systems that drive financial success.</p>
+                                                <h3>SSO</h3>
+                                                <p>With the systems that Tonomy ID uses single sing on is already a feature we are implementing. That means that each login that is connected with Tonomy ID you will be able to instantly login without needing to do anything.</p>
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Ethical investment
+                                                                Single login
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Democratic tools
+                                                                Prevents unauthoritized acces
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Social impact
+                                                                Set requirements for authentication
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -162,25 +165,25 @@ const UseCases = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Innovation
+                                                                Fast and easy login
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Diversification
+                                                                Reduces costs for maintaining credentials
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Scalability
+                                                                Easy integration
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
                                                 
-                                                <div className="text-center">
+                                                {/* <div className="text-center">
                                                     <Link href="https://www.discord.gg/QqVJz5XF8d">
                                                         <a className="default-btn">Join Us</a>
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
 
@@ -197,7 +200,7 @@ const UseCases = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-img left-img">
-                                                <img src="/images/tech-partner.svg" alt="Image" />
+                                                <img src="/images/contributor.svg" alt="Image" />
                                             </div>
                                         </div>
 
@@ -257,29 +260,28 @@ const UseCases = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Medical</h3>
-                                                <p>In the last 15 years, healthcare reforms or other initiatives 
+                                                <p>Healthcare reforms or other initiatives 
                                                    implemented all over Europe aimed at rationalising the use and provision
                                                    of hospital care, improving its quality and appropriateness, and 
                                                    reducing its costs. The number of hospital facilities decreased in most 
                                                    countries while the number of hospital beds decreased on average. These 
                                                    reforms/initiatives also resulted in a broad reduction of acute care 
-                                                   admissions and length of stay, as well as in improvements in the 
-                                                   occupancy rate of acute care beds. We think Tonomy can help with these issues becuase Tonomy ID can provide: </p>
+                                                   admissions and length of stay. We think Tonomy can help with these issues becuase Tonomy ID can provide: </p>
                                                 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                W.I.P.
+                                                                Accurately identify patients
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Access to expertise
+                                                                Easy acces to medical records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Develop new skills
+                                                                Authorization needed for patient information
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -288,15 +290,15 @@ const UseCases = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Horizontal structure
+                                                                Track medical equipment
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Democracy
+                                                                Save time by automating tasks
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Healthy atmosphere
+                                                                Improve patient engagement
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -312,7 +314,7 @@ const UseCases = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-img right-img">
-                                                <img src="/images/contributor.svg" alt="Image" />
+                                                <img src="/images/tech-partner.svg" alt="Image" />
                                             </div>
                                         </div>
                                     </div>
