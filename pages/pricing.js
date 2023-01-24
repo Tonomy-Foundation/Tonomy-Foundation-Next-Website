@@ -64,9 +64,8 @@ class PricingStyleOne extends Component {
                                                 <h3>Tester</h3>
                                                 {/* <p>Tonomy ID</p> */}
                                             </div>
-
-                                            <ul>
                                             <span>€150<sub>/m</sub></span>
+                                            <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
                                                     White-labelled .apk (Android) and .ipa (iOS) files.
@@ -112,11 +111,15 @@ class PricingStyleOne extends Component {
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Transaction and history API nodes.
+                                                    Approximately 1000-2000 trx/s and up to 10M accounts.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Approximately 1000-2000 trx/s and up to 10M accounts.
+                                                    Documentation access
+                                                </li>
+                                                <li>
+                                                    <i className='bx bx-check'></i>
+                                                    Transaction and history API nodes.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
@@ -125,10 +128,6 @@ class PricingStyleOne extends Component {
                                                 <li>
                                                     <i className='bx bx-check'></i>
                                                     Automated upgrades
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Documentation access
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
@@ -150,10 +149,9 @@ class PricingStyleOne extends Component {
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
                                                 <h3>Enterprise</h3>
-                                                <p>Contact Us</p>
+                                                {/* <p>Contact Us</p> */}
                                             </div>
-                                            {/* <span>$79 <sub>/m</sub></span> */}
-
+                                                    <span><a href="https://us12.list-manage.com/contact-form?u=fdd40ebf441b888a2d75c41fd&form_id=eee2e8567ab48c31cc20a0349787ec09">Contact&nbsp;us</a></span>
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
@@ -273,9 +271,9 @@ class PricingStyleOne extends Component {
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
                                                 <h3>Enterprise</h3>
-                                                <p>Contact Us</p>
+                                                {/* <p>Contact Us</p> */}
                                             </div>
-                                            {/* <span>$99<sub>/y</sub></span> */}
+                                            <span><a href="https://us12.list-manage.com/contact-form?u=fdd40ebf441b888a2d75c41fd&form_id=eee2e8567ab48c31cc20a0349787ec09">Contact&nbsp;us</a></span>
 
                                             <ul>
                                                 <li>
