@@ -31,9 +31,11 @@ class PricingStyleOne extends Component {
             <section className="pricing-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
-                        <span>Tonomy ID</span>
+                        {/* <span>Tonomy ID</span> */}
                         <h2>Our Pricing Plan For You</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum suspendisse.</p>
+                        <p>Tonomy ID uses the <a href="https://antelope.io/">Antelope </a>(formerly called <a href="https://eos.io/">EOSIO</a>) protocol for storing public keys and other anonymised cryptographic information related to each user's identity. This is done by running an Antelope blockchain network. This is a requirement to use Tonomy ID.</p>
+                        <p>In our Software as a Service (SaaS) model, we will provide an Antelope blockchain for Tonomy ID, you can also use this to create smart contracts and other blockchain activities. The Antelope protocol also supports the Ethereum Virtual Machine, so if you are already working with Ethereum smart contracts, you should be able to migrate these onto the Antelope blockchain which has the benefit of being integrated with Tonomy ID.</p>
+                        <p>If you already have an Antelope network then we are ready to do an on-site installation with you. You can do this yourself with our open-source technologies, or we can support you using one of our  Self-hosted support packages.</p>
                     </div>
 
                     <div className="tab quote-list-tab">
