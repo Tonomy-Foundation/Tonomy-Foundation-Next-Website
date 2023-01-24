@@ -6,7 +6,7 @@ const MainBanner = () => {
     <section className="main-banner-area main-banner-area-one">
       <div className="container-fluid">
         <div className="row align-items-center">
-          <div className="col-lg-6">
+          <div className="col-lg-6 pl-10">
             <div className="banner-text">
               <h1>The Tonomy Foundation</h1>
               <p>
