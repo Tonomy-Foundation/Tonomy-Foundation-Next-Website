@@ -18,7 +18,7 @@ import Document, {
               href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800&display=swap"
               rel="stylesheet"
             />
-            <link rel="icon" type="image/png" href="/images/logo.png"></link>
+            <link rel="icon" type="image/png" href="/images/logo.webp"></link>
           </Head>
           <body>
             <Main />

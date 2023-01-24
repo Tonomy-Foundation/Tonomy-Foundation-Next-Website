@@ -15,7 +15,7 @@ class Footer extends Component {
                 <div className="single-widget">
                   <a href="/" className="footerlogo">
                     <img
-                      src="/images/logo.png"
+                      src="/images/logo.webp"
                       width="80"
                       height="80"
                       alt="Tonomy Logo"

@@ -3061,7 +3061,7 @@ Pricing Area Style
 }
 
 .single-pricing span {
-  font-size: 30px;
+  font-size: 33px;
   font-family: "Dosis", sans-serif;
   color: #212121;
   font-weight: 700;
@@ -3069,12 +3069,12 @@ Pricing Area Style
   line-height: 1;
   margin: 0 auto 20px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  /* -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   width: 120px;
   height: 120px;
   line-height: 120px;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .single-pricing span sub {

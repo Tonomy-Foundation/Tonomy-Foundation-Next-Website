@@ -21,7 +21,7 @@ class Newsletter extends Component {
 
                         <div className="col-lg-2">
                             <div className="newsletter-img">
-                                <img src="/images/newsletter-img.png" alt="Image" />
+                                <img src="/images/newsletter-img.webp" alt="Image" />
                             </div>
                         </div>
 

@@ -13,7 +13,7 @@ const Services = () => {
           </p>
         </div>
         <div className="row">
-          <div className="col-lg-4 col-sm-6">
+          <div className="col-lg-4 col-lg-6">
             <div className="single-offer">
               <i className="flaticon-chip"></i>
               <h3>
