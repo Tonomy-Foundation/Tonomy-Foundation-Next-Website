@@ -73,39 +73,15 @@ class PricingStyleOne extends Component {
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    High availability 3-5 node blockchain with dedicated.
+                                                    Shared blockchain. Not suitable for production.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Transaction and history API nodes.
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Approximately 1000-2000 trx/s and up to 10M accounts.
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
+                                                    Approximately 500 trx/s and up to 100,000 accounts
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
                                                     Documentation access
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    SLAs for production deployments, including 24-7-365 support 
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Enterprise-grade security
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Automated upgrades
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    App customizations
                                                 </li>
                                             </ul>
 
@@ -158,14 +134,6 @@ class PricingStyleOne extends Component {
                                                     <i className='bx bx-check'></i>
                                                     SLAs for production deployments, including 24-7-365 support 
                                                 </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Enterprise-grade security
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    App customizations
-                                                </li>
                                             </ul>
 
                                             <Link href="/contact">
@@ -189,43 +157,15 @@ class PricingStyleOne extends Component {
                                             <ul>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    White-labelled .apk (Android) and .ipa (iOS) files.
+                                                    Same as production.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    High availability 3-5 node blockchain with dedicated.
+                                                    Enterprise-grade security.
                                                 </li>
                                                 <li>
                                                     <i className='bx bx-check'></i>
-                                                    Transaction and history API nodes.
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Approximately 1000-2000 trx/s and up to 10M accounts.
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Up to 1000 Subscribers
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Automated upgrades
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Documentation access
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    SLAs for production deployments, including 24-7-365 support 
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Enterprise-grade security
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    App customizations
+                                                    App customizations.
                                                 </li>
                                             </ul>
 
@@ -288,7 +228,7 @@ class PricingStyleOne extends Component {
                                         <div className="single-pricing">
                                             <div className="pricing-top-heading">
                                                 <h3>Pro</h3>
-                                                {/* <p>Build A Website</p> */}
+                                                <p>Run the open source software yourself with our help</p>
                                             </div>
                                             <span>€1000<sub>/m</sub></span>
 
