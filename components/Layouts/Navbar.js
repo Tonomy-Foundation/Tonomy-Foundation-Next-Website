@@ -96,7 +96,12 @@ class Navbar extends Component {
                                             </li>
                                         </ul> */}
                                     </li>
-
+                                               
+                                    <li className="nav-item">
+                                        <Link href="/pricing">
+                                        <a className="nav-link">Pricing</a>
+                                        </Link>
+                                    
                                     {/* <li className="nav-item">
                                         <Link href="#">
                                             <a className="nav-link" onClick={e => e.preventDefault()}>
@@ -116,8 +121,8 @@ class Navbar extends Component {
                                                     <a className="nav-link">About Style Two</a>
                                                 </Link>
                                             </li>
-                                        </ul>
-                                    </li> */}
+                                    </ul> */}
+                                    </li> 
 
 
                                     {/* <li className="nav-item">
@@ -271,14 +276,7 @@ class Navbar extends Component {
                                                 <Link href="/solutions/tonomy-id" activeClassName="active">
                                                     <a className="nav-link">Tonomy ID</a>
                                                 </Link>
-
-                                            <li className="nav-item">
-                                                <Link href="/solutions/pricing" activeClassName="active">
-                                                    <a className="nav-link">Pricing</a>
-                                                </Link>
-                                    
-                                    
-                                    </li>
+                                
                                     </li>
 
 
@@ -306,6 +304,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li> */}
                                         </ul>
+                                        <li/>    
                                     </li>
                                 </ul>
 
