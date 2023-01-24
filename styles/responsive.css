@@ -913,6 +913,7 @@
   }
   .single-offer {
     padding-left: 20px;
+    min-height:214px;
   }
   .single-offer i {
     position: unset;
