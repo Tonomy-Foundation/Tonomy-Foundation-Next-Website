@@ -1599,6 +1599,7 @@ Features Area Style
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   min-height: 401px;
+  height: 560px;
   margin-bottom: 30px;
 }
 
