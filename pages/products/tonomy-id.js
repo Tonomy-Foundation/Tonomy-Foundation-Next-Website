@@ -3,6 +3,7 @@ import Navbar from '../../components/Layouts/Navbar';
 import Footer from '../../components/Layouts/Footer';
 import IdBanner from '../../components/Common/IdBanner';
 import AboutID from '../../components/tonomy-id/about-id'
+import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 
 class Tonomyid extends Component {
     render() {
@@ -66,18 +67,20 @@ class Tonomyid extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
 
                                 <AskQuestionForm />
                             </div>
                         </div>
-                        
                         <div className="col-lg-4">
                             <ServiceSidebar />
                         </div>
                     </div>
                 </div>
             </section> */}
+
+            <TIDfeatures/>
+
                 <Footer />
             </>
         );
