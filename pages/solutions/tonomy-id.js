@@ -2,8 +2,11 @@ import React, { Component } from 'react';
 import Navbar from '../../components/Layouts/Navbar';
 import Footer from '../../components/Layouts/Footer';
 import IdBanner from '../../components/Common/IdBanner';
-import AboutID from '../../components/tonomy-id/about-id'
+import AboutID from '../../components/tonomy-id/about-id';
+import UseCases from '../../components/tonomy-id/UseCases';
+import TIDPartner from '../../components/Common/TIDPartner';
 import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
+
 
 class Tonomyid extends Component {
     render() {
@@ -17,6 +20,8 @@ class Tonomyid extends Component {
                 activePageText="Contact Style One"
                 />
                 <AboutID/>
+
+                <UseCases/>
 
                 {/*old tonomy id section*/}
 
@@ -80,6 +85,8 @@ class Tonomyid extends Component {
             </section> */}
 
             <TIDfeatures/>
+            
+            <TIDPartner/>
 
                 <Footer />
             </>
