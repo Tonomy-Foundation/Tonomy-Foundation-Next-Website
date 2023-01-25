@@ -1589,6 +1589,19 @@ Main Banner Area Style
 /*
 Features Area Style
 ======================================================*/
+.single-features2 {
+  text-align: center;
+  padding: 30px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  position: relative;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  min-height: 401px;
+  height: 560px;
+  margin-bottom: 30px;
+}
 .single-features {
   text-align: center;
   padding: 30px;
@@ -1602,7 +1615,33 @@ Features Area Style
   margin-bottom: 30px;
 }
 
+
+
 .single-features i {
+  width: 80px;
+  height: 80px;
+  line-height: 80px;
+  text-align: center;
+  position: relative;
+  border: 2px dotted #1dd3f8;
+  border-radius: 50%;
+  font-size: 40px;
+  color: #1dd3f8;
+  -webkit-animation: border-transform 7s linear infinite alternate forwards;
+          animation: border-transform 7s linear infinite alternate forwards;
+  -webkit-transition: all 0.6s ease;
+  transition: all 0.6s ease;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+  display: inline-block;
+  color: #1dd3f8;
+}
+
+.single-features2 i {
   width: 80px;
   height: 80px;
   line-height: 80px;
@@ -3022,7 +3061,7 @@ Pricing Area Style
 }
 
 .single-pricing span {
-  font-size: 30px;
+  font-size: 33px;
   font-family: "Dosis", sans-serif;
   color: #212121;
   font-weight: 700;
@@ -3030,12 +3069,12 @@ Pricing Area Style
   line-height: 1;
   margin: 0 auto 20px;
   background-color: #ffffff;
-  -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
+  /* -webkit-box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
           box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
   width: 120px;
   height: 120px;
   line-height: 120px;
-  border-radius: 50%;
+  border-radius: 50%; */
 }
 
 .single-pricing span sub {

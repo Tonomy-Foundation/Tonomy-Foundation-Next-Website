@@ -5,6 +5,8 @@ import IdBanner from '../../components/Common/IdBanner';
 import AboutID from '../../components/tonomy-id/about-id';
 import UseCases from '../../components/tonomy-id/UseCases';
 import TIDPartner from '../../components/Common/TIDPartner';
+import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
+
 
 class Tonomyid extends Component {
     render() {
@@ -20,8 +22,6 @@ class Tonomyid extends Component {
                 <AboutID/>
 
                 <UseCases/>
-
-                <TIDPartner/>
 
                 {/*old tonomy id section*/}
 
@@ -72,18 +72,22 @@ class Tonomyid extends Component {
                                             </div>
                                         </div>
                                     </div>
-                                </div> 
+                                </div>
 
                                 <AskQuestionForm />
                             </div>
                         </div>
-                        
                         <div className="col-lg-4">
                             <ServiceSidebar />
                         </div>
                     </div>
                 </div>
             </section> */}
+
+            <TIDfeatures/>
+            
+            <TIDPartner/>
+
                 <Footer />
             </>
         );
