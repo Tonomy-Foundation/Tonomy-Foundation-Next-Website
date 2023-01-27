@@ -13,7 +13,7 @@ class PageBanner extends Component {
             <p className="AboutUsText">
               At the Tonomy Foundation, we are committed to empowering democracy
               through the use of cutting-edge, open source technology. Whether
-              it's through the implementation of digital IDs or the development
+              it's through the implementation of digital identity or the development
               of decentralized autonomous organizations (DAOs), we are
               constantly seeking out new and innovative ways to make a positive
               impact. Our ultimate goal is to reduce friction and improve
