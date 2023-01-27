@@ -86,7 +86,7 @@ class Tonomyid extends Component {
 
             <TIDfeatures/>
             
-            <TIDPartner/>
+            {/* <TIDPartner/> */}
 
                 <Footer />
             </>
