@@ -6,6 +6,7 @@ import AboutID from '../../components/tonomy-id/about-id';
 import UseCases from '../../components/tonomy-id/UseCases';
 import TIDPartner from '../../components/Common/TIDPartner';
 import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
+import Join from '../../components/tonomy-id/join-us';
 
 
 class Tonomyid extends Component {
@@ -85,8 +86,11 @@ class Tonomyid extends Component {
             </section> */}
 
             <TIDfeatures/>
+
+            <Join/>
             
             {/* <TIDPartner/> */}
+
 
                 <Footer />
             </>

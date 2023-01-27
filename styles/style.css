@@ -2410,6 +2410,14 @@ Industries Area Style
   display: block;
 }
 
+.tab .tabs_item2 {
+  display: none;
+}
+
+.tab .tabs_item2:first-child {
+  display: block;
+}
+
 /*
 Client Area Style
 ======================================================*/
