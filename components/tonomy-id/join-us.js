@@ -71,7 +71,6 @@ const join = () => {
 
                             </ul>
                         </div>
-                        
                         <div className="col-lg-9">
                             <div className="tab_content">
                                 {/* Tab item #1 */}
@@ -122,7 +121,6 @@ const join = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            
                                                 <div className="text-center">
                                                     <Link href="https://www.discord.gg/QqVJz5XF8d">
                                                         <a className="default-btn">Join Us</a>
@@ -132,7 +130,6 @@ const join = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
                                 {/* Tab item #2 */}
                                 <div id="tab5" className="tabs_item2">
                                     <div className="row  align-items-center">
@@ -175,7 +172,6 @@ const join = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
                                                 <div className="text-center">
                                                     <Link href="https://www.discord.gg/QqVJz5XF8d">
                                                         <a className="default-btn">Join Us</a>
@@ -258,7 +254,6 @@ const join = () => {
                                             <div className="industries-content">
                                                 <h3>Contributors</h3>
                                                 <p>Your involvement will not only allow you to make a real difference in the world through the development of open source technology that promotes transparency and democracy, but it will also provide you with the chance to work with a diverse group of individuals and organizations. You will have the opportunity to learn new skills and contribute to the creation of innovative and robust systems. Do not let this opportunity pass you by - join us as a contributor to Tonomy and make a positive impact on society today! </p>
-                                                
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
