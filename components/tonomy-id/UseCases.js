@@ -34,11 +34,21 @@ const UseCases = () => {
                             {/* Tabs navs */}
                             <ul className="tabs">
                                 <li
-                                    onClick={(e) => openTabSection(e, 'tab2')}
+                                    onClick={(e) => openTabSection(e, 'tab1')}
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3 className="pl-20">SSO</h3>
+                                        <h3 className="pl-20">Web 2.0</h3>
+                                    </span>
+                                </li>
+
+                                <li
+                                    className="current"
+                                    onClick={(e) => openTabSection(e, 'tab2')}
+                                >
+                                    <span>
+                                        <i className="flaticon-machine-learning"></i>
+                                        <h3 className="pl-20">Supplychain</h3>
                                     </span>
                                 </li>
 
@@ -75,7 +85,6 @@ const UseCases = () => {
                         
                         <div className="col-lg-9">
                             <div className="tab_content">
-
                                 {/* copy this if you want to make a new section */}
                                 
                                 {/* <div id="tab1" className="tabs_item">
@@ -136,27 +145,27 @@ const UseCases = () => {
                                     </div>
                                 </div> */}
                                 
-                                {/* Tab item #2 */}
-                                <div id="tab2" className="tabs_item">
+                                {/* Tab item #1 */}
+                                <div id="tab1" className="tabs_item">
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>SSO</h3>
-                                                <p>With the systems that Tonomy ID uses single sing on is already a feature we are implementing. That means that each login that is connected with Tonomy ID you will be able to instantly login without needing to do anything.</p>
+                                                <h3>Web 2.0</h3>
+                                                <p>The reason why Tonomy ID can help web 2.0 is beacuase Tonomy ID is a decentralized form of user authentication that allows users to log in to websites and apps without a central third party. It could also be used to create a more personalized web experience, enable new forms of online collaboration, and give users more control over their data and online interactions.</p>
                                                 <div className="row">
-                                                    <div className="col-lg-6 col-sm-6">
+                                                <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Single login
+                                                                Open source
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Prevents unauthoritized acces
+                                                                Instant Login
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Set requirements for authentication
+                                                                Sign Documents Digitally
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -165,15 +174,15 @@ const UseCases = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fast and easy login
+                                                                One login system for everything
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Reduces costs for maintaining credentials
+                                                                Reducing administration
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Easy integration
+                                                                All data on blockchain
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -190,6 +199,59 @@ const UseCases = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-img right-img">
                                                 <img src="/images/investor.svg" alt="Image" />
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                {/* Tab item #2 */}
+                                <div id="tab2" className="tabs_item">
+                                    <div className="row align-items-center">
+                                        <div className="col-lg-6">
+                                            <div className="industries-img left-img">
+                                                <img src="/images/developer.svg" alt="Image" />
+                                            </div>
+                                        </div>
+
+                                        <div className="col-lg-6">
+                                            <div className="industries-content">
+                                                <h3>Supplychain</h3>
+                                                <p>Tonomy ID can be useful in supply chain by providing secure digital identity verification, reducing fraud risk and improving transparency and accountability through tracking and tracing products throughout the supply chain.</p>                          
+                                                <div className="row">
+                                                    <div className="col-lg-6 col-sm-6">
+                                                        <ul className="industries-item">
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Secure digital identity verification
+                                                            </li>
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Fraud prevention
+                                                            </li>
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Improved transparency
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+
+                                                    <div className="col-lg-6 col-sm-6">
+                                                        <ul className="industries-item">
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Streamlined processes
+                                                            </li>
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Better risk management
+                                                            </li>
+                                                            <li>
+                                                                <i className="flaticon-checked"></i>
+                                                                Compliance
+                                                            </li>
+                                                        </ul>
+                                                    </div>
+                                                </div>
                                             </div>
                                         </div>
                                     </div>
