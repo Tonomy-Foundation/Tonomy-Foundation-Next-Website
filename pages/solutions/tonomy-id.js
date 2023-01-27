@@ -7,6 +7,7 @@ import UseCases from '../../components/tonomy-id/UseCases';
 import TIDPartner from '../../components/Common/TIDPartner';
 import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 import Join from '../../components/tonomy-id/join-us';
+import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
 
 
 class Tonomyid extends Component {
@@ -21,6 +22,8 @@ class Tonomyid extends Component {
                 activePageText="Contact Style One"
                 />
                 <AboutID/>
+
+                <WhyIsTIDBetter/>
 
                 <UseCases/>
 

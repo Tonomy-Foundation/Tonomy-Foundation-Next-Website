@@ -8,7 +8,7 @@ const Services = () => {
           <span></span>
           <h2>Why Tonomy?</h2>
           <p>
-          Tonomy is a powerful and reliable tool for managing digital identities and transactions. 
+          Tonomy is a powerful and reliable tool for managing digital identity and transactions. 
           Its open source nature and self-sovereign identity technology make it a highly secure and efficient solution for government agencies and commercial companies. By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.
           </p>
         </div>
@@ -36,7 +36,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              GDPR compliance refers to protect the personal data of individuals 
+              GDPR compliance refers to protect the personal data privacy of individuals 
               and give them control over how their information is collected, used, and shared.
               </p>
             </div>
@@ -81,7 +81,7 @@ const Services = () => {
               </h3>
               <p>
               Our organization aims to provide secure and efficient access to data through 
-              the use of open source solutions for digital ID and self-sovereign identity technology.
+              the use of open source solutions for digital identity and self-sovereign identity technology.
               </p>
             </div>
           </div>
@@ -95,7 +95,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              We aim to improve organizational efficiency processes through open source solutions like digital ID, DAO, and governance systems to reduce administrative friction.
+              We aim to improve organizational efficiency processes through open source solutions like digital identity, DAO, and governance systems to reduce administrative friction.
               </p>
             </div>
           </div>
