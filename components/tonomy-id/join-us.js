@@ -182,7 +182,7 @@ const join = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-img right-img">
-                                                <img src="/images/investor.svg" alt="Image" />
+                                                <img src="/images/pitching.svg" alt="Image" />
                                             </div>
                                         </div>
                                     </div>
@@ -193,7 +193,7 @@ const join = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-img left-img">
-                                                <img src="/images/tech-partner.svg" alt="Image" />
+                                                <img src="/images/technology.svg" alt="Image" />
                                             </div>
                                         </div>
 
@@ -300,7 +300,7 @@ const join = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-img right-img">
-                                                <img src="/images/contributor.svg" alt="Image" />
+                                                <img src="/images/information.svg" alt="Image" />
                                             </div>
                                         </div>
                                     </div>
