@@ -8,6 +8,7 @@ import TIDPartner from '../../components/Common/TIDPartner';
 import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 import Join from '../../components/tonomy-id/join-us';
 import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
+import TIDBetaSupport from '../../components/tonomy-id/TIDBetaSupport';
 
 
 class Tonomyid extends Component {
@@ -93,6 +94,8 @@ class Tonomyid extends Component {
             <Join/>
             
             {/* <TIDPartner/> */}
+
+            <TIDBetaSupport/>
 
 
                 <Footer />
