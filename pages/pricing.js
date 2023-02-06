@@ -33,20 +33,15 @@ class PricingStyleOne extends Component {
               {/* <span>Tonomy ID</span> */}
               <h2>Our Pricing Plan For You</h2>
               <p>
-                Tonomy ID uses the <a href="https://antelope.io/">Antelope </a>
-                (formerly called <a href="https://eos.io/">EOSIO</a>) protocol
-                for storing public keys and other anonymised cryptographic
-                information related to each user's identity. This is done by
-                running an Antelope blockchain network. This is a requirement to
-                use Tonomy ID.
+                We offer a variety of solutions for you to help you get started
+                using Tonomy technologies!
+              </p>
+              <p>
+                On average security technologies mitigate €20 - €30 and 10 - 20
+                hours of work of compliance and other costs PER USER PER MONTH
+                in the EU and USA. <a href="/">How do we do this?</a>
               </p>
               {/* <p>In our Software as a Service (SaaS) model, we will provide an Antelope blockchain for Tonomy ID, you can also use this to create smart contracts and other blockchain activities. The Antelope protocol also supports the Ethereum Virtual Machine, so if you are already working with Ethereum smart contracts, you should be able to migrate these onto the Antelope blockchain which has the benefit of being integrated with Tonomy ID.</p> */}
-              <p>
-                If you already have an Antelope network then we are ready to do
-                an on-site installation with you. You can do this yourself with
-                our open-source technologies, or we can support you using one of
-                our Self-hosted support packages.
-              </p>
             </div>
 
             <div className="tab quote-list-tab">
@@ -56,7 +51,7 @@ class PricingStyleOne extends Component {
                   className="current"
                   onClick={(e) => this.openTabSection(e, "tab1")}
                 >
-                  <span>Software as a Service</span>
+                  <span>Infrastructure as a service</span>
                 </li>
 
                 <li onClick={(e) => this.openTabSection(e, "tab2")}>
@@ -87,11 +82,16 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Approximately 500 trx/s and up to 100,000 accounts
+                            Up to 100,000 accounts
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
                             Documentation access
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
+                            Unlimited Verifiable Credentials issues, shared and
+                            verified
                           </li>
                         </ul>
 
@@ -114,17 +114,15 @@ class PricingStyleOne extends Component {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            White-labelled .apk (Android) and .ipa (iOS) files.
+                            White-labelled .apk (Android) and .ipa (iOS) files
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            High availability 3-5 node blockchain with
-                            dedicated.
+                            High availability 5 node blockchain
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Approximately 1000-2000 trx/s and up to 10M
-                            accounts.
+                            Up to 10M accounts
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -132,20 +130,21 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Transaction and history API nodes.
+                            Dedicated history API nodes
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Up to 1000 Subscribers
-                          </li>
-                          <li>
-                            <i className="bx bx-check"></i>
-                            Automated upgrades
+                            Blue/green upgrades
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
                             SLAs for production deployments, including 24-7-365
                             support
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
+                            Unlimited Verifiable Credentials issues, shared and
+                            verified
                           </li>
                         </ul>
 
@@ -171,15 +170,15 @@ class PricingStyleOne extends Component {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            Same as production.
+                            Includes everything in Production
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Enterprise-grade security.
+                            Enterprise-grade security
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            App customizations.
+                            App customizations
                           </li>
                         </ul>
 
@@ -199,9 +198,7 @@ class PricingStyleOne extends Component {
                           <h3>DIY</h3>
                           <p>Run the open source software yourself</p>
                         </div>
-                        <span>
-                          €0<sub>/m</sub>
-                        </span>
+                        <span>Free</span>
 
                         <ul>
                           <li>
@@ -209,29 +206,13 @@ class PricingStyleOne extends Component {
                             Documentation access
                           </li>
                           <li>
-                            <i className="bx bx-x"></i>
-                            Upgrade support
-                          </li>
-                          <li>
-                            <i className="bx bx-x"></i>
-                            24-7-365 support with direct slack channel access.
-                            Phone support.
-                          </li>
-                          <li>
-                            <i className="bx bx-x"></i>
-                            Customise consulting
-                          </li>
-                          <li>
-                            <i className="bx bx-x"></i>
-                            Assistance in while label
-                          </li>
-                          <li>
-                            <i className="bx bx-x"></i>
-                            Assistance into new app integration
+                            <i className="bx bx-check"></i>
+                            Access to all app and system open-source software.
+                            Apache 2.0 license
                           </li>
                         </ul>
 
-                        <Link href="/contact">
+                        <Link href="https://github.com/Tonomy-Foundation/">
                           <a className="default-btn">Get Started</a>
                         </Link>
                       </div>
@@ -252,6 +233,11 @@ class PricingStyleOne extends Component {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
+                            10 hours core engineer access, valued at €2,600
+                            under normal consulting agreement
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
                             Documentation access
                           </li>
                           <li>
@@ -260,8 +246,10 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            24-7-365 support with direct slack channel access.
-                            Phone support.
+                            24-7-365 support with Dedicated communication
+                            channel in Discord
+                            <br />
+                            Phone support
                           </li>
                           <li>
                             <i className="bx bx-x"></i>
@@ -308,8 +296,10 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            24-7-365 support with direct slack channel access.
-                            Phone support.
+                            24-7-365 support with Dedicated communication
+                            channel in Discord
+                            <br />
+                            Phone support
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
