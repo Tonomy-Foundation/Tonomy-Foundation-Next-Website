@@ -3,9 +3,9 @@ import React, { Component } from "react";
 class ContactInfo extends Component {
   render() {
     return (
-      <div className="contact-info-area pt-100 pb-70">
-        <div className="container">
-          <div className="row">
+      <div className="contact-info-area pt-100 pb-70 center">
+        <div className="container ">
+          <div className="row center">
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-envelope"></i>
@@ -35,7 +35,7 @@ class ContactInfo extends Component {
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
                 <i className="bx bx-location-plus"></i>
-                <h3>Baarn</h3>
+                <h3>Postal address</h3>
                 <p>35 F Thorbeckelaan,The Netherlands,3741TR</p>
               </div>
             </div>

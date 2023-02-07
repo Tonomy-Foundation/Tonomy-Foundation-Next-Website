@@ -11,11 +11,16 @@ class Contact extends Component {
       <>
         <Navbar />
 
-        <PageBanner pageTitle="Contact us" homePageUrl="/" homePageText="Home" activePageText="Contact us" />
+        <PageBanner
+          pageTitle="Contact us"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Contact us"
+        />
 
         <ContactInfo />
 
-        <ContactFormStyleTwo />
+        {/* <ContactFormStyleTwo /> */}
 
         <Footer />
       </>
