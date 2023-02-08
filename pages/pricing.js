@@ -39,7 +39,10 @@ class PricingStyleOne extends Component {
               <p>
                 On average security technologies mitigate €20 - €30 and 10 - 20
                 hours of work of compliance and other costs PER USER PER MONTH
-                in the EU and USA. <a href="/">How do we do this?</a>
+                in the EU and USA.{" "}
+                <a href="https://tonomy-id-sso-website.vercel.app/">
+                  How do we do this?
+                </a>
               </p>
               {/* <p>In our Software as a Service (SaaS) model, we will provide an Antelope blockchain for Tonomy ID, you can also use this to create smart contracts and other blockchain activities. The Antelope protocol also supports the Ethereum Virtual Machine, so if you are already working with Ethereum smart contracts, you should be able to migrate these onto the Antelope blockchain which has the benefit of being integrated with Tonomy ID.</p> */}
             </div>
@@ -69,7 +72,7 @@ class PricingStyleOne extends Component {
                           {/* <p>Tonomy ID</p> */}
                         </div>
                         <span>
-                          €300<sub>/m</sub>
+                          €100<sub>/m</sub>
                         </span>
                         <ul>
                           <li>
@@ -108,7 +111,7 @@ class PricingStyleOne extends Component {
                           {/* <p>Build A Website</p> */}
                         </div>
                         <span>
-                          €1500-15000<sub>/m</sub>
+                          €1,500 - 15,000<sub>/m</sub>
                         </span>
 
                         <ul>
@@ -134,7 +137,7 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Blue/green upgrades
+                            Automated blue/green upgrades
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -179,6 +182,18 @@ class PricingStyleOne extends Component {
                           <li>
                             <i className="bx bx-check"></i>
                             App customizations
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
+                            Customise consulting
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
+                            Assistance in while label
+                          </li>
+                          <li>
+                            <i className="bx bx-check"></i>
+                            Assistance into new app integration
                           </li>
                         </ul>
 
@@ -233,12 +248,12 @@ class PricingStyleOne extends Component {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            10 hours core engineer access, valued at €2,600
-                            under normal consulting agreement
+                            Includes everything in DIY
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Documentation access
+                            10 hours core engineer access, valued at €2,600
+                            under normal consulting agreement
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
