@@ -36,7 +36,11 @@ const WhyIsTIDBetter = () => {
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Better Privacy for personal data
+                      Advanced data privacy
+                    </li>
+                    <li>
+                      <i className="flaticon-checked"></i>
+                      Reduced compliance time and costs
                     </li>
                   </ul>
                 </div>
@@ -45,15 +49,19 @@ const WhyIsTIDBetter = () => {
                   <ul>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Advanced fraud detection
+                      Advanced user and organization security
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Data security
+                      High user retention
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
                       Easy integration
+                    </li>
+                    <li>
+                      <i className="flaticon-checked"></i>
+                      Cross-platform
                     </li>
                   </ul>
                 </div>

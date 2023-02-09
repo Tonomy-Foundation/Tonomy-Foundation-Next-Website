@@ -25,7 +25,7 @@ const join = () => {
                 <div className="section-title">
                     <span></span>
                     <h2>Join Tonomy</h2>
-                    <p>We need you to make a better society and for a more transparant future.</p>
+                    <p>We need you to make a better society and for a more transparent future.</p>
                 </div>
 
                 <div className="tab industries-list-tab">

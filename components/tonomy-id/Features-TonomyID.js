@@ -15,9 +15,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-chip"></i>
                 <h3>Verifiable Credentials</h3>
                 <p>
-                  Issue, share and verify W3C Verifiable Credentials for private
-                  peer-to-peer identity and other data verification, with no
-                  middleware identity service needed.
+                Issue, share and verify W3C Verifiable Credentials for private peer-to-peer identity and other data verification, with no middleware identity service needed.
                 </p>
               </div>
             </div>
@@ -61,8 +59,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-choice"></i>
                 <h3>White labelled</h3>
                 <p>
-                  Adapt Tonomy ID to use your name, brand and color scheme so
-                  that it feels like yours to your users.
+                Adapt Tonomy ID to use your name, brand and color scheme so that it feels like yours to your users.
                 </p>
               </div>
             </div>
@@ -127,7 +124,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-tick"></i>
                 <h3>Guaranteed User Consent</h3>
                 <p>
-                Tonmy present consent options to users in a way that balances thorough detail with understandable terms. If consent options are overly vague, users cannot make informed decisions about their data. On the other hand, technical jargon can overwhelm users and again stand in the way of informed consent.
+                Tonomy present consent options to users in a way that balances thorough detail with understandable terms. If consent options are overly vague, users cannot make informed decisions about their data. On the other hand, technical jargon can overwhelm users and again stand in the way of informed consent.
                 </p>
               </div>
             </div>
