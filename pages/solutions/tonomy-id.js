@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Navbar from '../../components/Layouts/Navbar';
 import Footer from '../../components/Layouts/Footer';
-import IdBanner from '../../components/Common/IdBanner';
+import IdBanner from '../../components/Common/IdBanner'; 
 import AboutID from '../../components/tonomy-id/about-id';
 import UseCases from '../../components/tonomy-id/UseCases';
 import TIDPartner from '../../components/Common/TIDPartner';
@@ -22,6 +22,7 @@ class Tonomyid extends Component {
                 activePageText="Contact Style One"
                 />
                 <AboutID/>
+ 
 
                 <WhyIsTIDBetter/>
 

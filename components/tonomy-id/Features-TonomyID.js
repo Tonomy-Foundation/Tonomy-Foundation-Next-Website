@@ -49,7 +49,7 @@ const TIDfeatures = () => {
             <div className="col-lg-3">
               <div className="single-features2">
                 <i className="flaticon-blockchain"></i>
-                <h3>Smart contracts</h3>
+                <h3>Smart Contracts</h3>
                 <p>
                   Use scalable smart contracts for decentralized execution of
                   high-security and fault-tollorant parts of your application.
@@ -110,6 +110,28 @@ const TIDfeatures = () => {
                 </p>
               </div>
             </div>
+            
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-tick"></i>
+                <h3>Guaranteed Access</h3>
+                <p>
+                Guaranteed Access
+                </p>
+              </div>
+            </div>
+
+            
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-tick"></i>
+                <h3>Guaranteed User Consent</h3>
+                <p>
+                Tonmy present consent options to users in a way that balances thorough detail with understandable terms. If consent options are overly vague, users cannot make informed decisions about their data. On the other hand, technical jargon can overwhelm users and again stand in the way of informed consent.
+                </p>
+              </div>
+            </div>
+            
           </div>
         </div>
       </div>
