@@ -35,13 +35,23 @@ const TIDfeatures = () => {
                 </p>
               </div>
             </div> */}
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-shield"></i>
+                <h3>Phishing Prevention</h3>
+                <p>
+                Phishing prevention has become essential as more criminals turn towards online scams to steal your personal information. 
+                </p>
+              </div>
+            </div>
+
 
             <div className="col-lg-3">
               <div className="single-features2">
                 <i className="flaticon-blockchain"></i>
                 <h3>Smart contracts</h3>
                 <p>
-                  Use scaleable smart contracts for decentralized execution of
+                  Use scalable smart contracts for decentralized execution of
                   high-security and fault-tollorant parts of your application.
                 </p>
               </div>
