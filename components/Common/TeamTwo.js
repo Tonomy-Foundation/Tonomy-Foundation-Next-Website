@@ -837,7 +837,6 @@ class TeamTwo extends Component {
                     classname="epic"
                   />
                 </div>
-
                 <div className="team-content">
                   <h3>Ali Asghar Karani</h3>
                   <span>Developer</span>
@@ -877,9 +876,107 @@ class TeamTwo extends Component {
                                             </a> */}
                     </li>
                   </ul>
+                </div> 
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Haseeb.png"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Haseeb</h3>
+                  <span>Developer</span>
+                  <span>
+                    Haseeb, an experienced React developer who works part
+                    time for Tonomy.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    {/* <li>
+                      <a
+                        href="https://www.linkedin.com/in/aliasgharkarani"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
                 </div>
               </div>
             </div>
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Yasin.png"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Yasin Asadnezhad</h3>
+                  <span>Developer</span>
+                  <span>
+                  Yasin, a software engineer with about ten years of experience in coding, testing, improving, and establishing systems. He has contributed to over 50 enterprise and large projects using C# .Net and ReactJS, Such as ERP applications and official applications. 
+He has been experienced with different tools, and He is interested in creating scalable architecture for enterprise solutions.
+He enjoy being challenged and engaging with projects that require his to work outside his comfort and knowledge set and continue learning new technologies and improving my skills.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/yas-sin/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+
+ 
           </div>
         </div>
       </section>
