@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import PageBanner from '../../components/Common/PageBanner';
 import Navbar from '../../components/Layouts/Navbar';
 import Footer from '../../components/Layouts/Footer';
 import IdBanner from '../../components/Common/IdBanner'; 
@@ -8,6 +9,7 @@ import TIDPartner from '../../components/Common/TIDPartner';
 import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 import Join from '../../components/tonomy-id/join-us';
 import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
+import OurMagicSauce from '../../components/tonomy-id/our-magic-sauce';
 
 
 class Tonomyid extends Component {
@@ -20,9 +22,14 @@ class Tonomyid extends Component {
                 homePageUrl="/"
                 homePageText="Home"
                 activePageText="Contact Style One"
-                />
+                /> 
+                <div className="section-title pt-70"> 
+                        <h2>The most secure and easy-to-use digital login system in the world" and have in small text below</h2>
+                    </div>
+ 
                 <AboutID/>
  
+                <OurMagicSauce/>
 
                 <WhyIsTIDBetter/>
 
