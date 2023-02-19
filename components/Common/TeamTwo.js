@@ -391,171 +391,8 @@ class TeamTwo extends Component {
                   </ul>
                 </div>
               </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  {/* <div className="team-img">
-                                        <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div> */}
-                  <img
-                    src="/images/team/Bas.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Bas Stolker</h3>
-                  <span>Developer intern</span>
-                  <span>
-                    Bas is a talented developer intern who is always working to
-                    improve our website. His skills and enthusiasm make him a
-                    valuable addition to the team. When he's not working, Bas
-                    can be found enjoying his favorite anime and video games.
-                    We're excited to have him on board, learning and growing
-                    with us.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    {/* <li>
-                      <a
-                        href="https://twitter.com/theblockstalk"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/bas-stolker-b7805723b"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/Dylan.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Dylan van der Veen</h3>
-                  <span>Developer Intern</span>
-                  <span>
-                    Meet Dylan, our talented developer intern. With his charisma
-                    and enthusiasm, he brings a lot of fun to the team. Dylan is
-                    dedicated to improving our website and is a valuable asset
-                    to the team. In his free time, he enjoys spending quality
-                    time with his friends.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    <li>
-                      <a
-                        href="https://twitter.com/DylanvdVeen03"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/dylan-van-der-veen-251037252"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/max.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Max Smit</h3>
-                  <span>Developer Intern</span>
-                  <span>
-                    Max is a talented developer intern on our team. Despite his
-                    young age, he is calm, focused, and dedicated to his work.
-                    However, Max knows how to have fun and enjoys spending time
-                    with his friends when he's not working. We're excited to see
-                    what the future holds for this promising young developer.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    {/* <li>
-                      <a
-                        href="https://twitter.com/rusanov_mikhail"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/max-smit-45305623b"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    {/* <li> */}
-                    {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    {/* </li> */}
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+            </div> 
+ 
             {/* Fourth row */}
 
             <div className="col-lg-4 col-sm-6">
@@ -614,114 +451,7 @@ class TeamTwo extends Component {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/Nadia.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Nadia Ahmed Uqaili</h3>
-                  <span>Marketeer</span>
-                  <span>
-                    Nadia is our talented marketing intern who brings a wealth
-                    of creativity to her work. She is a skilled writer and is
-                    always looking for new ways to engage and connect with our
-                    audience. In her free time, Nadia enjoys spending time with
-                    friends, walking around the beautiful city of Istanbul. As a
-                    remote employee, Nadia is able to bring her unique
-                    perspective and ideas to the team from anywhere in the
-                    world.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    <li>
-                      <a
-                        href="https://twitter.com/NadiaAUqaili"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/nadia-ahmed-uqaili-2a948823b/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
-            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/niels.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Niels van de Schepop</h3>
-                  <span>Marketeer</span>
-                  <span>
-                    Niels, our gifted marketer intern. With a wealth of
-                    experience in promoting social media accounts, Niels is a
-                    valuable asset to our team. He is passionate about staying
-                    up-to-date on the latest technologies and is always looking
-                    for new ways to reach and engage with our audience. In his
-                    spare time, Niels enjoys traveling and exploring new
-                    cultures. We are lucky to have Niels on our team.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    <li>
-                      <a href="https://twitter.com/nvds888" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/niels-van-de-schepop-576394254/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
+  
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-team active">
@@ -775,59 +505,7 @@ class TeamTwo extends Component {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/Emmanuel.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Emmanuel Oloyede</h3>
-                  <span>Developer</span>
-                  <span>
-                    Emmanuel is a talented young developer who is currently
-                    balancing his studies at university with a part-time
-                    position at Tonomy. Despite his busy schedule, he is
-                    dedicated to his development and is committed to making
-                    valuable contributions to the company. He is highly skilled
-                    and has a serious approach to his work, making him a
-                    valuable asset to the team.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    {/* <li>
-                      <a href="https://twitter.com/nvds888" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/oloyede-emmanuel"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
+ 
             <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div className="single-team active">
                 <div className="team-single-img">
@@ -941,9 +619,8 @@ class TeamTwo extends Component {
                   <h3>Yasin Asadnezhad</h3>
                   <span>Developer</span>
                   <span>
-                  Yasin, a software engineer with about ten years of experience in coding, testing, improving, and establishing systems. He has contributed to over 50 enterprise and large projects using C# .Net and ReactJS, Such as ERP applications and official applications. 
-He has been experienced with different tools, and He is interested in creating scalable architecture for enterprise solutions.
-He enjoy being challenged and engaging with projects that require his to work outside his comfort and knowledge set and continue learning new technologies and improving my skills.
+                  Yasin is an accomplished software engineer with nearly a decade of experience in coding, testing, optimizing, and implementing systems. Throughout his career, he has successfully contributed to over 50 large-scale projects using his expertise in C# .Net and ReactJS. His work includes developing ERP and official applications for various enterprises.
+                  Yasin has a diverse set of skills, which has enabled him to excel in his profession. He is adept at working with a range of tools and is committed to creating scalable architecture for enterprise solutions. He has a passion for building robust systems that can adapt to evolving business needs.
                   </span>
 
                   <ul>
@@ -975,6 +652,145 @@ He enjoy being challenged and engaging with projects that require his to work ou
               </div>
             </div>
 
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Spandana.png"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Spandana Vishwanath</h3>
+                  <span>SMM, Marketing,Organisation,project management,Leadership</span>
+                  <span>
+           
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/spv13/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Caihao.png"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Caihao Lu</h3>
+                  <span>Sales and Business Development </span>
+                  <span>
+           
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/caihao-lu-72837a260/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+ 
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Daria.png"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Daria Larionov</h3>
+                  <span>Democracy and Policy Consultant</span>
+                  <span>
+           
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/caihao-lu-72837a260/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
 
  
           </div>
