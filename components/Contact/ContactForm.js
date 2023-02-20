@@ -17,7 +17,7 @@ const ContactForm = () => {
           <div className="col-lg-6 col-md-12">
             <div className="contact-wrap contact-pages mb-0">
               <div className="contact-form">
-                <form method="post" action="mailto:contact@tonomy.foundation">
+                <form method="post" action="mailto:contact@tonomy.foundation" enctype="text/plain">
                   <div className="row">
                     <div className="col-lg-6 col-sm-6">
                       <div className="form-group">
