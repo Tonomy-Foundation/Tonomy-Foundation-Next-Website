@@ -1,3 +1,4 @@
+import Link from "next/link";
 const WhyChooseUs = () => {
   return (
     <section className="choose-ue-area pb-100">
@@ -21,9 +22,17 @@ const WhyChooseUs = () => {
                   </span>
                   <h3>Tonomy ID (Under development)</h3>
                   <p>
-                    <a href="/products/tonomy-id">Tonomy ID</a> is a secure and private self-sovereign identity and blockchain wallet that allows users to log in to apps in your ecosystem.
-                    Personal information and passwords are stored exclusively on the user's phone, automatically complying with GDPR.
+                    <a href="/products/tonomy-id">Tonomy ID</a> is a secure and
+                    private self-sovereign identity and blockchain wallet that
+                    allows users to log in to apps in your ecosystem. Personal
+                    information and passwords are stored exclusively on the
+                    user's phone, automatically complying with GDPR.
                   </p>
+                  <div>
+                    <Link href="/solutions/tonomy-id">
+                      <a className="default-btn">See more</a>
+                    </Link>
+                  </div>
                 </li>
 
                 <li className="ml">
@@ -71,4 +80,3 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
-  
