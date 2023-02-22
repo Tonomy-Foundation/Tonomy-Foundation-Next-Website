@@ -314,15 +314,15 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Customise consulting
+                            Customized consulting
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance in while label
+                            Assistance in white label
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance into new app integration
+                            Assistance in new app integration
                           </li>
                         </ul>
 
