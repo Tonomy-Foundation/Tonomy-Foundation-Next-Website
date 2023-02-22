@@ -6778,3 +6778,28 @@ Service Details Area Style
   font-size: 55px;
 }
 /*# sourceMappingURL=style.css.map */
+
+/* Tonomy Security */
+
+.download-image {
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.download-image a {
+  width: 200px;
+  height: 50px;
+  margin: 10px 6px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.app-store-img {
+  background-image: url(/images/app-store-download.png);
+}
+
+.google-play-img {
+  background-image: url(/images/google-play-download.png);
+}
+
+/* Tonomy Security */
