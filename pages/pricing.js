@@ -37,7 +37,9 @@ class PricingStyleOne extends Component {
                 using Tonomy technologies!
               </p>
               <p>
-              On average, our security technologies can mitigate €20 to €30, as well as 10 to 20 hours of compliance and other costs per user per month in both the EU and the USA. {" "}
+                On average, our security technologies can mitigate €20 to €30,
+                as well as 10 to 20 hours of compliance and other costs per user
+                per month in both the EU and the USA.{" "}
                 <a href="https://tonomy-id-sso-website.vercel.app/">
                   How do we do this?
                 </a>
@@ -240,7 +242,7 @@ class PricingStyleOne extends Component {
                           </p>
                         </div>
                         <span>
-                          €1000<sub>/m</sub>
+                          €1500 - €15000<sub>/m</sub>
                         </span>
 
                         <ul>
@@ -250,7 +252,8 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            10 hours of core engineer access, valued at €2,600 under normal consulting agreements
+                            10 hours of core engineer access, valued at €2,600
+                            under normal consulting agreements
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -258,7 +261,8 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            24/7/365 support with a dedicated communication channel in Discord
+                            24/7/365 support with a dedicated communication
+                            channel in Discord
                             <br />
                             Phone support
                           </li>
