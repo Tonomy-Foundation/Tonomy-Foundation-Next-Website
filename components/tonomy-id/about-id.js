@@ -26,7 +26,7 @@ const AboutID = () => {
           <div className="col-lg-6">
             <div className="about-img">
               <img
-                src="/images/tonomy-id.jpg"
+                src="/images/home-screen.png"
                 alt="Image"
                 className="tonomy-id-app"
               />
