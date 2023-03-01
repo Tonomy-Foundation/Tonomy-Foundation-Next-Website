@@ -3,9 +3,7 @@ const TonomySecurity = () => {
   return (
     <section className="pt-100 pb-100">
       <div className="container">
-        <h1 className="center pb-50">
-          The most secure easy-to-use digital login system in the world
-        </h1>
+        <h1 className="center pb-50">Tonomy ID</h1>
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-img">
