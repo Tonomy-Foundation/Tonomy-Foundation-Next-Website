@@ -7,7 +7,9 @@ const AboutID = () => {
         <div className="row align-items-center">
           <div className="col-lg-6">
             <div className="about-content">
-              <h1>Tonomy ID</h1>
+              <h1>
+                The most secure easy-to-use digital login system in the world
+              </h1>
               The digital world is like the sea, vast and ever-changing. And
               just like the sea, it can be dangerous, murky and full of hidden
               threats. But we have built a lighthouse in this sea, a beacon of
