@@ -11,6 +11,7 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@mailchimp/mailchimp_transactional": "^1.0.50",
         "animate.css": "^4.1.1",
         "fslightbox-react": "^1.6.2-2",
         "next": "^12.2.5",
