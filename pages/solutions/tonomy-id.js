@@ -9,6 +9,7 @@ import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
 import Join from "../../components/tonomy-id/join-us";
 import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
 import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
+import OurMagicSauce from "../../components/tonomy-id/OurMagicSauce";
 
 class Tonomyid extends Component {
   render() {
@@ -23,6 +24,7 @@ class Tonomyid extends Component {
         />
         <TonomySecurity />
         <AboutID />
+        <OurMagicSauce />
         <WhyIsTIDBetter />
         <UseCases />
         {/*old tonomy id section*/}
