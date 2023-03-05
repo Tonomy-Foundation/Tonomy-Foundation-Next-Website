@@ -22,7 +22,14 @@ class Tonomyid extends Component {
           homePageText="Home"
           activePageText="Contact Style One"
         />
+        
         <TonomySecurity />
+        <div className="section-title">
+              {/* <span>Tonomy ID</span> */}
+              <h2>Average amount of $/time we save companies</h2>
+               
+              
+            </div>
         <AboutID />
         <OurMagicSauce />
         <WhyIsTIDBetter />
