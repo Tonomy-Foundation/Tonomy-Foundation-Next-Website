@@ -14,12 +14,11 @@ const OurMagicSauce = () => {
                 <div className="col-lg-4 col-sm-6">
                     <div className="single-offer">
                         <i className="flaticon-chip"></i>
-                        <h3>
-                           
+                        <h3> 
                                 <a>Server-side security breaches</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -31,7 +30,7 @@ const OurMagicSauce = () => {
                                 <a>GDPR and data privacy compliance"</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -43,7 +42,7 @@ const OurMagicSauce = () => {
                                 <a>Phishing attacks</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -55,7 +54,7 @@ const OurMagicSauce = () => {
                                 <a>Server-side privacy leaks</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -67,7 +66,7 @@ const OurMagicSauce = () => {
                                 <a>Data sharing and consent control</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -79,7 +78,7 @@ const OurMagicSauce = () => {
                                 <a>Authentication security compromises</a>
                             
                         </h3>
-                        <p></p>
+                        
                     </div>
                 </div>
 
@@ -91,7 +90,7 @@ const OurMagicSauce = () => {
                 <a>Data processing visibility</a>
             
         </h3>
-        <p></p>
+        
     </div>
 </div>
 
@@ -103,7 +102,7 @@ const OurMagicSauce = () => {
                 <a>Compromised website security</a>
             
         </h3>
-        <p></p>
+        
     </div>
 </div>
 
