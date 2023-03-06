@@ -29,6 +29,12 @@ const TonomySecurity = () => {
               Self-Sovereign Identity (SSI), allowing users to securely and
               easily log in to any website or app without ever revealing more
               information than necessary.
+               
+            </div>
+            <div  className="row center download-image">
+            <Link href="https://tonomy-foundation.notion.site/Tonomy-ID-Demo-0e4de03dbe0741b19ada0f9ed1e5ef65">
+                <a className="default-btn col-lg-6" >try the demo</a>
+              </Link>
             </div>
             <div className="row center download-image ">
               <Link href="">
