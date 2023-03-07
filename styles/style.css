@@ -681,6 +681,7 @@ Default Btn Area Style
   overflow: hidden;
   background-color: #1dd3f8;
   display: inline-block;
+  text-align: center;
 }
 
 .default-btn::before {
