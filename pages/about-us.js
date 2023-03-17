@@ -14,7 +14,7 @@ class About1 extends Component {
       <>
         <Navbar />
         <Head>
-          <meta name="description" content="About Us and Meet the team" />
+          <meta name="description" content="About Us and the team" />
         </Head>
         <PageBanner
           pageTitle="About us"
