@@ -27,7 +27,7 @@ class PricingStyleOne extends Component {
       <>
         <Navbar />
         <Head>
-          <meta name="description" content="Our Pricing plan" />
+          <meta name="description" content="Our Pricing plan." />
         </Head>
         <PricingBanner />
 
