@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
 import PricingBanner from "../components/Common/pricingBanner";
+import Head from "next/head";
 
 class PricingStyleOne extends Component {
   openTabSection = (evt, tabNmae) => {
@@ -25,6 +26,9 @@ class PricingStyleOne extends Component {
     return (
       <>
         <Navbar />
+        <Head>
+          <meta name="description" content="Our Pricing plan" />
+        </Head>
         <PricingBanner />
 
         <section className="pricing-area pt-100 pb-70">
