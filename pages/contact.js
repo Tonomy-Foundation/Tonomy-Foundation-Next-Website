@@ -14,7 +14,7 @@ class Contact extends Component {
         <Head>
           <meta
             name="description"
-            content="Send a message or call us for more details"
+            content="Send a message or call us for more details."
           />
         </Head>
         <PageBanner
