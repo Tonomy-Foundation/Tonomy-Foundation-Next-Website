@@ -27,7 +27,10 @@ class PricingStyleOne extends Component {
       <>
         <Navbar />
         <Head>
-          <meta name="description" content="Our Pricing plan." />
+          <meta
+            name="description"
+            content="We have different Pricing plans, first is infrastructure as a service, and the other one is self-hosted support."
+          />
         </Head>
         <PricingBanner />
 
