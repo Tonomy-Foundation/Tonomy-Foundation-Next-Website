@@ -1,9 +1,29 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const TIDfeatures = () => {
   return (
     <>
+      <Head>
+        <script
+          type="text/javascript"
+          dangerouslySetInnerHTML={{
+            __html: `
+            var _paq = window._paq = window._paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+              var u="https://tonomy.matomo.cloud/";
+              _paq.push(['setTrackerUrl', u+'matomo.php']);
+              _paq.push(['setSiteId', '1']);
+              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+              g.async=true; g.src='//cdn.matomo.cloud/tonomy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+          `,
+          }}
+        />
+      </Head>
       <div className="section-title">
         <h1>Features</h1>
       </div>
