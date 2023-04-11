@@ -20,23 +20,6 @@ class About1 extends Component {
           The Tonomy Foundation has a dedicated team of professionals who are experts in their respective fields. 
           The organization also works closely with trusted partners who share their vision and values."
           />
-          <script
-            type="text/javascript"
-            dangerouslySetInnerHTML={{
-              __html: `
-            var _paq = window._paq = window._paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-              var u="https://tonomy.matomo.cloud/";
-              _paq.push(['setTrackerUrl', u+'matomo.php']);
-              _paq.push(['setSiteId', '1']);
-              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-              g.async=true; g.src='//cdn.matomo.cloud/tonomy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-            })();
-          `,
-            }}
-          />
         </Head>
         <PageBanner
           pageTitle="About us"
