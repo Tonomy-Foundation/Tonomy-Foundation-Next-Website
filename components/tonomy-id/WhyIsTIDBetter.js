@@ -4,25 +4,6 @@ import Head from "next/head";
 const WhyIsTIDBetter = () => {
   return (
     <>
-      <Head>
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-            var _paq = window._paq = window._paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-              var u="https://tonomy.matomo.cloud/";
-              _paq.push(['setTrackerUrl', u+'matomo.php']);
-              _paq.push(['setSiteId', '1']);
-              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-              g.async=true; g.src='//cdn.matomo.cloud/tonomy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-            })();
-          `,
-          }}
-        />
-      </Head>
       <section className="about-area pb-100">
         <div className="container">
           <div className="row align-items-center">
