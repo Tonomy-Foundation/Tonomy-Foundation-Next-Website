@@ -6,6 +6,14 @@ const TonomySecurity = () => {
       <section className="pt-100 pb-100">
         <div className="container">
           <h1 className="center pb-50">Tonomy ID</h1>
+          <div className="ratio ratio-16x9">
+            <video
+              controls
+              src="/videos/video.mp4"
+              type="video/mp4"
+              autoPlay="true"
+            />
+          </div>
           <div className="row align-items-center">
             <div className="col-lg-6">
               <div className="about-img">
