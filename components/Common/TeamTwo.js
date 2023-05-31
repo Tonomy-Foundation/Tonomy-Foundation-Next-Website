@@ -945,8 +945,7 @@ class TeamTwo extends Component {
                   <h3>Chetana Bhardwaj</h3>
                   <span>Scrum Master</span>
                   <span>
-                  Agile-Enthusiast, Driven, and dedicated with a track record  of managing software development projects that meet demanding time restraints and exceed all expectations. Her approach is to be resilient and ensure better outcomes are obtained through improved collaboration and fulfillment, constantly emphasizing producing and providing value for the client. She is also a certified yoga teacher and enjoys practicing yoga.
-It should not be long one as well
+                  Agile-Enthusiast, Driven, and dedicated with a track record  of managing software development projects that meet demanding time restraints and exceed all expectations. She is also a certified yoga teacher and enjoys practicing yoga.
                   </span>
 
                   <ul>
