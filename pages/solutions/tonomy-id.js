@@ -1,35 +1,34 @@
-import React, { Component } from 'react';
-import Navbar from '../../components/Layouts/Navbar';
-import Footer from '../../components/Layouts/Footer';
-import IdBanner from '../../components/Common/IdBanner';
-import AboutID from '../../components/tonomy-id/about-id';
-import UseCases from '../../components/tonomy-id/UseCases';
-import TIDPartner from '../../components/Common/TIDPartner';
-import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
-import Join from '../../components/tonomy-id/join-us';
-import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
-
+import React, { Component } from "react";
+import Navbar from "../../components/Layouts/Navbar";
+import Footer from "../../components/Layouts/Footer";
+import IdBanner from "../../components/Common/IdBanner";
+import AboutID from "../../components/tonomy-id/about-id";
+import UseCases from "../../components/tonomy-id/UseCases";
+import TIDPartner from "../../components/Common/TIDPartner";
+import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
+import Join from "../../components/tonomy-id/join-us";
+import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
+import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
+import Head from "next/head";
 
 class Tonomyid extends Component {
-    render() {
-        return (
-            <>
-                <Navbar />
-                <IdBanner
-                pageTitle="Tonomy ID"
-                homePageUrl="/"
-                homePageText="Home"
-                activePageText="Contact Style One"
-                />
-                <AboutID/>
+  render() {
+    return (
+      <>
+        <Navbar />
 
-                <WhyIsTIDBetter/>
-
-                <UseCases/>
-
-                {/*old tonomy id section*/}
-
-                {/* <section className="service-details-area ptb-100">
+        <IdBanner
+          pageTitle="Tonomy ID"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Contact Style One"
+        />
+        <TonomySecurity />
+        <AboutID />
+        <WhyIsTIDBetter />
+        <UseCases />
+        {/*old tonomy id section*/}
+        {/* <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -87,17 +86,12 @@ class Tonomyid extends Component {
                     </div>
                 </div>
             </section> */}
-
-            <TIDfeatures/>
-
-            <Join/>
-            
-            {/* <TIDPartner/> */}
-
-
-                <Footer />
-            </>
-        );
-    }
+        <TIDfeatures />
+        <Join />
+        {/* <TIDPartner/> */}
+        <Footer />
+      </>
+    );
+  }
 }
 export default Tonomyid;

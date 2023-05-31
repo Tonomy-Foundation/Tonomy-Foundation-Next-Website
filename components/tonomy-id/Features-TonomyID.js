@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const TIDfeatures = () => {
   return (
@@ -41,8 +42,8 @@ const TIDfeatures = () => {
                 <i className="flaticon-blockchain"></i>
                 <h3>Smart contracts</h3>
                 <p>
-                  Use scaleable smart contracts for decentralized execution of
-                  high-security and fault-tollorant parts of your application.
+                  Use scalable smart contracts for decentralized execution of
+                  high-security and fault-tolerant parts of your application.
                 </p>
               </div>
             </div>
@@ -72,7 +73,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-cyber-security"></i>
                 <h3>No Single Point of Failure</h3>
                 <p>
-                  Safeguard your system from SPOF to ensure the contiual
+                  Safeguard your system from SPOF to ensure the continual
                   reliability and availability of your system.
                 </p>
               </div>
@@ -97,6 +98,37 @@ const TIDfeatures = () => {
                   interface in which users don't need any prior technical
                   experience or knowledge with our advanced technologies. Anyone
                   who can use Google can use Tonomy.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-check-shield"></i>
+                <h3>Full self-sovereign</h3>
+                <p>
+                  Users get guaranteed self-sovereign control of their account
+                  and data. This brings trust and satisfaction to them helping
+                  them stay happy, and reduces security burdens on ecosystems.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-server"></i>
+                <h3>Removes server-side attacks</h3>
+                <p>
+                  With our zero-knowledge architecture, most major server-side
+                  attacks are removed or significantly mitigated.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-lock-open-alt"></i>
+                <h3>No vendor lock-in</h3>
+                <p>
+                  Using fully open-source software means you don't depend on our
+                  existence for your operation.
                 </p>
               </div>
             </div>

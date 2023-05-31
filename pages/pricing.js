@@ -3,6 +3,7 @@ import Link from "next/link";
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
 import PricingBanner from "../components/Common/pricingBanner";
+import Head from "next/head";
 
 class PricingStyleOne extends Component {
   openTabSection = (evt, tabNmae) => {
@@ -25,6 +26,12 @@ class PricingStyleOne extends Component {
     return (
       <>
         <Navbar />
+        <Head>
+          <meta
+            name="description"
+            content="We have different Pricing plans, first is infrastructure as a service, and the other one is self-hosted support."
+          />
+        </Head>
         <PricingBanner />
 
         <section className="pricing-area pt-100 pb-70">
@@ -37,9 +44,9 @@ class PricingStyleOne extends Component {
                 using Tonomy technologies!
               </p>
               <p>
-                On average security technologies mitigate €20 - €30 and 10 - 20
-                hours of work of compliance and other costs PER USER PER MONTH
-                in the EU and USA.{" "}
+                On average, our security technologies can mitigate €20 to €30,
+                as well as 10 to 20 hours of compliance and other costs per user
+                per month in both the EU and the USA.{" "}
                 <a href="https://tonomy-id-sso-website.vercel.app/">
                   How do we do this?
                 </a>
@@ -173,7 +180,7 @@ class PricingStyleOne extends Component {
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
-                            Includes everything in Production
+                            Includes everything in production
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -185,15 +192,15 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Customise consulting
+                            Customized consulting
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance in while label
+                            Assistance in white label
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance into new app integration
+                            Assistance in new app integration
                           </li>
                         </ul>
 
@@ -242,7 +249,7 @@ class PricingStyleOne extends Component {
                           </p>
                         </div>
                         <span>
-                          €1000<sub>/m</sub>
+                          €1500 - €15000<sub>/m</sub>
                         </span>
 
                         <ul>
@@ -252,8 +259,8 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            10 hours core engineer access, valued at €2,600
-                            under normal consulting agreement
+                            10 hours of core engineer access, valued at €2,600
+                            under normal consulting agreements
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -261,22 +268,22 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            24-7-365 support with Dedicated communication
+                            24/7/365 support with a dedicated communication
                             channel in Discord
                             <br />
                             Phone support
                           </li>
                           <li>
                             <i className="bx bx-x"></i>
-                            Customise consulting
+                            Customized consulting
                           </li>
                           <li>
                             <i className="bx bx-x"></i>
-                            Assistance in while label
+                            Assistance with white labeling
                           </li>
                           <li>
                             <i className="bx bx-x"></i>
-                            Assistance into new app integration
+                            Assistance with new app integration
                           </li>
                         </ul>
 
@@ -318,15 +325,15 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Customise consulting
+                            Customized consulting
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance in while label
+                            Assistance in white label
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Assistance into new app integration
+                            Assistance in new app integration
                           </li>
                         </ul>
 
