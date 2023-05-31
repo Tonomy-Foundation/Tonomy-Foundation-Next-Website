@@ -657,6 +657,52 @@ class TeamTwo extends Component {
               <div className="single-team active">
                 <div className="team-single-img">
                   <img
+                    src="/images/team/Binla.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Lambert T. Binla</h3>
+                  <span>Scrum Master & Business Analyst </span>
+                  <span>
+                  As an Agile Transformation Leader and SAFe Scrum Master, he is passionate about driving organizational change and helping teams deliver value to customers through agile methodologies
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/lambert-t-binla-0552a0b7/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
                     src="/images/team/Spandana.png"
                     alt="Image"
                     classname="epic"
@@ -777,6 +823,192 @@ class TeamTwo extends Component {
                     <li>
                       <a
                         href="https://www.linkedin.com/in/caihao-lu-72837a260/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+ 
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Samin.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Samin Koblmüller</h3>
+                  <span>BD intern</span>
+                  <span>
+                  Samin is an eccentric entrepreneur, with expertise in innovation and business. He runs two art related start ups and loves connecting people with different skills, passions and backrgounds to create meaningful solutions. In his free time he likes to design fashion and digital graphics, produce music and learn about the world and technology.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/samin-koblm%C3%BCller-18b214201/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Sadia.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Sadia Abbas</h3>
+                  <span>Developer</span>
+                  <span>
+                  Samin is an eccentric entrepreneur, with expertise in innovation and business. He runs two art related start ups and loves connecting people with different skills, passions and backrgounds to create meaningful solutions. In his free time he likes to design fashion and digital graphics, produce music and learn about the world and technology.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/sadia-abbas-437a20124/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Chetana.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Chetana Bhardwaj</h3>
+                  <span>Scrum Master</span>
+                  <span>
+                  Agile-Enthusiast, Driven, and dedicated with a track record  of managing software development projects that meet demanding time restraints and exceed all expectations. Her approach is to be resilient and ensure better outcomes are obtained through improved collaboration and fulfillment, constantly emphasizing producing and providing value for the client. She is also a certified yoga teacher and enjoys practicing yoga.
+It should not be long one as well
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/chetana-bhardwaj-21a26398/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Prateesh.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Prateesh Prasad</h3>
+                  <span>Management consultant</span>
+                  <span>
+                  Management consultant with expertise in organisation development, strategy planning and implementation
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/prateeshp/"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>
