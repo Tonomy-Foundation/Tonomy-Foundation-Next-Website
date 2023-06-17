@@ -337,64 +337,7 @@ class TeamTwo extends Component {
             </div>
 
             {/* Third row */}
-
-            <div className="col-lg-4 col-sm-6">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  {/* <div className="team-img">
-                                        <img src="/images/team/team-shape.png" alt="Image" />
-                                    </div> */}
-                  <img
-                    src="/images/team/Aymen.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Aymen Ebrahim</h3>
-                  <span>Developer</span>
-                  <span>
-                    Aymen is a talented frontend developer with a passion for
-                    helping others. In addition to his technical skills, he has
-                    experience in social media management and enjoys chatting
-                    with people. When he's not working, Aymen can be found
-                    playing video games or spending time with friends. We're
-                    thrilled to have him on our team, bringing his skills and
-                    enthusiasm to the table.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    <li>
-                      <a href="https://twitter.com/AE__dev" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li>
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/aymen-ebrahim/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div> 
- 
-            {/* Fourth row */}
-
+  
             <div className="col-lg-4 col-sm-6">
               <div className="single-team active">
                 <div className="team-single-img">
@@ -505,59 +448,7 @@ class TeamTwo extends Component {
                 </div>
               </div>
             </div>
- 
-            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/Ali.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-                <div className="team-content">
-                  <h3>Ali Asghar Karani</h3>
-                  <span>Developer</span>
-                  <span>
-                    Ali, an experienced React native developer who works part
-                    time for Tonomy. In his free time, Ali loves to spend
-                    quality time with his family and puts all of his energy into
-                    ensuring their happiness. With years of experience in his
-                    field, Ali is a valuable asset to our team and we are
-                    grateful to have him on board. If you have any questions or
-                    need assistance with your project, Ali is the go-to person
-                    to turn to.
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    {/* <li>
-                      <a href="https://twitter.com/nvds888" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/aliasgharkarani"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div> 
-              </div>
-            </div>
-
+  
             <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div className="single-team active">
                 <div className="team-single-img">
@@ -657,17 +548,17 @@ class TeamTwo extends Component {
               <div className="single-team active">
                 <div className="team-single-img">
                   <img
-                    src="/images/team/Spandana.png"
+                    src="/images/team/Binla.jpg"
                     alt="Image"
                     classname="epic"
                   />
                 </div>
 
                 <div className="team-content">
-                  <h3>Spandana Vishwanath</h3>
-                  <span>SMM, Marketing,Organisation,project management,Leadership</span>
+                  <h3>Lambert T. Binla</h3>
+                  <span>Scrum Master & Business Analyst </span>
                   <span>
-           
+                  As an Agile Transformation Leader and SAFe Scrum Master, he is passionate about driving organizational change and helping teams deliver value to customers through agile methodologies
                   </span>
 
                   <ul>
@@ -683,7 +574,7 @@ class TeamTwo extends Component {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/spv13/"
+                        href="https://www.linkedin.com/in/lambert-t-binla-0552a0b7/"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>
@@ -698,69 +589,22 @@ class TeamTwo extends Component {
                 </div>
               </div>
             </div>
-
-            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
-              <div className="single-team active">
-                <div className="team-single-img">
-                  <img
-                    src="/images/team/Caihao.png"
-                    alt="Image"
-                    classname="epic"
-                  />
-                </div>
-
-                <div className="team-content">
-                  <h3>Caihao Lu</h3>
-                  <span>Sales and Business Development </span>
-                  <span>
-           
-                  </span>
-
-                  <ul>
-                    {/* <li> */}
-                    {/* <a href="https://www.facebook.com/" target="_blank">
-                                                <i className="bx bxl-facebook"></i>
-                                            </a> */}
-                    {/* </li> */}
-                    {/* <li>
-                      <a href="https://twitter.com/nvds888" target="_blank">
-                        <i className="bx bxl-twitter"></i>
-                      </a>
-                    </li> */}
-                    <li>
-                      <a
-                        href="https://www.linkedin.com/in/caihao-lu-72837a260/"
-                        target="_blank"
-                      >
-                        <i className="bx bxl-linkedin"></i>
-                      </a>
-                    </li>
-                    <li>
-                      {/* <a href="https://www.pinterest.com/" target="_blank">
-                                                <i className="bx bxl-pinterest-alt"></i>
-                                            </a> */}
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-
  
             <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
               <div className="single-team active">
                 <div className="team-single-img">
                   <img
-                    src="/images/team/Daria.png"
+                    src="/images/team/Samin.jpg"
                     alt="Image"
                     classname="epic"
                   />
                 </div>
 
                 <div className="team-content">
-                  <h3>Daria Larionov</h3>
-                  <span>Democracy and Policy Consultant</span>
+                  <h3>Samin Koblmüller</h3>
+                  <span>BD intern</span>
                   <span>
-           
+                  Samin is an eccentric entrepreneur, with expertise in innovation and business. He runs two art related start ups and loves connecting people with different skills, passions and backrgounds to create meaningful solutions. In his free time he likes to design fashion and digital graphics, produce music and learn about the world and technology.
                   </span>
 
                   <ul>
@@ -776,7 +620,193 @@ class TeamTwo extends Component {
                     </li> */}
                     <li>
                       <a
-                        href="https://www.linkedin.com/in/caihao-lu-72837a260/"
+                        href="https://www.linkedin.com/in/samin-koblm%C3%BCller-18b214201/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Sadia.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Sadia Abbas</h3>
+                  <span>Developer</span>
+                  <span>
+                  Samin is an eccentric entrepreneur, with expertise in innovation and business. He runs two art related start ups and loves connecting people with different skills, passions and backrgounds to create meaningful solutions. In his free time he likes to design fashion and digital graphics, produce music and learn about the world and technology.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/sadia-abbas-437a20124/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Chetana.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Chetana Bhardwaj</h3>
+                  <span>Scrum Master</span>
+                  <span>
+                  Agile-Enthusiast, Driven, and dedicated with a track record  of managing software development projects that meet demanding time restraints and exceed all expectations. She is also a certified yoga teacher and enjoys practicing yoga.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/chetana-bhardwaj-21a26398/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+  
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Prateesh.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Prateesh Prasad</h3>
+                  <span>Management consultant</span>
+                  <span>
+                  Management consultant with expertise in organisation development, strategy planning and implementation
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/prateeshp/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Madhuri.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                <div className="team-content">
+                  <h3>Madhuri</h3>
+                  <span>Software Tester</span>
+                  <span>
+                  Madhuri started her working career late after getting married & raising children. She has experience in various her before getting into software Industry.
+She spends her free time with family, playing, badminton, swimming and yoga.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a href="https://twitter.com/nvds888" target="_blank">
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/prateeshp/"
                         target="_blank"
                       >
                         <i className="bx bxl-linkedin"></i>

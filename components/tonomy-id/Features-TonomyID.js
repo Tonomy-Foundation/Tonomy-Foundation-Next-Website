@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const TIDfeatures = () => {
   return (

@@ -10,12 +10,14 @@ import Join from "../../components/tonomy-id/join-us";
 import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
 import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
 import OurMagicSauce from "../../components/tonomy-id/OurMagicSauce";
+import Head from "next/head";
 
 class Tonomyid extends Component {
   render() {
     return (
       <>
         <Navbar />
+
         <IdBanner
           pageTitle="Tonomy ID"
           homePageUrl="/"
