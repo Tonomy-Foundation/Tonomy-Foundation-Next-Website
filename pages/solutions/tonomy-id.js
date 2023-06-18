@@ -9,12 +9,14 @@ import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
 import Join from "../../components/tonomy-id/join-us";
 import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
 import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
+import Head from "next/head";
 
 class Tonomyid extends Component {
   render() {
     return (
       <>
         <Navbar />
+
         <IdBanner
           pageTitle="Tonomy ID"
           homePageUrl="/"
