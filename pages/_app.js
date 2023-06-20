@@ -14,7 +14,6 @@ import App from "next/app";
 import Head from "next/head";
 import Loader from "../components/Shared/Loader";
 import GoTop from "../components/Shared/GoTop";
-import Script from "next/script";
 
 export default class MyApp extends App {
   // Preloader
@@ -39,28 +38,24 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-              
-          <Script
-            strategy="afterInteractive"
-            src="https://www.googletagmanager.com/gtag/js?id=G-R99KT7GD5R"
-          />
-              
-          <Script
-            id="google-analytics"
-            strategy="afterInteractive"
+          <title>Tonomy Foundation</title>
+          <script
+            type="text/javascript"
             dangerouslySetInnerHTML={{
               __html: `
-             window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-XXXXXXX', {
-            page_path: window.location.pathname,
-            });
-             `,
+            var _paq = window._paq = window._paq || [];
+            _paq.push(['trackPageView']);
+            _paq.push(['enableLinkTracking']);
+            (function() {
+              var u="https://tonomy.matomo.cloud/";
+              _paq.push(['setTrackerUrl', u+'matomo.php']);
+              _paq.push(['setSiteId', '1']);
+              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+              g.async=true; g.src='//cdn.matomo.cloud/tonomy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
+            })();
+          `,
             }}
           />
-          <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <title>Tonomy Foundation</title>
         </Head>
 
         <Component {...pageProps} />
