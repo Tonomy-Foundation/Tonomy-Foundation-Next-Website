@@ -9,6 +9,7 @@ import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
 import Join from "../../components/tonomy-id/join-us";
 import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
 import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
+import OurMagicSauce from "../../components/tonomy-id/OurMagicSauce";
 import Head from "next/head";
 
 class Tonomyid extends Component {
@@ -23,8 +24,16 @@ class Tonomyid extends Component {
           homePageText="Home"
           activePageText="Contact Style One"
         />
+        
         <TonomySecurity />
+        <div className="section-title">
+              {/* <span>Tonomy ID</span> */}
+              <h2>Average amount of $/time we save companies</h2>
+               
+              
+            </div>
         <AboutID />
+        <OurMagicSauce />
         <WhyIsTIDBetter />
         <UseCases />
         {/*old tonomy id section*/}
