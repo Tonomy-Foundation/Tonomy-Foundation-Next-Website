@@ -1,23 +1,25 @@
-import React, { Component } from "react";
-import Navbar from "../../components/Layouts/Navbar";
-import Footer from "../../components/Layouts/Footer";
-import IdBanner from "../../components/Common/IdBanner";
-import AboutID from "../../components/tonomy-id/about-id";
-import UseCases from "../../components/tonomy-id/UseCases";
-import TIDPartner from "../../components/Common/TIDPartner";
-import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
-import Join from "../../components/tonomy-id/join-us";
-import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
-import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
-import OurMagicSauce from "../../components/tonomy-id/OurMagicSauce";
+
+import React, { Component } from 'react';
+import PageBanner from '../../components/Common/PageBanner';
+import Navbar from '../../components/Layouts/Navbar';
+import Footer from '../../components/Layouts/Footer';
+import IdBanner from '../../components/Common/IdBanner'; 
+import AboutID from '../../components/tonomy-id/about-id';
+import UseCases from '../../components/tonomy-id/UseCases';
+import TIDPartner from '../../components/Common/TIDPartner';
+import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
+import Join from '../../components/tonomy-id/join-us';
+import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
+import OurMagicSauce from '../../components/tonomy-id/our-magic-sauce';
+import TonomySecurity from '../../components/tonomy-id/TonomySecurity';
 import Head from "next/head";
 
 class Tonomyid extends Component {
-  render() {
-    return (
-      <>
-        <Navbar />
-
+    render() {
+        return (
+            <>
+                <Navbar />
+        
         <IdBanner
           pageTitle="Tonomy ID"
           homePageUrl="/"
@@ -32,6 +34,18 @@ class Tonomyid extends Component {
                
               
             </div>
+                <div className="section-title pt-70"> 
+                        <h2>The most secure and easy-to-use digital login system in the world" and have in small text below</h2>
+                    </div>
+ 
+                <AboutID/>
+ 
+                <OurMagicSauce/>
+
+                <WhyIsTIDBetter/>
+
+                <UseCases/>
+
         <AboutID />
         <OurMagicSauce />
         <WhyIsTIDBetter />
