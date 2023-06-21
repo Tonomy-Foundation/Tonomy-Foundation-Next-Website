@@ -558,7 +558,7 @@ class TeamTwo extends Component {
                   <h3>Lambert T. Binla</h3>
                   <span>Scrum Master & Business Analyst </span>
                   <span>
-                  As an Agile Transformation Leader and SAFe Scrum Master, he is passionate about driving organizational change and helping teams deliver value to customers through agile methodologies
+                  Binla is a  Scrum master and  Servant leader with passion for Transparency and making teams a better place for all to work in. Apart from being a Scrum Master Binla's innovativeness, flexibility and ability to learn faster has earned him experience in Business Management, Marketing and Communication across different industries. Binla also believe that if you go out there and you don't see nice people  then, you need to be one yourself.
                   </span>
 
                   <ul>
