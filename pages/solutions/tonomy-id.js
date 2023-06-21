@@ -11,6 +11,7 @@ import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 import Join from '../../components/tonomy-id/join-us';
 import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
 import OurMagicSauce from '../../components/tonomy-id/our-magic-sauce';
+import TonomySecurity from '../../components/tonomy-id/TonomySecurity';
 import Head from "next/head";
 
 class Tonomyid extends Component {
