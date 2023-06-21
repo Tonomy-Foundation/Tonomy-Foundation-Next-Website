@@ -12,6 +12,7 @@ const WhyIsTIDBetter = () => {
                 <img src="/images/teamwork.svg" alt="Image" />
               </div>
             </div>
+          </div>
 
 
           <div className="col-lg-6">
