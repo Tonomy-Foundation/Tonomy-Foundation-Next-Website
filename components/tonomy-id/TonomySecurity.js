@@ -15,7 +15,7 @@ const TonomySecurity = () => {
             />
           </div>
 
-            </div>
+        </div>
             <div className="col-lg-6">
               <div className="description">
                 Our system is built on the revolutionary technology of
@@ -41,8 +41,6 @@ const TonomySecurity = () => {
                 </Link>
               </div>
             </div>
-          </div>
-        </div>
       </section>
     </>
   );
