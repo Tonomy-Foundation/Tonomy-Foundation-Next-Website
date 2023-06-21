@@ -1,3 +1,4 @@
+
 import React, { Component } from 'react';
 import PageBanner from '../../components/Common/PageBanner';
 import Navbar from '../../components/Layouts/Navbar';
@@ -10,19 +11,28 @@ import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
 import Join from '../../components/tonomy-id/join-us';
 import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
 import OurMagicSauce from '../../components/tonomy-id/our-magic-sauce';
-
+import Head from "next/head";
 
 class Tonomyid extends Component {
     render() {
         return (
             <>
                 <Navbar />
-                <IdBanner
-                pageTitle="Tonomy ID"
-                homePageUrl="/"
-                homePageText="Home"
-                activePageText="Contact Style One"
-                /> 
+        
+        <IdBanner
+          pageTitle="Tonomy ID"
+          homePageUrl="/"
+          homePageText="Home"
+          activePageText="Contact Style One"
+        />
+        
+        <TonomySecurity />
+        <div className="section-title">
+              {/* <span>Tonomy ID</span> */}
+              <h2>Average amount of $/time we save companies</h2>
+               
+              
+            </div>
                 <div className="section-title pt-70"> 
                         <h2>The most secure and easy-to-use digital login system in the world" and have in small text below</h2>
                     </div>
@@ -35,9 +45,12 @@ class Tonomyid extends Component {
 
                 <UseCases/>
 
-                {/*old tonomy id section*/}
-
-                {/* <section className="service-details-area ptb-100">
+        <AboutID />
+        <OurMagicSauce />
+        <WhyIsTIDBetter />
+        <UseCases />
+        {/*old tonomy id section*/}
+        {/* <section className="service-details-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-8">
@@ -95,17 +108,12 @@ class Tonomyid extends Component {
                     </div>
                 </div>
             </section> */}
-
-            <TIDfeatures/>
-
-            <Join/>
-            
-            {/* <TIDPartner/> */}
-
-
-                <Footer />
-            </>
-        );
-    }
+        <TIDfeatures />
+        <Join />
+        {/* <TIDPartner/> */}
+        <Footer />
+      </>
+    );
+  }
 }
 export default Tonomyid;

@@ -1,15 +1,18 @@
 import Link from "next/link";
+import Head from "next/head";
 
 const WhyIsTIDBetter = () => {
   return (
-    <section className="about-area pb-100">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="about-img">
-              <img src="/images/teamwork.svg" alt="Image" />
+    <>
+      <section className="about-area pb-100">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="about-img">
+                <img src="/images/teamwork.svg" alt="Image" />
+              </div>
             </div>
-          </div>
+
 
           <div className="col-lg-6">
             <div className="about-content">
@@ -64,13 +67,14 @@ const WhyIsTIDBetter = () => {
                       Cross-platform
                     </li>
                   </ul>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 
