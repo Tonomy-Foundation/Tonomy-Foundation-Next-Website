@@ -548,7 +548,7 @@ class TeamTwo extends Component {
               <div className="single-team active">
                 <div className="team-single-img">
                   <img
-                    src="/images/team/Binla.jpg"
+                    src="/images/team/LambertBinla.jpg"
                     alt="Image"
                     classname="epic"
                   />
