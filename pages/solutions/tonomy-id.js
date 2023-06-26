@@ -37,11 +37,7 @@ class Tonomyid extends Component {
                 <WhyIsTIDBetter/>
 
                 <UseCases/>
-
-        <AboutID />
-        <OurMagicSauce />
-        <WhyIsTIDBetter />
-        <UseCases />
+    
         {/*old tonomy id section*/}
         {/* <section className="service-details-area ptb-100">
                 <div className="container">
