@@ -21,16 +21,14 @@ const join = () => {
 
   return (
     <>
-      <section className="industries-area pb-100">
-        <div className="container pt-20">
-          <div className="section-title">
-            <span></span>
-            <h2>Join Tonomy</h2>
-            <p>
-              We need you to make a better society and for a more transparant
-              future.
-            </p>
-          </div>
+    
+        <section className="industries-area pb-100">
+            <div className="container pt-20">
+                <div className="section-title">
+                    <span></span>
+                    <h2>Join Tonomy</h2>
+                    <p>We need you to make a better society and for a more transparent future.</p>
+                </div>
 
           <div className="tab industries-list-tab">
             <div className="row align-items-center">
@@ -43,6 +41,7 @@ const join = () => {
                       <h3 className="pl-20">Investors</h3>
                     </span>
                   </li>
+
 
                   <li onClick={(e) => openTabSection(e, "tab6")}>
                     <span>
