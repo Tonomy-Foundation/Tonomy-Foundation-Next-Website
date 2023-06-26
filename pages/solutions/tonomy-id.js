@@ -28,15 +28,7 @@ class Tonomyid extends Component {
         />
         
         <TonomySecurity />
-        <div className="section-title">
-              {/* <span>Tonomy ID</span> */}
-              <h2>Average amount of $/time we save companies</h2>
-               
-              
-            </div>
-                <div className="section-title pt-70"> 
-                        <h2>The most secure and easy-to-use digital login system in the world" and have in small text below</h2>
-                    </div>
+        
  
                 <AboutID/>
  
