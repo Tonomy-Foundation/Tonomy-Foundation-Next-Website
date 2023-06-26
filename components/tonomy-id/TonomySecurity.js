@@ -15,16 +15,8 @@ const TonomySecurity = () => {
             />
           </div>
           <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="about-img">
-                <img
-                  src="/images/tonomy-id-security.png"
-                  alt="Image"
-                  className="tonomy-id-app"
-                />
-              </div>
-            </div>
-            <div className="col-lg-6">
+          
+            <div className="col-lg-12">
               <div className="description">
                 Our system is built on the revolutionary technology of
                 Self-Sovereign Identity (SSI), which puts the power of digital
