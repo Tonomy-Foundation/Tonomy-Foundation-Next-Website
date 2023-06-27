@@ -26,19 +26,12 @@ class ContactInfo extends Component {
                 <i className="bx bx-phone-call"></i>
                 <h3>Call Us:</h3>
                 <p>
-                  Tel. + <a href="tel:31630184743">(31) 630184743</a>
+                  Tel. + <a href="tel:31622165433">(31) 622165433</a>
                 </p>
                 <br></br>
               </div>
             </div>
-
-            <div className="col-lg-3 col-sm-6">
-              <div className="single-contact-info">
-                <i className="bx bx-location-plus"></i>
-                <h3>Postal address</h3>
-                <p>35 F Thorbeckelaan,The Netherlands,3741TR</p>
-              </div>
-            </div>
+ 
           </div>
         </div>
       </div>
