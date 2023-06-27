@@ -1,30 +1,43 @@
-import React, { Component } from "react";
-import Navbar from "../../components/Layouts/Navbar";
-import Footer from "../../components/Layouts/Footer";
-import IdBanner from "../../components/Common/IdBanner";
-import AboutID from "../../components/tonomy-id/about-id";
-import UseCases from "../../components/tonomy-id/UseCases";
-import TIDPartner from "../../components/Common/TIDPartner";
-import TIDfeatures from "../../components/tonomy-id/Features-TonomyID";
-import Join from "../../components/tonomy-id/join-us";
-import WhyIsTIDBetter from "../../components/tonomy-id/WhyIsTIDBetter";
-import TonomySecurity from "../../components/tonomy-id/TonomySecurity";
+
+import React, { Component } from 'react';
+import PageBanner from '../../components/Common/PageBanner';
+import Navbar from '../../components/Layouts/Navbar';
+import Footer from '../../components/Layouts/Footer';
+import IdBanner from '../../components/Common/IdBanner'; 
+import AboutID from '../../components/tonomy-id/about-id';
+import UseCases from '../../components/tonomy-id/UseCases';
+import TIDPartner from '../../components/Common/TIDPartner';
+import TIDfeatures from '../../components/tonomy-id/Features-TonomyID';
+import Join from '../../components/tonomy-id/join-us';
+import WhyIsTIDBetter from '../../components/tonomy-id/WhyIsTIDBetter';
+import OurMagicSauce from '../../components/tonomy-id/our-magic-sauce';
+import TonomySecurity from '../../components/tonomy-id/TonomySecurity';
+import Head from "next/head";
 
 class Tonomyid extends Component {
-  render() {
-    return (
-      <>
-        <Navbar />
+    render() {
+        return (
+            <>
+                <Navbar />
+        
         <IdBanner
           pageTitle="Tonomy ID"
           homePageUrl="/"
           homePageText="Home"
           activePageText="Contact Style One"
         />
+        
         <TonomySecurity />
-        <AboutID />
-        <WhyIsTIDBetter />
-        <UseCases />
+        
+ 
+                <AboutID/>
+ 
+                <OurMagicSauce/>
+
+                <WhyIsTIDBetter/>
+
+                <UseCases/>
+    
         {/*old tonomy id section*/}
         {/* <section className="service-details-area ptb-100">
                 <div className="container">

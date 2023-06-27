@@ -2129,7 +2129,6 @@ Features Area Style
   -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   min-height: 401px;
-  height: 560px;
   margin-bottom: 30px;
 }
 .single-features {
@@ -2537,7 +2536,7 @@ Offer Area Style
 .single-offer i {
   position: absolute;
   left: 30px;
-  top: 28px;
+  top: 14px;
   background-color: #eeeefe;
   display: inline-block;
   width: 60px;

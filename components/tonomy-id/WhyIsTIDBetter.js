@@ -1,15 +1,19 @@
 import Link from "next/link";
+import Head from "next/head";
 
 const WhyIsTIDBetter = () => {
   return (
-    <section className="about-area pb-100">
-      <div className="container">
-        <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="about-img">
-              <img src="/images/teamwork.svg" alt="Image" />
+    <>
+      <section className="about-area pb-100">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6">
+              <div className="about-img">
+                <img src="/images/teamwork.svg" alt="Image" />
+              </div>
             </div>
           </div>
+
 
           <div className="col-lg-6">
             <div className="about-content">
@@ -36,7 +40,11 @@ const WhyIsTIDBetter = () => {
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Better Privacy for personal data
+                      Advanced data privacy
+                    </li>
+                    <li>
+                      <i className="flaticon-checked"></i>
+                      Reduced compliance time and costs
                     </li>
                   </ul>
                 </div>
@@ -45,24 +53,29 @@ const WhyIsTIDBetter = () => {
                   <ul>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Advanced fraud detection
+                      Advanced user and organization security
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
-                      Data security
+                      High user retention
                     </li>
                     <li>
                       <i className="flaticon-checked"></i>
                       Easy integration
                     </li>
+                    <li>
+                      <i className="flaticon-checked"></i>
+                      Cross-platform
+                    </li>
                   </ul>
+
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+    </>
   );
 };
 

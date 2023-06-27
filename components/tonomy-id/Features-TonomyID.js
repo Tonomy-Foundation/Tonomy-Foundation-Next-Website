@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import Head from "next/head";
 
 const TIDfeatures = () => {
   return (
@@ -15,9 +16,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-chip"></i>
                 <h3>Verifiable Credentials</h3>
                 <p>
-                  Issue, share and verify W3C Verifiable Credentials for private
-                  peer-to-peer identity and other data verification, with no
-                  middleware identity service needed.
+                Issue, share and verify W3C Verifiable Credentials for private peer-to-peer identity and other data verification, with no middleware identity service needed.
                 </p>
               </div>
             </div>
@@ -35,14 +34,25 @@ const TIDfeatures = () => {
                 </p>
               </div>
             </div> */}
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-shield"></i>
+                <h3>Phishing Prevention</h3>
+                <p>
+                Phishing prevention has become essential as more criminals turn towards online scams to steal your personal information. 
+                </p>
+              </div>
+            </div>
+
 
             <div className="col-lg-3">
               <div className="single-features2">
                 <i className="flaticon-blockchain"></i>
-                <h3>Smart contracts</h3>
+                <h3>Smart Contracts</h3>
                 <p>
-                  Use scaleable smart contracts for decentralized execution of
+                  Use scalable smart contracts for decentralized execution of
                   high-security and fault-tollorant parts of your application.
+
                 </p>
               </div>
             </div>
@@ -51,8 +61,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-choice"></i>
                 <h3>White labelled</h3>
                 <p>
-                  Adapt Tonomy ID to use your name, brand and color scheme so
-                  that it feels like yours to your users.
+                Adapt Tonomy ID to use your name, brand and color scheme so that it feels like yours to your users.
                 </p>
               </div>
             </div>
@@ -72,7 +81,7 @@ const TIDfeatures = () => {
                 <i className="flaticon-cyber-security"></i>
                 <h3>No Single Point of Failure</h3>
                 <p>
-                  Safeguard your system from SPOF to ensure the contiual
+                  Safeguard your system from SPOF to ensure the continual
                   reliability and availability of your system.
                 </p>
               </div>
@@ -100,6 +109,60 @@ const TIDfeatures = () => {
                 </p>
               </div>
             </div>
+
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-tick"></i>
+                <h3>Guaranteed Access</h3>
+                <p>
+                Guaranteed Access
+                </p>
+              </div>
+            </div>
+
+            
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i className="flaticon-tick"></i>
+                <h3>Guaranteed User Consent</h3>
+                <p>
+                Tonomy present consent options to users in a way that balances thorough detail with understandable terms. If consent options are overly vague, users cannot make informed decisions about their data. On the other hand, technical jargon can overwhelm users and again stand in the way of informed consent.
+                </p>
+              </div>
+            </div>
+
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-check-shield"></i>
+                <h3>Full self-sovereign</h3>
+                <p>
+                  Users get guaranteed self-sovereign control of their account
+                  and data. This brings trust and satisfaction to them helping
+                  them stay happy, and reduces security burdens on ecosystems.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-server"></i>
+                <h3>Removes server-side attacks</h3>
+                <p>
+                  With our zero-knowledge architecture, most major server-side
+                  attacks are removed or significantly mitigated.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-3">
+              <div className="single-features2">
+                <i class="bx bx-lock-open-alt"></i>
+                <h3>No vendor lock-in</h3>
+                <p>
+                  Using fully open-source software means you don't depend on our
+                  existence for your operation.
+                </p>
+              </div>
+            </div>
+
           </div>
         </div>
       </div>
