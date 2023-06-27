@@ -560,8 +560,8 @@ class TeamTwo extends Component {
                   <h3>Yasin Asadnezhad</h3>
                   <span>Developer</span>
                   <span>
-                  Yasin is an accomplished software engineer with nearly a decade of experience in coding, testing, optimizing, and implementing systems. Throughout his career, he has successfully contributed to over 50 large-scale projects using his expertise in C# .Net and ReactJS. His work includes developing ERP and official applications for various enterprises.
-                  Yasin has a diverse set of skills, which has enabled him to excel in his profession. He is adept at working with a range of tools and is committed to creating scalable architecture for enterprise solutions. He has a passion for building robust systems that can adapt to evolving business needs.
+                  Yasin is an accomplished software engineer with nearly a decade of experience in coding, testing, optimizing, and implementing systems. Throughout his career, he has successfully contributed to large-scale projects using his expertise in C# .Net and ReactJS. His work includes developing ERP and official applications for various enterprises.
+                  Yasin has a diverse set of skills, which has enabled him to excel in his profession. He is adept at working with a range of tools and is committed to creating scalable architecture for enterprise solutions. 
                   </span>
 
                   <ul>
