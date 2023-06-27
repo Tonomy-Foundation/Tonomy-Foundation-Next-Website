@@ -173,6 +173,56 @@ class TeamTwo extends Component {
               </div>
             </div>
 
+            <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0">
+              <div className="single-team active">
+                <div className="team-single-img">
+                  <img
+                    src="/images/team/Shayan.jpg"
+                    alt="Image"
+                    classname="epic"
+                  />
+                </div>
+
+                
+            <div className="team-content">
+                  <h3>Shayan Salehi</h3>
+                  <span>Chief Sales Officer</span>
+                  <span>
+                  Shayan is a dynamic and ambitious young professional with a unique blend of sales and technology expertise. With his extensive experience in driving sales and spearheading business development, Shayan plays a vital role in leading our team to success.
+                  </span>
+
+                  <ul>
+                    {/* <li> */}
+                    {/* <a href="https://www.facebook.com/" target="_blank">
+                                                <i className="bx bxl-facebook"></i>
+                                            </a> */}
+                    {/* </li> */}
+                    {/* <li>
+                      <a
+                        href="https://twitter.com/rusanov_mikhail"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-twitter"></i>
+                      </a>
+                    </li> */}
+                    <li>
+                      <a
+                        href="https://www.linkedin.com/in/shayancloud/"
+                        target="_blank"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </a>
+                    </li>
+                    <li>
+                      {/* <a href="https://www.pinterest.com/" target="_blank">
+                                                <i className="bx bxl-pinterest-alt"></i>
+                                            </a> */}
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+
             {/* second row */}
 
             <div className="col-lg-4 col-sm-6">
