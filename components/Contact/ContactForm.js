@@ -1,14 +1,6 @@
 import React, { useState } from "react";
 
-const btnSubmitClick = (e) => {
-  e.preventDefault();
-  const mailchimpTx = require("mailchimp_transactional")("040d330bd8beed481d3af04546bc6613-us12");
-
-  async function run() {
-    const response = await mailchimpTx.users.ping();
-    console.log(response);
-  }
-}
+ 
 
 const ContactForm = () => {
   return (
