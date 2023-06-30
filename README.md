@@ -41,11 +41,24 @@ We work with a specific policy for making feature branches to contribute.
 * Branches should be named feature/(task number)-(task name).
 * If applicable, PRs of feature branches should be linked to the Zenhub task(s) using the browser extension.
 
-## Website branches
+## Branches
 
-You can browse & pick components in the [Template branch](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/template) on Github.
+### tonomy.foundation
 
-You can find our deployed [Template branch](https://tonomy-foundation-template.vercel.app/), [Staging branch](https://staging-website.tonomy.foundation/) and [Production branch](https://tonomy.foundation/) here.
+* Branch: [master](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/master)
+* Deployed: [https://tonomy.foundation](https://tonomy.foundation)
+* Staging: [https://staging-website.tonomy.foundation](https://staging-website.tonomy.foundation/)
+
+### tonomy.io
+
+* Branch: [id](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/id)
+* Deployed: [https://tonomy.io](https://tonomy.foundation)
+* Staging: [https://staging-website.tonomy.io](https://staging-website.tonomy.foundation/)
+
+### Nextjs template
+
+* Branch: [template](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/template)
+* Deployed: [https://tonomy-foundation-template.vercel.app](https://tonomy-foundation-template.vercel.app/)
 
 ## Pull Requests
 
