@@ -82,6 +82,21 @@ class Navbar extends Component {
                                         </Link>
                                     </li>
 
+                                    <li className="nav-item">
+                                        <a className="nav-link" onClick={e => e.preventDefault()}>
+                                            Solutions <i className='bx bx-chevron-down'></i>
+                                        </a>
+
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item">
+                                                <Link href="https://tonomy.io" activeClassName="active">
+                                                    <a className="nav-link">Tonomy ID</a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+
+                                    </li>
+
                                 </ul>
 
                             </div>
