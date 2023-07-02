@@ -29,7 +29,7 @@ const WhyChooseUs = () => {
                     user's phone, automatically complying with GDPR.
                   </p>
                   <div>
-                    <Link href="/solutions/tonomy-id">
+                    <Link href="https://tonomy.io">
                       <a className="default-btn">See more</a>
                     </Link>
                   </div>
