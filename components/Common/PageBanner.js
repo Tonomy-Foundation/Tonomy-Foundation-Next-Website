@@ -21,6 +21,7 @@ class PageBanner extends Component {
               in today's digital age. We believe that by working together and
               leveraging the power of transparency and open source tools, we can
               create a more democratic and equitable world for all.
+            <span>Contact us for a free consultation meeting</span>
             </p>
             {/* <ul>
                             <li>
@@ -32,6 +33,11 @@ class PageBanner extends Component {
                         </ul> */}
           </div>
         </div>
+        <div className="flex-container text-center">
+          <a className="default-btn btn-two" href="https://cal.com/shayan-salehis-btb8mk/30min" target="_blank">
+            Free Consultation Meeting
+          </a>
+        </div> 
       </div>
     );
   }
