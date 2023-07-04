@@ -11,7 +11,7 @@ const TonomySecurity = () => {
               controls
               src="/videos/video.mp4"
               type="video/mp4"
-              autoPlay="true"
+              autoPlay="false"
             />
           </div>
           <div className="row align-items-center">
@@ -33,7 +33,7 @@ const TonomySecurity = () => {
                 information than necessary.
               </div>
               <div className="row center download-image ">
-                <Link href="">
+                <Link href="https://testflight.apple.com/join/7Bdd9jdB">
                   <a className="app-store-img" />
                 </Link>
                 <Link href="https://play.google.com/store/apps/details?id=foundation.tonomy.projects.tonomyidstaging&pli=1">
