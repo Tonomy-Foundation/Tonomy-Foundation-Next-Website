@@ -11,7 +11,7 @@ const TonomySecurity = () => {
               controls
               src="/videos/video.mp4"
               type="video/mp4"
-              autoPlay="true"
+              autoPlay="false"
             />
           </div>
           <div className="row align-items-center">
