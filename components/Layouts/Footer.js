@@ -24,7 +24,8 @@ class Footer extends Component {
                   </a>
 
                   <div className="flex-container text-center">
-                    <span>Contact us for a free consultation meeting</span>
+                    <span className="text-white ">Contact us for a free consultation meeting</span>
+                    <br />  <br /> 
                     <a className="default-btn btn-two" href="https://cal.com/shayan-salehis-btb8mk/30min" target="_blank">
                       Free Consultation Meeting
                     </a>
