@@ -33,11 +33,14 @@ const TonomySecurity = () => {
                 information than necessary.
               </div>
               <div className="row center download-image ">
-                <Link href="https://testflight.apple.com/join/7Bdd9jdB">
+                <Link href="https://testflight.apple.com/join/7Bdd9jdB" target="_blank">
                   <a className="app-store-img" />
                 </Link>
-                <Link href="https://play.google.com/store/apps/details?id=foundation.tonomy.projects.tonomyidstaging&pli=1">
+                <Link href="https://play.google.com/store/apps/details?id=foundation.tonomy.projects.tonomyidstaging&pli=1" target="_blank">
                   <a className="google-play-img" />
+                </Link>
+                <Link href="https://demo.demo.tonomy.foundation/" target="_blank">
+                  <a className="web-app-img" />
                 </Link>
               </div>
             </div>
