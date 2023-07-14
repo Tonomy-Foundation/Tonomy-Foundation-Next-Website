@@ -43,14 +43,38 @@ We work with a specific policy for making feature branches to contribute.
 
 ## Branches
 
-### tonomy.foundation
+### <https://tonomy.foundation/>
+
+Branch process:
+
+```
+master
+\
+| \
+|  | development
+|  \
+|   \
+|  |  | feature/xxx
+```
 
 * Branch: [master](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/master)
 * Deployed: [https://tonomy.foundation](https://tonomy.foundation)
 * Staging Branch: [development](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/development)
 * Staging: [https://staging-website.tonomy.foundation](https://staging-website.tonomy.foundation/)
 
-### tonomy.io
+### <https://tonomy.io/>
+
+Branch process:
+
+```
+id
+\
+| \
+|  | development-id
+|  \
+|  | \
+|  |  | feature-id/yyy
+```
 
 * Branch: [id](https://github.com/Tonomy-Foundation/Tonomy-Foundation-Next-Website/tree/id)
 * Deployed: [https://tonomy.io](https://tonomy.foundation)
