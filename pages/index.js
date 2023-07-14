@@ -8,11 +8,22 @@ import UseCases from '../components/tonomy-id/UseCases'
 import TIDfeatures from '../components/tonomy-id/Features-TonomyID'
 import IdBanner from '../components/Common/IdBanner';
 import Join from '../components/tonomy-id/join-us';
+import MainBanner from '../components/HomeOne/MainBanner'
+import Partner from '../components/Common/Partner'
+import Features from '../components/HomeOne/Features'
 
 const Index = () => {
     return (
         <>
             <Navbar />
+
+            <MainBanner />
+
+            <div className="pb-50">
+                <Partner />
+            </div>
+
+            <Features />
 
             <IdBanner
                 pageTitle="Tonomy ID"

@@ -1,55 +1,97 @@
 import Link from 'next/link'
 
 const Features = () => {
-        return (
-            <div className="features-area pt-100 pb-70">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-4 col-sm-6 p-0">
-                            <div className="single-features">
-                                <i className="flaticon-cloud-computing-1"></i>
-                                <h3>NON-PROFIT</h3>
-                                <p>Our project is inclusive, transparent, and community-driven, with the goal of fostering open and collaborative efforts towards a more empowered and equitable society.</p>
+    return (
+        <div className="features-area pt-100 pb-70">
+            <div className="container">
+                <div className="row">
+                    <div className="col-lg-4 col-sm-6 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-cloud-computing-1"></i>
+                            <h3>ELIMINATE DATA BREACHES</h3>
+                            <p>Eliminate data breaches and safeguard your organization's sensitive information with our cutting-edge solution.</p>
 
-                                {/*<Link href="/service-details">
+                            {/*<Link href="/service-details">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
                                 </Link>*/}
-                            </div>
                         </div>
+                    </div>
 
-                        <div className="col-lg-4 col-sm-6 p-0">
-                            <div className="single-features">
-                                <i className="flaticon-engineer"></i>
-                                <h3>OPEN SOURCE</h3>
-                                <p>At Tonomy, we prioritize transparency and trust in our digital identity solutions. We use open source and open knowledge to ensure that our software can be examined and run by anyone. This helps to bring transparency and trust to our products.</p>
-                                
-                                {/*<Link href="/service-details">
+                    <div className="col-lg-4 col-sm-6 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-engineer"></i>
+                            <h3>FRAUD PROOF DATA</h3>
+                            <p>Guarantee the integrity of your data with our fraud-proof technology, preventing unauthorized access and manipulation.</p>
+
+                            {/*<Link href="/service-details">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
                                 </Link>*/}
-                            </div>
                         </div>
+                    </div>
 
-                        <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
-                            <div className="single-features">
-                                <i className="flaticon-success"></i>
-                                <h3>WHITE LABEL </h3>
-                                <p>We encourage you to take this tool and make it your own. To use it, as if it belonged to you alone. This allows our partners and clients to flexibly use our tools within their institutions, businesses, supply chains and governments.</p>
-                                
-                                {/*<Link href="/service-details">
+                    <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-success"></i>
+                            <h3>WHITE LABEL </h3>
+                            <p>Customize and brand our solution as your own with our white label option, providing a seamless and cohesive user experience.</p>
+
+                            {/*<Link href="/service-details">
                                     <a className="read-more-icon">
                                         <span className="flaticon-right-arrow"></span>
                                     </a>
                                 </Link>*/}
-                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-success"></i>
+                            <h3>REGULATORY COMPLIANCE</h3>
+                            <p>Ensure compliance with GDPR regulations effortlessly, reducing data compliance work and mitigating risks.</p>
+
+                            {/*<Link href="/service-details">
+<a className="read-more-icon">
+<span className="flaticon-right-arrow"></span>
+</a>
+</Link>*/}
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-success"></i>
+                            <h3>EU RECOGNIZED SIGNATURES</h3>
+                            <p>Benefit from legally recognized and secure eiDAS signatures, offering the highest standards of authentication and verification.</p>
+
+                            {/*<Link href="/service-details">
+<a className="read-more-icon">
+<span className="flaticon-right-arrow"></span>
+</a>
+</Link>*/}
+                        </div>
+                    </div>
+
+                    <div className="col-lg-4 col-sm-6 offset-sm-3 offset-lg-0 p-0">
+                        <div className="single-features">
+                            <i className="flaticon-success"></i>
+                            <h3>OPEN SOURCE</h3>
+                            <p>Collaborate and contribute with confidence using Tonomy ID's open-source solution.</p>
+
+                            {/*<Link href="/service-details">
+<a className="read-more-icon">
+<span className="flaticon-right-arrow"></span>
+</a>
+</Link>*/}
                         </div>
                     </div>
                 </div>
             </div>
-        )
+        </div>
+    )
 }
 
 export default Features;

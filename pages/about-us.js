@@ -23,22 +23,9 @@ class About1 extends Component {
         </Head>
         <PageBanner
           pageTitle="About us"
-          // homePageUrl="/"
-          // homePageText="Home"
-          // activePageText="About us"
         />
 
-        {/* <About /> */}
-
-        {/* <MakeYourBusiness /> */}
-
-        {/* <Testimonials />     */}
-
         <TeamTwo />
-
-        <div className="pb-50">
-          <Partner />
-        </div>
 
         <Footer />
       </>
