@@ -1,0 +1,24 @@
+name: "Protect master branch"
+
+on:
+    pull_request:
+        branches:
+            - master
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - name: "Check source branch is development"
+              run: |
+                echo "Source branch is ${{ github.event.pull_request.head.ref }}"
+                if [[ ${{ github.event.pull_request.head.ref }} != "development" ]]; then
+                    echo "Source branch is not development"
+                    exit 1
+                fi
+            
+            - name: "Prevent merge to master"
+              run: |
+                echo "You are on a git tree that targets the branch 'id' https://tonomy.io"
+                echo "You cannot merge to 'master' https://tonomy.foundationfrom"
+                exit 1
