@@ -37,13 +37,6 @@ const MainBanner = () => {
                                             Read the White Paper
                                         </a>
                                     </Link>
-
-                                    {/* <div
-                                        onClick={() => setToggler(!toggler)}
-                                        className="default-btn active popup-youtube"
-                                    >
-                                        <i className="bx bx-play"></i>Watch the demo
-                                    </div> */}
                                 </div>
                             </div>
                         </div>

@@ -37,19 +37,20 @@ class PricingStyleOne extends Component {
         <section className="pricing-area pt-100 pb-70">
           <div className="container">
             <div className="section-title">
-              {/* <span>Tonomy ID</span> */}
               <h2>Our Pricing Plan For You</h2>
               <p>
                 We offer a variety of solutions for you to help you get started
                 using Tonomy technologies!
               </p>
               <p>
-                On average, our security technologies can mitigate €20 to €30,
-                as well as 10 to 20 hours of compliance and other costs per user
-                per month in both the EU and the USA.{" "}
-                <a href="https://tonomy-id-sso-website.vercel.app/">
-                  How do we do this?
-                </a>
+                On average, our security technologies can mitigate €20 to €30 per user
+                per month in both the EU.{" "}
+                <Link href="/#attack-prevention">
+                  <a>
+                    How do we do this?
+                  </a>
+                </Link>
+
               </p>
               {/* <p>In our Software as a Service (SaaS) model, we will provide an Antelope blockchain for Tonomy ID, you can also use this to create smart contracts and other blockchain activities. The Antelope protocol also supports the Ethereum Virtual Machine, so if you are already working with Ethereum smart contracts, you should be able to migrate these onto the Antelope blockchain which has the benefit of being integrated with Tonomy ID.</p> */}
             </div>
@@ -76,11 +77,11 @@ class PricingStyleOne extends Component {
                       <div className="single-pricing">
                         <div className="pricing-top-heading">
                           <h3>Tester</h3>
-                          {/* <p>Tonomy ID</p> */}
                         </div>
                         <span>
-                          €100<sub>/m</sub>
+                          FREE
                         </span>
+                        <p>Good for proof of concepts, demos and testing</p>
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
@@ -92,7 +93,7 @@ class PricingStyleOne extends Component {
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
-                            Up to 100,000 accounts
+                            Up to 1,000 accounts
                           </li>
                           <li>
                             <i className="bx bx-check"></i>
@@ -105,8 +106,8 @@ class PricingStyleOne extends Component {
                           </li>
                         </ul>
 
-                        <Link href="/contact">
-                          <a className="default-btn">Get Started</a>
+                        <Link href="https://docs.tonomy.foundation">
+                          <a target="_blank" className="default-btn">Read the docs</a>
                         </Link>
                       </div>
                     </div>
@@ -115,11 +116,11 @@ class PricingStyleOne extends Component {
                       <div className="single-pricing">
                         <div className="pricing-top-heading">
                           <h3>Production</h3>
-                          {/* <p>Build A Website</p> */}
                         </div>
                         <span>
-                          €1,500 - 15,000<sub>/m</sub>
+                          Starting at €2,000<sub>/m</sub>
                         </span>
+                        <p>Price depends on how you integrate Tonomy ID and production requirements</p>
 
                         <ul>
                           <li>
@@ -170,13 +171,13 @@ class PricingStyleOne extends Component {
                       <div className="single-pricing">
                         <div className="pricing-top-heading">
                           <h3>Enterprise</h3>
-                          {/* <p>Contact Us</p> */}
                         </div>
                         <span>
-                          <a href="https://us12.list-manage.com/contact-form?u=fdd40ebf441b888a2d75c41fd&form_id=eee2e8567ab48c31cc20a0349787ec09">
-                            Contact&nbsp;us
-                          </a>
+                          <Link href="/contact">
+                            <a>Contact us</a>
+                          </Link>
                         </span>
+                        <p>Fully customized and full tech support</p>
                         <ul>
                           <li>
                             <i className="bx bx-check"></i>
@@ -220,7 +221,7 @@ class PricingStyleOne extends Component {
                           <h3>DIY</h3>
                           <p>Run the open source software yourself</p>
                         </div>
-                        <span>Free</span>
+                        <span>FREE</span>
 
                         <ul>
                           <li>
@@ -234,8 +235,8 @@ class PricingStyleOne extends Component {
                           </li>
                         </ul>
 
-                        <Link href="https://github.com/Tonomy-Foundation/">
-                          <a className="default-btn">Get Started</a>
+                        <Link href="https://docs.tonomy.foundation">
+                          <a target="_blank" className="default-btn">Read the docs</a>
                         </Link>
                       </div>
                     </div>
@@ -249,8 +250,10 @@ class PricingStyleOne extends Component {
                           </p>
                         </div>
                         <span>
-                          €1500 - €15000<sub>/m</sub>
+                          Starting at €1,000<sub>/m</sub>
                         </span>
+
+                        <p>Price depends on how you integrate Tonomy ID and production requirements</p>
 
                         <ul>
                           <li>

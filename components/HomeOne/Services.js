@@ -7,7 +7,7 @@ class Services extends Component {
       <section className="offer-area pt-100 pb-70">
         <div className="container">
           <div className="section-title">
-            <span>Attack Prevention</span>
+            <span id="attack-prevention">Attack Prevention</span>
             <h2>A Sovereign Architecture To Prevent Cybersecurity Attacks</h2>
             <p>Tonomy ID <strong>removes</strong> or significantly reduces these attacks using it's unique sovereign architecture.</p>
 
