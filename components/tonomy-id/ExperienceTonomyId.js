@@ -11,7 +11,7 @@ const ExperienceTonomyId = () => {
 
             <div className="col-lg-12">
               <div className="center description">
-                First, download the Demo app on Google Play or through Testflight
+                First, download the Demo app on Google Play or through Testflight.
               </div>
               <div className="row center download-image ">
                 <Link href="https://testflight.apple.com/join/7Bdd9jdB">

@@ -11,8 +11,9 @@ import Join from '../components/tonomy-id/join-us';
 import MainBanner from '../components/HomeOne/MainBanner'
 import Partner from '../components/Common/Partner'
 import Features from '../components/HomeOne/Features'
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs2'
+import WhyChooseUs2 from '../components/HomeOne/WhyChooseUs2'
 import Demo from '../components/HomeOne/Demo'
+import MakeYourBusiness from '../components/Common/MakeYourBusiness'
 
 const Index = () => {
     return (
@@ -27,20 +28,11 @@ const Index = () => {
 
             <Features />
 
-            <WhyChooseUs />
+            <WhyChooseUs2 />
 
             <Demo />
 
-            {/* <IdBanner
-                pageTitle="Tonomy ID"
-                homePageUrl="/"
-                homePageText="Home"
-                activePageText="Contact Style One"
-            /> */}
-
-            {/* <ExperienceTonomyId /> */}
-
-
+            <MakeYourBusiness />
             <AboutID />
 
             <OurMagicSauce />

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class WhyChooseUs extends Component {
+class WhyChooseUs2 extends Component {
     render() {
         return (
             <section className="choose-ue-area ptb-100">
@@ -40,7 +40,7 @@ class WhyChooseUs extends Component {
                                     <li>
                                         <span><i className="flaticon-shield"></i></span>
                                         <h3>Making web3 Available to the Mainstream </h3>
-                                        <p>Unlike previous web3 systems, Tonomy ID is <strong>user friendly to all existing web users</strong> by hiding sovereign cryptography without compromising on security.</p>
+                                        <p>Unlike previous web3 and self-sovereign identity systems, Tonomy ID is <strong>user friendly to all existing web users</strong> by hiding sovereign cryptography without compromising on security.</p>
                                     </li>
 
                                     {/* <li className="ml">
@@ -64,4 +64,4 @@ class WhyChooseUs extends Component {
     }
 }
 
-export default WhyChooseUs;
+export default WhyChooseUs2;
