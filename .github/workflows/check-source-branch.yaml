@@ -1,0 +1,17 @@
+on:
+    pull_request:
+        # branches:
+            # - id
+
+jobs:
+    build:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+
+            - name: "Check source branch is development-id"
+              run: |
+                if [[ ${{ github.event.pull_request.head.ref }} != "development-id" ]]; then
+                    echo "Source branch is not development-id"
+                    exit 1
+                fi
