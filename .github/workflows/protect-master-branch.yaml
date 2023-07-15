@@ -1,4 +1,4 @@
-name: "Protect master branch"
+name: "Protect base branch"
 
 on:
     pull_request:
