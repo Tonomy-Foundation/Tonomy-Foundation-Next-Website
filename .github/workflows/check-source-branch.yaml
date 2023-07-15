@@ -1,7 +1,9 @@
+name: "Check source branch for pull request"
+
 on:
     pull_request:
-        # branches:
-            # - id
+        branches:
+            - id-development
 
 jobs:
     build:
@@ -11,6 +13,7 @@ jobs:
 
             - name: "Check source branch is development-id"
               run: |
+                echo "Source branch is ${{ github.event.pull_request.head.ref }}"
                 if [[ ${{ github.event.pull_request.head.ref }} != "development-id" ]]; then
                     echo "Source branch is not development-id"
                     exit 1
