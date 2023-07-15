@@ -9,7 +9,7 @@ const Features = () => {
                         <div className="single-features">
                             <i className="flaticon-cloud-computing-1"></i>
                             <h3>ELIMINATE DATA BREACHES</h3>
-                            <p>Eliminate data breaches and safeguard your organization's sensitive information with our cutting-edge solution.</p>
+                            <p>Eliminate data breaches and safeguard your organization's sensitive information with our a super self-sovereign identity architecture.</p>
 
                             {/*<Link href="/service-details">
                                     <a className="read-more-icon">
@@ -23,7 +23,7 @@ const Features = () => {
                         <div className="single-features">
                             <i className="flaticon-engineer"></i>
                             <h3>FRAUD PROOF DATA</h3>
-                            <p>Guarantee the integrity of your data with our fraud-proof technology, preventing unauthorized access and manipulation.</p>
+                            <p>Guarantee the integrity of your data with our fraud-proof technology using W3C Verifiable Credentials, preventing unauthorized access and manipulation.</p>
 
                             {/*<Link href="/service-details">
                                     <a className="read-more-icon">

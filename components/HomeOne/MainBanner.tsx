@@ -21,16 +21,16 @@ const MainBanner = () => {
                         <div className="col-lg-6">
                             <div className="banner-text">
                                 <h1>Eliminate breaches and compliance headaches</h1>
-                                <p>Tonomy ID eliminates personal data from databases and provides end-to-end digital signatures and encryption, achieving better-than-banking security and GDPR and CCPR compliance by default. Join the 0% breach club.</p>
+                                <p>Tonomy ID securely moves personal data and authentication to their device and provides end-to-end digital signatures and encryption, achieving better-than-banking security and GDPR and CCPR compliance by default. Join the 0% breach club.</p>
 
                                 <div className="banner-btn">
-                                    <Link href="/about-1">
+                                    <Link target="_blank" href="https://cal.com/shayan-salehis-btb8mk/30min">
                                         <a className="default-btn">
-                                            Schedule a discovery session
+                                            Free consultation session
                                         </a>
                                     </Link>
 
-                                    <Link href="/contact">
+                                    <Link target="_blank" href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view">
                                         <a className="default-btn white">
                                             Read the White Paper
                                         </a>

@@ -67,6 +67,14 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link href="https://docs.tonomy.foundation">
+                                            <a target="_blank" className="nav-link">Developer Docs</a>
+                                        </Link>
+
+
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href="/about-us">
                                             <a className="nav-link">About us</a>
                                         </Link>
