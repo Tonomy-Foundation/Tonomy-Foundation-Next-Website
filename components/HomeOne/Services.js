@@ -1,29 +1,26 @@
-import Link from "next/link";
-// What's a tough tea to swallow? Reali-tea!
+import Link from 'next/link'
+
 const Services = () => {
+
   return (
     <section className="offer-area pt-100 pb-70">
       <div className="container">
         <div className="section-title">
-          <span></span>
-          <h2>Why Tonomy?</h2>
-          <p>
-          Tonomy is a powerful and reliable tool for managing digital identity and transactions. 
-          Its open source nature and self-sovereign identity technology make it a highly secure and efficient solution for government agencies and commercial companies. By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.
-          </p>
+          <span>Features</span>
+          <h2>The last digital identity app you need</h2>
+          <p>something about it doing everything you need...</p>
         </div>
+
         <div className="row">
           <div className="col-lg-4 col-sm-6">
             <div className="single-offer">
               <i className="flaticon-chip"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Our technology</a>
+                  <a>Robotics & Drones</a>
                 </Link>
               </h3>
-              <p>
-              Using self-sovereign identity (SSI) and other cutting-edge technologies to provide secure and efficient solutions for government agencies and commercial companies.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
 
@@ -32,13 +29,10 @@ const Services = () => {
               <i className="flaticon-vr"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>GDPR compliance</a>
+                  <a>Virtually Reality</a>
                 </Link>
               </h3>
-              <p>
-              GDPR compliance refers to protect the personal data privacy of individuals 
-              and give them control over how their information is collected, used, and shared.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
 
@@ -47,13 +41,10 @@ const Services = () => {
               <i className="flaticon-blockchain"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Open governance</a>
+                  <a>Blockchain Project</a>
                 </Link>
               </h3>
-              <p>
-              Open governance refers to the principles and practices of 
-              transparency, accountability, and participation in the decision-making processes of an organization.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
 
@@ -62,12 +53,10 @@ const Services = () => {
               <i className="flaticon-target"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Security</a>
+                  <a>Image Processing</a>
                 </Link>
               </h3>
-              <p>
-              We take great care to ensure that all of our products and solutions are designed to protect sensitive information and prevent unauthorized access.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
 
@@ -76,13 +65,10 @@ const Services = () => {
               <i className="flaticon-choice"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Data access</a>
+                  <a>Order Management</a>
                 </Link>
               </h3>
-              <p>
-              Our organization aims to provide secure and efficient access to data through 
-              the use of open source solutions for digital identity and self-sovereign identity technology.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
 
@@ -91,12 +77,10 @@ const Services = () => {
               <i className="flaticon-deep-learning"></i>
               <h3>
                 <Link href="/service-details">
-                  <a>Streamlining</a>
+                  <a>Machine Learning</a>
                 </Link>
               </h3>
-              <p>
-              We aim to improve organizational efficiency processes through open source solutions like digital identity, DAO, and governance systems to reduce administrative friction.
-              </p>
+              <p>Lorem consectetur ipsum dolor sit amet,  adipiscing elit, do eiusmod tempor incididunt sed.</p>
             </div>
           </div>
         </div>
@@ -112,7 +96,7 @@ const Services = () => {
         <img src="/images/shape/services-shape/6.png" alt="Image" />
       </div>
     </section>
-  );
-};
+  )
+}
 
 export default Services;
