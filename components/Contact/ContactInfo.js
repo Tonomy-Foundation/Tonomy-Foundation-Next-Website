@@ -23,7 +23,7 @@ class ContactInfo extends Component {
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
-                <i className="bx bx-envelope"></i>
+                <i className="bx bx-calendar"></i>
                 <h3>Book a discovery meeting:</h3>
                 <a
                   href={BOOKING_LINK}
@@ -37,7 +37,7 @@ class ContactInfo extends Component {
 
             <div className="col-lg-3 col-sm-6">
               <div className="single-contact-info">
-                <i className="bx bx-phone-call"></i>
+                <i className="bx bx-support"></i>
                 <h3>Chat with us:</h3>
                 <a
                   href="https://www.discord.gg/QqVJz5XF8d"

@@ -21,7 +21,7 @@ class Services extends Component {
           <div className="row">
             <div className="col-lg-4 col-sm-6">
               <div className="single-offer">
-                <i className="flaticon-chip"></i>
+                <i className="flaticon-cloud-computing"></i>
                 <h3>
                   <Link href="/service-details">
                     <a>Database Breaches</a>
@@ -33,7 +33,7 @@ class Services extends Component {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-offer">
-                <i className="flaticon-vr"></i>
+                <i className="flaticon-interactivity"></i>
                 <h3>
                   <Link href="/service-details">
                     <a>Man-in-the-Middle Attacks</a>
@@ -93,7 +93,7 @@ class Services extends Component {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-offer">
-                <i className="flaticon-deep-learning"></i>
+                <i className="flaticon-chip"></i>
                 <h3>
                   <Link href="/service-details">
                     <a>Identity Spoofing</a>
@@ -105,7 +105,7 @@ class Services extends Component {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-offer">
-                <i className="flaticon-deep-learning"></i>
+                <i className="flaticon-lock"></i>
                 <h3>
                   <Link href="/service-details">
                     <a>Brute Force Attacks</a>
@@ -117,7 +117,7 @@ class Services extends Component {
 
             <div className="col-lg-4 col-sm-6">
               <div className="single-offer">
-                <i className="flaticon-deep-learning"></i>
+                <i className="flaticon-shield"></i>
                 <h3>
                   <Link href="/service-details">
                     <a>Server Exploitation</a>

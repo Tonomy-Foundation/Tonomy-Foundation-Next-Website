@@ -19,7 +19,7 @@ class MakeYourBusiness extends Component {
                             </div>
 
                             <div className="single-business">
-                                <i className="flaticon-blockchain"></i>
+                                <i className="flaticon-cyber-security"></i>
                                 <h3>The Struggle for Companies</h3>
                                 <p>The struggle for companies to maintain robust cybersecurity measures is a never-ending battle, as they encounter increasingly sophisticated attacks, struggle with limited resources and expertise, navigate complex regulatory requirements, and strive to keep pace with rapidly evolving technologies and threat landscapes.</p>
                             </div>
