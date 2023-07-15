@@ -3,7 +3,7 @@ name: "Check source branch for pull request"
 on:
     pull_request:
         branches:
-            - id-development
+            - development-id
 
 jobs:
     build:
