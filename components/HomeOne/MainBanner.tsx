@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import Link from 'next/link';
 import FsLightbox from 'fslightbox-react';
 
+export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
+
 const MainBanner = () => {
     // if toggler is updated when lightbox is closed it will open it
     // if toggler is updated when lightbox is opened it will close it
@@ -24,14 +26,14 @@ const MainBanner = () => {
                                 <p>Tonomy ID securely moves personal data and authentication to their device and provides end-to-end digital signatures and encryption, achieving better-than-banking security and GDPR and CCPR compliance by default. Join the 0% breach club.</p>
 
                                 <div className="banner-btn">
-                                    <Link target="_blank" href="https://cal.com/shayan-salehis-btb8mk/30min">
-                                        <a className="default-btn">
+                                    <Link href={BOOKING_LINK}>
+                                        <a target="_blank" className="default-btn">
                                             Free consultation session
                                         </a>
                                     </Link>
 
                                     <Link target="_blank" href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view">
-                                        <a className="default-btn white">
+                                        <a target="_blank" className="default-btn white">
                                             Read the White Paper
                                         </a>
                                     </Link>

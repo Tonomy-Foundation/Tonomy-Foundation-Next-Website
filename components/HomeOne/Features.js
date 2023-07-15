@@ -11,11 +11,11 @@ const Features = () => {
                             <h3>ELIMINATE DATA BREACHES</h3>
                             <p>Eliminate data breaches and safeguard your organization's sensitive information with our a super self-sovereign identity architecture.</p>
 
-                            {/*<Link href="/service-details">
-                                    <a className="read-more-icon">
-                                        <span className="flaticon-right-arrow"></span>
-                                    </a>
-                                </Link>*/}
+                            {/* <Link href="/service-details">
+                                <a className="read-more-icon">
+                                    <span className="flaticon-right-arrow"></span>
+                                </a>
+                            </Link> */}
                         </div>
                     </div>
 

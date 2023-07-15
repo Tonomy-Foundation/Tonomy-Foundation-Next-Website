@@ -36,7 +36,7 @@ const Index = () => {
             <MakeYourBusiness />
 
             <Services />
-            <AboutID />
+            {/* <AboutID />
 
             <OurMagicSauce />
 
@@ -45,7 +45,7 @@ const Index = () => {
             <UseCases />
 
             <TIDfeatures />
-            <Join />
+            <Join /> */}
 
             <Footer />
         </>

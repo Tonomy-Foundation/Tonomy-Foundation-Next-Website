@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import { BOOKING_LINK } from "../HomeOne/MainBanner";
 
 class PageBanner extends Component {
   render() {
@@ -28,7 +29,7 @@ class PageBanner extends Component {
         </div>
         <div className="flex-container text-center pt-4">
 
-          <a className="default-btn btn-two" href="https://cal.com/shayan-salehis-btb8mk/30min" target="_blank">
+          <a className="default-btn btn-two" href={BOOKING_LINK} target="_blank">
             Free Consultation Meeting
           </a>
         </div>

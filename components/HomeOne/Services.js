@@ -10,6 +10,12 @@ class Services extends Component {
             <span>Attack Prevention</span>
             <h2>A Sovereign Architecture To Prevent Cybersecurity Attacks</h2>
             <p>Tonomy ID <strong>removes</strong> or significantly reduces these attacks using it's unique sovereign architecture.</p>
+
+            <Link href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view">
+              <a target="_blank" className="default-btn white">
+                Read the White Paper
+              </a>
+            </Link>
           </div>
 
           <div className="row">
