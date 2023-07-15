@@ -43,8 +43,9 @@ class PricingStyleOne extends Component {
                 using Tonomy technologies!
               </p>
               <p>
-                On average, our security technologies can mitigate €20 to €30 per user
-                per month in both the EU.{" "}
+                On average, our security technologies can mitigate on average €30 per user
+                per month in the EU.{" "}
+                {/* https://www.canva.com/design/DAFbTtHWg_0/pCdfGOdqDIuULNHc8hcvcw/edit */}
                 <Link href="/#attack-prevention">
                   <a>
                     How do we do this?
