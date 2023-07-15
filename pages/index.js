@@ -14,6 +14,7 @@ import Features from '../components/HomeOne/Features'
 import WhyChooseUs2 from '../components/HomeOne/WhyChooseUs2'
 import Demo from '../components/HomeOne/Demo'
 import MakeYourBusiness from '../components/Common/MakeYourBusiness'
+import Services from '../components/HomeOne/Services'
 
 const Index = () => {
     return (
@@ -33,6 +34,8 @@ const Index = () => {
             <Demo />
 
             <MakeYourBusiness />
+
+            <Services />
             <AboutID />
 
             <OurMagicSauce />
