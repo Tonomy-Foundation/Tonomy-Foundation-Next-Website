@@ -25,8 +25,8 @@ const ExperienceTonomyId = () => {
                 Then try logging into the Demo Integration Application that shows signing and other features.
               </div>
               <div className="center white">
-                <Link target="_blank" href="https://demo.demo.tonomy.foundation">
-                  <a className="default-btn white">
+                <Link href="https://demo.demo.tonomy.foundation">
+                  <a target="_blank" className="default-btn white">
                     Demo web app
                   </a>
                 </Link>
@@ -34,18 +34,18 @@ const ExperienceTonomyId = () => {
             </div>
           </div>
         </div>
-        <div className="container">
-          <h1 className="center pb-50">Want to try integrating with the demo platform?</h1>
+        <div className="container" style={{ marginTop: "150px" }}>
+          <h1 className="center pb-50">Ready to integrate?</h1>
 
           <div className="row align-items-center">
 
             <div className="col-lg-12">
               <div className="center description">
-                Integration takes less than 30 minutes.
+                Integration with the demo platform takes less than 30 minutes.
               </div>
               <div className="center">
-                <Link target="_blank" href="https://docs.tonomy.foundation">
-                  <a className="default-btn white">
+                <Link href="https://docs.tonomy.foundation">
+                  <a target="_blank" className="default-btn white">
                     Developer Documentation
                   </a>
                 </Link>

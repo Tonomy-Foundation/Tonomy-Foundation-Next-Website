@@ -15,6 +15,7 @@ import WhyChooseUs2 from '../components/HomeOne/WhyChooseUs2'
 import Demo from '../components/HomeOne/Demo'
 import MakeYourBusiness from '../components/Common/MakeYourBusiness'
 import Services from '../components/HomeOne/Services'
+import ComplianceSlider from '../components/HomeOne/ComplianceSlider'
 
 const Index = () => {
     return (
@@ -46,6 +47,8 @@ const Index = () => {
 
             <TIDfeatures />
             <Join /> */}
+
+            <ComplianceSlider />
 
             <Footer />
         </>
