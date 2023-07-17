@@ -12,10 +12,11 @@ class Contact extends Component {
       <>
         <Navbar />
         <Head>
-          <meta
-            name="description"
-            content="Send a message or call us for more details."
-          />
+            <title>Tonomy ID Contact Us - Reach Out to Our Experts for Secure Digital Identity Solutions</title>
+            <meta
+                name="description"
+                content="Get in touch with Tonomy ID's team of experts for all your digital identity needs. We provide secure and innovative solutions to protect your online presence. Reach out to us today."
+            />
         </Head>
         <PageBanner
           pageTitle="Contact us"

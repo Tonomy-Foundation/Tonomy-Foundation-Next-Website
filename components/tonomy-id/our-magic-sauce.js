@@ -7,12 +7,12 @@ const OurMagicSauce = () => {
         <div className="row align-items-center">
 
 
-        <div className="col-lg-6">
+          <div className="col-lg-6">
             <div className="about-content">
-              <h2>Our magic sauce: what makes Tonomy ID so special</h2>
+              <h2>what makes Tonomy ID so special</h2>
               <p>
-              ur zero-knowledge architecture is what makes Tonomy ID so special. In Tonomy ID, all user data and authentication secrets are store exclusively in the person's phone and never on our servers unlike most digital identity solutions. This mitigates significant security and privacy issues by ensuring that even if our servers are breached, no user data is compromised. This prevents a large amount of common problems found in most systems. When fully utilized, Tonomy ID practically removes the following issues from your system:
-"Server-side security breaches
+                Our zero-knowledge architecture is what makes Tonomy ID so special. In Tonomy ID, all user data and authentication secrets are store exclusively in the person's phone and never on our servers unlike most digital identity solutions. This mitigates significant security and privacy issues by ensuring that even if our servers are breached, no user data is compromised. This prevents a large amount of common problems found in most systems. When fully utilized, Tonomy ID practically removes the following issues from your system:
+                "Server-side security breaches
               </p>
               <div className="row">
                 <div className="col-lg-6 col-sm-6">
@@ -53,7 +53,7 @@ const OurMagicSauce = () => {
                     <li>
                       <i className="flaticon-checked"></i>
                       Compromised website security
-                    </li> 
+                    </li>
                   </ul>
                 </div>
               </div>
