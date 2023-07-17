@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
+
 class Navbar extends Component {
     _isMounted = false;
     state = {
@@ -63,6 +64,14 @@ class Navbar extends Component {
                                                 Home
                                             </a>
                                         </Link>
+
+                                    </li>
+
+                                    <li className="nav-item">
+                                        <Link href="https://docs.tonomy.foundation">
+                                            <a target="_blank" className="nav-link">Developer Docs</a>
+                                        </Link>
+
 
                                     </li>
 

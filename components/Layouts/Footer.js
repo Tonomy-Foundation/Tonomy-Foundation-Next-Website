@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
+import { BOOKING_LINK } from "../HomeOne/MainBanner";
 
 let iconBackground = { backgroundColor: "#29C7E2" };
 
@@ -25,8 +26,8 @@ class Footer extends Component {
 
                   <div className="flex-container text-center">
                     <span className="text-white ">Contact us for a free consultation meeting</span>
-                    <br />  <br /> 
-                    <a className="default-btn btn-two" href="https://cal.com/shayan-salehis-btb8mk/30min" target="_blank">
+                    <br />  <br />
+                    <a className="default-btn btn-two" href={BOOKING_LINK} target="_blank">
                       Free Consultation Meeting
                     </a>
                   </div>
