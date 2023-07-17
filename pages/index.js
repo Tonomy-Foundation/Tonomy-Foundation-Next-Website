@@ -1,13 +1,5 @@
 import Navbar from '../components/Layouts/Navbar'
 import Footer from '../components/Layouts/Footer'
-import ExperienceTonomyId from '../components/tonomy-id/ExperienceTonomyId'
-import AboutID from '../components/tonomy-id/about-id'
-import OurMagicSauce from '../components/tonomy-id/our-magic-sauce'
-import WhyIsTIDBetter from '../components/tonomy-id/WhyIsTIDBetter'
-import UseCases from '../components/tonomy-id/UseCases'
-import TIDfeatures from '../components/tonomy-id/Features-TonomyID'
-import IdBanner from '../components/Common/IdBanner';
-import Join from '../components/tonomy-id/join-us';
 import MainBanner from '../components/HomeOne/MainBanner'
 import Partner from '../components/Common/Partner'
 import Features from '../components/HomeOne/Features'
@@ -37,16 +29,6 @@ const Index = () => {
             <MakeYourBusiness />
 
             <Services />
-            {/* <AboutID />
-
-            <OurMagicSauce />
-
-            <WhyIsTIDBetter />
-
-            <UseCases />
-
-            <TIDfeatures />
-            <Join /> */}
 
             <ComplianceSlider />
 

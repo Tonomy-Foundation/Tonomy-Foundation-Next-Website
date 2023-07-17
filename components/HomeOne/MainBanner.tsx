@@ -5,8 +5,6 @@ import FsLightbox from 'fslightbox-react';
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 
 const MainBanner = () => {
-    // if toggler is updated when lightbox is closed it will open it
-    // if toggler is updated when lightbox is opened it will close it
     const [toggler, setToggler] = useState(false);
     return (
         <>

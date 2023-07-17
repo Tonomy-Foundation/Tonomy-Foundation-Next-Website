@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
+
 class Navbar extends Component {
     _isMounted = false;
     state = {
