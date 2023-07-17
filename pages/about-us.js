@@ -14,12 +14,11 @@ class About1 extends Component {
       <>
         <Navbar />
         <Head>
-          <meta
-            name="description"
-            content="We are non-profit organization that focuses on using advanced open source technology. 
-          The Tonomy Foundation has a dedicated team of professionals who are experts in their respective fields. 
-          The organization also works closely with trusted partners who share their vision and values."
-          />
+            <title>Tonomy ID About Us and Meet the Team</title>
+            <meta
+                name="description"
+                content="Discover the story behind Tonomy ID and our mission to revolutionize digital identity. Meet our expert team of innovators dedicated to providing unmatched security, privacy, and compliance in the digital landscape."
+            />
         </Head>
         <PageBanner
           pageTitle="About us"

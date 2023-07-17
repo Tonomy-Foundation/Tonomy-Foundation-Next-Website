@@ -27,7 +27,6 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>Transform Your Cybersecurity with Tonomy ID's Digital Identity Wallet</title>
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
@@ -46,10 +45,6 @@ export default class MyApp extends App {
             }}
           />
           <meta name="viewport" content="width=device-width, initial-scale=1" />
-          <meta
-            name="description"
-            content="Elevate your cybersecurity strategy with Tonomy ID. Our digital identity wallet empowers users with secure authentication, fraud-proof data, and GDPR compliance. Stay ahead of evolving threats with ease."
-          />
         </Head>
 
         <Component {...pageProps} />

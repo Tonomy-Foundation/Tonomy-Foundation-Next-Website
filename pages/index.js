@@ -8,10 +8,18 @@ import Demo from '../components/HomeOne/Demo'
 import MakeYourBusiness from '../components/Common/MakeYourBusiness'
 import Services from '../components/HomeOne/Services'
 import ComplianceSlider from '../components/HomeOne/ComplianceSlider'
+import Head from 'next/head'
 
 const Index = () => {
     return (
         <>
+            <Head>
+                <title>Transform Your Cybersecurity with Tonomy ID's Digital Identity Wallet</title>
+                <meta
+                    name="description"
+                    content="Elevate your cybersecurity strategy with Tonomy ID. Our digital identity wallet empowers users with secure authentication, fraud-proof data, and GDPR compliance. Stay ahead of evolving threats with ease."
+                />
+            </Head>
             <Navbar />
 
             <MainBanner />

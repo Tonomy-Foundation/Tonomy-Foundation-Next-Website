@@ -27,10 +27,11 @@ class PricingStyleOne extends Component {
       <>
         <Navbar />
         <Head>
-          <meta
-            name="description"
-            content="We have different Pricing plans, first is infrastructure as a service, and the other one is self-hosted support."
-          />
+            <title>Tonomy ID Pricing - Secure Digital Identity Solutions for Every Business</title>
+            <meta
+                name="description"
+                content="Explore Tonomy ID's pricing options for our secure digital identity solutions. Choose the plan that best fits your business needs and unlock the power of enhanced security, privacy, and compliance."
+            />
         </Head>
         <PricingBanner />
 
