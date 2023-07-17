@@ -27,7 +27,7 @@ class MakeYourBusiness extends Component {
                             <div className="business-btn">
                                 <Link href="https://www.varonis.com/blog/cybersecurity-statistics">
                                     <a target="_blank" className="default-btn">
-                                        Read More
+                                        Read Source
                                     </a>
                                 </Link>
                             </div>

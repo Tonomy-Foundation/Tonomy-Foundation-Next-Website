@@ -12,20 +12,9 @@ import "../styles/responsive.css";
 
 import App from "next/app";
 import Head from "next/head";
-import Loader from "../components/Shared/Loader";
 import GoTop from "../components/Shared/GoTop";
 
 export default class MyApp extends App {
-  // Preloader
-  // state = {
-  //   loading: false,
-  // };
-  // componentDidMount() {
-  //   this.timerHandle = setTimeout(
-  //     () => this.setState({ loading: false }),
-  //     100
-  //   );
-  // }
   componentWillUnmount() {
     if (this.timerHandle) {
       clearTimeout(this.timerHandle);
@@ -38,7 +27,7 @@ export default class MyApp extends App {
     return (
       <>
         <Head>
-          <title>Tonomy Foundation</title>
+          <title>Transform Your Cybersecurity with Tonomy ID's Digital Identity Wallet</title>
           <script
             type="text/javascript"
             dangerouslySetInnerHTML={{
@@ -56,12 +45,14 @@ export default class MyApp extends App {
           `,
             }}
           />
+          <meta name="viewport" content="width=device-width, initial-scale=1" />
+          <meta
+            name="description"
+            content="Elevate your cybersecurity strategy with Tonomy ID. Our digital identity wallet empowers users with secure authentication, fraud-proof data, and GDPR compliance. Stay ahead of evolving threats with ease."
+          />
         </Head>
 
         <Component {...pageProps} />
-
-        {/* Preloader */}
-        {/* <Loader loading={this.state.loading} /> */}
 
         {/* Go Top Button */}
         <GoTop scrollStepInPx="100" delayInMs="10.50" />
