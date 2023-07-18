@@ -9,6 +9,10 @@ import CyberSecurityStatistics from '../components/Common/CyberSecurityStatistic
 import AttackPrevention from '../components/HomeOne/AttackPrevention'
 import ComplianceSlider from '../components/HomeOne/ComplianceSlider'
 import Head from 'next/head'
+import FeatureSSO from '../components/HomeOne/FeatureSSO'
+import FeatureSigner from '../components/HomeOne/FeatureSigner'
+import FeatureSovereignVault from '../components/HomeOne/FeatureSovereignVault'
+import FeatureOthers from '../components/HomeOne/FeatureOthers'
 
 const Index = () => {
     return (
@@ -30,13 +34,21 @@ const Index = () => {
 
             <WhyChooseUs2 />
 
-            <Demo />
+            <FeatureSSO />
 
-            <CyberSecurityStatistics />
+            <FeatureSigner />
+
+            <FeatureSovereignVault />
+
+            <FeatureOthers />
+            
+            <Demo />
 
             <AttackPrevention />
 
             <ComplianceSlider />
+
+            <CyberSecurityStatistics />
 
             <Footer />
         </>
