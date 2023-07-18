@@ -18,24 +18,25 @@ const FeatureSigner = () => {
 
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <span>Features</span>
-                            <h2>Digital Signatures and Authentication</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+                            <span>Future-Proof Your Authentication</span>
+                            <h2>Digital Signature Provider</h2>
+                            <p>Elevate your organization's security and streamline authentication processes with Tonomy ID's Digital Signature Provider. Transform users' mobile phones into powerful authenticators, enabling fraud-proof data, legally enforceable signatures, and instant verification.
+                            </p>
                             
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Advanced caching
+                                            Data Integrity and Fraud Prevention
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Unlimited  applications
+                                            Multi-Factor Authentication
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP 7 ready transfer
+                                            Legal and Regulatory Compliance
                                         </li>
                                     </ul>
                                 </div>
@@ -44,25 +45,25 @@ const FeatureSigner = () => {
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP ready serves
+                                            Instant Verification Capability
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            24/7 Free extra support
+                                            User-Origin Authentication
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Optimized stack
+                                            Seamless Signing Flows
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
-                            {/* <Link href="/about-1">
-                                <a className="default-btn">
+                            <Link href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view#23">
+                                <a target="_blank" className="default-btn">
                                     Learn More
                                 </a>
-                            </Link> */}
+                            </Link>
                         </div>
                     </div>
                 </div>

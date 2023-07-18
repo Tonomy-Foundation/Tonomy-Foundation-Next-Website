@@ -8,24 +8,25 @@ const FeatureSovereignVault = () => {
                     
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <span>Features</span>
-                            <h2>Digital Signatures and Authentication</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+                            <span>Transform Data Management</span>
+                            <h2>Sovereign Data Vault</h2>
+                            <p>Unleash the power of secure and sovereign data storage with Tonomy ID's Sovereign Data Vault. Revolutionize your data management approach, reduce form-filling, enhance data security, achieve GDPR compliance, and embrace the benefits of decentralized storage
+                            </p>
                             
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Advanced caching
+                                            Eliminate Database Dependencies
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Unlimited  applications
+                                            Secure Data Storage
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP 7 ready transfer
+                                            Streamlined Onboarding and Form-Filling
                                         </li>
                                     </ul>
                                 </div>
@@ -34,25 +35,25 @@ const FeatureSovereignVault = () => {
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP ready serves
+                                            Resilience Against Server Breaches
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            24/7 Free extra support
+                                            Simplified GDPR compliant
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Optimized stack
+                                            Enhanced Data Privacy and Control
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
-                            {/* <Link href="/about-1">
-                                <a className="default-btn">
+                            <Link href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view#41">
+                                <a target="_blank" className="default-btn">
                                     Learn More
                                 </a>
-                            </Link> */}
+                            </Link>
                         </div>
                     </div>
 

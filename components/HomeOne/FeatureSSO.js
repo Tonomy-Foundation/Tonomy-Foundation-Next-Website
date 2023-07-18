@@ -8,24 +8,25 @@ const FeatureSSO = () => {
                     
                     <div className="col-lg-6">
                         <div className="about-content">
-                            <span>Features</span>
-                            <h2>Digital Signatures and Authentication</h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel.</p>
+                            <span>Seamless, Sovereign, Secure</span>
+                            <h2>Sovereign Single Sign-On</h2>
+                            <p>Experience the ease of sovereign single sign-on with Tonomy ID. Say goodbye to multiple logins and cumbersome authentication processes as our app provides a seamless and secure way to access your platforms with just one click.
+                            </p>
                             
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Advanced caching
+                                            Simplified Authentication
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Unlimited  applications
+                                            Password-less Convenience
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP 7 ready transfer
+                                            Cross-Platform Compatibility
                                         </li>
                                     </ul>
                                 </div>
@@ -34,25 +35,25 @@ const FeatureSSO = () => {
                                     <ul>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            PHP ready serves
+                                            Enhanced Security
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            24/7 Free extra support
+                                            No personal information stored
                                         </li>
                                         <li>
                                             <i className="flaticon-checked"></i>
-                                            Optimized stack
+                                            Privacy Controls
                                         </li>
                                     </ul>
                                 </div>
                             </div>
 
-                            {/* <Link href="/about-1">
-                                <a className="default-btn">
+                            <Link href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view#18">
+                                <a target="_blank" className="default-btn">
                                     Learn More
                                 </a>
-                            </Link> */}
+                            </Link>
                         </div>
                     </div>
 
