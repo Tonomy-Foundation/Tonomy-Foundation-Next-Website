@@ -59,12 +59,12 @@ const FeatureSSO = () => {
 
                     <div className="col-lg-3">
                         <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
+                            <img src="/images/screenshots/user-home.png" alt="Image" width="250" />
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
+                            <img src="/images/screenshots/login.png" alt="Image" width="250" />
                         </div>
                     </div>
 

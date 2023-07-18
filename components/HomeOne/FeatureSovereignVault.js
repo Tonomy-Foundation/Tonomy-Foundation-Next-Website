@@ -57,14 +57,9 @@ const FeatureSovereignVault = () => {
                         </div>
                     </div>
 
-                    <div className="col-lg-3">
+                    <div className="col-lg-6">
                         <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
-                        </div>
-                    </div>
-                    <div className="col-lg-3">
-                        <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
+                            <img src="/images/screenshots/share-data.png" alt="Image" width="250" />
                         </div>
                     </div>
 

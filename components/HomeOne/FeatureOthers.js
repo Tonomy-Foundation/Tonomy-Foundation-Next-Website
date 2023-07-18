@@ -7,12 +7,12 @@ const FeatureOthers = () => {
                 <div className="row align-items-center">
                     <div className="col-lg-3">
                         <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
+                            <img src="/images/screenshots/identity-verification.png" alt="Image" width="250" />
                         </div>
                     </div>
                     <div className="col-lg-3">
                         <div className="about-img">
-                            <img src="/images/screenshots/pin.png" alt="Image" width="250" />
+                            <img src="/images/screenshots/recovery.png" alt="Image" width="250" />
                         </div>
                     </div>
 
