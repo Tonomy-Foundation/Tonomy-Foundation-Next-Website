@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class MakeYourBusiness extends Component {
+class CyberSecurityStatistics extends Component {
     render() {
         return (
             <section className="business-area ptb-100">
@@ -76,4 +76,4 @@ class MakeYourBusiness extends Component {
     }
 }
 
-export default MakeYourBusiness;
+export default CyberSecurityStatistics;

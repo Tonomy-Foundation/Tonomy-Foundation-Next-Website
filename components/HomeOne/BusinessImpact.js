@@ -1,6 +1,6 @@
 import Link from 'next/link'
 
-const Features = () => {
+const BusinessImpact = () => {
     return (
         <div className="features-area pt-100 pb-70">
             <div className="container">
@@ -95,4 +95,4 @@ const Features = () => {
     )
 }
 
-export default Features;
+export default BusinessImpact;
