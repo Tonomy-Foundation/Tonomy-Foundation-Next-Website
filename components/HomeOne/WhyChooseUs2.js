@@ -8,7 +8,7 @@ class WhyChooseUs2 extends Component {
                     <div className="section-title">
                         <span>Why Choose Us</span>
                         <h2>Our Platform Takes You Solution Into The Future</h2>
-                        <p>Tonomy ID stands alone in the market, revolutionizing digital identity with our unparalleled innovation, advanced security features, and user-centric design, setting a new standard that leaves competitors in the dust.</p>
+                        <p>Tonomy ID stands alone in the market, revolutionizing digital identity with our innovative sovereign architecture, advanced security features, and user-centric design, setting a new standard that leaves competitors in the dust.</p>
                     </div>
 
                     <div className="row align-items-center">
@@ -18,7 +18,7 @@ class WhyChooseUs2 extends Component {
                                     <li>
                                         <span><i className="flaticon-technical-support"></i></span>
                                         <h3>Future Proofing Cybersecurity</h3>
-                                        <p>Unlike previous cybersecurity systems that focus on server hardening, Tonomy ID moves user data/authentication to the user's phone, <strong>removing server-breach attack surface</strong>.</p>
+                                        <p>Unlike previous cybersecurity systems that focus on <i>improving</i> sever security (server hardening), Tonomy ID moves user data/authentication to the user's phone, <strong>removing</strong> server-breach attack surface.</p>
                                     </li>
                                     {/* <li className="ml">
                                         <span>02 <i className="flaticon-shield"></i></span>
