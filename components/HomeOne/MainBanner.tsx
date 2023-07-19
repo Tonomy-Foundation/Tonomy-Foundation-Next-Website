@@ -21,7 +21,7 @@ const MainBanner = () => {
                         <div className="col-lg-6">
                             <div className="banner-text">
                                 <h1>Eliminate breaches and compliance headaches</h1>
-                                <p>Tonomy ID securely moves personal data and authentication to their device and provides end-to-end digital signatures and encryption, achieving better-than-banking security and GDPR and CCPR compliance by default. Join the 0% breach club.</p>
+                                <p>Tonomy ID securely moves personal data and authentication to the user's device and provides end-to-end digital signatures and encryption, achieving better-than-banking security and GDPR and CCPR compliance by default. Join the 0% breach club.</p>
 
                                 <div className="banner-btn">
                                     <Link href={BOOKING_LINK}>
@@ -31,7 +31,7 @@ const MainBanner = () => {
                                     </Link>
 
                                     <Link target="_blank" href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view">
-                                        <a target="_blank" className="default-btn white">
+                                        <a target="_blank" className="default-btn active">
                                             Read the White Paper
                                         </a>
                                     </Link>

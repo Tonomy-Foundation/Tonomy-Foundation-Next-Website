@@ -2,13 +2,17 @@ import Navbar from '../components/Layouts/Navbar'
 import Footer from '../components/Layouts/Footer'
 import MainBanner from '../components/HomeOne/MainBanner'
 import Partner from '../components/Common/Partner'
-import Features from '../components/HomeOne/Features'
+import BusinessImpact from '../components/HomeOne/BusinessImpact'
 import WhyChooseUs2 from '../components/HomeOne/WhyChooseUs2'
 import Demo from '../components/HomeOne/Demo'
-import MakeYourBusiness from '../components/Common/MakeYourBusiness'
-import Services from '../components/HomeOne/Services'
+import CyberSecurityStatistics from '../components/Common/CyberSecurityStatistics'
+import AttackPrevention from '../components/HomeOne/AttackPrevention'
 import ComplianceSlider from '../components/HomeOne/ComplianceSlider'
 import Head from 'next/head'
+import FeatureSSO from '../components/HomeOne/FeatureSSO'
+import FeatureSigner from '../components/HomeOne/FeatureSigner'
+import FeatureSovereignVault from '../components/HomeOne/FeatureSovereignVault'
+import FeatureOthers from '../components/HomeOne/FeatureOthers'
 
 const Index = () => {
     return (
@@ -24,21 +28,27 @@ const Index = () => {
 
             <MainBanner />
 
-            <div className="pb-50">
-                <Partner />
-            </div>
+            <Partner />
 
-            <Features />
+            <BusinessImpact />
 
             <WhyChooseUs2 />
 
+            <FeatureSSO />
+
+            <FeatureSigner />
+
+            <FeatureSovereignVault />
+
+            <FeatureOthers />
+            
             <Demo />
 
-            <MakeYourBusiness />
-
-            <Services />
+            <AttackPrevention />
 
             <ComplianceSlider />
+
+            <CyberSecurityStatistics />
 
             <Footer />
         </>

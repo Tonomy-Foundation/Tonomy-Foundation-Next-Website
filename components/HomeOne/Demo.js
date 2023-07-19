@@ -36,9 +36,14 @@ const Demo = () => {
                                     >
                                         <i className="bx bx-play"></i>Watch the demo
                                     </div>
+                                </div>
+
+                                <p style={{marginTop: "40px"}}>Try integrating with the demo platform and see how easy it is. Integration takes 10-30 minutes.</p>
+
+                                <div className="banner-btn">
                                     <Link href="https://docs.tonomy.foundation">
-                                        <a target="_blank" className="default-btn">
-                                            Integrate with the demo platform in under 30 minutes
+                                        <a target="_blank" className="default-btn active">
+                                            Read the Docs
                                         </a>
                                     </Link>
                                 </div>
