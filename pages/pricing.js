@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import Link from "next/link";
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
-import PricingBanner from "../components/Common/pricingBanner";
+import PricingBanner from "../components/Pricing/PricingBanner";
 import Head from "next/head";
 
 class PricingStyleOne extends Component {

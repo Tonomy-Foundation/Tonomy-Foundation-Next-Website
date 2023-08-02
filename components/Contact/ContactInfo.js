@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { BOOKING_LINK } from "../HomeOne/MainBanner";
+import { BOOKING_LINK } from "../Home/MainBanner";
 
 class ContactInfo extends Component {
   render() {
