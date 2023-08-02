@@ -2,7 +2,10 @@ import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
 
 class ContactInfo extends Component {
+  
   render() {
+    const contactPage = this.props.contactPage;
+
     return (
       <div className="contact-info-area pt-100 pb-70 center">
         <div className="container ">
@@ -13,7 +16,7 @@ class ContactInfo extends Component {
                 <i className="bx bx-envelope"></i>
                 <h3>Contact us:</h3>
                 <a
-                  href="#contact-form"
+                  href={contactPage ?? "" + "#contact-form"}
                 >
                   <p>Contact form</p>
                 </a>
