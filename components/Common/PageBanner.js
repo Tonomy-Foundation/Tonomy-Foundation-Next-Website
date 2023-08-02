@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import { BOOKING_LINK } from "../HomeOne/MainBanner";
+import { BOOKING_LINK } from "../Home/MainBanner";
 
 class PageBanner extends Component {
   render() {

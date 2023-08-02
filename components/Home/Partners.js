@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-class Partner extends Component {
+class Partners extends Component {
     render() {
         return (
         <><div className="section-title">
@@ -81,4 +81,4 @@ class Partner extends Component {
     }
 }
 
-export default Partner;
+export default Partners;

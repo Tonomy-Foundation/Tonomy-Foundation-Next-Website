@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class WhyChooseUs2 extends Component {
+class WhyChooseUs extends Component {
     render() {
         return (
             <section className="choose-ue-area ptb-100">
@@ -64,4 +64,4 @@ class WhyChooseUs2 extends Component {
     }
 }
 
-export default WhyChooseUs2;
+export default WhyChooseUs;

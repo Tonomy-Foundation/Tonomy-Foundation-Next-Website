@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import TeamTwo from "../components/Common/TeamTwo";
+import Team from "../components/About/Team";
 import Footer from "../components/Layouts/Footer";
 import Head from "next/head";
-class About1 extends Component {
+
+class About extends Component {
   render() {
     return (
       <>
@@ -20,7 +21,7 @@ class About1 extends Component {
           pageTitle="About us"
         />
 
-        <TeamTwo />
+        <Team />
 
         <Footer />
       </>
@@ -28,4 +29,4 @@ class About1 extends Component {
   }
 }
 
-export default About1;
+export default About;
