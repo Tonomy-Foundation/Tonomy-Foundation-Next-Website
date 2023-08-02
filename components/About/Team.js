@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 
-class TeamTwo extends Component {
+class Team extends Component {
   render() {
     return (
       <section className="team-area pt-100 pb-70">
@@ -880,4 +880,4 @@ She spends her free time with family, playing, badminton, swimming and yoga.
   }
 }
 
-export default TeamTwo;
+export default Team;
