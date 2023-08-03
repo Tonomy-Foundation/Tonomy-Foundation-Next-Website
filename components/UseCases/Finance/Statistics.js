@@ -54,7 +54,8 @@ class Statistics extends Component {
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
                                         <h2><span className="target">54%</span></h2>
-                                        <p>Incidents due to document forgery</p>
+                                        <p>Banks that dealt with document forgery last year</p>
+                                        {/* https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/ */}
                                     </div>
                                 </div>
 
