@@ -15,10 +15,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-            <title>Tonomy ID About Us and Meet the Team</title>
+            <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
             <meta
                 name="description"
-                content="Discover the story behind Tonomy ID and our mission to revolutionize digital identity. Meet our expert team of innovators dedicated to providing unmatched security, privacy, and compliance in the digital landscape."
+                content="Unveil the power of Tonomy ID in securing financial transactions, preserving trust, and providing impenetrable data protection for finance and banking institutions."
             />
         </Head>
 
