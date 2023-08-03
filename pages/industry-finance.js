@@ -21,9 +21,6 @@ class About extends Component {
                 content="Discover the story behind Tonomy ID and our mission to revolutionize digital identity. Meet our expert team of innovators dedicated to providing unmatched security, privacy, and compliance in the digital landscape."
             />
         </Head>
-        <PageBanner
-          pageTitle="Finance and Banking"
-        />
 
         <MainBanner />
 

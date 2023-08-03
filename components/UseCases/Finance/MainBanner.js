@@ -12,9 +12,9 @@ const MainBanner = () => {
                             <p>Ensure compliance, prevent data breaches, and streamline KYC onboarding with Tonomy ID's cutting-edge digital identity solutions.</p>	
 
                             <div className="banner-btn">
-                                <Link href="/about-1">
-                                    <a className="default-btn">
-                                        Learn More
+                                <Link href="/">
+                                    <a className="default-btn active">
+                                        More About Tonomy ID
                                     </a>
                                 </Link>
 
