@@ -28,9 +28,9 @@ const Index = () => {
 
             <MainBanner />
 
-            <Partners />
-
             <BusinessImpact />
+
+            <CyberSecurityStatistics />
 
             <WhyChooseUs />
 
@@ -41,14 +41,14 @@ const Index = () => {
             <FeatureSovereignVault />
 
             <FeatureOthers />
-            
+
             <Demo />
 
+            <Partners />
+            
             <AttackPrevention />
 
             <ComplianceSlider />
-
-            <CyberSecurityStatistics />
 
             <Footer />
         </>
