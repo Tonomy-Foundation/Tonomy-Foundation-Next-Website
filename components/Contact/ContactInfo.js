@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
+import Link from "next/link";
 
 class ContactInfo extends Component {
+  
   render() {
+    const contactPage = this.props.contactPage;
+
     return (
       <div className="contact-info-area pt-100 pb-70 center">
         <div className="container ">
@@ -12,11 +16,12 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-envelope"></i>
                 <h3>Contact us:</h3>
-                <a
-                  href="#contact-form"
-                >
-                  <p>Contact form</p>
-                </a>
+                <Link href={(contactPage ?? "") + "#contact-form"}>
+                  <a>
+                    <p>Contact form</p>
+                  </a>
+                </Link>
+                  
                 <br></br>
               </div>
             </div>

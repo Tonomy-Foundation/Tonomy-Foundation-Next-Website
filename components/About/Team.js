@@ -20,7 +20,7 @@ class Team extends Component {
                   <img
                     src="/images/team/Jack.png"
                     alt="Image"
-                    classname="epic"
+                    className="epic"
                   />
                 </div>
 
