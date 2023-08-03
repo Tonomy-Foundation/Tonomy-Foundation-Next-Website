@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
+import Link from "next/link";
 
 class ContactInfo extends Component {
   
@@ -15,11 +16,12 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-envelope"></i>
                 <h3>Contact us:</h3>
-                <a
-                  href={contactPage ?? "" + "#contact-form"}
-                >
-                  <p>Contact form</p>
-                </a>
+                <Link href={(contactPage ?? "") + "#contact-form"}>
+                  <a>
+                    <p>Contact form</p>
+                  </a>
+                </Link>
+                  
                 <br></br>
               </div>
             </div>

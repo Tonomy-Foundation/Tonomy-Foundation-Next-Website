@@ -8,7 +8,6 @@ import Impact from "../components/UseCases/Finance/Impact";
 import Statistics from "../components/UseCases/Finance/Statistics";
 import ContactInfo from "../components/Contact/ContactInfo";
 import DataWeProtect from "../components/UseCases/Finance/DataWeProtect";
-import DataWeProtect2 from "../components/UseCases/Finance/DataWeProtect2";
 
 class About extends Component {
   render() {
@@ -22,19 +21,17 @@ class About extends Component {
                 content="Discover the story behind Tonomy ID and our mission to revolutionize digital identity. Meet our expert team of innovators dedicated to providing unmatched security, privacy, and compliance in the digital landscape."
             />
         </Head>
-        {/* <PageBanner
+        <PageBanner
           pageTitle="Finance and Banking"
-        /> */}
+        />
 
         <MainBanner />
+
+        <Statistics />
 
         <Impact />
 
         <DataWeProtect />
-
-        <DataWeProtect2 />
-
-        <Statistics />
 
         <ContactInfo contactPage="/contact/"/>
 
