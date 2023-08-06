@@ -27,7 +27,7 @@ class Statistics extends Component {
                             <div className="business-btn">
                                 <Link href="https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most">
                                     <a className="default-btn" target="_blank">
-                                        Know Details
+                                        Read Source
                                     </a>
                                 </Link>
                             </div>

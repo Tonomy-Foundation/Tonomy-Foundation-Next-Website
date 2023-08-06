@@ -28,9 +28,9 @@ const Index = () => {
 
             <MainBanner />
 
-            <BusinessImpact />
-
             <CyberSecurityStatistics />
+
+            <BusinessImpact />
 
             <WhyChooseUs />
 

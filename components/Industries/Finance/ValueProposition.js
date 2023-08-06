@@ -8,7 +8,7 @@ class ValueProposition extends Component {
                     <div className="section-title">
                         <span>Why Choose Us</span>
                         <h2>Tonomy ID's Zero-Knowlege Architecture Takes Your Security Defense to the Next Level</h2>
-                        <p>Secure your financial world with Tonomy ID's revolutionary approach. Feel the power of data stored on users' phones, shielding against breaches and theft. Empower your clients, employees and users with password-less SSO, MFA, and sovereign keys. Make a choice that resonates – choose Tonomy ID for unmatched peace of mind</p>
+                        <p>Secure your financial world with Tonomy ID's revolutionary approach. Feel the power of data stored on users' phones, shielding against breaches and theft. Empower your clients, employees and users with password-less SSO, MFA, and sovereign keys. Make a choice that resonates – choose Tonomy ID for unmatched peace of mind.</p>
                     </div>
 
                     <div className="row align-items-center">
@@ -18,7 +18,7 @@ class ValueProposition extends Component {
                                     <li>
                                         <span><i className="flaticon-technical-support"></i></span>
                                         <h3>€1.5 M saved per company</h3>
-                                        <p>Money saved in fines, reputation damage and containment cost for mid-enterprise companies. You deserve the peace of mind.</p>
+                                        <p>Money saved in fines, reputation damage and containment cost for mid-enterprise companies in the finance and banking sector.</p>
                                     </li>
                                     <li className="ml">
                                         <span><i className="flaticon-shield"></i></span>

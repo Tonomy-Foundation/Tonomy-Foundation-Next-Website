@@ -20,16 +20,16 @@ class WhyChooseUs extends Component {
                                         <h3>Future Proofing Cybersecurity</h3>
                                         <p>Unlike previous cybersecurity systems that focus on <i>improving</i> sever security (server hardening), Tonomy ID moves user data/authentication to the user's phone, <strong>removing</strong> server-breach attack surface.</p>
                                     </li>
-                                    {/* <li className="ml">
-                                        <span>02 <i className="flaticon-shield"></i></span>
-                                        <h3>Technical Support</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <li>
+                                        <span><i className="flaticon-technical-support"></i></span>
+                                        <h3>€1.2 M saved per company</h3>
+                                        <p>Money saved in fines, reputation damage and containment cost for mid-enterprise companies.</p>
                                     </li>
-                                    <li className="ml-25">
-                                        <span>03 <i className="flaticon-support"></i></span>
-                                        <h3>Live Support</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    </li> */}
+                                    <li className="ml">
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>97% less server-breaches and impact</h3>
+                                        <p>Save your time and compliance work by reducing server-breaches. Take reputation to the next level by guaranteed credential theft protection.</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -43,17 +43,17 @@ class WhyChooseUs extends Component {
                                         <p>Unlike previous web3 and self-sovereign identity systems, Tonomy ID is <strong>user friendly to all existing web users</strong> by hiding sovereign cryptography without compromising on security.</p>
                                     </li>
 
-                                    {/* <li className="ml">
-                                        <span>05 <i className="flaticon-shield"></i></span>
-                                        <h3>Advanced Tchnology</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                    <li className="ml-25">
+                                        <span><i className="flaticon-support"></i></span>
+                                        <h3>36 days reduced containment time</h3>
+                                        <p>Faster containment time allows your team to focus on the most important work.</p>
                                     </li>
 
-                                    <li className="ml-25">
-                                        <span>06 <i className="flaticon-support"></i></span>
-                                        <h3>Competitive Pricing</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    </li> */}
+                                    <li className="ml">
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>€700,000 reduced phishing and password attack impact</h3>
+                                        <p>Using our secure password-less single-sign on with multi-factor authentication.</p>
+                                    </li>
                                 </ul>
                             </div>
                         </div>
