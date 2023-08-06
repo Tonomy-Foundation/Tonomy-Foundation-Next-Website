@@ -37,7 +37,7 @@ class Statistics extends Component {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">$18.3M</span></h2>
+                                        <h2><span className="target">€16.6 M</span></h2>
                                         <p>Avg. yearly cost of banking cyberattacks</p>
                                         {/* https://www.sangfor.com/blog/cybersecurity/cyber-attacks-on-banks-devastate-financial-sector */}
                                     </div>
@@ -62,7 +62,7 @@ class Statistics extends Component {
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
 
-                                    <h2><span className="target">$500,000</span></h2>
+                                    <h2><span className="target">€450,000</span></h2>
                                         <p>Avg. Identity Fraud Incident Cost</p>
                                         {/* https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most
                                         

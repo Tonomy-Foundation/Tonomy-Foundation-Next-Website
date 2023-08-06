@@ -7,8 +7,8 @@ class ValueProposition extends Component {
                 <div className="container">
                     <div className="section-title">
                         <span>Why Choose Us</span>
-                        <h2>Our Platform Takes Away The Hard Process Of Creating Your Website</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel nisi rem quo itaque minus dolorem ratione vero, quisquam reiciendis quia atque eos aspernatur.</p>
+                        <h2>Tonomy ID's Zero-Knowlege Architecture Takes Your Security Defense to the Next Level</h2>
+                        <p>Secure your financial world with Tonomy ID's revolutionary approach. Feel the power of data stored on users' phones, shielding against breaches and theft. Empower your clients, employees and users with password-less SSO, MFA, and sovereign keys. Make a choice that resonates – choose Tonomy ID for unmatched peace of mind</p>
                     </div>
 
                     <div className="row align-items-center">
@@ -16,19 +16,14 @@ class ValueProposition extends Component {
                             <div className="choose-content">
                                 <ul>
                                     <li>
-                                        <span>01 <i className="flaticon-technical-support"></i></span>
-                                        <h3>Safe Security</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <span><i className="flaticon-technical-support"></i></span>
+                                        <h3>€1.5 M saved per company</h3>
+                                        <p>Money saved in fines, reputation damage and containment cost for mid-enterprise companies. You deserve the peace of mind.</p>
                                     </li>
                                     <li className="ml">
-                                        <span>02 <i className="flaticon-shield"></i></span>
-                                        <h3>Technical Support</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    </li>
-                                    <li className="ml-25">
-                                        <span>03 <i className="flaticon-support"></i></span>
-                                        <h3>Live Support</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>97% less server-breaches and impact</h3>
+                                        <p>Save your time and compliance work by reducing server-breaches. Take reputation to the next level by guaranteed credential theft protection.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -37,22 +32,16 @@ class ValueProposition extends Component {
                         <div className="col-lg-6">
                             <div className="choose-content">
                                 <ul>
-                                    <li>
-                                        <span>04 <i className="flaticon-technical-support"></i></span>
-                                        <h3>Free Try </h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                <li className="ml-25">
+                                        <span><i className="flaticon-support"></i></span>
+                                        <h3>36 days reduced containment time</h3>
+                                        <p>Faster containment time allows your team to focus on the most important work.</p>
                                     </li>
 
                                     <li className="ml">
-                                        <span>05 <i className="flaticon-shield"></i></span>
-                                        <h3>Advanced Tchnology</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
-                                    </li>
-
-                                    <li className="ml-25">
-                                        <span>06 <i className="flaticon-support"></i></span>
-                                        <h3>Competitive Pricing</h3>
-                                        <p>Lorem ipsum dolor sit labore amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>€700,000 reduced phishing and password attack impact</h3>
+                                        <p>Using our secure password-less single-sign on with multi-factor authentication.</p>
                                     </li>
                                 </ul>
                             </div>
