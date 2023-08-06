@@ -19,7 +19,7 @@ class About extends Component {
             <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
             <meta
                 name="description"
-                content="Unveil the power of Tonomy ID in securing financial transactions, preserving trust, and providing impenetrable data protection for finance and banking institutions."
+                content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
             />
         </Head>
 
