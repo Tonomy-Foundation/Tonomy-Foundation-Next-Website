@@ -35,7 +35,7 @@ export default class PricingOptions extends Component {
                 On average, our security technologies can mitigate on average €30 per user
                 per month in the EU.{" "}
                 {/* https://www.canva.com/design/DAFbTtHWg_0/pCdfGOdqDIuULNHc8hcvcw/edit */}
-                <Link href="/#attack-prevention">
+                <Link href="/#why-choose-us">
                     <a>
                     How do we do this?
                     </a>

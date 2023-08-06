@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class WhyChooseUs extends Component {
     render() {
         return (
-            <section className="choose-ue-area ptb-100">
+            <section className="choose-ue-area ptb-100" id="why-choose-us">
                 <div className="container">
                     <div className="section-title">
                         <span>Why Choose Us</span>

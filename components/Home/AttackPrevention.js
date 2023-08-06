@@ -4,10 +4,10 @@ import Link from 'next/link';
 class AttackPrevention extends Component {
   render() {
     return (
-      <section className="offer-area pt-100 pb-70">
+      <section className="offer-area pt-100 pb-70" id="attack-prevention">
         <div className="container">
           <div className="section-title">
-            <span id="attack-prevention">Attack Prevention</span>
+            <span>Attack Prevention</span>
             <h2>A Sovereign Architecture To Prevent Cybersecurity Attacks</h2>
             <p>Tonomy ID <strong>removes</strong> or significantly reduces these attacks using it's unique sovereign architecture.</p>
 
