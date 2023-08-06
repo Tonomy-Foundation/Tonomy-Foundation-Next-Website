@@ -3,11 +3,12 @@ import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
 import Footer from "../components/Layouts/Footer";
 import Head from "next/head";
-import MainBanner from "../components/UseCases/Finance/MainBanner";
-import Impact from "../components/UseCases/Finance/Impact";
-import Statistics from "../components/UseCases/Finance/Statistics";
+import MainBanner from "../components/Industries/Finance/MainBanner";
+import Impact from "../components/Industries/Finance/Impact";
+import Statistics from "../components/Industries/Finance/Statistics";
 import ContactInfo from "../components/Contact/ContactInfo";
-import DataWeProtect from "../components/UseCases/Finance/DataWeProtect";
+import DataWeProtect from "../components/Industries/Finance/DataWeProtect";
+import ValueProposition from "../components/Industries/Finance/ValueProposition";
 
 class About extends Component {
   render() {
@@ -27,6 +28,8 @@ class About extends Component {
         <Statistics />
 
         <Impact />
+
+        <ValueProposition />
 
         <DataWeProtect />
 
