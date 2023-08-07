@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>The Best Banks Deserve the Best Security</h1>
-                            <p>Ensure compliance, prevent data breaches, and streamline KYC onboarding with Tonomy ID's cutting-edge digital identity solutions.</p>	
+                            <h1>Security First, Reputation Always. Tonomy ID Protects.</h1>
+                            <p>Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking.</p>	
 
                             <div className="banner-btn">
                                 <Link href="/">

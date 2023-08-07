@@ -76,7 +76,7 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/industry-finance" activeClassName="active">
+                                                <Link href="/finance-and-banking" activeClassName="active">
                                                     <a className="nav-link">Finance and Banking</a>
                                                 </Link>
                                             </li>

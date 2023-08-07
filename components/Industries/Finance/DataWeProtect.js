@@ -129,11 +129,11 @@ const DataWeProtect = () => {
                                                     </div>
                                                 </div>
                                             
-                                                <div className="text-center">
+                                                {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -183,11 +183,11 @@ const DataWeProtect = () => {
                                                     </div>
                                                 </div>
                                                 
-                                                <div className="text-center">
+                                                {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
 
@@ -250,11 +250,11 @@ const DataWeProtect = () => {
                                                     </div>
                                                 </div>
 
-                                                <div className="text-center">
+                                                {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
                                     </div>
@@ -305,11 +305,11 @@ const DataWeProtect = () => {
                                                     </div>
                                                 </div>
 
-                                                <div className="text-center">
+                                                {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
                                                     </Link>
-                                                </div>
+                                                </div> */}
                                             </div>
                                         </div>
 
