@@ -3,7 +3,45 @@ import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
-
+const styles = {
+  banner: {
+    left: "100px",
+    position: "relative",
+    width: "400px",
+    height: "400px",
+    borderRadius: "100px",
+    overflow: "hidden",
+  },
+  overlay: {
+    position: "absolute",
+    top: 0,
+    left: 0,
+    width: "100%",
+    height: "100%",
+    background: "rgba(0, 0, 0, 0.2)", // Adjust opacity here
+    zIndex: 1,
+  },
+  background: {
+    width: "100%",
+    height: "100%",
+    opacity: "0.5",
+    objectFit: "cover",
+    zIndex: -10,
+  },
+  animatedImage: {
+    zIndex: 0,
+    width: "280px",
+    top: "50px",
+    opacity: "0",
+  },
+  smallAnimatedImage: {
+    zIndex: 7,
+    width: "24px",
+    top: "181px",
+    left: "190px",
+    opacity: "0",
+  },
+};
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
@@ -51,50 +89,20 @@ const MainBanner = () => {
                 <img src="/images/home-three/main-img3.png" alt="Image" />
               </div>
 
-              {/* Banner Shape Images */}
-              <div
-                className="banner-img"
-                style={{
-                  left: "100px",
-                  position: "relative",
-                  width: "400px",
-                  height: "400px",
-                  borderRadius: "100px",
-                  overflow: "hidden",
-                }}
-              >
+              <div className="banner-img" style={styles.banner}>
                 <div
                   className="background-overlay"
-                  style={{
-                    position: "absolute",
-                    top: 0,
-                    left: 0,
-                    width: "100%",
-                    height: "100%",
-                    background: "rgba(0, 0, 0, 0.2)", // Adjust opacity here
-                    zIndex: 1,
-                  }}
+                  style={styles.overlay}
                 ></div>
                 <img
                   src="/images/img_6.jpg"
                   alt="Image"
-                  style={{
-                    width: "100%",
-                    height: "100%",
-                    opacity: "0.5",
-                    objectFit: "cover",
-                    zIndex: -10,
-                  }}
+                  style={styles.background}
                 />
                 <div>
                   <img
                     className="animate__animated animate__rotateIn animate__fast"
-                    style={{
-                      zIndex: 0,
-                      width: "280px",
-                      top: "50px",
-                      opacity: "0",
-                    }}
+                    style={styles.animatedImage}
                     src="/images/img_5.png"
                     alt="Image"
                   />
@@ -125,36 +133,37 @@ const MainBanner = () => {
                     className="animate__animated animate__backInUp  animate__delay-3s"
                     style={{
                       zIndex: 7,
-                      width: "40px",
-                      top: "175px",
-                      left: "181px",
-                      opacity: "0",
+                      width: "24px",
+                      top: "181px",
+                      left: "190px",
                     }}
-                    src="/images/img_1.png"
+                    src="/images/id.svg"
                     alt="Image"
                   />
+
                   <img
                     className="animate__animated animate__backInUp  animate__delay-4s"
                     style={{
                       zIndex: 7,
-                      width: "40px",
+                      width: "37px",
                       top: "175px",
-                      left: "181px",
+                      left: "185px",
                       opacity: "0", // Set the opacity to 0 (fully transparent)
                     }}
                     src="/images/img_2.png"
                     alt="Image"
                   />
+
                   <img
-                    className="animate__animated backInUp animate__delay-5s"
+                    className="animate__animated animate__backInUp  animate__delay-5s"
                     style={{
-                      zIndex: 10,
-                      width: "150px",
-                      opacity: "0", // Set the opacity to 0 (fully transparent)
-                      top: "130px",
-                      left: "125px",
+                      zIndex: 7,
+                      width: "45px",
+                      top: "175px",
+                      left: "181px",
+                      opacity: "0",
                     }}
-                    src="/images/img_4.png"
+                    src="/images/img_1.png"
                     alt="Image"
                   />
                 </div>
