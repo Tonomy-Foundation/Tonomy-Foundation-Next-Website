@@ -25,9 +25,15 @@ class Footer extends Component {
                   </a>
 
                   <div className="flex-container text-center">
-                    <span className="text-white ">Contact us for a free consultation meeting</span>
-                    <br />  <br />
-                    <a className="default-btn btn-two" href={BOOKING_LINK} target="_blank">
+                    <span className="text-white ">
+                      Contact us for a free consultation meeting
+                    </span>
+                    <br /> <br />
+                    <a
+                      className="default-btn btn-two"
+                      href={BOOKING_LINK}
+                      target="_blank"
+                    >
                       Free Consultation Meeting
                     </a>
                   </div>
@@ -35,18 +41,12 @@ class Footer extends Component {
                   <div className="flex-container FooterLogoDiv">
                     <ul className="social-icons d-flex flex-wrap justify-content-center">
                       <li className="item mx-2 mb-3 text-center">
-                        <a
-                          href="https://twitter.com/TonomyF"
-                          target="_blank"
-                        >
+                        <a href="https://twitter.com/TonomyF" target="_blank">
                           <i className="icon bx bxl-twitter bx-md text-center"></i>{" "}
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
-                        <a
-                          href="https://discord.gg/95J74ZbAgw"
-                          target="_blank"
-                        >
+                        <a href="https://discord.gg/95J74ZbAgw" target="_blank">
                           <i className="icon bx bxl-discord bx-md"></i>
                         </a>
                       </li>

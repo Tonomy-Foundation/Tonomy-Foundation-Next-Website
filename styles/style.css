@@ -3984,14 +3984,14 @@ Banner Three Area Style
 }
 
 .main-banner-area-three .banner-img img:nth-child(1) {
-  bottom: -440px;
+  /* bottom: -440px; */
   right: 0;
   left: 0;
   margin: auto;
 }
 
 .main-banner-area-three .banner-img img:nth-child(2) {
-  top: -45px;
+  /* top: -45px; */
   left: 0;
   right: 0;
   margin: auto;
