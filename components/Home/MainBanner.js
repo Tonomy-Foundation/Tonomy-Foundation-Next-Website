@@ -78,7 +78,6 @@ const MainBanner = () => {
                 <img
                   src="/images/img_6.jpg"
                   alt="Image"
-                  className="animate__rotateIn"
                   style={{
                     width: "100%",
                     height: "100%",
@@ -89,8 +88,73 @@ const MainBanner = () => {
                 />
                 <div>
                   <img
-                    style={{ zIndex: 10, width: "200px" }}
+                    className="animate__animated animate__rotateIn animate__fast"
+                    style={{
+                      zIndex: 0,
+                      width: "280px",
+                      top: "50px",
+                      opacity: "0",
+                    }}
                     src="/images/img_5.png"
+                    alt="Image"
+                  />
+
+                  <img
+                    className="animate__animated animate__backInDown animate__delay-1s"
+                    style={{
+                      zIndex: 5,
+                      width: "150px",
+                      top: "130px",
+                    }}
+                    src="/images/img_0.png"
+                    alt="Image"
+                  />
+
+                  <img
+                    className="animate__animated animate__backInDown  animate__delay-2s"
+                    style={{
+                      zIndex: 5,
+                      width: "120px",
+                      top: "43px",
+                      left: "138px",
+                    }}
+                    src="/images/img_3.png"
+                    alt="Image"
+                  />
+                  <img
+                    className="animate__animated animate__backInUp  animate__delay-3s"
+                    style={{
+                      zIndex: 7,
+                      width: "40px",
+                      top: "175px",
+                      left: "181px",
+                      opacity: "0",
+                    }}
+                    src="/images/img_1.png"
+                    alt="Image"
+                  />
+                  <img
+                    className="animate__animated animate__backInUp  animate__delay-4s"
+                    style={{
+                      zIndex: 7,
+                      width: "40px",
+                      top: "175px",
+                      left: "181px",
+                      opacity: "0", // Set the opacity to 0 (fully transparent)
+                    }}
+                    src="/images/img_2.png"
+                    alt="Image"
+                  />
+                  <img
+                    className="animate__animated backInUp animate__delay-5s"
+                    style={{
+                      zIndex: 10,
+                      width: "150px",
+                      opacity: "0", // Set the opacity to 0 (fully transparent)
+                      top: "130px",
+                      left: "125px",
+                    }}
+                    src="/images/img_4.png"
                     alt="Image"
                   />
                 </div>
