@@ -28,19 +28,96 @@ const styles = {
     objectFit: "cover",
     zIndex: -10,
   },
-  animatedImage: {
+  brightImage: {
     zIndex: 0,
     width: "280px",
     top: "50px",
     opacity: "0",
   },
+  lockBottomSide: {
+    zIndex: 5,
+    width: "150px",
+    top: "130px",
+  },
+  lockUpperSide: {
+    zIndex: 5,
+    width: "120px",
+    top: "43px",
+    left: "138px",
+  },
   smallAnimatedImage: {
     zIndex: 7,
-    width: "24px",
-    top: "181px",
-    left: "190px",
+    width: "37px",
+    top: "175px",
+    left: "185px",
     opacity: "0",
   },
+};
+const AnimatedHeroImage = () => {
+  return (
+    <div className="banner-img banner" style={styles.banner}>
+      <div className="overlay" style={styles.overlay}></div>
+      <img
+        src="/images/img_6.jpg"
+        alt="Image"
+        className="background"
+        style={styles.background}
+      />
+      <div>
+        <img
+          className="brightImage animate__animated animate__rotateIn animate__fast "
+          style={styles.brightImage}
+          src="/images/img_5.png"
+          alt="Image"
+        />
+
+        <img
+          className="lockBottomSide animate__animated animate__backInDown animate__delay-1s"
+          style={styles.lockBottomSide}
+          src="/images/img_0.png"
+          alt="Image"
+        />
+
+        <img
+          className="lockUpperSide animate__animated animate__backInDown  animate__delay-2s"
+          style={styles.lockUpperSide}
+          src="/images/img_3.png"
+          alt="Image"
+        />
+        <img
+          className="id_logo animate__animated animate__backInUp  animate__delay-3s"
+          style={{
+            zIndex: 7,
+            width: "24px",
+            top: "181px",
+            left: "190px",
+          }}
+          src="/images/id.svg"
+          alt="Image"
+        />
+
+        <img
+          className="animate__animated animate__backInUp  animate__delay-4s"
+          style={styles.smallAnimatedImage}
+          src="/images/img_2.png"
+          alt="Image"
+        />
+
+        <img
+          className="animate__animated animate__backInUp  animate__delay-5s"
+          style={{
+            zIndex: 7,
+            width: "45px",
+            top: "175px",
+            left: "181px",
+            opacity: "0",
+          }}
+          src="/images/img_1.png"
+          alt="Image"
+        />
+      </div>
+    </div>
+  );
 };
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
@@ -89,85 +166,7 @@ const MainBanner = () => {
                 <img src="/images/home-three/main-img3.png" alt="Image" />
               </div>
 
-              <div className="banner-img" style={styles.banner}>
-                <div
-                  className="background-overlay"
-                  style={styles.overlay}
-                ></div>
-                <img
-                  src="/images/img_6.jpg"
-                  alt="Image"
-                  style={styles.background}
-                />
-                <div>
-                  <img
-                    className="animate__animated animate__rotateIn animate__fast"
-                    style={styles.animatedImage}
-                    src="/images/img_5.png"
-                    alt="Image"
-                  />
-
-                  <img
-                    className="animate__animated animate__backInDown animate__delay-1s"
-                    style={{
-                      zIndex: 5,
-                      width: "150px",
-                      top: "130px",
-                    }}
-                    src="/images/img_0.png"
-                    alt="Image"
-                  />
-
-                  <img
-                    className="animate__animated animate__backInDown  animate__delay-2s"
-                    style={{
-                      zIndex: 5,
-                      width: "120px",
-                      top: "43px",
-                      left: "138px",
-                    }}
-                    src="/images/img_3.png"
-                    alt="Image"
-                  />
-                  <img
-                    className="animate__animated animate__backInUp  animate__delay-3s"
-                    style={{
-                      zIndex: 7,
-                      width: "24px",
-                      top: "181px",
-                      left: "190px",
-                    }}
-                    src="/images/id.svg"
-                    alt="Image"
-                  />
-
-                  <img
-                    className="animate__animated animate__backInUp  animate__delay-4s"
-                    style={{
-                      zIndex: 7,
-                      width: "37px",
-                      top: "175px",
-                      left: "185px",
-                      opacity: "0", // Set the opacity to 0 (fully transparent)
-                    }}
-                    src="/images/img_2.png"
-                    alt="Image"
-                  />
-
-                  <img
-                    className="animate__animated animate__backInUp  animate__delay-5s"
-                    style={{
-                      zIndex: 7,
-                      width: "45px",
-                      top: "175px",
-                      left: "181px",
-                      opacity: "0",
-                    }}
-                    src="/images/img_1.png"
-                    alt="Image"
-                  />
-                </div>
-              </div>
+              <AnimatedHeroImage />
             </div>
           </div>
         </div>
