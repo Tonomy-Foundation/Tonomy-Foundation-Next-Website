@@ -52,6 +52,19 @@ const styles = {
     left: "185px",
     opacity: "0",
   },
+  tonomyLogo: {
+    zIndex: 7,
+    width: "45px",
+    top: "175px",
+    left: "181px",
+    opacity: "0",
+  },
+  idSvg: {
+    zIndex: 7,
+    width: "24px",
+    top: "181px",
+    left: "190px",
+  },
 };
 const AnimatedHeroImage = () => {
   return (
@@ -86,12 +99,7 @@ const AnimatedHeroImage = () => {
         />
         <img
           className="id_logo animate__animated animate__backInUp  animate__delay-3s"
-          style={{
-            zIndex: 7,
-            width: "24px",
-            top: "181px",
-            left: "190px",
-          }}
+          style={styles.idSvg}
           src="/images/id.svg"
           alt="Image"
         />
@@ -105,13 +113,7 @@ const AnimatedHeroImage = () => {
 
         <img
           className="animate__animated animate__backInUp  animate__delay-5s"
-          style={{
-            zIndex: 7,
-            width: "45px",
-            top: "175px",
-            left: "181px",
-            opacity: "0",
-          }}
+          style={styles.tonomyLogo}
           src="/images/img_1.png"
           alt="Image"
         />
