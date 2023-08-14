@@ -9,23 +9,23 @@ const styles = {
     position: "relative",
     width: "400px",
     height: "400px",
-    borderRadius: "100px",
+    borderRadius: "120px",
     overflow: "hidden",
+    backgroundImage:
+      "radial-gradient(ellipse at 50% 50%, transparent 30%, rgba(0, 0, 0, 0.1) 100%), url('/images/img_6.jpg')",
+    backgroundSize: "cover",
+    backgroundBlendMode: "hue",
   },
   overlay: {
     position: "absolute",
     top: 0,
     left: 0,
-    width: "100%",
-    height: "100%",
-    background: "rgba(0, 0, 0, 0.2)", // Adjust opacity here
     zIndex: 1,
   },
   background: {
     width: "100%",
     height: "100%",
-    opacity: "0.5",
-    objectFit: "cover",
+    opacity: 1,
     zIndex: -10,
   },
   brightImage: {
@@ -70,9 +70,9 @@ const AnimatedHeroImage = () => {
   return (
     <div className="banner-img banner" style={styles.banner}>
       <div className="overlay" style={styles.overlay}></div>
-      <img
-        src="/images/img_6.jpg"
-        alt="Image"
+      <div
+        // src="/images/img_6.jpg"
+        // alt="Image"
         className="background"
         style={styles.background}
       />
