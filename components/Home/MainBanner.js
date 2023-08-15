@@ -1,125 +1,32 @@
 import React, { useState } from "react";
 import Link from "next/link";
 import FsLightbox from "fslightbox-react";
+import Lottie from "lottie-react";
+import animatedData from "../assets/animated.json"; // Adjust the path as needed
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 const styles = {
-  banner: {
-    left: "100px",
+  bannerLarge: {
+    left: "10%",
     position: "relative",
-    width: "400px",
-    height: "400px",
-    borderRadius: "120px",
+    width: "350px",
+    height: "350px",
+    borderRadius: "100px",
     overflow: "hidden",
-    backgroundImage:
-      "radial-gradient(ellipse at 50% 50%, transparent 30%, rgba(0, 0, 0, 0.1) 100%), url('/images/img_6.jpg')",
-    backgroundSize: "cover",
-    backgroundBlendMode: "hue",
   },
-  overlay: {
-    position: "absolute",
-    top: 0,
-    left: 0,
-    zIndex: 1,
-  },
-  background: {
-    width: "100%",
-    height: "100%",
-    opacity: 1,
-    zIndex: -10,
-  },
-  brightImage: {
-    zIndex: 0,
-    width: "280px",
-    top: "50px",
-    opacity: "0",
-  },
-  lockBottomSide: {
-    zIndex: 5,
-    width: "150px",
-    top: "130px",
-  },
-  lockUpperSide: {
-    zIndex: 5,
-    width: "120px",
-    top: "43px",
-    left: "138px",
-  },
-  smallAnimatedImage: {
-    zIndex: 7,
-    width: "37px",
-    top: "175px",
-    left: "185px",
-    opacity: "0",
-  },
-  tonomyLogo: {
-    zIndex: 7,
-    width: "45px",
-    top: "175px",
-    left: "181px",
-    opacity: "0",
-  },
-  idSvg: {
-    zIndex: 7,
-    width: "24px",
-    top: "181px",
-    left: "190px",
+  bannerSmall: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    width: "250px",
+    height: "250px",
+    borderRadius: "100px",
+    overflow: "hidden",
+    margin: "auto", // Center the entire div horizontally
   },
 };
 const AnimatedHeroImage = () => {
-  return (
-    <div className="banner-img banner" style={styles.banner}>
-      <div className="overlay" style={styles.overlay}></div>
-      <div
-        // src="/images/img_6.jpg"
-        // alt="Image"
-        className="background"
-        style={styles.background}
-      />
-      <div>
-        <img
-          className="brightImage animate__animated animate__rotateIn animate__fast "
-          style={styles.brightImage}
-          src="/images/img_5.png"
-          alt="Image"
-        />
-
-        <img
-          className="lockBottomSide animate__animated animate__backInDown animate__delay-1s"
-          style={styles.lockBottomSide}
-          src="/images/img_0.png"
-          alt="Image"
-        />
-
-        <img
-          className="lockUpperSide animate__animated animate__backInDown  animate__delay-2s"
-          style={styles.lockUpperSide}
-          src="/images/img_3.png"
-          alt="Image"
-        />
-        <img
-          className="id_logo animate__animated animate__backInUp  animate__delay-3s"
-          style={styles.idSvg}
-          src="/images/id.svg"
-          alt="Image"
-        />
-
-        <img
-          className="animate__animated animate__backInUp  animate__delay-4s"
-          style={styles.smallAnimatedImage}
-          src="/images/img_2.png"
-          alt="Image"
-        />
-
-        <img
-          className="animate__animated animate__backInUp  animate__delay-5s"
-          style={styles.tonomyLogo}
-          src="/images/img_1.png"
-          alt="Image"
-        />
-      </div>
-    </div>
-  );
+  return <Lottie animationData={animatedData} loop={true} />;
 };
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
@@ -163,17 +70,18 @@ const MainBanner = () => {
             </div>
 
             <div className="col-lg-6">
-              {/* Main Image */}
-              <div className="banner-main-img banner-one-main-img">
-                <img src="/images/home-three/main-img3.png" alt="Image" />
+              <div className="banner-main-img banner-one-main-img ">
+                <div style={styles.bannerSmall}>
+                  <AnimatedHeroImage />
+                </div>
               </div>
-
-              <AnimatedHeroImage />
+              <div className="banner-img banner" style={styles.bannerLarge}>
+                <AnimatedHeroImage />
+              </div>
             </div>
           </div>
         </div>
 
-        {/* Shape Images */}
         <div className="over-shape">
           <img src="/images/home-one/shape/animate1.png" alt="Image" />
           <img src="/images/home-one/shape/animate1.png" alt="Image" />
