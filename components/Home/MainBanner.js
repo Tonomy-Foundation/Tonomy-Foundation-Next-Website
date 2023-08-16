@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 import Lottie from "lottie-react";
-import animatedData from "../assets/animated.json"; // Adjust the path as needed
+import animatedData from "./main-banner-animation.json"; // Adjust the path as needed
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 const styles = {
