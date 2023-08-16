@@ -2,9 +2,10 @@ import React, { useState } from "react";
 import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 import Lottie from "lottie-react";
-import animatedData from "./main-banner-animation.json"; // Adjust the path as needed
+import animatedData from "./main-banner-animation.json";
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
+
 const styles = {
   bannerLarge: {
     left: "10%",
@@ -25,9 +26,11 @@ const styles = {
     margin: "auto", // Center the entire div horizontally
   },
 };
+
 const AnimatedHeroImage = () => {
   return <Lottie animationData={animatedData} loop={true} />;
 };
+
 const MainBanner = () => {
   const [toggler, setToggler] = useState(false);
   return (
