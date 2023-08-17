@@ -24,7 +24,7 @@ const Demo = () => {
                                 <p>See firsthand how our cutting-edge digital identity wallet simplifies user authentication and data management. Discover the seamless integration process and get a glimpse into the future of secure digital identities. Don't wait, explore now!</p>
 
                                 <div className="banner-btn">
-                                    <Link href="/about-1">
+                                    <Link href="/experience-tonomy-id">
                                         <a className="default-btn">
                                             Try Tonomy ID
                                         </a>

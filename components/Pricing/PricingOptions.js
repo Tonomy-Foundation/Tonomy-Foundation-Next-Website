@@ -108,7 +108,9 @@ export default class PricingOptions extends Component {
                             <h3>Production</h3>
                         </div>
                         <span>
-                            Starting at €2,000<sub>/m</sub>
+                            <Link href="/contact">
+                            <a>Contact us</a>
+                            </Link>
                         </span>
                         <p>Price depends on how you integrate Tonomy ID and production requirements</p>
 
@@ -240,7 +242,9 @@ export default class PricingOptions extends Component {
                             </p>
                         </div>
                         <span>
-                            Starting at €1,000<sub>/m</sub>
+                            <Link href="/contact">
+                            <a>Contact us</a>
+                            </Link>
                         </span>
 
                         <p>Price depends on how you integrate Tonomy ID and production requirements</p>
@@ -295,9 +299,9 @@ export default class PricingOptions extends Component {
                             {/* <p>Contact Us</p> */}
                         </div>
                         <span>
-                            <a href="https://us12.list-manage.com/contact-form?u=fdd40ebf441b888a2d75c41fd&form_id=eee2e8567ab48c31cc20a0349787ec09">
-                            Contact&nbsp;us
-                            </a>
+                            <Link href="/contact">
+                            <a>Contact us</a>
+                            </Link>
                         </span>
 
                         <ul>
