@@ -1,18 +1,18 @@
 import Navbar from '../components/Layouts/Navbar'
 import Footer from '../components/Layouts/Footer'
-import MainBanner from '../components/HomeOne/MainBanner'
-import Partner from '../components/Common/Partner'
-import BusinessImpact from '../components/HomeOne/BusinessImpact'
-import WhyChooseUs2 from '../components/HomeOne/WhyChooseUs2'
-import Demo from '../components/HomeOne/Demo'
-import CyberSecurityStatistics from '../components/Common/CyberSecurityStatistics'
-import AttackPrevention from '../components/HomeOne/AttackPrevention'
-import ComplianceSlider from '../components/HomeOne/ComplianceSlider'
+import MainBanner from '../components/Home/MainBanner'
+import Partners from '../components/Home/Partners'
+import BusinessImpact from '../components/Home/BusinessImpact'
+import WhyChooseUs from '../components/Home/WhyChooseUs'
+import Demo from '../components/Home/Demo'
+import CyberSecurityStatistics from '../components/Home/CyberSecurityStatistics'
+import AttackPrevention from '../components/Home/AttackPrevention'
+import ComplianceSlider from '../components/Home/ComplianceSlider'
 import Head from 'next/head'
-import FeatureSSO from '../components/HomeOne/FeatureSSO'
-import FeatureSigner from '../components/HomeOne/FeatureSigner'
-import FeatureSovereignVault from '../components/HomeOne/FeatureSovereignVault'
-import FeatureOthers from '../components/HomeOne/FeatureOthers'
+import FeatureSSO from '../components/Home/FeatureSSO'
+import FeatureSigner from '../components/Home/FeatureSigner'
+import FeatureSovereignVault from '../components/Home/FeatureSovereignVault'
+import FeatureOthers from '../components/Home/FeatureOthers'
 
 const Index = () => {
     return (
@@ -28,11 +28,11 @@ const Index = () => {
 
             <MainBanner />
 
-            <Partner />
+            <CyberSecurityStatistics />
 
             <BusinessImpact />
 
-            <WhyChooseUs2 />
+            <WhyChooseUs />
 
             <FeatureSSO />
 
@@ -41,14 +41,14 @@ const Index = () => {
             <FeatureSovereignVault />
 
             <FeatureOthers />
-            
+
             <Demo />
 
+            <Partners />
+            
             <AttackPrevention />
 
             <ComplianceSlider />
-
-            <CyberSecurityStatistics />
 
             <Footer />
         </>
