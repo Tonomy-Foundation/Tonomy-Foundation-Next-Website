@@ -80,6 +80,42 @@ class Navbar extends Component {
                                                     <a className="nav-link">Finance and Banking</a>
                                                 </Link>
                                             </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/ecommerce" activeClassName="active">
+                                                    <a className="nav-link">eCommerce</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/web3-and-ssi" activeClassName="active">
+                                                    <a className="nav-link">Web3 and SSI</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/gaming" activeClassName="active">
+                                                    <a className="nav-link">Gaming</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/healthcare" activeClassName="active">
+                                                    <a className="nav-link">Healthcare</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/supply-chain" activeClassName="active">
+                                                    <a className="nav-link">Supply Chain</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/telecommunications" activeClassName="active">
+                                                    <a className="nav-link">Telecommunications</a>
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </li>
 
