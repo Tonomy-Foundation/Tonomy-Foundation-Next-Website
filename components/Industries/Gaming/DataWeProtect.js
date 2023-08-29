@@ -24,8 +24,8 @@ const DataWeProtect = () => {
             <div className="container">
                 <div className="section-title">
                     <span></span>
-                    <h2>Data We Protect</h2>
-                    <p>Tonomy ID safeguards data with end-to-end encryption, tamper-proof digital signatures, and secure user-owned wallets, ensuring unparalleled protection against breaches and unauthorized access.</p>
+                    <h2>Safeguarding Your In-Game Data</h2>
+                    <p>Peek into Tonomy ID's priority list, highlighting the gaming data it safeguards, enhancing your gaming exploits.</p>
                 </div>
 
                 <div className="tab industries-list-tab">
@@ -39,8 +39,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3>Client Confidential Information</h3>
-                                        <p>Client Trust Preserved</p>
+                                        <h3>Personal Information</h3>
+                                        <p>Player Trust Preserved</p>
                                     </span>
                                 </li>
 
@@ -49,8 +49,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Legal Agreements</h3>
-                                        <p>Secure Contracts, Smooth Transactions</p>
+                                        <h3>Payment Information</h3>
+                                        <p>Always Secure and Easy Payments</p>
                                     </span>
                                 </li>
 
@@ -59,8 +59,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-health"></i>
-                                        <h3>Tax Documents</h3>
-                                        <p>Privacy in Financial Reporting</p>
+                                        <h3>Digital Assets</h3>
+                                        <p>Give Users Ownership</p>
                                     </span>
                                 </li>
 
@@ -69,13 +69,13 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-automation"></i>
-                                        <h3>Customer Identification Documents</h3>
-                                        <p>Trustworthy Customer Verification</p>
+                                        <h3>Player History</h3>
+                                        <p>Give Users Ownership</p>
                                     </span>
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div className="col-lg-9">
                             <div className="tab_content">
                                 {/* Tab item #1 */}
@@ -89,24 +89,23 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Client Confidential Information</h3>
-                                                <p>Confidential client information, such as account details, investment preferences, and personal data, forms the bedrock of the banking relationship. </p>
-                                                <p>Safeguarding this sensitive information is vital to maintain client trust, comply with data protection laws, and prevent data breaches that could lead to financial losses and reputational damage.</p>
-                                                
+                                                <h3>Personal Information</h3>
+                                                <p>Empower your gaming journey with Tonomy ID's unwavering commitment to protect and secure your personal data.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Trust
+                                                                Usernames
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                Phone Numbers
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Emails
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -115,20 +114,20 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Age Verification
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fraud Prevention
+                                                                Names
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Instant Verification
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -138,29 +137,29 @@ const DataWeProtect = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 {/* Tab item #2 */}
                                 <div id="tab2" className="tabs_item">
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Legal Agreements and Contracts</h3>
-                                                <p>Legal agreements and contracts establish the terms and conditions governing financial deals, loans, and partnerships. Protecting these documents with tamper-proof digital signatures ensures their authenticity and enforceability, reducing the risk of disputes and streamlining financial transactions.</p>
+                                                <h3>Payment Information</h3>
+                                                <p>Explore how Tonomy ID fortifies your payment information, ensuring seamless and risk-free transactions.</p>
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Authenticity
+                                                                Credit Card Information
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Enforceable
+                                                                KYC Information
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Shipping Addresses
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -169,20 +168,20 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Legal Compliance
+                                                                Promo Codes
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Gift Cards
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Streamlined Transactions
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -210,25 +209,24 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Tax Documents</h3>
-                                                <p>Tax documents, including income statements and tax returns, contain sensitive financial information essential for accurate tax reporting.</p>
-                                                <p>With Tonomy ID's tamper-resistant digital signatures, banks can secure these documents and prevent unauthorized access, protecting their clients' financial privacy and complying with tax regulations.</p>
-                                                
+                                                <h3>Digital Assets</h3>
+                                                <p>Safeguard your valuable digital assets with Tonomy ID's fortified defenses, ensuring unwavering protection and control.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Game Items
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                NFTs
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
-                                                            </li>
+                                                                Tradable Assets
+                                                            </li> */}
                                                         </ul>
                                                     </div>
 
@@ -236,16 +234,16 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Tradeable Assets
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Game Characters
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Trustworthy reporting
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -265,25 +263,24 @@ const DataWeProtect = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Customer Identification Documents</h3>
-                                                <p>Customer identification documents, such as passports, driver's licenses, and national ID cards, are crucial for verifying customer identities during onboarding and financial transactions.</p>
-                                                <p>Protecting these documents with Tonomy ID's secure digital signatures helps banks ensure reliable customer verification, reducing the risk of identity fraud and meeting compliance requirements.</p>
-                                                
+                                                <h3>Player History</h3>
+                                                <p>Preserve and protect your gaming journey's history with Tonomy ID, ensuring its confidentiality and authenticity.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Instant Verification
+                                                                Accomplishments
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Rewards
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Fraud Prevention
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
 
@@ -291,16 +288,16 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Levels
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                User-origin Guaranteed
+                                                                Badges
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Non-repudiation
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
