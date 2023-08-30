@@ -13,6 +13,17 @@ import App from "next/app";
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
 
+function injectMatomoAnalytics() {
+  const _mtm = window._mtm = window._mtm || [];
+  _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
+  const d = document;
+  const g = d.createElement('script');
+  const s = d.getElementsByTagName('script')[0];
+  g.async = true;
+  g.src = 'https://cdn.matomo.cloud/tonomy.matomo.cloud/container_Lj4VYEcS.js';
+  s.parentNode.insertBefore(g, s);
+}
+
 export default class MyApp extends App {
   componentWillUnmount() {
     if (this.timerHandle) {
@@ -20,6 +31,11 @@ export default class MyApp extends App {
       this.timerHandle = 0;
     }
   }
+
+  componentDidMount() {
+    injectMatomoAnalytics();
+  }
+
 
   render() {
     const { Component, pageProps } = this.props;
