@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Empowering Digital Identity Control in Healthcare.</h1>
-                            <p>Tonomy ID's advanced digital identity wallet is transforming the healthcare industry by providing patients, providers, and organisations with secure, private, and compliant digital identity solutions.</p>
+                            <h1>Tonomy ID: Your Shield in Healthcare</h1>
+                            <p>Protect patient data with the industry's most secure solution. Experience unrivaled privacy, effortless data portability, and streamlined integration.</p>
 
                             <div className="banner-btn">
                                 <Link href="/">
