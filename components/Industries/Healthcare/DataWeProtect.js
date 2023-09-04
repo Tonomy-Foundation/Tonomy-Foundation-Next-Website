@@ -24,7 +24,7 @@ const DataWeProtect = () => {
             <div className="container">
                 <div className="section-title">
                     <span></span>
-                    <h2>Data We Protect</h2>
+                    <h2>Safeguarding Critical Healthcare Information</h2>
                     <p>Tonomy ID safeguards data with end-to-end encryption, tamper-proof digital signatures, and secure user-owned wallets, ensuring unparalleled protection against breaches and unauthorized access.</p>
                 </div>
 
@@ -39,7 +39,7 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3>Client Confidential Information</h3>
+                                        <h3>Patient Medical Records</h3>
                                         <p>Client Trust Preserved</p>
                                     </span>
                                 </li>
@@ -49,8 +49,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Legal Agreements</h3>
-                                        <p>Secure Contracts, Smooth Transactions</p>
+                                        <h3>Healthcare Communication Data</h3>
+                                        <p>Safty First</p>
                                     </span>
                                 </li>
 
@@ -59,23 +59,15 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-health"></i>
-                                        <h3>Tax Documents</h3>
-                                        <p>Privacy in Financial Reporting</p>
+                                        <h3>Healthcare Administration Data</h3>
+                                        <p>Secure Data, Frictionless Processes</p>
                                     </span>
                                 </li>
 
-                                <li
-                                    onClick={(e) => openTabSection(e, 'tab4')}
-                                >
-                                    <span>
-                                        <i className="flaticon-automation"></i>
-                                        <h3>Customer Identification Documents</h3>
-                                        <p>Trustworthy Customer Verification</p>
-                                    </span>
-                                </li>
+
                             </ul>
                         </div>
-                        
+
                         <div className="col-lg-9">
                             <div className="tab_content">
                                 {/* Tab item #1 */}
@@ -89,24 +81,23 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Client Confidential Information</h3>
-                                                <p>Confidential client information, such as account details, investment preferences, and personal data, forms the bedrock of the banking relationship. </p>
-                                                <p>Safeguarding this sensitive information is vital to maintain client trust, comply with data protection laws, and prevent data breaches that could lead to financial losses and reputational damage.</p>
-                                                
+                                                <h3>Patient Medical Records</h3>
+                                                <p>Tonomy ID ensures secure storage and controlled sharing of patient medical histories.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Trust
+                                                                Diagnoses
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                Treatments
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Lab Results
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -115,20 +106,16 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Medications
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fraud Prevention
-                                                            </li>
-                                                            <li>
-                                                                <i className="flaticon-checked"></i>
-                                                                Instant Verification
+                                                                Imaging Data
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -138,29 +125,29 @@ const DataWeProtect = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 {/* Tab item #2 */}
                                 <div id="tab2" className="tabs_item">
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Legal Agreements and Contracts</h3>
-                                                <p>Legal agreements and contracts establish the terms and conditions governing financial deals, loans, and partnerships. Protecting these documents with tamper-proof digital signatures ensures their authenticity and enforceability, reducing the risk of disputes and streamlining financial transactions.</p>
+                                                <h3>Healthcare Communication Data</h3>
+                                                <p>Explore how Tonomy ID protects patient-provider communications and appointments.</p>
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Authenticity
+                                                                Appointments
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Enforceable
+                                                                Consultations
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Consultations
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -169,20 +156,20 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Legal Compliance
+                                                                Treatment Plans
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Patient Alerts
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Streamlined Transactions
+                                                                Prescriptions
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -210,24 +197,23 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Tax Documents</h3>
-                                                <p>Tax documents, including income statements and tax returns, contain sensitive financial information essential for accurate tax reporting.</p>
-                                                <p>With Tonomy ID's tamper-resistant digital signatures, banks can secure these documents and prevent unauthorized access, protecting their clients' financial privacy and complying with tax regulations.</p>
-                                                
+                                                <h3>Healthcare Administration Data</h3>
+                                                <p>Discover how Tonomy ID protects administrative data for efficient healthcare operations.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Billing Information
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                Insurance Records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Claims Processing
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -236,16 +222,16 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Provider Credentials
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Patient IDs
                                                             </li>
-                                                            <li>
+                                                            {/* <li>
                                                                 <i className="flaticon-checked"></i>
                                                                 Trustworthy reporting
-                                                            </li>
+                                                            </li> */}
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -268,7 +254,7 @@ const DataWeProtect = () => {
                                                 <h3>Customer Identification Documents</h3>
                                                 <p>Customer identification documents, such as passports, driver's licenses, and national ID cards, are crucial for verifying customer identities during onboarding and financial transactions.</p>
                                                 <p>Protecting these documents with Tonomy ID's secure digital signatures helps banks ensure reliable customer verification, reducing the risk of identity fraud and meeting compliance requirements.</p>
-                                                
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">

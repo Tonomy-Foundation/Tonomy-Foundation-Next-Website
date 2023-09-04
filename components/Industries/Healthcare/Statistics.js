@@ -9,64 +9,62 @@ class Statistics extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="business-content">
-                                <h2>Cybersecurity in Finance and Banking</h2>
+                                <h2>Emerging Cybersecurity Challenges in Healthcare</h2>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-chip"></i>
-                                <h3>Fraud's Rising Surge</h3>
-                                <p>Confront the surge of digital identity fraud engulfing finance and banking. Embrace Tonomy ID to reclaim control and protect against relentless cyber adversaries.</p>
+                                <h3>Escalating Cyber Threats</h3>
+                                <p>Rising healthcare cyber threats jeopardize patient data and disrupt services. Tonomy ID’s robust cybersecurity is here to ensure privacy and maintain seamless operations.</p>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-blockchain"></i>
-                                <h3>The Growing Cyber Menace</h3>
-                                <p>Uncover the alarming cybersecurity gaps in finance and banking. Tonomy ID stands as a fortress, shielding against relentless digital threats and data breaches.</p>
+                                <h3>Patient Data at Risk</h3>
+                                <p>Tonomy ID's Secure Digital Identities Drive Healthcare's Revolution, Enhancing Security, Efficiency, and Industry Compliance, while Safeguarding Patient Data.</p>
                             </div>
 
-                            <div className="business-btn">
+                            {/* <div className="business-btn">
                                 <Link href="https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most">
                                     <a className="default-btn" target="_blank">
                                         Read Source
                                     </a>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">€16.6 M</span></h2>
-                                        <p>Avg. yearly cost of banking cyberattacks</p>
-                                        {/* https://www.sangfor.com/blog/cybersecurity/cyber-attacks-on-banks-devastate-financial-sector */}
+                                        <h2><span className="target">160,000</span></h2>
+                                        <p>Avg. patient records breached every day</p>
+                                        {/* https://www.mastercard.com/news/perspectives/2023/why-medical-billing-fraud-hurts-our-wallets-and-harms-our-health/ */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">42%</span></h2>
-                                        <p>% of all breaches that target banks</p>
-                                        {/* https://fortunly.com/statistics/data-breach-statistics/#:~:text=Key%20Statistics%20on%20Data%20Breaches,164.6%20million%20successful%20data%20breaches */}
+                                        <h2><span className="target">93%</span></h2>
+                                        <p>healthcare organisations that experienced an identity breach within the past two years</p>
+                                        {/* https://www.openaccessgovernment.org/healthcares-recovery-why-identity-security-critical-nhs-data/154560/ */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">54%</span></h2>
-                                        <p>Banks that dealt with document forgery last year</p>
-                                        {/* https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/ */}
+                                        <h2><span className="target">81%</span></h2>
+                                        <p>patients wanting increased access to their health information</p>
+                                        {/* https://www.patientsrising.org/health-data-portability-who-owns-your-health-data/ */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
 
-                                    <h2><span className="target">€450,000</span></h2>
-                                        <p>Avg. Identity Fraud Incident Cost</p>
-                                        {/* https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most
-                                        
-                                        https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/
+                                        <h2><span className="target">1 in 7</span></h2>
+                                        <p>Healthcare employees will fall for phishing emails</p>
+                                        {/* https://blog.knowbe4.com/one-in-seven-healthcare-employees-will-fall-for-phishing-emails
                                         */}
                                     </div>
                                 </div>
