@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Game-Changing Security: Self Sovereign Identity Meets Gaming</h1>
-                            <p>Tonomy ID empowers games to easily integrate blockchain, digital assets and NFTs whilst significantly improving the identity management of players.</p>
+                            <h1>Empower Gamers: True Gaming-Asset Ownership, Seamless Experience with Tonomy ID</h1>
+                            <p>Tonomy ID empowers games to easily integrate digital assets, NFTs, tokens and collectables while enhancing the user experience and security of players.</p>
 
                             <div className="banner-btn">
                                 <Link href="/">

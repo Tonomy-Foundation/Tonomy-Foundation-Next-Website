@@ -12,10 +12,10 @@ class Impact extends Component {
                                 <i className="flaticon-chip"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Increase Player Trust</a>
+                                        <a>Increase Player Trust and Boost Reputation</a>
                                     </Link>
                                 </h3>
-                                <p>Web3 games use blockchain technology to secure their data, which can help to prevent hacking and fraud. Additionally, Web3 games give players ownership of their in-game assets, which can help to build trust and confidence.</p>
+                                <p>Web3 games give players ownership of their in-game assets, which can help to build trust and confidence. This leads to increased player satisfaction and positive word-of-mouth, which can help to improve the reputation of your game.</p>
                             </div>
                         </div>
 
@@ -24,10 +24,10 @@ class Impact extends Component {
                                 <i className="flaticon-vr"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Redefining Game Transactions</a>
+                                        <a>Seamless in-game NFTs & Collectibles</a>
                                     </Link>
                                 </h3>
-                                <p>Tonomy ID revolutionizes secure in-game transactions, ensuring safe and transparent exchanges for players and developers alike. Through its advanced encryption algorithms, Tonomy ID protects payment details, preventing financial breaches and fraud. This provides players with peace of mind when making transactions within the game and instills confidence in the overall gaming experience.</p>
+                                <p>Tonomy ID revolutionizes NFTs and collectibles, offering gamers and developers a secure blockchain haven. Customize characters, trade assets, and game on with confidence and a great user experience. Join the evolution today – immerse, trade, and conquer!</p>
                             </div>
                         </div>
 
@@ -36,10 +36,11 @@ class Impact extends Component {
                                 <i className="flaticon-blockchain"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Mitigate Cheating and Fraud</a>
+                                        <a>Safeguards Gamers Against Cheating and Fraud</a>
                                     </Link>
                                 </h3>
-                                <p>Tonomy ID effectively prevents cheating and fraudulent activities within the gaming ecosystem, promoting fairness. Its advanced algorithms can detect and flag suspicious behavior, such as aimbots or unauthorized modifications. By actively combating cheating, Tonomy ID maintains a level playing field, ensuring an enjoyable and equitable gaming experience for all players.</p>
+                                <p>Detecting bots, thwarting sybil attacks, and preventing unauthorized cheats, it ensures a balanced and exciting game world for every player. Embrace fairness, embrace victory!
+                                </p>
                             </div>
                         </div>
 
@@ -60,10 +61,10 @@ class Impact extends Component {
                                 <i className="flaticon-choice"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Fostering Fairplay</a>
+                                        <a>Securing Gaming Payments</a>
                                     </Link>
                                 </h3>
-                                <p>Tonomy ID ensures fair play and a balanced gaming experience for all players, creating a level playing field. By implementing anti-cheat measures, Tonomy ID monitors gameplay to identify and prevent unfair advantages. This fosters an environment where skill and strategy are the key factors in determining success, enhancing the overall gaming experience.</p>
+                                <p>Tonomy ID's safeguards payments with tamper-proof records and fraud-proof signatures. Meet GDPR standards and defend against financial threats without compromising on user experience. Power up your gaming ecosystem!</p>
                             </div>
                         </div>
 
@@ -72,10 +73,10 @@ class Impact extends Component {
                                 <i className="flaticon-deep-learning"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Make Your Game Web3-Ready</a>
+                                        <a>Seamless Web3 Wallet Recovery and Beyond</a>
                                     </Link>
                                 </h3>
-                                <p>Enable all the benefits of Blockchain technology within your game or gaming ecosystem by integrating TonomyID. From NFTs to advanced security features, the Blockchain can take your game into another league and help future-proof.</p>
+                                <p>Tonomy ID empowers gamers and developers with secure Web3 wallet recovery and easy-to-use simplified authentication, and data privacy. Unleash the future of gaming with fraud prevention, enhanced privacy, and unparalleled transparency in one revolutionary solution. Level up your gaming experience today!</p>
                             </div>
                         </div>
                     </div>

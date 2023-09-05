@@ -37,30 +37,32 @@ class Statistics extends Component {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">95%</span></h2>
-                                        <p>Web3 games can provide up to 95% more privacy than traditional games.</p>
+                                        <h2><span className="target">50%</span></h2>
+                                        <p>Increase in gaming account hacks expected in 2023</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">???</span></h2>
-                                        <p>Web3 gaming can improve seamless gameplay in multiple ways.</p>
+                                        <h2><span className="target">85%</span></h2>
+                                        <p>Of users drop out of web3 apps due to usability issues</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
                                         <h2><span className="target">40%</span></h2>
-                                        <p>Web3 Gaming accounts that are bots</p>
+                                        <p>Web3 gaming accounts that are bots</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
 
-                                        <h2><span className="target">10-15%</span></h2>
-                                        <p>Users of all games are bots</p>
+                                        <h2><span className="target">60 seconds - 3 hours</span></h2>
+                                        {/* https://financefuturists.com/how-long-does-an-ethereum-transaction-take/
+                                        https://www.reddit.com/r/polygonnetwork/comments/pa9e6o/usually_how_long_do_transactions_take_on_the/ */}
+                                        <p>Average web3 transaction confirmation time.</p>
                                     </div>
                                 </div>
                             </div>

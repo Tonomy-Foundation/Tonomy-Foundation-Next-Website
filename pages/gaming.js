@@ -16,10 +16,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
+          <title>The Future of Gaming: Seamlessly Integrating Digital Assets, Security, and Unmatched User Experience with Tonomy ID</title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
+            content="Experience the next era of gaming with Tonomy ID, where digital assets, NFTs, collectibles and top-tier cybersecurity meet to provide an unparalleled user experience. Level up your gaming journey now!"
           />
         </Head>
 

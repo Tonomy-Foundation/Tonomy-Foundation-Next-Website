@@ -90,7 +90,7 @@ const DataWeProtect = () => {
                                         <div className="col-lg-6">
                                             <div className="industries-content">
                                                 <h3>Personal Information</h3>
-                                                <p>Empower your gaming journey with Tonomy ID's unwavering commitment to protect and secure your personal data.</p>
+                                                <p>Empower your gaming journey with Tonomy ID's tireless commitment to protect and secure your personal data.</p>
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">

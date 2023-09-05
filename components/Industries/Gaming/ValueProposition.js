@@ -17,8 +17,8 @@ class ValueProposition extends Component {
                                 <ul>
                                     <li>
                                         <span><i className="flaticon-technical-support"></i></span>
-                                        <h3>Cutting edge Technology</h3>
-                                        <p>Our Tonomy ID system is built on cutting-edge technology, setting new standards for gaming security. We utilize advanced encryption algorithms and authentication protocols to deliver the highest level of protection against cyber threats. Our continuous investment in research and development ensures that Tonomy ID stays ahead of emerging threats and evolving security challenges.</p>
+                                        <h3>Lightning-Fast Transactions for Gamers: 0.5 Second Web3 Magic!</h3>
+                                        <p>Experience the future of gaming transactions with Tonomy ID's blazing 0.5-second blockchain transactions. Instant, secure, and hacker-proof – revolutionizing your in-game purchases like never before. Join the speed revolution today!</p>
                                     </li>
                                     <li className="ml">
                                         <span><i className="flaticon-shield"></i></span>
@@ -34,8 +34,8 @@ class ValueProposition extends Component {
                                 <ul>
                                     <li className="ml-25">
                                         <span><i className="flaticon-support"></i></span>
-                                        <h3>Continuous Innovation</h3>
-                                        <p>We are dedicated to continuous innovation, ensuring that Tonomy ID stays ahead of emerging threats and evolving security challenges. We invest in ongoing research and development to enhance our security system and adapt to changing trends. By constantly evolving, we remain at the forefront of gaming security, providing our clients with the most advanced solutions available.</p>
+                                        <h3>The Secure and Easy Way to Implement NFTs in Gaming</h3>
+                                        <p>Tonomy ID is an innovative platform that makes it easy for businesses to implement NFTs, collectibles, badges, and tokens into their gaming applications. Our platform is secure, private, and easy to use, making it the perfect choice for businesses that want to offer their users a secure and rewarding gaming experience.</p>
                                     </li>
 
                                     <li className="ml">
