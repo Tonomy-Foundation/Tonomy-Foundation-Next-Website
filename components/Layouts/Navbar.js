@@ -81,17 +81,17 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/ecommerce" activeClassName="active">
                                                     <a className="nav-link">eCommerce</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/web3-and-ssi" activeClassName="active">
                                                     <a className="nav-link">Web3 and SSI</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
 
                                             <li className="nav-item">
                                                 <Link href="/gaming" activeClassName="active">
@@ -105,7 +105,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
 
-                                            <li className="nav-item">
+                                            {/* <li className="nav-item">
                                                 <Link href="/supply-chain" activeClassName="active">
                                                     <a className="nav-link">Supply Chain</a>
                                                 </Link>
@@ -115,7 +115,7 @@ class Navbar extends Component {
                                                 <Link href="/telecommunications" activeClassName="active">
                                                     <a className="nav-link">Telecommunications</a>
                                                 </Link>
-                                            </li>
+                                            </li> */}
                                         </ul>
                                     </li>
 
