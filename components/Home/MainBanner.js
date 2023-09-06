@@ -10,8 +10,8 @@ const styles = {
   bannerLarge: {
     left: "10%",
     position: "relative",
-    width: "350px",
-    height: "350px",
+    width: "450px",
+    height: "450px",
     borderRadius: "100px",
     overflow: "hidden",
   },
@@ -19,8 +19,8 @@ const styles = {
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    width: "250px",
-    height: "250px",
+    width: "350px",
+    height: "350px",
     borderRadius: "100px",
     overflow: "hidden",
     margin: "auto", // Center the entire div horizontally
