@@ -2,11 +2,11 @@ import React, { useState } from "react";
 import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 import Lottie from "lottie-react";
-import animatedData from "./main-banner-animation.json";
+import animatedData from "../assets/main-banner-animation.json";
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 
-const styles = {
+export const bannerStyles = {
   bannerLarge: {
     left: "10%",
     position: "relative",
@@ -27,7 +27,7 @@ const styles = {
   },
 };
 
-const AnimatedHeroImage = () => {
+export const AnimatedHeroImage = ({ animatedData }) => {
   return <Lottie animationData={animatedData} loop={true} />;
 };
 
@@ -74,12 +74,15 @@ const MainBanner = () => {
 
             <div className="col-lg-6">
               <div className="banner-main-img banner-one-main-img ">
-                <div style={styles.bannerSmall}>
-                  <AnimatedHeroImage />
+                <div style={bannerStyles.bannerSmall}>
+                  <AnimatedHeroImage key={0} animatedData={animatedData} />
                 </div>
               </div>
-              <div className="banner-img banner" style={styles.bannerLarge}>
-                <AnimatedHeroImage />
+              <div
+                className="banner-img banner"
+                style={bannerStyles.bannerLarge}
+              >
+                <AnimatedHeroImage animatedData={animatedData} key={1} />
               </div>
             </div>
           </div>
