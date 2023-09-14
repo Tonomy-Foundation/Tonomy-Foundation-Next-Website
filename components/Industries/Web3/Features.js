@@ -23,11 +23,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-cloud-computing"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Database Breaches</a>
-                  </Link>
+                  <a>Smart Contract/Blockchain Transactions</a>
                 </h3>
-                <p>Storing user data and private keys on users' devices eliminates the risk of attackers targeting and compromising centralized databases.</p>
+                <p>Enhance your blockchain transactions with secure and verified digital identities, ensuring trust and transparency in smart contracts.</p>
               </div>
             </div>
 
@@ -35,11 +33,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-interactivity"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Man-in-the-Middle Attacks</a>
-                  </Link>
+                  <a>W3C Verifiable Credentials</a>
                 </h3>
-                <p>The use of encryption and digital signatures prevents attackers from intercepting and modifying data in transit, safeguarding against unauthorized tampering or eavesdropping.</p>
+                <p>Implement W3C Verifiable Credentials effortlessly, securing digital identity interactions and enabling seamless trust verification.</p>
               </div>
             </div>
 
@@ -47,11 +43,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-blockchain"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Insider Threats</a>
-                  </Link>
+                  <a>Single Sign-On</a>
                 </h3>
-                <p>With decentralized user data, the risk of insider attacks and malicious insiders gaining unauthorized access to sensitive information is mitigated.</p>
+                <p>Enable Single Sign-On (SSO) with enhanced security and user control, simplifying access to web3 applications.</p>
               </div>
             </div>
 
@@ -59,11 +53,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-target"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Phishing Attacks</a>
-                  </Link>
+                  <a>Tap-to-sign</a>
                 </h3>
-                <p>With password-less login and storing private keys locally reduces the vulnerability to phishing attacks where attackers attempt to trick users into revealing their credentials or sensitive data.</p>
+                <p>Seamlessly sign transactions with a simple click in your app (no need to send users back to the wallet), ensuring security and ease of use in web3 applications.</p>
               </div>
             </div>
 
@@ -71,11 +63,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-choice"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Denial-of-Service (DoS) Attacks</a>
-                  </Link>
+                  <a>Wallet signatures with MFA</a>
                 </h3>
-                <p>By moving user data to devices, the impact of DoS attacks targeting centralized servers can be minimized, ensuring continued access to personal information.</p>
+                <p>Protect your signatures with multi-factor authentication (MFA), ensuring the utmost security for your digital assets in web3.</p>
               </div>
             </div>
 
@@ -83,11 +73,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-deep-learning"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Tampering and Data Integrity Attacks</a>
-                  </Link>
+                  <a>Identity Verification</a>
                 </h3>
-                <p>End-to-end digital signatures and encryption ensure that data remains intact and unaltered during transit, mitigating the risk of tampering and maintaining data integrity.</p>
+                <p>Verify user identities with cutting-edge technology, preventing fraud and ensuring trust in web3 applications.</p>
               </div>
             </div>
 
@@ -95,11 +83,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-chip"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Identity Spoofing</a>
-                  </Link>
+                  <a>Bot Protection</a>
                 </h3>
-                <p>Digital signatures provide a reliable means to verify the authenticity of senders, preventing malicious actors from impersonating legitimate entities and reducing the risk of identity spoofing attacks.</p>
+                <p>Defend your web3 application against bots and automated attacks, preserving the integrity of your system.</p>
               </div>
             </div>
 
@@ -107,11 +93,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-lock"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Brute Force Attacks</a>
-                  </Link>
+                  <a>Non-Custodial Recovery</a>
                 </h3>
-                <p>User data stored on devices makes it more challenging for attackers to launch brute force attacks against centralized databases or authentication systems.</p>
+                <p>Enable non-custodial recovery options for user accounts, ensuring security and accessibility in web3.</p>
               </div>
             </div>
 
@@ -119,14 +103,43 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-shield"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Server Exploitation</a>
-                  </Link>
+                  <a>Email Recovery</a>
                 </h3>
-                <p>Moving user data and private keys off servers removes the attack surface for server-based vulnerabilities, such as code injection or privilege escalation.</p>
+                <p>Implement secure email recovery solutions, providing users with options to regain access to their accounts in web3 applications.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-offer">
+                <i className="flaticon-target"></i>
+                <h3>
+                  <a>Sovereign Storage Vault</a>
+                </h3>
+                <p>Offer users secure sovereign storage solutions, protecting their data and digital assets in web3.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-offer">
+                <i className="flaticon-cloud-computing"></i>
+                <h3>
+                  <a>Data Sharing</a>
+                </h3>
+                <p>Enable secure and controlled data sharing among users, enhancing collaboration and trust in web3 ecosystems.</p>
+              </div>
+            </div>
+
+            <div className="col-lg-4 col-sm-6">
+              <div className="single-offer">
+                <i className="flaticon-interactivity"></i>
+                <h3>
+                  <a>Peer-to-peer messaging</a>
+                </h3>
+                <p>Facilitate encrypted peer-to-peer messaging, ensuring private and secure communications in web3 applications.</p>
               </div>
             </div>
           </div>
+
         </div>
 
         {/* Shape Images */}
