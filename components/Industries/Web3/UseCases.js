@@ -50,7 +50,7 @@ const UseCases = () => {
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
                                         <h3>Defi, Exchanges & DEXes</h3>
-                                        <p>Decentralized Finance</p>
+                                        <p>decentralised Finance</p>
                                     </span>
                                 </li>
 

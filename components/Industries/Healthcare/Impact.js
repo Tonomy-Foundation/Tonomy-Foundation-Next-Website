@@ -27,7 +27,7 @@ class Impact extends Component {
                                         <a>Ensuring Patient Privacy and Trust</a>
                                     </Link>
                                 </h3>
-                                <p>Tonomy ID's decentralized data storage and tamper-resistant Self-Sovereign Identity Based technology secures patient data, preserving privacy and reputation against breaches.</p>
+                                <p>Tonomy ID's decentralised data storage and tamper-resistant Self-Sovereign Identity Based technology secures patient data, preserving privacy and reputation against breaches.</p>
                             </div>
                         </div>
 

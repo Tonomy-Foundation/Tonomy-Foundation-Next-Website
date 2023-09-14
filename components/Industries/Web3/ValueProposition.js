@@ -28,7 +28,7 @@ class ValueProposition extends Component {
 
                                     <li className="ml">
                                         <span><i className="flaticon-shield"></i></span>
-                                        <h3>Private and decentralized</h3>
+                                        <h3>Private and decentralised</h3>
                                         <p>No user data is ever shared with 3rd parties without the consent of the user. Meanwhile, no data is stored in the cloud.</p>
                                     </li>
                                 </ul>

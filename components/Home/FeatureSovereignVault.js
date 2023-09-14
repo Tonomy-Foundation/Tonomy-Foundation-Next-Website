@@ -5,14 +5,14 @@ const FeatureSovereignVault = () => {
         <section className="about-area pb-100">
             <div className="container">
                 <div className="row align-items-center">
-                    
+
                     <div className="col-lg-6">
                         <div className="about-content">
                             <span>Transform Data Management</span>
                             <h2>Sovereign Data Vault</h2>
-                            <p>Unleash the power of secure and sovereign data storage with Tonomy ID's Sovereign Data Vault. Revolutionize your data management approach, reduce form-filling, enhance data security, achieve GDPR compliance, and embrace the benefits of decentralized storage
+                            <p>Unleash the power of secure and sovereign data storage with Tonomy ID's Sovereign Data Vault. Revolutionize your data management approach, reduce form-filling, enhance data security, achieve GDPR compliance, and embrace the benefits of decentralised storage
                             </p>
-                            
+
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
