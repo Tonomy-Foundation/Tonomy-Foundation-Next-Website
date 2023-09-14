@@ -120,6 +120,22 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
+                                        <Link href="#">
+                                            <a className="nav-link" onClick={e => e.preventDefault()}>
+                                                Use Cases <i className='bx bx-chevron-down'></i>
+                                            </a>
+                                        </Link>
+
+                                        <ul className="dropdown-menu">
+                                            <li className="nav-item">
+                                                <Link href="/antelope-wallet-telos-eos-wax" activeClassName="active">
+                                                    <a className="nav-link">Antelope Wallet</a>
+                                                </Link>
+                                            </li>
+                                        </ul>
+                                    </li>
+
+                                    <li className="nav-item">
                                         <Link href="https://docs.tonomy.foundation">
                                             <a target="_blank" className="nav-link">Developer Docs</a>
                                         </Link>
