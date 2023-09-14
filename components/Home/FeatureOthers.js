@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FeatureOthers = () => {
     return (
-        <section className="about-area pb-100">
+        <section className="about-area pb-100" id="features-other">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
@@ -21,7 +21,7 @@ const FeatureOthers = () => {
                             <span>Powerful Customizable Features</span>
                             <h2>Enhanced Identity Access Management</h2>
                             <p>Unleash the potential of Tonomy ID's customizable features to revolutionize identity management. Empower your organization with super-secure data sharing, KYC identity verification, end-to-end encrypted messaging, multi-party signatures, and sovereign recovery, all while minimizing data storage and processing needs.</p>
-                            
+
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>

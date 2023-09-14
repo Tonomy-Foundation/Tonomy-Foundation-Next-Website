@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FeatureSigner = () => {
     return (
-        <section className="about-area pb-100">
+        <section className="about-area pb-100" id="feature-signatures">
             <div className="container">
                 <div className="row align-items-center">
                     <div className="col-lg-3">
@@ -23,7 +23,7 @@ const FeatureSigner = () => {
                             <h2>Digital Signature Provider</h2>
                             <p>Elevate your organization's security and streamline authentication processes with Tonomy ID's Digital Signature Provider. Transform users' mobile phones into powerful authenticators, enabling fraud-proof data, legally enforceable signatures, and instant verification.
                             </p>
-                            
+
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>

@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const FeatureSovereignVault = () => {
     return (
-        <section className="about-area pb-100">
+        <section className="about-area pb-100" id="features-vault">
             <div className="container">
                 <div className="row align-items-center">
 

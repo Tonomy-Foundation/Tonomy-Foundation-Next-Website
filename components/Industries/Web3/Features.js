@@ -23,7 +23,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-cloud-computing"></i>
                 <h3>
-                  <a>Smart Contract/Blockchain Transactions</a>
+                  <Link href="/#feature-signatures">
+                    <a>Smart Contract/Blockchain Transactions</a>
+                  </Link>
                 </h3>
                 <p>Enhance your blockchain transactions with secure and verified digital identities, ensuring trust and transparency in smart contracts.</p>
               </div>
@@ -33,7 +35,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-interactivity"></i>
                 <h3>
-                  <a>W3C Verifiable Credentials</a>
+                  <Link href="/#feature-signatures">
+                    <a>W3C Verifiable Credentials</a>
+                  </Link>
                 </h3>
                 <p>Implement W3C Verifiable Credentials effortlessly, securing digital identity interactions and enabling seamless trust verification.</p>
               </div>
@@ -43,7 +47,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-blockchain"></i>
                 <h3>
-                  <a>Single Sign-On</a>
+                  <Link href="/#feature-sso">
+                    <a>Single Sign-On</a>
+                  </Link>
                 </h3>
                 <p>Enable Single Sign-On (SSO) with enhanced security and user control, simplifying access to web3 applications.</p>
               </div>
@@ -53,7 +59,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-target"></i>
                 <h3>
-                  <a>Tap-to-sign</a>
+                  <Link href="/#feature-signatures">
+                    <a>Tap-to-sign</a>
+                  </Link>
                 </h3>
                 <p>Seamlessly sign transactions with a simple click in your app (no need to send users back to the wallet), ensuring security and ease of use in web3 applications.</p>
               </div>
@@ -63,7 +71,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-choice"></i>
                 <h3>
-                  <a>Wallet signatures with MFA</a>
+                  <Link href="/#feature-signatures">
+                    <a>Wallet signatures with MFA</a>
+                  </Link>
                 </h3>
                 <p>Protect your signatures with multi-factor authentication (MFA), ensuring the utmost security for your digital assets in web3.</p>
               </div>
@@ -73,7 +83,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-deep-learning"></i>
                 <h3>
-                  <a>Identity Verification</a>
+                  <Link href="/#feature-other">
+                    <a>Identity Verification</a>
+                  </Link>
                 </h3>
                 <p>Verify user identities with cutting-edge technology, preventing fraud and ensuring trust in web3 applications.</p>
               </div>
@@ -83,7 +95,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-chip"></i>
                 <h3>
-                  <a>Bot Protection</a>
+                  <Link href="/#feature-other">
+                    <a>Bot Protection</a>
+                  </Link>
                 </h3>
                 <p>Defend your web3 application against bots and automated attacks, preserving the integrity of your system.</p>
               </div>
@@ -93,7 +107,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-lock"></i>
                 <h3>
-                  <a>Non-Custodial Recovery</a>
+                  <Link href="/#feature-other">
+                    <a>Non-Custodial Recovery</a>
+                  </Link>
                 </h3>
                 <p>Enable non-custodial recovery options for user accounts, ensuring security and accessibility in web3.</p>
               </div>
@@ -103,7 +119,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-shield"></i>
                 <h3>
-                  <a>Email Recovery</a>
+                  <Link href="/#feature-other">
+                    <a>Email Recovery</a>
+                  </Link>
                 </h3>
                 <p>Implement secure email recovery solutions, providing users with options to regain access to their accounts in web3 applications.</p>
               </div>
@@ -113,7 +131,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-target"></i>
                 <h3>
-                  <a>Sovereign Storage Vault</a>
+                  <Link href="/#feature-vault">
+                    <a>Sovereign Storage Vault</a>
+                  </Link>
                 </h3>
                 <p>Offer users secure sovereign storage solutions, protecting their data and digital assets in web3.</p>
               </div>
@@ -123,7 +143,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-cloud-computing"></i>
                 <h3>
-                  <a>Data Sharing</a>
+                  <Link href="/#feature-vault">
+                    <a>Data Sharing</a>
+                  </Link>
                 </h3>
                 <p>Enable secure and controlled data sharing among users, enhancing collaboration and trust in web3 ecosystems.</p>
               </div>
@@ -133,7 +155,9 @@ class Features extends Component {
               <div className="single-offer">
                 <i className="flaticon-interactivity"></i>
                 <h3>
-                  <a>Peer-to-peer messaging</a>
+                  <Link href="/#feature-other">
+                    <a>Peer-to-peer messaging</a>
+                  </Link>
                 </h3>
                 <p>Facilitate encrypted peer-to-peer messaging, ensuring private and secure communications in web3 applications.</p>
               </div>
