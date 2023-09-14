@@ -87,11 +87,11 @@ class Navbar extends Component {
                                                 </Link>
                                             </li> */}
 
-                                            {/* <li className="nav-item">
+                                            <li className="nav-item">
                                                 <Link href="/web3-and-ssi" activeClassName="active">
                                                     <a className="nav-link">Web3 and SSI</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
 
                                             <li className="nav-item">
                                                 <Link href="/gaming" activeClassName="active">

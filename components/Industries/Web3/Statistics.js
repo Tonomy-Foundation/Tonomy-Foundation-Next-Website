@@ -9,64 +9,61 @@ class Statistics extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="business-content">
-                                <h2>Cybersecurity in Finance and Banking</h2>
+                                <h2>Web3 cannot meet user experience expectations</h2>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-chip"></i>
-                                <h3>Fraud's Rising Surge</h3>
-                                <p>Confront the surge of digital identity fraud engulfing finance and banking. Embrace Tonomy ID to reclaim control and protect against relentless cyber adversaries.</p>
+                                <h3>Making Web3 more user friendly </h3>
+                                <p>User experience is the biggest drawback of Web3 applications today. dApps do not manage to scale due to the requirement of users to install wallets and other complicated nuances.</p>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-blockchain"></i>
-                                <h3>The Growing Cyber Menace</h3>
-                                <p>Uncover the alarming cybersecurity gaps in finance and banking. Tonomy ID stands as a fortress, shielding against relentless digital threats and data breaches.</p>
+                                <h3>Low security for dApps</h3>
+                                <p>Web3 dApps often suffer from hacks and attacks leaving their users in big losses. At the same time most dApps and DeFi applications suffer from sybil attacks (people who create multiple accounts) or fail to meet the identity verification compliance requirements.</p>
                             </div>
 
-                            <div className="business-btn">
+                            {/* <div className="business-btn">
                                 <Link href="https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most">
                                     <a className="default-btn" target="_blank">
                                         Read Source
                                     </a>
                                 </Link>
-                            </div>
+                            </div> */}
                         </div>
 
                         <div className="col-lg-6">
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">€16.6 M</span></h2>
-                                        <p>Avg. yearly cost of banking cyberattacks</p>
-                                        {/* https://www.sangfor.com/blog/cybersecurity/cyber-attacks-on-banks-devastate-financial-sector */}
+                                        <h2><span className="target">73%</span></h2>
+                                        <p>Yearly increase in hacks within Web3</p>
+                                        {/* https://u.today/press-releases/is-your-web3-project-at-risk-of-being-hacked-this-solution-could-save-you-millions */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">42%</span></h2>
-                                        <p>% of all breaches that target banks</p>
-                                        {/* https://fortunly.com/statistics/data-breach-statistics/#:~:text=Key%20Statistics%20on%20Data%20Breaches,164.6%20million%20successful%20data%20breaches */}
+                                        <h2><span className="target">60 seconds - 3 hours</span></h2>
+                                        <p>Average web3 transaction time time</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">54%</span></h2>
-                                        <p>Banks that dealt with document forgery last year</p>
-                                        {/* https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/ */}
+                                        <h2><span className="target">10%</span></h2>
+                                        <p>Of web3 accounts are lost forever</p>
+                                        {/* https://www.nytimes.com/2021/01/13/business/tens-of-billions-worth-of-bitcoin-have-been-locked-by-people-who-forgot-their-key.html */}
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
 
-                                    <h2><span className="target">€450,000</span></h2>
-                                        <p>Avg. Identity Fraud Incident Cost</p>
-                                        {/* https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most
-                                        
-                                        https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/
+                                        <h2><span className="target">85%</span></h2>
+                                        <p>Users leave Web3 dApps due to usability issues</p>
+                                        {/* https://zipdo.co/statistics/web3/
                                         */}
                                     </div>
                                 </div>
