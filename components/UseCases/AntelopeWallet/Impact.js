@@ -11,11 +11,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-chip"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Seamless User Onboarding</a>
-                                    </Link>
+                                    <a>Seamless App Adoption</a>
                                 </h3>
-                                <p>Create accounts and login to apps now super easy, and no exposure to crypto/web3 technical information.</p>
+                                <p>Elevate user engagement with Tonomy ID's seamless account creation and login. Free account creation for users, and formless and seamless login brings more greater adoption and user retention.</p>
                             </div>
                         </div>
 
@@ -23,11 +21,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-vr"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Blazing Fast Transactions</a>
-                                    </Link>
+                                    <a>Truly Frictionless Transactions</a>
                                 </h3>
-                                <p>Users are able to send transactions with almost instant finality, enabling an ultra smooth user experience, even when using web3.</p>
+                                <p>Experience frictionless blockchain transactions with Tonomy ID, enhancing user satisfaction and accelerating app growth.</p>
                             </div>
                         </div>
 
@@ -35,11 +31,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-blockchain"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Adhere to an Evolving Regulatory Landscape</a>
-                                    </Link>
+                                    <a>SSI and Vault Integration</a>
                                 </h3>
-                                <p>Your dApp might be required to KYC all users at some point. With Tonomy ID, you will be able to accommodate any changes in regulations when it comes to enabling more compliance controls.</p>
+                                <p>Integrate Self-Sovereign Identity and decentralized data storage sharing solutions effortlessly, enhancing and private user profiles and data sharing across your Antelope ecosystem.</p>
                             </div>
                         </div>
 
@@ -47,9 +41,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-target"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Sybil/Bot Resistance</a>
-                                    </Link>
+                                    <a>Bot Protection for Apps and Ecosystem</a>
                                 </h3>
                                 <p>As bots become more common in the Web3 ecosystem, Tonomy ID verified the realness of users and avoids bots decreasing the quality of your user experience.</p>
                             </div>
@@ -59,11 +51,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-choice"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Self-sovereign Identity (SSI) giving User Trust</a>
-                                    </Link>
+                                    <a>Craft a Branded User Experience</a>
                                 </h3>
-                                <p>Tonomy ID‘s fully self-sovereign, non-custodial architecture enables users to own their data and keys, empowering users by putting them in control. Enable W3C Verifiable Credential issuance and verification.</p>
+                                <p>Customize your chain's journey with white-label branding, reinforcing your community's identity and trustworthiness.</p>
                             </div>
                         </div>
 
@@ -71,11 +61,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-deep-learning"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Protect from Hacks and Data Theft</a>
-                                    </Link>
+                                    <a>Fully Managed Accounts, Keys & Recovery, Simplified</a>
                                 </h3>
-                                <p>No information can be hacked from Tonomy ID as it does not not store data in a database in the cloud. By letting users store their data on their own device, Tonomy maximizes the security of your dApps.</p>
+                                <p>Remove the need for users to manage private key or resource (CPU, NET, RAM). Enable recovery in the case of forgotten passphrases. All while ensuring private keys remains non-custodial and secure.</p>
                             </div>
                         </div>
                     </div>
