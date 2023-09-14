@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
 
-const DataWeProtect = () => {
+const UseCases = () => {
 
     const openTabSection = (evt, tabNmae) => {
         let i, tabcontent, tablinks;
@@ -318,4 +318,4 @@ const DataWeProtect = () => {
     )
 }
 
-export default DataWeProtect;
+export default UseCases;

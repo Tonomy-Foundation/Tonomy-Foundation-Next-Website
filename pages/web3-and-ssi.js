@@ -7,7 +7,7 @@ import MainBanner from "../components/Industries/Web3/MainBanner";
 import Impact from "../components/Industries/Web3/Impact";
 import Statistics from "../components/Industries/Web3/Statistics";
 import ContactInfo from "../components/Contact/ContactInfo";
-import DataWeProtect from "../components/Industries/Web3/DataWeProtect";
+import UseCases from "../components/Industries/Web3/UseCases";
 import ValueProposition from "../components/Industries/Web3/ValueProposition";
 
 class About extends Component {
@@ -31,7 +31,7 @@ class About extends Component {
 
         <ValueProposition />
 
-        <DataWeProtect />
+        <UseCases />
 
         <ContactInfo contactPage="/contact/" />
 
