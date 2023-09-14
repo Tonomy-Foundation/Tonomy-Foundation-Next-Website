@@ -3217,19 +3217,30 @@ Pricing Area Style
   color: #1dd3f8;
 }
 
+.comparison-table-container {
+  max-width: 1000px;
+  margin: auto;
+
+  p {
+    text-align: center;
+  }
+}
 
 .comparison-table {
-  font-family: "Open Sans", sans-serif;
-
   th {
     text-align: center;
   }
 
+  td:nth-child(1) {
+    font-weight: bold;
+  }
+
+  /* All columns after the first */
   td:nth-child(n+2) {
     text-align: center;
   }
 
-  /* Second column is highlighted blue */
+  /* Second column */
   td:nth-child(2) {
     background-color: rgba(29, 211, 248, 0.1);
   }
@@ -3238,6 +3249,7 @@ Pricing Area Style
     background-color: rgba(29, 211, 248, 0.1);
   }
 
+  /* Icon in a circle */
   i.bx {
     font-size: 2rem;
     width: 40px;

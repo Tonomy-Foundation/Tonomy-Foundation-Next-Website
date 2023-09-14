@@ -11,7 +11,7 @@ const ComparisonTable = () => {
 
     return (
         <ThemeProvider theme={theme}>
-            <TableContainer component={Paper}>
+            <TableContainer component={Paper} className="comparison-table-container">
                 <Table className="comparison-table">
                     <TableHead>
                         <TableRow>
@@ -33,7 +33,7 @@ const ComparisonTable = () => {
                             <TableCell>Account Creation & Login **</TableCell>
                             <TableCell>1 min 20 seconds</TableCell>
                             <TableCell>2 min 30 seconds</TableCell>
-                            <TableCell>1 min 20 seconds</TableCell>
+                            <TableCell>1 min 10 seconds</TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell>Wallet Transaction Sign Flow **</TableCell>
@@ -42,7 +42,7 @@ const ComparisonTable = () => {
                             <TableCell><i className="bx bx-x"></i></TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell>In-App Transaction Sign Flow **</TableCell>
+                            <TableCell>In-App Transaction Sign Flow</TableCell>
                             <TableCell>Instant</TableCell>
                             <TableCell><i className="bx bx-x"></i></TableCell>
                             <TableCell>Instant</TableCell>
@@ -97,6 +97,7 @@ const ComparisonTable = () => {
                         </TableRow>
                     </TableBody>
                 </Table>
+                <p>**Flow timed with no user errors.</p>
             </TableContainer >
         </ThemeProvider>
     );
@@ -114,10 +115,6 @@ class Comparison extends Component {
                     </div>
 
                     <ComparisonTable />
-
-                    <div className="section-footer">
-                        <p>**Flow timed with no user errors.</p>
-                    </div>
 
                 </div>
             </section>
