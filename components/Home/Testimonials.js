@@ -33,10 +33,11 @@ class Testimonials extends Component {
                         modules={[Navigation, Autoplay]}
                         className="testimonials-slide"
                     >
-                        {/* <SwiperSlide>
+                        <SwiperSlide>
                             <div className="single-client">
                                 <i className="quotes flaticon-left-quotes-sign"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <p>Security at the expense of usability, comes at the expense of security.</p>
+                                <p>(Founding principal of Proton Mail)</p>
 
                                 <ul>
                                     <li><i className="bx bxs-star"></i></li>
@@ -47,12 +48,12 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client1.jpg" alt="Image" />
-                                    <h3>Alen Meair</h3>
-                                    <span>Developer</span>
+                                    <img src="/images/testimonials/avi-douglen.jpg" alt="Image" />
+                                    <h3>Avi Douglen</h3>
+                                    <span>Director at OWASP Foundation </span>
                                 </div>
                             </div>
-                        </SwiperSlide> */}
+                        </SwiperSlide>
 
                         {/* <SwiperSlide>
                             <div className="single-client">
