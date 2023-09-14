@@ -11,6 +11,7 @@ import Features from "../components/Common/Features";
 import FeaturesBusiness from "../components/Common/FeaturesBusiness";
 import Testimonials from "../components/Home/Testimonials";
 import Demo from "../components/Common/Demo";
+import Comparison from "../components/UseCases/AntelopeWallet/Comparison";
 
 class About extends Component {
   render() {
@@ -28,6 +29,8 @@ class About extends Component {
         <MainBanner />
 
         <Impact />
+
+        <Comparison />
 
         <Testimonials />
 
