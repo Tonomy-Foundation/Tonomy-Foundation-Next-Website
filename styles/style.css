@@ -3219,6 +3219,7 @@ Pricing Area Style
 
 
 .comparison-table {
+  font-family: "Open Sans", sans-serif;
 
   th {
     text-align: center;
@@ -3235,6 +3236,17 @@ Pricing Area Style
 
   th:nth-child(2) {
     background-color: rgba(29, 211, 248, 0.1);
+  }
+
+  i.bx {
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    background-color: #daf6fd;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px 0;
   }
 
   i.bx-check {

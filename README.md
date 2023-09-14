@@ -31,7 +31,7 @@ Reading and following these guidelines will help us make the contribution proces
 
 ## Run
 
-1. Install packages with `npm i --legacy-peer-deps`.
+1. Install packages with `npm i`.
 3. Run `npm run dev` to start the development server.
 
 ## Feature branch policy
