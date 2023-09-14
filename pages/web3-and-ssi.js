@@ -11,6 +11,7 @@ import UseCases from "../components/Industries/Web3/UseCases";
 import ValueProposition from "../components/Industries/Web3/ValueProposition";
 import Features from "../components/Industries/Web3/Features";
 import FeaturesBusiness from "../components/Industries/Web3/FeaturesBusiness";
+import Testimonials from "../components/Home/Testimonials";
 
 class About extends Component {
   render() {
@@ -30,6 +31,8 @@ class About extends Component {
         <Statistics />
 
         <Impact />
+
+        <Testimonials />
 
         <ValueProposition />
 
