@@ -4,13 +4,13 @@ import Footer from "../components/Layouts/Footer";
 import Head from "next/head";
 import MainBanner from "../components/UseCases/AntelopeWallet/MainBanner";
 import Impact from "../components/UseCases/AntelopeWallet/Impact";
-import Statistics from "../components/UseCases/AntelopeWallet/Statistics";
 import ContactInfo from "../components/Contact/ContactInfo";
 import UseCases from "../components/Industries/Web3/UseCases";
 import ValueProposition from "../components/UseCases/AntelopeWallet/ValueProposition";
-import Features from "../components/Industries/Web3/Features";
-import FeaturesBusiness from "../components/Industries/Web3/FeaturesBusiness";
+import Features from "../components/Common/Features";
+import FeaturesBusiness from "../components/Common/FeaturesBusiness";
 import Testimonials from "../components/Home/Testimonials";
+import Demo from "../components/Common/Demo";
 
 class About extends Component {
   render() {
@@ -27,8 +27,6 @@ class About extends Component {
 
         <MainBanner />
 
-        {/* <Statistics /> */}
-
         <Impact />
 
         <Testimonials />
@@ -40,6 +38,8 @@ class About extends Component {
         <Features />
 
         <FeaturesBusiness />
+
+        <Demo />
 
         <ContactInfo contactPage="/contact/" />
 
