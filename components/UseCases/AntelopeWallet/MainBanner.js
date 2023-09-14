@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Tonomy ID: Supercharge your Web3 and SSI Apps</h1>
-                            <p>Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure with Tonomy ID.</p>
+                            <h1>Empowering Antelope Ecosystems for Mainstream Adoption</h1>
+                            <p>An Antelope and Self-sovereign Identity (SSI) wallet built for user control and mainstream-ready user experience. Tonomy ID for Telos, EOS, WAX, UX Network and other Antelope chains.</p>
 
                             <div className="banner-btn">
                                 <Link href="/">

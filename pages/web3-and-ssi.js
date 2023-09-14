@@ -19,10 +19,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Supercharge your Web3 and SSI Apps</title>
+          <title>Tonomy ID: Supercharge your Web3 and SSI Apps</title>
           <meta
             name="description"
-            content="Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure." />
+            content="Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure with Tonomy ID." />
         </Head>
 
         <MainBanner />
