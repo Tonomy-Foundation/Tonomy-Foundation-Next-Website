@@ -51,7 +51,7 @@ class AttackPrevention extends Component {
                     <a>Insider Threats</a>
                   </Link>
                 </h3>
-                <p>With decentralized user data, the risk of insider attacks and malicious insiders gaining unauthorized access to sensitive information is mitigated.</p>
+                <p>With decentralised user data, the risk of insider attacks and malicious insiders gaining unauthorized access to sensitive information is mitigated.</p>
               </div>
             </div>
 
