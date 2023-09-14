@@ -9,6 +9,8 @@ import Statistics from "../components/Industries/Web3/Statistics";
 import ContactInfo from "../components/Contact/ContactInfo";
 import UseCases from "../components/Industries/Web3/UseCases";
 import ValueProposition from "../components/Industries/Web3/ValueProposition";
+import Features from "../components/Industries/Web3/Features";
+import FeaturesBusiness from "../components/Industries/Web3/FeaturesBusiness";
 
 class About extends Component {
   render() {
@@ -32,6 +34,10 @@ class About extends Component {
         <ValueProposition />
 
         <UseCases />
+
+        <Features />
+
+        <FeaturesBusiness />
 
         <ContactInfo contactPage="/contact/" />
 
