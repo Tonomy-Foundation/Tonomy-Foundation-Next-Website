@@ -4,6 +4,7 @@ import "../styles/boxicons.min.css";
 import "../styles/flaticon.css";
 import "swiper/css";
 import "swiper/css/bundle";
+import TagManager from 'react-gtm-module';
 
 // Global styles
 import "../styles/style.css";
@@ -24,6 +25,12 @@ function injectMatomoAnalytics() {
   s.parentNode.insertBefore(g, s);
 }
 
+function injectGoogleTagManager() {
+  TagManager.initialize({
+    gtmId: 'G-736JT4GEW4'
+  })
+}
+
 export default class MyApp extends App {
   componentWillUnmount() {
     if (this.timerHandle) {
@@ -34,8 +41,8 @@ export default class MyApp extends App {
 
   componentDidMount() {
     injectMatomoAnalytics();
+    injectGoogleTagManager();
   }
-
 
   render() {
     const { Component, pageProps } = this.props;
