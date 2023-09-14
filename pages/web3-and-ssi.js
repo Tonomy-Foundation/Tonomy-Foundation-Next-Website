@@ -19,11 +19,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
+          <title>Supercharge your Web3 and SSI Apps</title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
-          />
+            content="Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure." />
         </Head>
 
         <MainBanner />
