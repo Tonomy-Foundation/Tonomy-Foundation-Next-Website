@@ -15,7 +15,7 @@ class Impact extends Component {
                                         <a>Seamless User Onboarding</a>
                                     </Link>
                                 </h3>
-                                <p>Users can easily sign up for your DApp without needing to install any 3rd party extensions</p>
+                                <p>Create accounts and login to apps now super easy, and no exposure to crypto/web3 technical information.</p>
                             </div>
                         </div>
 
@@ -24,10 +24,10 @@ class Impact extends Component {
                                 <i className="flaticon-vr"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>KYC Compliance Made Easy</a>
+                                        <a>Blazing Fast Transactions</a>
                                     </Link>
                                 </h3>
-                                <p>Meet stringent regulatory requirements effortlessly using Tonomy ID's automated and reliable KYC identity verification.</p>
+                                <p>Users are able to send transactions with almost instant finality, enabling an ultra smooth user experience, even when using web3.</p>
                             </div>
                         </div>
 
@@ -36,10 +36,10 @@ class Impact extends Component {
                                 <i className="flaticon-blockchain"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Fraud-Proof Data Management</a>
+                                        <a>Adhere to an Evolving Regulatory Landscape</a>
                                     </Link>
                                 </h3>
-                                <p>Safeguard financial records and transaction data with Tonomy ID's tamper-proof digital signatures, ensuring data integrity and authenticity.</p>
+                                <p>Your dApp might be required to KYC all users at some point. With Tonomy ID, you will be able to accommodate any changes in regulations when it comes to enabling more compliance controls.</p>
                             </div>
                         </div>
 
@@ -48,10 +48,10 @@ class Impact extends Component {
                                 <i className="flaticon-target"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Secure Digital Transactions</a>
+                                        <a>Sybil/Bot Resistance</a>
                                     </Link>
                                 </h3>
-                                <p>Protect high-value transactions with Tonomy ID's advanced security features, reducing the risk of unauthorized access and fraud.</p>
+                                <p>As bots become more common in the Web3 ecosystem, Tonomy ID verified the realness of users and avoids bots decreasing the quality of your user experience.</p>
                             </div>
                         </div>
 
@@ -60,10 +60,10 @@ class Impact extends Component {
                                 <i className="flaticon-choice"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Compliant Data Sharing</a>
+                                        <a>Self-sovereign Identity (SSI) giving User Trust</a>
                                     </Link>
                                 </h3>
-                                <p>Facilitate secure data sharing between financial institutions and authorized parties, ensuring privacy and compliance with data protection regulations.</p>
+                                <p>Tonomy ID‘s fully self-sovereign, non-custodial architecture enables users to own their data and keys, empowering users by putting them in control. Enable W3C Verifiable Credential issuance and verification.</p>
                             </div>
                         </div>
 
@@ -72,10 +72,10 @@ class Impact extends Component {
                                 <i className="flaticon-deep-learning"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Multi-Party Signatures</a>
+                                        <a>Protect from Hacks and Data Theft</a>
                                     </Link>
                                 </h3>
-                                <p>Enable secure collaboration between multiple stakeholders for complex financial agreements, using Tonomy ID's multi-party signature capabilities.</p>
+                                <p>No information can be hacked from Tonomy ID as it does not not store data in a database in the cloud. By letting users store their data on their own device, Tonomy maximizes the security of your dApps.</p>
                             </div>
                         </div>
                     </div>
