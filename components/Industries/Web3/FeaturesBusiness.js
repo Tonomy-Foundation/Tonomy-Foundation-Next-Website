@@ -38,7 +38,7 @@ const FeaturesBusiness = () => {
                         <div className="single-features">
                             <i className="flaticon-lock"></i>
                             <h3>OPEN SOURCE</h3>
-                            <p>Embrace the security advantages of open source with Tonomy ID, ensuring transparency and community scrutiny for robust cybersecurity</p>
+                            <p>Embrace the advantages of open source with Tonomy ID, ensuring transparency and community collaboration for robust cybersecurity and community feedback.</p>
 
                             {/* <Link href="/service-details">
                                 <a className="read-more-icon">
