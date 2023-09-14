@@ -30,75 +30,18 @@ const MainBanner = () => {
 
                     <div className="col-lg-6">
                         {/* Main Image */}
-                        <div className="banner-main-img banner-one-main-img">
+                        {/* <div className="banner-main-img banner-one-main-img">
                             <img
                                 src="/images/home-two/main-img2.png"
                                 alt="Image"
                             />
-                        </div>
+                        </div> */}
 
                         {/* Banner Shape Images */}
                         <div className="banner-img">
                             <img
-                                className="animate__animated animate__fadeInDown animate__faster"
-                                src="/images/home-two/shape1.png"
-                                alt="Image"
-                            />
-
-                            <div className="square-img">
-                                <img
-                                    className="animate__animated animate__fadeInDown animate__delay-0.1s"
-                                    src="/images/home-two/shape2.png"
-                                    alt="Image"
-                                />
-                            </div>
-
-                            <img
-                                className="animate__animated animate__fadeInDown animate__fast"
-                                src="/images/home-two/shape3.png"
-                                alt="Image"
-                            />
-
-                            <div className="circle-img">
-                                <img
-                                    className="animate__animated animate__zoomIn animate__delay-0.1s"
-                                    src="/images/home-two/shape4.png"
-                                    alt="Image"
-                                />
-                            </div>
-
-                            <img
-                                src="/images/home-two/shape5.png"
-                                alt="Image"
-                            />
-
-                            <img
-                                className="animate__animated animate__fadeInDown animate__delay-0.1s"
-                                src="/images/home-two/shape6.png"
-                                alt="Image"
-                            />
-
-                            <img
-                                className="animate__animated animate__fadeInDown animate__delay-0.6s"
-                                src="/images/home-two/shape7.png"
-                                alt="Image"
-                            />
-
-                            <img
-                                className="animate__animated animate__fadeInRight animate__delay-0.1s"
-                                src="/images/home-two/shape8.png"
-                                alt="Image"
-                            />
-
-                            <img
-                                className="animate__animated animate__fadeInRight animate__delay-0.1s"
-                                src="/images/home-two/shape9.png"
-                                alt="Image"
-                            />
-
-                            <img
-                                className="animate__animated animate__fadeInRight animate__delay-1s"
-                                src="/images/home-two/shape10.png"
+                                // className="animate__animated animate__fadeInDown animate__faster"
+                                src="/images/antelope-banner.png"
                                 alt="Image"
                             />
                         </div>
