@@ -97,7 +97,7 @@ const ComparisonTable = () => {
                         </TableRow>
                     </TableBody>
                 </Table>
-                <p>**Flow timed with no user errors.</p>
+                <p>**Approximate time with no user errors.</p>
             </TableContainer >
         </ThemeProvider>
     );

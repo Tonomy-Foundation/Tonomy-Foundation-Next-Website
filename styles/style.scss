@@ -3047,30 +3047,57 @@ Pricing Area Style
 	}
 }
 
-.comparison-table {
-	background-color: #212121;
 
-	th {
-		border: 1px solid #1df84c;
+.comparison-table-container {
+	max-width: 1000px;
+	margin: auto;
+
+	p {
+		text-align: center;
 	}
+}
 
-	td:nth-child(1n+1) {
-		text-align: "center";
+.comparison-table {
+	th {
+		text-align: center;
 	}
 
 	td:nth-child(1) {
-		background-color: 'rgba(29, 211, 248, 0.1)';
-		border: 1px solid #1dd3f8;
+		font-weight: bold;
 	}
 
-	i {
-		.bx-x {
-			color: red;
-		}
+	/* All columns after the first */
+	td:nth-child(n+2) {
+		text-align: center;
+	}
 
-		.bx-check {
-			color: green;
-		}
+	/* Second column */
+	td:nth-child(2) {
+		background-color: rgba(29, 211, 248, 0.1);
+	}
+
+	th:nth-child(2) {
+		background-color: rgba(29, 211, 248, 0.1);
+	}
+
+	/* Icon in a circle */
+	i.bx {
+		font-size: 2rem;
+		width: 40px;
+		height: 40px;
+		background-color: #daf6fd;
+		line-height: 24px;
+		border-radius: 50%;
+		text-align: center;
+		padding: 8px 0;
+	}
+
+	i.bx-check {
+		color: green;
+	}
+
+	i.bx-x {
+		color: red;
 	}
 }
 
