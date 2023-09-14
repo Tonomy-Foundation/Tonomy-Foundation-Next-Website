@@ -5,17 +5,17 @@ class Impact extends Component {
     render() {
         return (
             <section className="offer-area gray-bg ptb-100">
-			    <div className="container">
+                <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
                                 <i className="flaticon-chip"></i>
                                 <h3>
                                     <Link href="/service-details">
-                                        <a>Seamless Customer Onboarding</a>
+                                        <a>Seamless User Onboarding</a>
                                     </Link>
                                 </h3>
-                                <p>Expedite KYC processes and enhance user experience with Tonomy ID's seamless and secure customer onboarding.</p>
+                                <p>Users can easily sign up for your DApp without needing to install any 3rd party extensions</p>
                             </div>
                         </div>
 

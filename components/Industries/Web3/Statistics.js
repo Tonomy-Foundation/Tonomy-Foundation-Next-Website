@@ -46,7 +46,7 @@ class Statistics extends Component {
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
                                         <h2><span className="target">60 seconds - 3 hours</span></h2>
-                                        <p>Average web3 transaction time time</p>
+                                        <p>Average web3 transaction confirmation time</p>
                                     </div>
                                 </div>
 
