@@ -8,8 +8,8 @@ const MainBanner = () => {
                 <div className="row">
                     <div className="col-lg-6">
                         <div className="banner-text">
-                            <h1>Security First, Reputation Always. Tonomy ID Protects.</h1>
-                            <p>Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking.</p>	
+                            <h1>Supercharge your Web3 and SSI Apps</h1>
+                            <p>Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure.</p>
 
                             <div className="banner-btn">
                                 <Link href="/">
@@ -30,80 +30,80 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         {/* Main Image */}
                         <div className="banner-main-img banner-one-main-img">
-                            <img 
-                                src="/images/home-two/main-img2.png" 
-                                alt="Image" 
+                            <img
+                                src="/images/home-two/main-img2.png"
+                                alt="Image"
                             />
                         </div>
 
                         {/* Banner Shape Images */}
                         <div className="banner-img">
-                            <img 
-                                className="animate__animated animate__fadeInDown animate__faster" 
-                                src="/images/home-two/shape1.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInDown animate__faster"
+                                src="/images/home-two/shape1.png"
+                                alt="Image"
                             />
 
                             <div className="square-img">
-                                <img 
-                                    className="animate__animated animate__fadeInDown animate__delay-0.1s" 
-                                    src="/images/home-two/shape2.png" 
-                                    alt="Image" 
+                                <img
+                                    className="animate__animated animate__fadeInDown animate__delay-0.1s"
+                                    src="/images/home-two/shape2.png"
+                                    alt="Image"
                                 />
                             </div>
 
-                            <img 
-                                className="animate__animated animate__fadeInDown animate__fast" 
-                                src="/images/home-two/shape3.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInDown animate__fast"
+                                src="/images/home-two/shape3.png"
+                                alt="Image"
                             />
 
                             <div className="circle-img">
-                                <img 
-                                    className="animate__animated animate__zoomIn animate__delay-0.1s" 
-                                    src="/images/home-two/shape4.png" 
-                                    alt="Image" 
+                                <img
+                                    className="animate__animated animate__zoomIn animate__delay-0.1s"
+                                    src="/images/home-two/shape4.png"
+                                    alt="Image"
                                 />
                             </div>
 
-                            <img 
-                                src="/images/home-two/shape5.png" 
-                                alt="Image" 
+                            <img
+                                src="/images/home-two/shape5.png"
+                                alt="Image"
                             />
 
-                            <img 
-                                className="animate__animated animate__fadeInDown animate__delay-0.1s" 
-                                src="/images/home-two/shape6.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInDown animate__delay-0.1s"
+                                src="/images/home-two/shape6.png"
+                                alt="Image"
                             />
 
-                            <img 
-                                className="animate__animated animate__fadeInDown animate__delay-0.6s" 
-                                src="/images/home-two/shape7.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInDown animate__delay-0.6s"
+                                src="/images/home-two/shape7.png"
+                                alt="Image"
                             />
 
-                            <img 
-                                className="animate__animated animate__fadeInRight animate__delay-0.1s" 
-                                src="/images/home-two/shape8.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInRight animate__delay-0.1s"
+                                src="/images/home-two/shape8.png"
+                                alt="Image"
                             />
 
-                            <img 
-                                className="animate__animated animate__fadeInRight animate__delay-0.1s" 
-                                src="/images/home-two/shape9.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInRight animate__delay-0.1s"
+                                src="/images/home-two/shape9.png"
+                                alt="Image"
                             />
 
-                            <img 
-                                className="animate__animated animate__fadeInRight animate__delay-1s" 
-                                src="/images/home-two/shape10.png" 
-                                alt="Image" 
+                            <img
+                                className="animate__animated animate__fadeInRight animate__delay-1s"
+                                src="/images/home-two/shape10.png"
+                                alt="Image"
                             />
                         </div>
                     </div>
                 </div>
-            </div> 
+            </div>
 
             {/* Shape Images */}
             <div className="over-shape">
