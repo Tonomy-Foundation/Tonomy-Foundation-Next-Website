@@ -1,247 +1,117 @@
 import React, { Component } from 'react';
-import Link from 'next/link';
+import { Table, TableBody, TableCell, TableContainer, TableHead, TableRow, Paper } from '@mui/material';
+
+const useStyles = {
+    centered: {
+        textAlign: 'center',
+    },
+    primary: {
+        textAlign: 'center',
+        backgroundColor: 'rgba(29, 211, 248, 0.1)',
+    },
+    icons: {
+        color: 'red',
+    }
+};
+
+const ComparisonTable = () => {
+
+    return (
+        <TableContainer component={Paper}>
+            <Table className="comparison-table">
+                <TableHead>
+                    <TableRow>
+                        <TableCell></TableCell>
+                        <TableCell>
+                            <h4>Tonomy ID</h4>
+                            <p>White Labelled Wallet</p>
+                        </TableCell>
+                        <TableCell >
+                            <h4>Anchor</h4>
+                            <p>Multi-Chain Wallet</p></TableCell>
+                        <TableCell >
+                            <h4>Upland</h4>
+                            <p>In-App Wallet</p></TableCell>
+                    </TableRow>
+                </TableHead>
+                <TableBody>
+                    <TableRow>
+                        <TableCell>Account Creation & Login **</TableCell>
+                        <TableCell></TableCell>
+                        <TableCell className="comparison-table"></TableCell>
+                        <TableCell >70 seconds</TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>Transaction Sign Flow **</TableCell>
+                        <TableCell>Instant (in-app)</TableCell>
+                        <TableCell ></TableCell>
+                        <TableCell >Instant (in-app)</TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><div>Users Control Keys</div><div>(non-custodial)</div></TableCell>
+                        <TableCell><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>Wallets</TableCell>
+                        <TableCell>Android, iOS</TableCell>
+                        <TableCell >Android, iOS, Desktop</TableCell>
+                        <TableCell >Web wallet</TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><div>Free Account Creation</div><div>(User doesn't pay)</div></TableCell>
+                        <TableCell><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                        <TableCell ><i className="bx bx-check"></i></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell><div>Fully Managed Resources</div><div>(RAM, CPU, NET)</div></TableCell>
+                        <TableCell><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                        <TableCell ><i className="bx bx-check"></i></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>Recovery</TableCell>
+                        <TableCell><i className="bx bx-check"></i><div>Social, hardware, email (coming soon)</div></TableCell>
+                        <TableCell ><i className="bx bx-check"></i><div>Private Key (certificate) export</div></TableCell>
+                        <TableCell ><i className="bx bx-check"></i><div>Email</div></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>Self-sovereign Identity</TableCell>
+                        <TableCell><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                    </TableRow>
+                    <TableRow>
+                        <TableCell>Private Data Storage & Sharing</TableCell>
+                        <TableCell><i className="bx bx-check"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                        <TableCell ><i className="bx bx-x"></i></TableCell>
+                    </TableRow>
+                </TableBody>
+            </Table>
+        </TableContainer >
+    );
+};
 
 class Comparison extends Component {
 
-    openTabSection = (evt, tabNmae) => {
-        let i, tabcontent, tablinks;
-        tabcontent = document.getElementsByClassName("tabs_item");
-        for (i = 0; i < tabcontent.length; i++) {
-            tabcontent[i].style.display = "none";
-        }
-
-        tablinks = document.getElementsByTagName("li");
-        for (i = 0; i < tablinks.length; i++) {
-            tablinks[i].className = tablinks[i].className.replace("current", "");
-        }
-
-        document.getElementById(tabNmae).style.display = "block";
-        evt.currentTarget.className += "current";
-    }
-
     render() {
         return (
-            <section className="pricing-area pt-100 pb-70">
+            <section className="comparison-area pt-100 pb-70">
                 <div className="container">
                     <div className="section-title">
                         <span>Comparison</span>
-                        <h2>Antelope Wallets</h2>
-                        {/* <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. ipsum suspendisse.</p> */}
+                        <h2>Tonomy ID Compared to Other Wallets</h2>
                     </div>
 
-                    <div className="tab quote-list-tab">
-                        <div className="tab_content">
-                            <div id="tab1" className="tabs_item">
-                                <div className="row">
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Upland</h3>
-                                                <p>In-app wallet</p>
-                                            </div>
+                    <ComparisonTable />
 
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Account Creation: 60 seconds
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Transaction Flow: 60 seconds (in-app)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Single Sign On
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Cross Platform (Mobile, Web, Desktop)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    In-app 1-click transactions
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Wallet signatues
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Free Accounts For Users
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Recovery
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Multi-chain
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Open Source
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Self-sovereign Identity
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Private Data Storage and Sharing
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-6">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Anchor</h3>
-                                                <p>Multi-chain cross-platform Anchor wallet</p>
-                                            </div>
-
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Account Creation: 60 seconds
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Transaction Flow: 60 seconds (in-app)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Single Sign On
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Cross Platform (Mobile, Web, Desktop)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    In-app 1-click transactions
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Wallet signatues
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Free Accounts For Users
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Recovery
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Multi-chain
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Open Source
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Self-sovereign Identity
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Private Data Storage and Sharing
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-
-                                    <div className="col-lg-4 col-md-6 offset-md-3 offset-lg-0">
-                                        <div className="single-pricing">
-                                            <div className="pricing-top-heading">
-                                                <h3>Tonomy ID</h3>
-                                                <p>White labeled usability Antelope wallet</p>
-                                            </div>
-
-                                            <ul>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Account Creation: 60 seconds
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Transaction Flow: 60 seconds (in-app)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Single Sign On
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Cross Platform (Mobile, Web, Desktop)
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    In-app 1-click transactions
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-check'></i>
-                                                    Wallet signatues
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Free Accounts For Users
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Recovery
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Multi-chain
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Fully Managed Resources/Keys
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Open Source
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Self-sovereign Identity
-                                                </li>
-                                                <li>
-                                                    <i className='bx bx-x'></i>
-                                                    Private Data Storage and Sharing
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-
-                        </div>
+                    <div className="section-footer">
+                        <p>**Flow timed with no user errors.</p>
                     </div>
+
                 </div>
             </section>
         );

@@ -19,10 +19,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
+          <title>Tonomy ID: Empowering Antelope Ecosystems for Mainstream Adoption</title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
+            content="An Antelope and Self-sovereign Identity (SSI) wallet built for user control and mainstream-ready user experience. Tonomy ID for Telos, EOS, WAX, UX Network and other Antelope chains."
           />
         </Head>
 

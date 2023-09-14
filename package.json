@@ -11,6 +11,9 @@
     "author": "EnvyTheme.com",
     "license": "ISC",
     "dependencies": {
+        "@emotion/react": "^11.11.1",
+        "@emotion/styled": "^11.11.0",
+        "@mui/material": "^5.14.9",
         "animate.css": "^4.1.1",
         "fslightbox-react": "^1.6.2-2",
         "lottie-react": "^2.4.0",
