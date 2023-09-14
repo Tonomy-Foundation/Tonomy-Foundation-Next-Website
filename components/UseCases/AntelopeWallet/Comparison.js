@@ -25,21 +25,27 @@ const ComparisonTable = () => {
                                 <p>Multi-Chain Wallet</p></TableCell>
                             <TableCell >
                                 <h4>Upland</h4>
-                                <p>In-App Wallet</p></TableCell>
+                                <p>In-App Web Wallet</p></TableCell>
                         </TableRow>
                     </TableHead>
                     <TableBody>
                         <TableRow>
                             <TableCell>Account Creation & Login **</TableCell>
-                            <TableCell></TableCell>
-                            <TableCell className="comparison-table"></TableCell>
-                            <TableCell >70 seconds</TableCell>
+                            <TableCell>1 min 20 seconds</TableCell>
+                            <TableCell>2 min 30 seconds</TableCell>
+                            <TableCell>1 min 20 seconds</TableCell>
                         </TableRow>
                         <TableRow>
-                            <TableCell>Transaction Sign Flow **</TableCell>
-                            <TableCell>Instant (in-app)</TableCell>
-                            <TableCell ></TableCell>
-                            <TableCell >Instant (in-app)</TableCell>
+                            <TableCell>Wallet Transaction Sign Flow **</TableCell>
+                            <TableCell>15 seconds</TableCell>
+                            <TableCell>15 seconds</TableCell>
+                            <TableCell><i className="bx bx-x"></i></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>In-App Transaction Sign Flow **</TableCell>
+                            <TableCell>Instant</TableCell>
+                            <TableCell><i className="bx bx-x"></i></TableCell>
+                            <TableCell>Instant</TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell><div>Users Control Keys</div><div>(non-custodial)</div></TableCell>
@@ -56,7 +62,7 @@ const ComparisonTable = () => {
                         <TableRow>
                             <TableCell><div>Free Account Creation</div><div>(User doesn't pay)</div></TableCell>
                             <TableCell><i className="bx bx-check"></i></TableCell>
-                            <TableCell ><i className="bx bx-x"></i></TableCell>
+                            <TableCell ><i className="bx bx-x"></i><div>($1)</div></TableCell>
                             <TableCell ><i className="bx bx-check"></i></TableCell>
                         </TableRow>
                         <TableRow>
@@ -70,6 +76,12 @@ const ComparisonTable = () => {
                             <TableCell><i className="bx bx-check"></i><div>Social, hardware, email (coming soon)</div></TableCell>
                             <TableCell ><i className="bx bx-check"></i><div>Private Key (certificate) export</div></TableCell>
                             <TableCell ><i className="bx bx-check"></i><div>Email</div></TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>Single Sign-On</TableCell>
+                            <TableCell><i className="bx bx-check"></i></TableCell>
+                            <TableCell ><i className="bx bx-check"></i></TableCell>
+                            <TableCell ><i className="bx bx-x"></i></TableCell>
                         </TableRow>
                         <TableRow>
                             <TableCell>Self-sovereign Identity</TableCell>
