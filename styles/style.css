@@ -3249,28 +3249,26 @@ Pricing Area Style
     background-color: rgba(29, 211, 248, 0.1);
   }
 
-  
-}
-/* Icon in a circle */
-i.bx {
-  font-size: 2rem;
-  width: 40px;
-  height: 40px;
-  background-color: #daf6fd;
-  line-height: 24px;
-  border-radius: 50%;
-  text-align: center;
-  padding: 8px 0;
-}
+  /* Icon in a circle */
+  i.bx {
+    font-size: 2rem;
+    width: 40px;
+    height: 40px;
+    background-color: #daf6fd;
+    line-height: 24px;
+    border-radius: 50%;
+    text-align: center;
+    padding: 8px 0;
+  }
 
-i.bx-check {
-  color: green;
-}
+  i.bx-check {
+    color: green;
+  }
 
-i.bx-x {
-  color: red;
+  i.bx-x {
+    color: red;
+  }
 }
-  
 
 .single-pricing ul li .bx-x {
   color: red;
