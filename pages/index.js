@@ -4,7 +4,7 @@ import MainBanner from '../components/Home/MainBanner'
 import Partners from '../components/Home/Partners'
 import BusinessImpact from '../components/Home/BusinessImpact'
 import WhyChooseUs from '../components/Home/WhyChooseUs'
-import Demo from '../components/Home/Demo'
+import Demo from '../components/Common/Demo'
 import CyberSecurityStatistics from '../components/Home/CyberSecurityStatistics'
 import AttackPrevention from '../components/Home/AttackPrevention'
 import ComplianceSlider from '../components/Home/ComplianceSlider'
@@ -13,6 +13,7 @@ import FeatureSSO from '../components/Home/FeatureSSO'
 import FeatureSigner from '../components/Home/FeatureSigner'
 import FeatureSovereignVault from '../components/Home/FeatureSovereignVault'
 import FeatureOthers from '../components/Home/FeatureOthers'
+import Testimonials from '../components/Home/Testimonials'
 
 const Index = () => {
     return (
@@ -34,6 +35,8 @@ const Index = () => {
 
             <WhyChooseUs />
 
+            <Testimonials />
+
             <FeatureSSO />
 
             <FeatureSigner />
@@ -45,7 +48,7 @@ const Index = () => {
             <Demo />
 
             <Partners />
-            
+
             <AttackPrevention />
 
             <ComplianceSlider />

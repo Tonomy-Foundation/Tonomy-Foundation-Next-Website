@@ -80,7 +80,7 @@ const BusinessImpact = () => {
                         <div className="single-features">
                             <i className="flaticon-lock"></i>
                             <h3>OPEN SOURCE</h3>
-                            <p>Embrace the security advantages of open source with Tonomy ID, ensuring transparency and community scrutiny for robust cybersecurity</p>
+                            <p>Embrace the security advantages of open source with Tonomy ID, ensuring transparency and community scrutiny for robust cybersecurity.</p>
 
                             {/* <Link href="/service-details">
                                 <a className="read-more-icon">

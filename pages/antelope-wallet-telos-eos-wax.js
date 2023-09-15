@@ -2,15 +2,16 @@ import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import Footer from "../components/Layouts/Footer";
 import Head from "next/head";
-import MainBanner from "../components/Industries/Web3/MainBanner";
-import Impact from "../components/Industries/Web3/Impact";
-import Statistics from "../components/Industries/Web3/Statistics";
+import MainBanner from "../components/UseCases/AntelopeWallet/MainBanner";
+import Impact from "../components/UseCases/AntelopeWallet/Impact";
 import ContactInfo from "../components/Contact/ContactInfo";
 import UseCases from "../components/Industries/Web3/UseCases";
-import ValueProposition from "../components/Industries/Web3/ValueProposition";
+import ValueProposition from "../components/UseCases/AntelopeWallet/ValueProposition";
 import Features from "../components/Common/Features";
 import FeaturesBusiness from "../components/Common/FeaturesBusiness";
 import Testimonials from "../components/Home/Testimonials";
+import Demo from "../components/Common/Demo";
+import Comparison from "../components/UseCases/AntelopeWallet/Comparison";
 
 class About extends Component {
   render() {
@@ -18,17 +19,18 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Tonomy ID: Supercharge your Web3 and SSI Apps</title>
+          <title>Tonomy ID: Empowering Antelope Ecosystems for Mainstream Adoption</title>
           <meta
             name="description"
-            content="Enabling mainstream-ready Web3 decentralised applications and Self-sovereign Identity (SSI) at scale that are user friendly and secure with Tonomy ID." />
+            content="An Antelope and Self-sovereign Identity (SSI) wallet built for user control and mainstream-ready user experience. Tonomy ID for Telos, EOS, WAX, UX Network and other Antelope chains."
+          />
         </Head>
 
         <MainBanner />
 
-        <Statistics />
-
         <Impact />
+
+        <Comparison />
 
         <Testimonials />
 
@@ -39,6 +41,8 @@ class About extends Component {
         <Features />
 
         <FeaturesBusiness />
+
+        <Demo />
 
         <ContactInfo contactPage="/contact/" />
 

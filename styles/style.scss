@@ -83,7 +83,7 @@ Default Style
 $body-font-family: 'Open Sans', sans-serif;
 $heading-font-family: 'Dosis', sans-serif;
 
-$main-color: #1dd3f8; 
+$main-color: #1dd3f8;
 $body-color: #4d4d4d;
 $heading-color: #212121;
 $white-color: #ffffff;
@@ -100,60 +100,85 @@ body {
 	font-family: $body-font-family;
 	color: $body-color;
 }
+
 a {
 	display: inline-block;
-    transition: $transition;
-    text-decoration: none;
+	transition: $transition;
+	text-decoration: none;
+
 	&:hover {
-        text-decoration: none;
-        color: $heading-color;
+		text-decoration: none;
+		color: $heading-color;
 	}
+
 	&:focus {
 		text-decoration: none;
-	} 
+	}
 }
+
 button {
-    outline: 0 !important; 
+	outline: 0 !important;
 	box-shadow: none;
 	border: none;
 	background-color: transparent;
-    &:focus {
-        box-shadow: none;
-    }
+
+	&:focus {
+		box-shadow: none;
+	}
 }
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-    color: $heading-color;
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: $heading-color;
 	font-family: $heading-font-family;
 	font-weight: 700;
 }
+
 h3 {
 	font-size: 22px;
 }
+
 .d-table {
-    width: 100%;
-    height: 100%;
+	width: 100%;
+	height: 100%;
 }
+
 .d-table-cell {
-    vertical-align: middle;
+	vertical-align: middle;
 }
+
 p {
-    font-size: 15px;
+	font-size: 15px;
 	margin-bottom: 15px;
 	line-height: 1.8;
+
 	&:last-child {
-        margin-bottom: 0;
-    }
-} 
-img {
-    max-width: 100%;
-    height: auto;
+		margin-bottom: 0;
+	}
 }
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
 .bg-fafafa {
 	background-color: #f5f5f5;
 }
+
 .form-control {
-    height: 50px;
-    color: $heading-color;
+	height: 50px;
+	color: $heading-color;
 	border: 1px solid #e8e8e8;
 	background-color: #f7f7f7;
 	border-radius: 0;
@@ -161,9 +186,11 @@ img {
 	font-size: 15px;
 	padding: 10px 20px;
 	width: 100%;
+
 	&::placeholder {
 		color: #495057;
 	}
+
 	&:focus {
 		color: $black-color;
 		background-color: transparent;
@@ -172,81 +199,102 @@ img {
 		border: 1px solid $main-color;
 	}
 }
-.form-control:hover, .form-control {
-    &:focus {
-        box-shadow: unset;
-    }
+
+.form-control:hover,
+.form-control {
+	&:focus {
+		box-shadow: unset;
+	}
 }
-textarea {   
-    &.form-control {
-        height: auto;
-    }
+
+textarea {
+	&.form-control {
+		height: auto;
+	}
 }
+
 .ptb-100 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+	padding-top: 100px;
+	padding-bottom: 100px;
 }
+
 .pt-100 {
-    padding-top: 100px;
+	padding-top: 100px;
 }
+
 .pb-100 {
-    padding-bottom: 100px;
+	padding-bottom: 100px;
 }
+
 .pb-50 {
 	padding-bottom: 50px;
 }
+
 .pt-70 {
-    padding-top: 70px;
+	padding-top: 70px;
 }
+
 .pb-70 {
-    padding-bottom: 70px;
+	padding-bottom: 70px;
 }
+
 .mb-30 {
 	margin-bottom: 30px;
 }
 
 .pl-5 {
 	padding-left: px;
-  }
-  
-  .pl-10 {
+}
+
+.pl-10 {
 	padding-left: 10px;
-  }
+}
 
 .pl-30 {
 	padding-left: 30px;
 }
+
 .pr-30 {
 	padding-right: 30px;
 }
+
 .mt-30 {
 	margin-top: 30px;
 }
+
 .mt-20 {
 	margin-top: 20px;
 }
+
 .mt-100 {
 	margin-top: 100px;
 }
+
 .mtb-100 {
 	margin-top: 100px;
 	margin-bottom: 100px;
 }
+
 .mb-20 {
 	margin-bottom: 20px;
 }
+
 .mt-minus-70 {
 	margin-top: -70px;
 }
+
 .mb-minus-70 {
 	margin-bottom: -70px;
 }
+
 .ml-30 {
 	margin-left: 30px;
 }
+
 .mr-30 {
 	margin-right: 30px;
 }
+
 .fun-blue-bg {
 	background-color: #24416b;
 }
@@ -286,12 +334,14 @@ Go Top Style
 			color: $white-color;
 			transition: 0.5s;
 			font-size: 20px;
+
 			&:last-child {
 				opacity: 0;
 				visibility: hidden;
 				top: 60%;
 			}
 		}
+
 		&::before {
 			content: '';
 			position: absolute;
@@ -305,19 +355,23 @@ Go Top Style
 			visibility: hidden;
 			transition: 0.5s;
 		}
+
 		&:hover {
 			color: $white-color;
 			background-color: $main-color;
+
 			&::before {
 				opacity: 1;
 				visibility: visible;
 			}
+
 			i {
 				&:first-child {
 					opacity: 0;
 					top: 0;
 					visibility: hidden;
 				}
+
 				&:last-child {
 					opacity: 1;
 					visibility: visible;
@@ -325,18 +379,22 @@ Go Top Style
 				}
 			}
 		}
+
 		&:focus {
 			color: $white-color;
+
 			&::before {
 				opacity: 1;
 				visibility: visible;
 			}
+
 			i {
 				&:first-child {
 					opacity: 0;
 					top: 0;
 					visibility: hidden;
 				}
+
 				&:last-child {
 					opacity: 1;
 					visibility: visible;
@@ -345,7 +403,7 @@ Go Top Style
 			}
 		}
 	}
-} 
+}
 
 /*
 Page-navigation Area Style
@@ -359,10 +417,12 @@ Page-navigation Area Style
 		padding: 0;
 		list-style-type: none;
 		display: block;
+
 		li {
 			display: inline-block;
 		}
 	}
+
 	.page-link {
 		color: $main-color;
 		background-color: $white-color;
@@ -379,18 +439,21 @@ Page-navigation Area Style
 		i {
 			margin-right: -4px;
 		}
+
 		&:hover {
 			color: $white-color;
 			background-color: $main-color;
 			border: 1px solid $main-color;
 			animation: rubberBand 1s linear;
 		}
+
 		&:focus {
 			z-index: 2;
 			outline: 0;
 			box-shadow: none;
 		}
 	}
+
 	.page-link.page-links {
 		i {
 			&::before {
@@ -398,19 +461,23 @@ Page-navigation Area Style
 			}
 		}
 	}
+
 	.page-item {
 		padding: 0 8px 0;
+
 		&:first-child {
 			.page-link {
 				border-radius: none;
 			}
 		}
+
 		&:last-child {
 			.page-link {
 				border-radius: none;
 			}
 		}
 	}
+
 	.page-item.active {
 		.page-link {
 			z-index: 1;
@@ -436,6 +503,7 @@ Video wave Style
 	top: 3px;
 	z-index: 1;
 	background-color: $white-color;
+
 	i {
 		font-size: 30px;
 		font-weight: 700;
@@ -445,7 +513,9 @@ Video wave Style
 		top: 5px;
 		left: 0;
 	}
-	&::after, &::before {
+
+	&::after,
+	&::before {
 		content: '';
 		display: block;
 		position: absolute;
@@ -457,30 +527,39 @@ Video wave Style
 		border-radius: 50%;
 		background-color: $white-color;
 	}
+
 	&::before {
 		animation: ripple 1.6s ease-out infinite;
 	}
+
 	&::after {
 		animation: ripple 1.6s ease-out infinite;
 	}
+
 	&:hover {
 		background-color: $main-color;
+
 		i {
 			color: $white-color;
 		}
 	}
 }
+
 @keyframes ripple {
-	0%, 35% {
+
+	0%,
+	35% {
 		transform: scale(0);
-	  opacity: 1;
+		opacity: 1;
 	}
+
 	50% {
 		transform: scale(1.5);
-	  	opacity: 0.8;
+		opacity: 0.8;
 	}
+
 	100% {
-	  	opacity: 0;
+		opacity: 0;
 		transform: scale(2);
 	}
 }
@@ -516,6 +595,7 @@ Default Btn Area Style
 		transition: $transition;
 		transform: rotate(45deg);
 	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -528,25 +608,31 @@ Default Btn Area Style
 		transition: $transition;
 		transform: rotate(45deg);
 	}
+
 	&.active {
 		background-color: $white-color;
 		color: $main-color;
+
 		&:hover {
 			color: $white-color;
 			background-color: $main-color;
 		}
 	}
+
 	&:hover {
 		color: $white-color;
 		transition: $transition;
+
 		&::before {
 			left: 200px;
 		}
+
 		&::after {
 			right: 200px;
 		}
 	}
 }
+
 .popup-youtube {
 	cursor: pointer;
 }
@@ -556,12 +642,12 @@ Read More Area Style
 ======================================================*/
 .read-more {
 	color: $body-color;
-    font-weight: 600;
-    transition: $transition;
-    display: block;
-    font-size: 14px;
-    border: 1px solid $body-color;
-    display: inline-block;
+	font-weight: 600;
+	transition: $transition;
+	display: block;
+	font-size: 14px;
+	border: 1px solid $body-color;
+	display: inline-block;
 	padding: 5px 15px;
 	border-radius: $border-radius;
 
@@ -572,12 +658,12 @@ Read More Area Style
 		left: 3px;
 		line-height: 19px;
 		border-radius: 50%;
-		transition:$transition;
+		transition: $transition;
 	}
 
 	&:hover {
 		background-color: $main-color;
-		color: $white-color; 
+		color: $white-color;
 		border-color: $main-color;
 	}
 }
@@ -616,6 +702,7 @@ Preloader Area Style
 .preloader-deactivate {
 	display: none;
 }
+
 .preloader {
 	width: 100%;
 	height: 100%;
@@ -625,11 +712,13 @@ Preloader Area Style
 	left: 0;
 	z-index: 99999;
 }
+
 .spinner {
 	height: 40px;
 	font-size: 10px;
 	text-align: center;
-	> div {
+
+	>div {
 		background-color: #fff;
 		height: 100%;
 		width: 6px;
@@ -638,18 +727,22 @@ Preloader Area Style
 		-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
 		animation: sk-stretchdelay 1.2s infinite ease-in-out;
 	}
+
 	.rect2 {
 		-webkit-animation-delay: -1.1s;
 		animation-delay: -1.1s;
 	}
+
 	.rect3 {
 		-webkit-animation-delay: -1.0s;
 		animation-delay: -1.0s;
 	}
+
 	.rect4 {
 		-webkit-animation-delay: -0.9s;
 		animation-delay: -0.9s;
 	}
+
 	.rect5 {
 		-webkit-animation-delay: -0.8s;
 		animation-delay: -0.8s;
@@ -657,15 +750,28 @@ Preloader Area Style
 }
 
 @-webkit-keyframes sk-stretchdelay {
-	0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
-	20% { -webkit-transform: scaleY(1.0) }
+
+	0%,
+	40%,
+	100% {
+		-webkit-transform: scaleY(0.4)
+	}
+
+	20% {
+		-webkit-transform: scaleY(1.0)
+	}
 }
 
 @keyframes sk-stretchdelay {
-	0%, 40%, 100% { 
+
+	0%,
+	40%,
+	100% {
 		transform: scaleY(0.4);
 		-webkit-transform: scaleY(0.4);
-	}  20% { 
+	}
+
+	20% {
 		transform: scaleY(1.0);
 		-webkit-transform: scaleY(1.0);
 	}
@@ -678,56 +784,65 @@ Keyframes Area Style
 	from {
 		transform: rotate(0deg);
 	}
+
 	to {
 		transform: rotate(359deg);
 	}
-} 
+}
 
 @keyframes movebounceShort {
 	0% {
-	  	transform: translateY(0px);
+		transform: translateY(0px);
 	}
+
 	50% {
-	  	transform: translateY(20px);
+		transform: translateY(20px);
 	}
+
 	100% {
-	  	transform: translateY(0px);
+		transform: translateY(0px);
 	}
 }
 
 @keyframes moVebounce {
 	0% {
-	  	transform: translateY(0px);
+		transform: translateY(0px);
 	}
+
 	50% {
-	  	transform: translateY(50px);
+		transform: translateY(50px);
 	}
+
 	100% {
-	  	transform: translateY(0px);
+		transform: translateY(0px);
 	}
 }
 
 @keyframes animationFramesOne {
 	0% {
-	  	transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
 	}
+
 	80% {
-	  	transform: translate(-300px, 0px) rotate(360deg);
+		transform: translate(-300px, 0px) rotate(360deg);
 	}
+
 	100% {
-	  	transform: translate(0px, 0px) rotate(0deg);
+		transform: translate(0px, 0px) rotate(0deg);
 	}
 }
 
 @keyframes focus-one {
 	0% {
-	  opacity: 0;
+		opacity: 0;
 	}
+
 	75% {
-	  opacity: 1;
+		opacity: 1;
 	}
+
 	100% {
-	  opacity: 0;
+		opacity: 0;
 	}
 }
 
@@ -735,45 +850,58 @@ Keyframes Area Style
 	0% {
 		transform: translate(0px, 0px) rotate(0deg);
 	}
+
 	20% {
 		transform: translate(73px, -1px) rotate(36deg);
 	}
+
 	40% {
 		transform: translate(141px, 72px) rotate(72deg);
 	}
+
 	60% {
 		transform: translate(83px, 122px) rotate(108deg);
 	}
+
 	80% {
 		transform: translate(-40px, 72px) rotate(144deg);
 	}
+
 	100% {
-	  
+
 		transform: translate(0px, 0px) rotate(0deg);
 	}
 }
 
 @keyframes border-transform {
-	0%, 100% {
-	  border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
+
+	0%,
+	100% {
+		border-radius: 63% 37% 54% 46% / 55% 48% 52% 45%;
 	}
+
 	14% {
-	  border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
+		border-radius: 40% 60% 54% 46% / 49% 60% 40% 51%;
 	}
+
 	28% {
-	  border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
+		border-radius: 54% 46% 38% 62% / 49% 70% 30% 51%;
 	}
+
 	42% {
-	  border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
+		border-radius: 61% 39% 55% 45% / 61% 38% 62% 39%;
 	}
+
 	56% {
-	  border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
+		border-radius: 61% 39% 67% 33% / 70% 50% 50% 30%;
 	}
+
 	70% {
-	  border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
+		border-radius: 50% 50% 34% 66% / 56% 68% 32% 44%;
 	}
+
 	84% {
-	  border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
+		border-radius: 46% 54% 50% 50% / 35% 61% 39% 65%;
 	}
 }
 
@@ -783,25 +911,29 @@ Nice Select Area Style
 .nice-select {
 	.option {
 		display: block;
+
 		&:hover {
 			background-color: $main-color;
 			color: $white-color;
 		}
 	}
+
 	.option.selected.focus {
 		background-color: $heading-color;
 		color: $main-color;
 	}
+
 	.list {
 		width: 100%;
 	}
 }
+
 /*===== DEFAULT STYLE END ======*/
 
 
 /*
 jumpx Nav Area Style
-======================================================*/ 
+======================================================*/
 .navbar-area {
 	nav {
 		padding-top: 20px;
@@ -815,57 +947,71 @@ jumpx Nav Area Style
 				font-size: 25px;
 			}
 		}
-			
+
 		.navbar-nav {
 			.nav-item {
 				position: relative;
+
 				padding: {
 					top: 10px;
 					bottom: 10px;
 					left: 0;
 					right: 0;
 				}
+
 				a {
 					font: {
 						size: 15px;
 						weight: 500;
 					}
+
 					color: $white-color;
 					text-transform: uppercase;
+
 					padding: {
 						left: 0;
 						right: 0;
 						top: 0;
 						bottom: 0;
 					}
+
 					margin: {
 						left: 15px;
 						right: 15px;
 					}
-					&:hover, &:focus, &.active {
+
+					&:hover,
+					&:focus,
+					&.active {
 						color: $main-color;
 					}
+
 					i {
 						font-size: 22px;
 						position: relative;
 						top: 3px;
 					}
 				}
+
 				&:last-child {
 					a {
 						margin-right: 0;
 					}
 				}
+
 				&:first-child {
 					a {
 						margin-left: 0;
 					}
 				}
-				&:hover, &.active {
+
+				&:hover,
+				&.active {
 					a {
 						color: $main-color;
 					}
 				}
+
 				.dropdown-menu {
 					box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.05);
 					background: $white-color;
@@ -880,12 +1026,14 @@ jumpx Nav Area Style
 					visibility: hidden;
 					border-radius: 5px;
 					transition: all 0.3s ease-in-out;
+
 					padding: {
 						top: 18px;
 						left: 10px;
 						right: 10px;
 						bottom: 18px;
 					}
+
 					li {
 						padding: {
 							left: 0;
@@ -893,117 +1041,142 @@ jumpx Nav Area Style
 							top: 0;
 							bottom: 0;
 						}
+
 						a {
 							padding: 5px 15px;
 							margin: 0;
 							color: $black-color;
 							text-transform: capitalize;
+
 							font: {
 								size: 14.5px;
 								weight: 400;
 							}
-							&:hover, &:focus, &.active {
+
+							&:hover,
+							&:focus,
+							&.active {
 								color: $main-color;
 							}
 						}
+
 						.dropdown-menu {
 							left: -250px;
 							top: 0;
 							opacity: 0;
 							visibility: hidden;
-							
+
 							li {
 								a {
 									color: $black-color;
 									text-transform: capitalize;
 									font-size: 14px;
-									
-									&:hover, &:focus, &.active {
+
+									&:hover,
+									&:focus,
+									&.active {
 										color: $main-color;
 									}
 								}
+
 								.dropdown-menu {
 									left: 220px;
 									top: 0;
 									opacity: 0;
 									visibility: hidden;
-		
+
 									li {
 										a {
 											color: $black-color;
 											text-transform: capitalize;
-		
-											&:hover, &:focus, &.active {
+
+											&:hover,
+											&:focus,
+											&.active {
 												color: $main-color;
 											}
 										}
+
 										.dropdown-menu {
 											left: -250px;
 											top: 0;
 											opacity: 0;
 											visibility: hidden;
-				
+
 											li {
 												a {
 													color: $black-color;
 													text-transform: capitalize;
-				
-													&:hover, &:focus, &.active {
+
+													&:hover,
+													&:focus,
+													&.active {
 														color: $main-color;
 													}
 												}
+
 												.dropdown-menu {
 													left: -250px;
 													top: 0;
 													opacity: 0;
 													visibility: hidden;
-						
+
 													li {
 														a {
 															color: $black-color;
 															text-transform: capitalize;
-						
-															&:hover, &:focus, &.active {
+
+															&:hover,
+															&:focus,
+															&.active {
 																color: $main-color;
 															}
 														}
+
 														.dropdown-menu {
 															left: -250px;
 															top: 0;
 															opacity: 0;
 															visibility: hidden;
-								
+
 															li {
 																a {
 																	color: $black-color;
 																	text-transform: capitalize;
-								
-																	&:hover, &:focus, &.active {
+
+																	&:hover,
+																	&:focus,
+																	&.active {
 																		color: $main-color;
 																	}
 																}
+
 																.dropdown-menu {
 																	left: -250px;
 																	top: 0;
 																	opacity: 0;
 																	visibility: hidden;
-										
+
 																	li {
 																		a {
 																			color: $black-color;
 																			text-transform: capitalize;
-										
-																			&:hover, &:focus, &.active {
+
+																			&:hover,
+																			&:focus,
+																			&.active {
 																				color: $main-color;
 																			}
 																		}
 																	}
 																}
+
 																&.active {
 																	a {
 																		color: $main-color;
 																	}
 																}
+
 																&:hover {
 																	.dropdown-menu {
 																		opacity: 1;
@@ -1013,11 +1186,13 @@ jumpx Nav Area Style
 																}
 															}
 														}
+
 														&.active {
 															a {
 																color: $main-color;
 															}
 														}
+
 														&:hover {
 															.dropdown-menu {
 																opacity: 1;
@@ -1027,11 +1202,13 @@ jumpx Nav Area Style
 														}
 													}
 												}
+
 												&.active {
 													a {
 														color: $main-color;
 													}
 												}
+
 												&:hover {
 													.dropdown-menu {
 														opacity: 1;
@@ -1041,11 +1218,13 @@ jumpx Nav Area Style
 												}
 											}
 										}
+
 										&.active {
 											a {
 												color: $main-color;
 											}
 										}
+
 										&:hover {
 											.dropdown-menu {
 												opacity: 1;
@@ -1055,11 +1234,13 @@ jumpx Nav Area Style
 										}
 									}
 								}
+
 								&.active {
 									a {
 										color: $main-color;
 									}
 								}
+
 								&:hover {
 									.dropdown-menu {
 										opacity: 1;
@@ -1069,11 +1250,13 @@ jumpx Nav Area Style
 								}
 							}
 						}
+
 						&.active {
 							a {
 								color: $main-color;
 							}
 						}
+
 						&:hover {
 							.dropdown-menu {
 								opacity: 1;
@@ -1083,6 +1266,7 @@ jumpx Nav Area Style
 						}
 					}
 				}
+
 				&:hover {
 					.dropdown-menu {
 						opacity: 1;
@@ -1103,14 +1287,16 @@ jumpx Nav Area Style
 	.others-options {
 		position: relative;
 		top: 3px;
+
 		.default-btn {
 			padding: 15px 35px;
+
 			i {
 				position: relative;
 				top: 1px;
 				margin-left: 5px;
 			}
-		}	
+		}
 	}
 
 	&.is-sticky {
@@ -1124,58 +1310,65 @@ jumpx Nav Area Style
 
 // Navbar toggler 
 .navbar-toggler {
-    border: none;
-    background: #eee !important;
-    padding: 10px;
-    border-radius: 0;
+	border: none;
+	background: #eee !important;
+	padding: 10px;
+	border-radius: 0;
 
-    .icon-bar {
-        width: 28px;
-        transition: all 0.3s;
-        background: $main-color;
-        height: 2px;
-        display: block;
-    }
-    .top-bar {
-        transform: rotate(45deg);
-        transform-origin: 10% 10%;
-        left: 4px;
-        position: relative;
-    }
-    .middle-bar {
-        opacity: 0;
-        margin: 6px 0;
-    }
-    .bottom-bar {
-        transform: rotate(-45deg);
-        transform-origin: 10% 90%;
-        left: 4px;
-        position: relative;
-    }
-    &.collapsed {
-        .top-bar {
-            transform: rotate(0);      
-            left: 0;
-        }
-        .middle-bar {
-            opacity: 1;
-        }
-        .bottom-bar {
-            transform: rotate(0);
-            left: 0;
-        }
-    }
+	.icon-bar {
+		width: 28px;
+		transition: all 0.3s;
+		background: $main-color;
+		height: 2px;
+		display: block;
+	}
+
+	.top-bar {
+		transform: rotate(45deg);
+		transform-origin: 10% 10%;
+		left: 4px;
+		position: relative;
+	}
+
+	.middle-bar {
+		opacity: 0;
+		margin: 6px 0;
+	}
+
+	.bottom-bar {
+		transform: rotate(-45deg);
+		transform-origin: 10% 90%;
+		left: 4px;
+		position: relative;
+	}
+
+	&.collapsed {
+		.top-bar {
+			transform: rotate(0);
+			left: 0;
+		}
+
+		.middle-bar {
+			opacity: 1;
+		}
+
+		.bottom-bar {
+			transform: rotate(0);
+			left: 0;
+		}
+	}
 }
 
 /*
 Main Banner Area Style
-======================================================*/ 
+======================================================*/
 .main-banner-area {
 	background-image: linear-gradient(#00095e, #000638);
 	padding-top: 200px;
-    padding-bottom: 300px;
+	padding-bottom: 300px;
 	position: relative;
 	z-index: 1;
+
 	&::before {
 		content: "";
 		position: absolute;
@@ -1187,6 +1380,7 @@ Main Banner Area Style
 		animation: focus-one 1s linear 1s infinite;
 		z-index: -1;
 	}
+
 	&::after {
 		content: "";
 		position: absolute;
@@ -1198,6 +1392,7 @@ Main Banner Area Style
 		animation: moVebounce 5s linear infinite;
 		z-index: -1;
 	}
+
 	.banner-text {
 		position: relative;
 		max-width: 640px;
@@ -1208,80 +1403,98 @@ Main Banner Area Style
 			font-size: 50px;
 			margin-bottom: 32px;
 		}
+
 		p {
 			color: $white-color;
 			font-size: 16px;
 			margin-bottom: 40px;
 		}
+
 		.banner-btn {
 			.default-btn {
 				margin-right: 20px;
+
 				&:last-child {
 					margin-right: 0;
 				}
 			}
 		}
 	}
+
 	.banner-main-img {
 		display: none;
 	}
+
 	.white-shape {
 		position: absolute;
 		bottom: 0;
 		left: 0;
 		right: 0;
 		margin: auto;
+
 		img {
 			width: 100%;
 		}
 	}
+
 	&.main-banner-area-one {
 		overflow: hidden;
 		z-index: 1;
+
 		.banner-text {
 			top: 60px;
 		}
+
 		.banner-img {
 			position: relative;
 			z-index: 1;
 			top: 0;
+
 			img {
 				position: absolute;
+
 				&:nth-child(1) {
 					bottom: -440px;
 					right: 0;
 					left: 0;
 					margin: auto;
 				}
+
 				&:nth-child(2) {
 					top: -170px;
 					left: 0;
 				}
+
 				&:nth-child(3) {
 					top: -100px;
 					left: 70px;
 					// animation: moVebounce 5s linear infinite;
 				}
+
 				&:nth-child(4) {
 					top: -33px;
 					right: 65px;
 				}
 			}
 		}
+
 		.over-shape {
 			img {
 				position: absolute;
 				z-index: -1;
+
 				&:nth-child(1) {
 					top: 300px;
 					left: 40px;
 					animation: animationFramesOne 25s infinite linear;
 				}
+
 				&:nth-child(2) {
 					top: 200px;
 					left: 800px;
 					animation: animationFramesOne 40s infinite linear;
 				}
+
 				&:nth-child(3) {
 					top: 200px;
 					right: 200px;
@@ -1290,11 +1503,11 @@ Main Banner Area Style
 			}
 		}
 	}
-} 
+}
 
 /*
 Features Area Style
-======================================================*/ 
+======================================================*/
 .single-features {
 	text-align: center;
 	padding: 30px;
@@ -1303,6 +1516,7 @@ Features Area Style
 	position: relative;
 	transition: $transition;
 	margin-bottom: 30px;
+
 	i {
 		width: 80px;
 		height: 80px;
@@ -1323,12 +1537,15 @@ Features Area Style
 		display: inline-block;
 		color: $main-color;
 	}
+
 	h3 {
 		margin-bottom: 12px;
 	}
+
 	p {
 		margin-bottom: 10px;
 	}
+
 	.read-more-icon {
 		color: $heading-color;
 		position: absolute;
@@ -1337,7 +1554,7 @@ Features Area Style
 		right: 0;
 		width: 40px;
 		margin: auto;
-		
+
 		span {
 			width: 40px;
 			height: 40px;
@@ -1350,13 +1567,16 @@ Features Area Style
 			transition: $transition;
 		}
 	}
+
 	&:hover {
 		transform: scale(1.05);
 		z-index: 1;
+
 		i {
 			background-color: $main-color;
 			color: $white-color;
 		}
+
 		.read-more-icon {
 			span {
 				background-color: $main-color;
@@ -1365,11 +1585,13 @@ Features Area Style
 		}
 	}
 }
+
 .col-lg-4 {
 	&:nth-child(1) {
 		.single-features {
 			border-radius: 4px 0 0 4px;
 			position: relative;
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -1382,16 +1604,19 @@ Features Area Style
 			}
 		}
 	}
+
 	&:nth-child(2) {
 		.single-features {
 			border-right: 1px solid #eeeeee;
 			border-left: 1px solid #eeeeee;
 		}
 	}
+
 	&:nth-child(3) {
 		.single-features {
 			border-radius: 0 4px 4px 0;
 			position: relative;
+
 			&::before {
 				content: "";
 				position: absolute;
@@ -1408,26 +1633,31 @@ Features Area Style
 
 /*
 About Area Style
-======================================================*/ 
+======================================================*/
 .about-img {
 	text-align: center;
 }
+
 .about-content {
 	margin-top: -8px;
+
 	span {
 		font-size: 14px;
 		color: $main-color;
 		display: inline-block;
 		margin-bottom: 8px;
 	}
+
 	h2 {
 		font-size: 40px;
 		margin-bottom: 15px;
 	}
+
 	ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 5px 0 0;
+
 		li {
 			font-family: $heading-font-family;
 			font-size: 16px;
@@ -1436,9 +1666,11 @@ About Area Style
 			position: relative;
 			padding-left: 35px;
 			margin-bottom: 10px;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 			i {
 				position: absolute;
 				top: 3px;
@@ -1454,6 +1686,7 @@ About Area Style
 			}
 		}
 	}
+
 	.default-btn {
 		margin-top: 30px;
 	}
@@ -1461,30 +1694,35 @@ About Area Style
 
 /*
 Choose Us Area Style
-======================================================*/ 
+======================================================*/
 .features-area {
 	position: relative;
 	z-index: 1;
 }
+
 .choose-title {
 	margin-top: -9px;
 	margin-bottom: 30px;
+
 	span {
 		font-size: 14px;
 		color: $main-color;
 		display: inline-block;
 		margin-bottom: 8px;
 	}
+
 	h2 {
 		font-size: 40px;
 		margin-bottom: 0;
 	}
 }
+
 .choose-content {
 	ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
+
 		li {
 			position: relative;
 			padding-left: 120px;
@@ -1495,9 +1733,11 @@ Choose Us Area Style
 			box-shadow: $box-shadow;
 			margin-bottom: 30px;
 			transition: $transition;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 			span {
 				width: 70px;
 				height: 70px;
@@ -1519,7 +1759,8 @@ Choose Us Area Style
 				display: inline-block;
 				position: absolute;
 				top: 35px;
-    			left: 30px;
+				left: 30px;
+
 				i {
 					position: absolute;
 					top: 50px;
@@ -1535,25 +1776,31 @@ Choose Us Area Style
 					color: #dcddfa;
 				}
 			}
+
 			h3 {
 				margin-bottom: 10px;
 			}
+
 			&:nth-child(2) {
 				span {
 					background-color: #c8fbfa;
+
 					i {
 						color: #c8fbfa;
 					}
 				}
 			}
+
 			&:nth-child(2) {
 				span {
 					background-color: #bde5fa;
+
 					i {
 						color: #bde5fa;
 					}
 				}
 			}
+
 			&:hover {
 				transform: translateY(-5px);
 			}
@@ -1563,7 +1810,7 @@ Choose Us Area Style
 
 /*
 Offer Area Style
-======================================================*/ 
+======================================================*/
 .offer-area {
 	background-color: #f2fefe;
 	position: relative;
@@ -1578,34 +1825,41 @@ Offer Area Style
 		img {
 			position: absolute;
 			z-index: -1;
+
 			&:nth-child(1) {
 				bottom: 0;
 				left: 0;
 			}
+
 			&:nth-child(2) {
 				top: 0;
 				right: 0;
 			}
+
 			&:nth-child(3) {
 				top: 100px;
 				left: 200px;
 				animation: animationFramesOne 25s infinite linear;
 			}
+
 			&:nth-child(4) {
 				bottom: 80px;
 				right: 200px;
 				animation: animationFramesOne 20s infinite linear;
 			}
+
 			&:nth-child(5) {
 				top: 100px;
 				right: 200px;
 				animation: animationFramesOne 15s infinite linear;
 			}
+
 			&:nth-child(6) {
 				bottom: 80px;
 				left: 500px;
 				animation: animationFramesOne 10s infinite linear;
 			}
+
 			&:nth-child(7) {
 				top: 100px;
 				left: 700px;
@@ -1614,6 +1868,7 @@ Offer Area Style
 		}
 	}
 }
+
 .single-offer {
 	position: relative;
 	padding-right: 30px;
@@ -1641,59 +1896,73 @@ Offer Area Style
 		font-size: 40px;
 		color: #9898f0;
 	}
+
 	h3 {
 		margin-bottom: 10px;
+
 		a {
 			color: $heading-color;
+
 			&:hover {
 				color: $main-color;
 			}
 		}
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
 }
+
 .col-lg-4 {
 	&:nth-child(2) {
 		.single-offer {
 			border-color: #76b8f5;
+
 			i {
 				background-color: #e8f3fd;
 				color: #76b8f5;
 			}
 		}
 	}
+
 	&:nth-child(3) {
 		.single-offer {
 			border-color: #1ccdca;
+
 			i {
 				background-color: #e6fdfc;
 				color: #1ccdca;
 			}
 		}
 	}
+
 	&:nth-child(4) {
 		.single-offer {
 			border-color: #f9ca54;
+
 			i {
 				background-color: #fcf3dc;
 				color: #f9ca54;
 			}
 		}
 	}
+
 	&:nth-child(5) {
 		.single-offer {
 			border-color: #ff896b;
+
 			i {
 				background-color: #fde2db;
 				color: #ff896b;
 			}
 		}
 	}
+
 	&:nth-child(6) {
 		.single-offer {
 			border-color: #50d890;
+
 			i {
 				background-color: #e7fdf1;
 				color: #50d890;
@@ -1722,14 +1991,17 @@ Offer Area Style
 		border-radius: 50%;
 		margin-bottom: 20px;
 	}
+
 	h3 {
 		a {
 			color: $heading-color;
+
 			&:hover {
 				color: $main-color;
 			}
 		}
 	}
+
 	p {
 		margin: 0;
 	}
@@ -1741,12 +2013,13 @@ Offer Area Style
 
 /*
 Business  Area Style
-======================================================*/ 
+======================================================*/
 .business-area {
 	.default-btn {
 		margin-top: 10px;
 	}
 }
+
 .business-content {
 	h2 {
 		font-size: 40px;
@@ -1754,8 +2027,9 @@ Business  Area Style
 		margin-bottom: 40px;
 	}
 }
-.single-business { 
-    padding-left: 70px;
+
+.single-business {
+	padding-left: 70px;
 	transition: $transition;
 	margin-bottom: 30px;
 	position: relative;
@@ -1772,15 +2046,18 @@ Business  Area Style
 		text-align: center;
 		border-radius: 0px 30px 30px 30px;
 		font-size: 25px;
-		color: #9898f0; 
+		color: #9898f0;
 	}
+
 	h3 {
 		margin-bottom: 10px;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
 }
+
 .single-counter {
 	background-color: #e2e2fc;
 	text-align: center;
@@ -1788,8 +2065,10 @@ Business  Area Style
 	border-radius: $border-radius;
 	margin-bottom: 30px;
 	transition: $transition;
+
 	h2 {
 		margin-bottom: 0;
+
 		span {
 			font-size: 50px;
 			color: #6b6bd4;
@@ -1797,27 +2076,32 @@ Business  Area Style
 			font-weight: 700;
 			line-height: 1;
 		}
+
 		.target {
 			line-height: 1;
 			position: relative;
 			top: 7px;
 		}
 	}
+
 	p {
 		font-family: $heading-font-family;
 		font-size: 18px;
 		font-weight: 500;
 		margin: 10px 0 0;
 	}
+
 	&:hover {
 		animation: rubberBand 1s linear;
 	}
 }
+
 .counter-nth {
 	&:nth-child(2) {
 		.single-counter {
 			margin-top: 30px;
 			background-color: #cae5fe;
+
 			h2 {
 				span {
 					color: #3785ca;
@@ -1825,11 +2109,13 @@ Business  Area Style
 			}
 		}
 	}
+
 	&:nth-child(3) {
 		.single-counter {
 			background-color: #c0fedc;
 			margin-top: -30px;
 			margin-bottom: 0;
+
 			h2 {
 				span {
 					color: #23bc68;
@@ -1837,10 +2123,12 @@ Business  Area Style
 			}
 		}
 	}
+
 	&:nth-child(4) {
 		.single-counter {
 			background-color: #fbc7ba;
 			margin-bottom: 0;
+
 			h2 {
 				span {
 					color: #c05234;
@@ -1852,19 +2140,22 @@ Business  Area Style
 
 /*
 Industries Area Style
-======================================================*/ 
+======================================================*/
 .industries-area {
 	.industries-content {
 		h3 {
 			margin-bottom: 15px;
 		}
+
 		p {
 			margin-bottom: 10px;
 		}
+
 		.default-btn {
 			margin-top: 15px;
 			display: inline-block;
 		}
+
 		.industries-item {
 			list-style-type: none;
 			margin: 15px 0 0;
@@ -1883,6 +2174,7 @@ Industries Area Style
 				padding-top: 12px;
 				padding-bottom: 12px;
 				padding-right: 12px;
+
 				i {
 					position: absolute;
 					top: 13px;
@@ -1892,6 +2184,7 @@ Industries Area Style
 			}
 		}
 	}
+
 	.industries-list-tab {
 		.tabs {
 			list-style-type: none;
@@ -1907,12 +2200,15 @@ Industries Area Style
 				overflow: hidden;
 				z-index: 1;
 				margin-bottom: 20px;
+
 				&:last-child {
 					margin-bottom: 0;
 				}
+
 				span {
 					display: inline-block;
 					cursor: pointer;
+
 					padding: {
 						top: 30px;
 						left: 85px;
@@ -1920,8 +2216,9 @@ Industries Area Style
 						bottom: 30px;
 					}
 				}
+
 				&::before {
-					content:  "";
+					content: "";
 					position: absolute;
 					top: 0;
 					left: 0;
@@ -1932,6 +2229,7 @@ Industries Area Style
 					border-radius: 60px 0 0 60px;
 					transition: $transition;
 				}
+
 				i {
 					position: absolute;
 					left: 30px;
@@ -1941,49 +2239,61 @@ Industries Area Style
 					line-height: 1;
 					transition: $transition;
 				}
+
 				h3 {
 					transition: $transition;
 					font-size: 20px;
 				}
+
 				p {
 					margin-bottom: 0;
 					display: block;
 					transition: $transition;
 					color: $body-color;
 				}
+
 				&:hover {
 					i {
 						color: $white-color;
 						transform: rotate(360deg);
 					}
+
 					h3 {
 						color: $white-color;
 					}
+
 					p {
 						color: $white-color;
 					}
+
 					a {
 						right: 20px;
 					}
+
 					&::before {
 						width: 100%;
 						border-radius: 60px 0 0 60px;
 					}
 				}
+
 				&.current {
 					i {
 						color: $white-color;
 						transform: rotate(360deg);
 					}
+
 					h3 {
 						color: $white-color;
 					}
+
 					p {
 						color: $white-color;
 					}
+
 					a {
 						right: 20px;
 					}
+
 					&::before {
 						width: 100%;
 						border-radius: 60px 0 0 60px;
@@ -1992,13 +2302,16 @@ Industries Area Style
 			}
 		}
 	}
+
 	.industries-img {
 		text-align: center;
 	}
 }
+
 .tab {
 	.tabs_item {
 		display: none;
+
 		&:first-child {
 			display: block;
 		}
@@ -2007,24 +2320,30 @@ Industries Area Style
 
 /*
 Client Area Style
-======================================================*/ 
+======================================================*/
 .testimonials-slide {
-	.swiper-button-next, .swiper-button-prev {
-    top: 60px;
+
+	.swiper-button-next,
+	.swiper-button-prev {
+		top: 60px;
+
 		&::after {
 			font-size: 25px;
 			color: $main-color;
 		}
 	}
 }
+
 .client-area {
 	background-color: #192064;
+
 	.section-title {
 		h2 {
 			color: $white-color;
 		}
 	}
 }
+
 .single-client {
 	text-align: center;
 	background-color: $white-color;
@@ -2032,12 +2351,14 @@ Client Area Style
 	margin-top: 30px;
 	margin-bottom: 165px;
 	border-radius: $border-radius;
+
 	padding: {
 		top: 50px;
 		left: 30px;
 		right: 30px;
 		bottom: 30px;
 	}
+
 	.quotes {
 		background-color: $white-color;
 		box-shadow: $box-shadow;
@@ -2054,19 +2375,23 @@ Client Area Style
 		margin: auto;
 		top: -30px;
 	}
+
 	ul {
 		padding: 0;
 		margin: 0;
 		list-style-type: none;
+
 		li {
 			display: inline-block;
 			margin: 0 2px;
+
 			i {
 				font-size: 20px;
 				color: orange;
 			}
 		}
 	}
+
 	&::before {
 		position: absolute;
 		width: 0;
@@ -2080,19 +2405,23 @@ Client Area Style
 		left: 20px;
 	}
 }
+
 .client-img {
 	position: absolute;
-    left: 30px;
-    bottom: -170px;
+	left: 30px;
+	bottom: -170px;
+
 	img {
 		border-radius: 10px;
 		margin-bottom: 15px;
 	}
+
 	h3 {
 		margin-bottom: 0;
 		font-size: 20px;
 		color: $white-color;
 	}
+
 	span {
 		font-weight: 600;
 		font-size: 13px;
@@ -2103,12 +2432,14 @@ Client Area Style
 
 /*
 News Area Style
-======================================================*/ 
+======================================================*/
 .single-news {
 	margin-bottom: 30px;
+
 	.blog-img {
 		position: relative;
 		overflow: hidden;
+
 		.dates {
 			position: absolute;
 			top: 0;
@@ -2120,10 +2451,12 @@ News Area Style
 			transition: $transition;
 		}
 	}
+
 	.news-content-wrap {
 		background-color: $white-color;
 		box-shadow: $box-shadow;
 		padding: 30px;
+
 		ul {
 			margin-bottom: 10px;
 			padding: 0;
@@ -2132,12 +2465,14 @@ News Area Style
 			li {
 				display: inline-block;
 				padding-right: 15px;
+
 				&:last-child {
 					margin-right: 0;
 				}
 
 				a {
 					color: $body-color;
+
 					&:hover {
 						color: $main-color;
 					}
@@ -2150,6 +2485,7 @@ News Area Style
 				}
 			}
 		}
+
 		a {
 			h3 {
 				margin-bottom: 10px;
@@ -2157,22 +2493,26 @@ News Area Style
 				line-height: 1.3;
 			}
 		}
+
 		p {
 			margin-bottom: 20px;
 		}
 	}
+
 	&:hover {
 		.blog-img {
 			.dates {
 				left: 0;
 			}
 		}
+
 		.news-content-wrap {
 			a {
 				h3 {
 					color: $main-color;
 				}
 			}
+
 			.read-more {
 				background-color: $main-color;
 				color: $white-color;
@@ -2190,15 +2530,18 @@ Footer Top Area Style
 	position: relative;
 	z-index: 1;
 	overflow: hidden;
+
 	.footer-shape {
 		img {
 			position: absolute;
+
 			&:nth-child(1) {
 				top: 35%;
 				right: 0;
 				z-index: -1;
 				animation: rotation 20s linear infinite;
 			}
+
 			&:nth-child(2) {
 				top: 35%;
 				right: 0;
@@ -2208,18 +2551,22 @@ Footer Top Area Style
 		}
 	}
 }
+
 .single-widget {
 	margin-bottom: 30px;
+
 	.logo {
 		color: #ffffff;
 		margin-bottom: 25px;
 		font-size: 25px;
 		font-weight: bold;
 	}
+
 	p {
 		color: #d9d6d6;
 		margin-bottom: 20px;
 	}
+
 	h3 {
 		color: $white-color;
 		margin-bottom: 25px;
@@ -2227,6 +2574,7 @@ Footer Top Area Style
 		position: relative;
 		border-bottom: 2px solid #060c4a;
 		padding-bottom: 10px;
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -2237,25 +2585,31 @@ Footer Top Area Style
 			background-color: $white-color;
 		}
 	}
+
 	ul {
 		list-style-type: none;
 		padding: 0;
 		margin: 0;
+
 		li {
 			margin-bottom: 10px;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 			a {
 				color: #d9d6d6;
 				position: relative;
 				padding-left: 20px;
+
 				.right-icon {
 					font-size: 20px;
 					position: absolute;
 					top: 3px;
 					left: 0;
 				}
+
 				&:hover {
 					color: $main-color;
 					transform: translateX(5px);
@@ -2263,26 +2617,32 @@ Footer Top Area Style
 			}
 		}
 	}
+
 	.information {
 		li {
 			margin-bottom: 8px;
+
 			a {
 				padding-left: 0;
 				position: relative;
+
 				&:hover {
 					transform: translateX(0);
 				}
 			}
-			&.address{
+
+			&.address {
 				position: relative;
 				padding-left: 35px;
 				color: #d9d6d6;
+
 				i {
 					position: absolute;
 					top: 2px;
 					left: 0;
 					font-size: 20px;
 				}
+
 				span {
 					display: block;
 					font-family: $heading-font-family;
@@ -2292,6 +2652,7 @@ Footer Top Area Style
 			}
 		}
 	}
+
 	.social-icon {
 		line-height: 1;
 		list-style-type: none;
@@ -2302,6 +2663,7 @@ Footer Top Area Style
 			display: inline-block;
 			margin-right: 8px;
 			margin-bottom: 0;
+
 			a {
 				width: 30px;
 				height: 30px;
@@ -2313,35 +2675,41 @@ Footer Top Area Style
 				font-size: 15px;
 				position: relative;
 				padding-left: 0;
+
 				&:hover {
 					transform: translateX(0px);
 					animation: rubberBand 1s linear;
 				}
 			}
+
 			&:nth-child(2) {
 				a {
 					background-color: #1da1f2;
 					color: $white-color;
 				}
 			}
+
 			&:nth-child(3) {
 				a {
 					background-color: #1da1f2;
 					color: $white-color;
 				}
 			}
+
 			&:nth-child(4) {
 				a {
 					background-color: #d32f2f;
 					color: $white-color;
 				}
 			}
+
 			&:nth-child(4) {
 				a {
 					background-color: #0077b5;
 					color: $white-color;
 				}
 			}
+
 			&:nth-child(5) {
 				a {
 					background-color: #ff0000;
@@ -2361,13 +2729,16 @@ Footer Bottom Area Style
 
 	.copy-right {
 		color: #d9d6d6;
+
 		i {
 			position: relative;
 			top: 1px;
 			margin-right: -5px;
 		}
+
 		a {
 			color: #d9d6d6;
+
 			&:hover {
 				color: $main-color;
 			}
@@ -2377,12 +2748,14 @@ Footer Bottom Area Style
 	.designed {
 		text-align: right;
 		color: #d9d6d6;
+
 		i {
 			position: relative;
 			top: 2px;
 			color: $main-color;
 			animation: heartBeat 1000ms infinite linear;
 		}
+
 		a {
 			color: $main-color;
 		}
@@ -2390,6 +2763,7 @@ Footer Bottom Area Style
 
 	.privacy {
 		text-align: center;
+
 		ul {
 			list-style-type: none;
 			padding: 0;
@@ -2398,6 +2772,7 @@ Footer Bottom Area Style
 			li {
 				display: inline-block;
 				padding-right: 20px;
+
 				&:last-child {
 					margin-right: 0;
 				}
@@ -2405,6 +2780,7 @@ Footer Bottom Area Style
 				a {
 					color: #d9d6d6;
 					position: relative;
+
 					&::before {
 						content: "";
 						position: absolute;
@@ -2414,10 +2790,12 @@ Footer Bottom Area Style
 						height: 1px;
 						background-color: #d9d6d6;
 					}
+
 					&:hover {
 						color: $main-color;
 					}
 				}
+
 				&:first-child {
 					a {
 						&::before {
@@ -2444,39 +2822,48 @@ Banner Two Area Style
 	background-size: cover;
 	padding-bottom: 250px;
 	overflow: hidden;
+
 	.banner-text {
 		top: 20px;
 	}
+
 	.banner-img {
 		position: relative;
 		z-index: 1;
 		top: 0;
+
 		.circle-img {
-			top: -230px; 
+			top: -230px;
 			position: relative;
+
 			img {
 				animation: rotation 20s linear infinite;
 			}
 		}
+
 		.square-img {
 			position: relative;
 			animation: movebounceShort 5s linear infinite;
 			top: -70px;
 		}
+
 		img {
 			position: absolute;
+
 			&:nth-child(1) {
 				bottom: -440px;
 				right: 0;
 				left: 0;
 				margin: auto;
 			}
+
 			&:nth-child(3) {
 				top: 0;
 				left: 0;
 				right: 0;
 				margin: auto;
 			}
+
 			&:nth-child(5) {
 				top: -120px;
 				left: 0;
@@ -2485,43 +2872,52 @@ Banner Two Area Style
 				z-index: -1;
 				animation: focus-one 1s linear 1s infinite;
 			}
+
 			&:nth-child(6) {
 				top: 10px;
 				left: -135px;
 			}
+
 			&:nth-child(7) {
 				top: -100px;
 				right: -45px;
 				width: 300px;
 			}
+
 			&:nth-child(8) {
 				top: 280px;
-    			right: -30px;
+				right: -30px;
 			}
+
 			&:nth-child(9) {
 				top: -215px;
-    			right: -260px;
+				right: -260px;
 			}
+
 			&:nth-child(10) {
 				top: 170px;
 				left: 90px;
 			}
 		}
 	}
+
 	.over-shape {
 		img {
 			position: absolute;
 			z-index: -1;
+
 			&:nth-child(1) {
 				top: 300px;
 				left: 40px;
 				animation: animationFramesOne 25s infinite linear;
 			}
+
 			&:nth-child(2) {
 				top: 200px;
 				left: 800px;
 				animation: animationFramesOne 40s infinite linear;
 			}
+
 			&:nth-child(3) {
 				top: 200px;
 				right: 200px;
@@ -2538,9 +2934,11 @@ Offer Area Two Style
 	.single-offer {
 		&:hover {
 			background-color: $main-color;
+
 			h3 {
 				color: $white-color;
 			}
+
 			p {
 				color: $white-color;
 			}
@@ -2563,18 +2961,22 @@ Pricing Area Style
 	margin-bottom: 30px;
 	border-radius: 50px 0 50px 0;
 	transition: $transition;
+
 	.pricing-top-heading {
 		margin-bottom: 20px;
 		position: relative;
 		z-index: 1;
+
 		h3 {
 			font-size: 25px;
 		}
+
 		p {
 			font-weight: 600;
 			font-size: 14px;
 		}
 	}
+
 	span {
 		font-size: 30px;
 		font-family: $heading-font-family;
@@ -2589,11 +2991,13 @@ Pricing Area Style
 		height: 120px;
 		line-height: 120px;
 		border-radius: 50%;
+
 		sub {
 			font-size: 14px;
 			color: $body-color;
 		}
 	}
+
 	ul {
 		text-align: left;
 		max-width: 255px;
@@ -2606,9 +3010,11 @@ Pricing Area Style
 			position: relative;
 			padding-left: 28px;
 			font-weight: 600;
+
 			&:last-child {
 				margin-bottom: 0;
 			}
+
 			i {
 				font-size: 12px;
 				display: inline-block;
@@ -2623,32 +3029,94 @@ Pricing Area Style
 				left: 0;
 				color: #1dd3f8;
 			}
+
 			.bx-x {
 				color: red;
 			}
 		}
+
+
 	}
+
 	.default-btn {
 		padding: 15px 35px;
 	}
+
 	&:hover {
 		transform: translateY(-5px);
 	}
 }
+
+
+.comparison-table-container {
+	max-width: 1000px;
+	margin: auto;
+
+	p {
+		text-align: center;
+	}
+}
+
+.comparison-table {
+	th {
+		text-align: center;
+	}
+
+	td:nth-child(1) {
+		font-weight: bold;
+	}
+
+	/* All columns after the first */
+	td:nth-child(n+2) {
+		text-align: center;
+	}
+
+	/* Second column */
+	td:nth-child(2) {
+		background-color: rgba(29, 211, 248, 0.1);
+	}
+
+	th:nth-child(2) {
+		background-color: rgba(29, 211, 248, 0.1);
+	}
+
+	/* Icon in a circle */
+	i.bx {
+		font-size: 2rem;
+		width: 40px;
+		height: 40px;
+		background-color: #daf6fd;
+		line-height: 24px;
+		border-radius: 50%;
+		text-align: center;
+		padding: 8px 0;
+	}
+
+	i.bx-check {
+		color: green;
+	}
+
+	i.bx-x {
+		color: red;
+	}
+}
+
 .popular {
 	position: absolute;
-    top: -18px;
-    right: -50px;
-    z-index: 1;
-    background-color: red;
-    color: #fff;
-    padding: 40px 40px 10px 35px;
-    transform: rotate(45deg);
-    font-size: 13px;
+	top: -18px;
+	right: -50px;
+	z-index: 1;
+	background-color: red;
+	color: #fff;
+	padding: 40px 40px 10px 35px;
+	transform: rotate(45deg);
+	font-size: 13px;
 }
+
 .tab {
 	&.quote-list-tab {
 		text-align: center;
+
 		.tabs {
 			border-radius: 10px;
 			display: inline-block;
@@ -2663,6 +3131,7 @@ Pricing Area Style
 				color: $heading-color;
 				font-size: 20px;
 				font-weight: 700;
+
 				span {
 					color: $main-color;
 					padding: 10px 20px;
@@ -2681,7 +3150,7 @@ Pricing Area Style
 			}
 		}
 	}
-	
+
 }
 
 /*
@@ -2692,9 +3161,11 @@ Newsletter Area Style
 	position: relative;
 	overflow: hidden;
 	z-index: 1;
+
 	.newsletter-shape {
 		img {
 			position: absolute;
+
 			&:nth-child(1) {
 				bottom: -40px;
 				left: -25px;
@@ -2702,6 +3173,7 @@ Newsletter Area Style
 				z-index: -1;
 				opacity: 0.5;
 			}
+
 			&:nth-child(2) {
 				bottom: -40px;
 				right: -25px;
@@ -2709,6 +3181,7 @@ Newsletter Area Style
 				z-index: -1;
 				opacity: 0.5;
 			}
+
 			&:nth-child(3) {
 				top: 0;
 				right: 0;
@@ -2718,41 +3191,49 @@ Newsletter Area Style
 		}
 	}
 }
+
 .newsletter-wrap {
 	h2 {
 		font-size: 35px;
 		margin-bottom: 30px;
 		color: $white-color;
 	}
+
 	.newsletter-form {
 		position: relative;
+
 		.form-control {
 			border-radius: 10px;
 			background-color: $white-color;
-	
+
 		}
+
 		.default-btn {
 			position: absolute;
 			top: 0;
 			right: 0;
 		}
+
 		#validator-newsletter {
 			color: #dc3545;
 			margin-top: 10px;
 		}
 	}
 }
+
 .call-us {
 	h2 {
 		font-size: 35px;
 		margin-bottom: 30px;
 		color: $white-color;
 	}
+
 	span {
 		font-size: 40px;
 		color: $white-color;
 		font-weight: 700;
 		line-height: 1;
+
 		&:hover {
 			color: $main-color;
 		}
@@ -2764,10 +3245,12 @@ Industries Serve Area Style
 ======================================================*/
 .industries-serve-area {
 	padding-bottom: 90px;
+
 	.industries-img {
 		text-align: center;
 	}
 }
+
 .single-industries {
 	position: relative;
 	background-color: $white-color;
@@ -2777,25 +3260,30 @@ Industries Serve Area Style
 	overflow: hidden;
 	z-index: 1;
 	margin-bottom: 20px;
+
 	padding: {
 		top: 30px;
 		left: 90px;
 		right: 30px;
 		bottom: 30px;
 	}
+
 	&.right-item {
 		border-radius: 0 60px 60px 0;
+
 		&::before {
 			border-radius: 0 60px 60px 0;
 		}
+
 		&:hover {
 			&::before {
 				border-radius: 0 60px 60px 0;
 			}
 		}
 	}
+
 	&::before {
-		content:  "";
+		content: "";
 		position: absolute;
 		top: 0;
 		left: 0;
@@ -2806,6 +3294,7 @@ Industries Serve Area Style
 		border-radius: 60px 0 0 60px;
 		transition: $transition;
 	}
+
 	i {
 		position: absolute;
 		left: 30px;
@@ -2815,18 +3304,22 @@ Industries Serve Area Style
 		line-height: 1;
 		transition: $transition;
 	}
+
 	.right-icon {
 		position: absolute;
 		right: 23px;
 		top: 42px;
 		font-size: 30px;
+
 		span {
 			color: #e7e8e8;
 		}
 	}
+
 	h3 {
 		transition: $transition;
 	}
+
 	span {
 		margin-bottom: -3px;
 		display: block;
@@ -2834,20 +3327,25 @@ Industries Serve Area Style
 		transition: $transition;
 		color: $body-color;
 	}
+
 	&:hover {
 		i {
 			color: $white-color;
 			transform: rotate(360deg);
 		}
+
 		h3 {
 			color: $white-color;
 		}
+
 		span {
 			color: $white-color;
 		}
+
 		a {
 			right: 20px;
 		}
+
 		&::before {
 			width: 100%;
 			border-radius: 60px 0 0 60px;
@@ -2859,13 +3357,16 @@ Industries Serve Area Style
 Brand Area Serve Area Style
 ======================================================*/
 .brand-slide {
-	.swiper-button-next, .swiper-button-prev {
+
+	.swiper-button-next,
+	.swiper-button-prev {
 		&:after {
 			font-size: 25px;
 			color: $main-color;
 		}
 	}
 }
+
 .brand-list {
 	display: flex;
 	flex-wrap: wrap;
@@ -2901,12 +3402,15 @@ Banner Three Area Style
 .main-banner-area-three {
 	padding-bottom: 250px;
 	overflow: hidden;
+
 	.banner-text {
 		top: 20px;
+
 		.banner-btn {
-			.default-btn  {
+			.default-btn {
 				&.active {
 					padding-left: 52px;
+
 					i {
 						position: absolute;
 						font-size: 25px;
@@ -2917,18 +3421,22 @@ Banner Three Area Style
 			}
 		}
 	}
+
 	.banner-img {
 		position: relative;
 		z-index: 1;
 		top: 0;
+
 		img {
 			position: absolute;
+
 			&:nth-child(1) {
 				bottom: -440px;
 				right: 0;
 				left: 0;
 				margin: auto;
 			}
+
 			&:nth-child(2) {
 				top: -45px;
 				left: 0;
@@ -2937,6 +3445,7 @@ Banner Three Area Style
 			}
 		}
 	}
+
 	.whites-shape {
 		position: absolute;
 		bottom: 0;
@@ -2944,30 +3453,36 @@ Banner Three Area Style
 		right: 0;
 		margin: auto;
 	}
+
 	.over-shape {
 		img {
 			position: absolute;
 			z-index: -1;
+
 			&:nth-child(1) {
 				top: 300px;
 				left: 40px;
 				animation: animationFramesOne 25s infinite linear;
 			}
+
 			&:nth-child(2) {
 				top: 200px;
 				left: 800px;
 				animation: animationFramesOne 40s infinite linear;
 			}
+
 			&:nth-child(3) {
 				top: 150px;
 				right: 800px;
 				animation: animationFramesOne 20s infinite linear;
 			}
+
 			&:nth-child(4) {
 				bottom: 200px;
-    			right: 800px;
+				right: 800px;
 				animation: animationFramesOne 30s infinite linear;
 			}
+
 			&:nth-child(5) {
 				top: 200px;
 				right: 200px;
@@ -2989,9 +3504,10 @@ Case Area Style
 ======================================================*/
 .case-area {
 	.swiper-pagination {
-    position: initial;
-    margin-top: 30px;
-    line-height: 1;
+		position: initial;
+		margin-top: 30px;
+		line-height: 1;
+
 		.swiper-pagination-bullet {
 			width: 20px;
 			height: 8px;
@@ -3000,12 +3516,14 @@ Case Area Style
 			opacity: 1;
 			transition: $transition;
 
-			&.swiper-pagination-bullet-active, &:hover {
+			&.swiper-pagination-bullet-active,
+			&:hover {
 				background: $main-color;
 			}
 		}
 	}
 }
+
 .case-wrap {
 	.single-case {
 		position: relative;
@@ -3017,6 +3535,7 @@ Case Area Style
 		img {
 			border-radius: 30px;
 		}
+
 		&::before {
 			content: "";
 			position: absolute;
@@ -3025,11 +3544,12 @@ Case Area Style
 			width: 100%;
 			height: 100%;
 			background-color: $main-color;
-			opacity : 0.9;
+			opacity: 0.9;
 			transition: $transition;
 			border-radius: 30px;
 			z-index: 5;
 		}
+
 		.link-icon {
 			position: absolute;
 			top: -100%;
@@ -3062,21 +3582,27 @@ Case Area Style
 			}
 		}
 	}
+
 	&:hover {
 		.single-case {
 			&::before {
 				left: 0;
 			}
+
 			.link-icon {
 				top: 0;
 			}
 		}
 	}
+
 	text-align: center;
+
 	h3 {
 		margin-bottom: 0;
+
 		a {
 			color: $heading-color;
+
 			&:hover {
 				color: $main-color;
 			}
@@ -3087,6 +3613,7 @@ Case Area Style
 		h3 {
 			a {
 				color: #fff;
+
 				&:hover {
 					text-decoration: underline;
 				}
@@ -3113,6 +3640,7 @@ FAQ CSS
 				margin-bottom: 0;
 			}
 		}
+
 		.accordion__button {
 			border-radius: 5px;
 			display: block;
@@ -3129,7 +3657,7 @@ FAQ CSS
 			&:focus {
 				outline: 0;
 			}
-			
+
 			i {
 				position: absolute;
 				right: 25px;
@@ -3138,11 +3666,13 @@ FAQ CSS
 				transition: 0.5s;
 			}
 		}
+
 		.accordion-title.active {
 			i {
 				transform: rotate(180deg);
 			}
 		}
+
 		.accordion__panel {
 			background-color: $white-color;
 			position: relative;
@@ -3150,10 +3680,12 @@ FAQ CSS
 			padding-right: 60px;
 			padding-left: 25px;
 			box-shadow: 2px 8px 20px 0 rgba(25, 42, 70, 0.13) !important;
+
 			p {
 				line-height: 1.8;
 			}
 		}
+
 		.accordion-content.show {
 			display: block;
 		}
@@ -3171,13 +3703,16 @@ Banner Four Area Style
 .main-banner-area-four {
 	padding-bottom: 170px;
 	overflow: hidden;
+
 	.banner-text {
 		top: 30px;
 		padding-right: 30px;
+
 		.banner-btn {
-			.default-btn  {
+			.default-btn {
 				&.active {
 					padding-left: 52px;
+
 					i {
 						position: absolute;
 						font-size: 25px;
@@ -3188,30 +3723,36 @@ Banner Four Area Style
 			}
 		}
 	}
+
 	.over-shape {
 		img {
 			position: absolute;
 			z-index: -1;
+
 			&:nth-child(1) {
 				top: 300px;
 				left: 40px;
 				animation: animationFramesOne 25s infinite linear;
 			}
+
 			&:nth-child(2) {
 				top: 200px;
 				left: 800px;
 				animation: animationFramesOne 40s infinite linear;
 			}
+
 			&:nth-child(3) {
 				top: 150px;
 				right: 800px;
 				animation: animationFramesOne 20s infinite linear;
 			}
+
 			&:nth-child(4) {
 				bottom: 200px;
-    			right: 800px;
+				right: 800px;
 				animation: animationFramesOne 30s infinite linear;
 			}
+
 			&:nth-child(5) {
 				top: 200px;
 				right: 200px;
@@ -3225,26 +3766,30 @@ Banner Four Area Style
 Home Four Section Title Color Area Style
 ======================================================*/
 $sub-content-color-home-four: #e7e7e7;
+
 .home-four-section-title {
 	h2 {
 		color: $white-color;
 	}
+
 	p {
 		color: $sub-content-color-home-four;
 	}
-} 
+}
 
 /*
 About Area Four Style
 ======================================================*/
 .about-area-four {
-	.about-content  {
+	.about-content {
 		h2 {
 			color: $white-color;
 		}
+
 		p {
 			color: $sub-content-color-home-four;
 		}
+
 		ul {
 			li {
 				color: $sub-content-color-home-four;
@@ -3262,24 +3807,28 @@ Business Area Four Style
 			color: $white-color;
 		}
 	}
+
 	.single-business {
 		h3 {
 			color: $white-color;
 		}
+
 		p {
 			color: $sub-content-color-home-four;
 		}
 	}
-} 
+}
 
 /*
 Offer Area Four Style
 ======================================================*/
 .offer-area-four {
 	background-color: #060542;
+
 	.offer-shape img:nth-child(1) {
 		opacity: 0.3;
 	}
+
 	.offer-shape img:nth-child(2) {
 		opacity: 0.3;
 	}
@@ -3293,6 +3842,7 @@ Industries Area Four Style
 		h3 {
 			color: $white-color;
 		}
+
 		p {
 			color: $sub-content-color-home-four;
 		}
@@ -3314,9 +3864,11 @@ Team Area Four Style
 		position: relative;
 		margin-top: 15px;
 		margin-bottom: 55px;
+
 		img {
 			border-radius: 50%;
 		}
+
 		.team-img {
 			position: absolute;
 			top: 0;
@@ -3329,26 +3881,32 @@ Team Area Four Style
 			animation: rotation 20s linear infinite;
 		}
 	}
+
 	.team-content {
 		h3 {
 			color: $heading-color;
 		}
+
 		span {
 			margin-bottom: 15px;
 			display: block;
 		}
+
 		ul {
 			line-height: 1;
 			padding: 0;
 			margin: 0;
+
 			li {
 				display: inline-block;
 				padding: 0 5px;
+
 				a {
 					background-color: #fafafa;
 					width: 30px;
 					height: 30px;
 					line-height: 30px;
+
 					&:hover {
 						animation: rubberBand 1s linear;
 					}
@@ -3364,10 +3922,13 @@ HOME FIVE STYLE
 
 /*
 jumpx SliderArea Style
-======================================================*/ 
+======================================================*/
 .hero-swiper {
-	.swiper-button-next, .swiper-button-prev {
+
+	.swiper-button-next,
+	.swiper-button-prev {
 		width: auto;
+
 		&:after {
 			background-color: $main-color;
 			color: $white-color;
@@ -3379,6 +3940,7 @@ jumpx SliderArea Style
 			transition: $transition;
 			font-size: 22px;
 			border-radius: 30px;
+
 			&:hover {
 				background-color: #000;
 				color: $white-color;
@@ -3411,30 +3973,35 @@ jumpx SliderArea Style
 		text-align: center;
 		max-width: 750px;
 		margin: 50px auto 0;
+
 		span {
 			color: $white-color;
 			font-size: 15px;
 			display: block;
 			margin-bottom: 10px;
 		}
+
 		h1 {
 			font-size: 70px;
 			color: $white-color;
 			margin-bottom: 30px;
 		}
+
 		p {
 			color: $white-color;
 			font-size: 20px;
 			margin-bottom: 45px;
 		}
+
 		.slider-btn {
 			.default-btn {
 				margin: 0 20px;
+
 				&.white {
 					color: $white-color;
 				}
 			}
-		}   
+		}
 	}
 }
 
@@ -3453,6 +4020,7 @@ Page Title Area Style
 	background-color: #04063c;
 	overflow: hidden;
 	text-align: center;
+
 	.page-title-content {
 		h2 {
 			margin-bottom: 20px;
@@ -3460,11 +4028,13 @@ Page Title Area Style
 			font-size: 40px;
 			font-weight: 700;
 		}
+
 		ul {
 			padding-left: 0;
 			list-style-type: none;
 			margin-top: 10px;
 			margin-bottom: 0;
+
 			li {
 				display: inline-block;
 				position: relative;
@@ -3473,6 +4043,7 @@ Page Title Area Style
 				padding-right: 10px;
 				padding-left: 10px;
 				color: $main-color;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -3483,13 +4054,16 @@ Page Title Area Style
 					height: 5px;
 					border-radius: 50%;
 				}
+
 				&:last-child {
 					&::before {
 						display: none;
 					}
 				}
+
 				a {
 					color: $white-color;
+
 					&:hover {
 						color: $main-color;
 					}
@@ -3504,45 +4078,51 @@ Page Title Area Style
 =====================================================*/
 .error-area {
 	padding: 50px 0;
-	height: 100vh;  
-    text-align: center;
-    position: relative;
-    z-index: 1;
+	height: 100vh;
+	text-align: center;
+	position: relative;
+	z-index: 1;
 	background-color: $white-color;
-    &::before {
-        content: "";
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        opacity: 0.9;
-        z-index: -1;
-    }
-    .error-content-wrap {
+
+	&::before {
+		content: "";
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 0.9;
+		z-index: -1;
+	}
+
+	.error-content-wrap {
 		h1 {
 			font-size: 300px;
 			line-height: 1;
+
 			span {
 				background-image: linear-gradient(to bottom right, #ff416c, #fa4612);
 				-webkit-background-clip: text;
 				-webkit-text-fill-color: transparent;
 			}
 		}
-        z-index: 1;
-        position: relative;
-        h3 {
-            margin: 30px 0 0;
+
+		z-index: 1;
+		position: relative;
+
+		h3 {
+			margin: 30px 0 0;
 			position: relative;
 			color: #ff0000;
 			font-size: 30px;
-        }
-        p {
+		}
+
+		p {
 			margin: 20px 0 20px;
 			font-size: 19px;
-        }
-    }
-} 
+		}
+	}
+}
 
 /* 
 Coming Soon Area Style
@@ -3552,6 +4132,7 @@ Coming Soon Area Style
 	height: 100vh;
 	z-index: 1;
 	background-color: #00095e;
+
 	.coming-soon-content {
 		text-align: center;
 		max-width: 750px;
@@ -3559,12 +4140,14 @@ Coming Soon Area Style
 		margin-right: auto;
 		position: relative;
 		z-index: 2;
+
 		h1 {
 			margin-bottom: 0;
 			color: $white-color;
 			font-size: 60px;
 			margin-top: -18px;
 		}
+
 		p {
 			color: #f3f3f3;
 			font-size: 14.5px;
@@ -3574,8 +4157,10 @@ Coming Soon Area Style
 			margin-left: auto;
 			margin-right: auto;
 		}
+
 		#timer {
 			margin-top: 30px;
+
 			div {
 				display: inline-block;
 				color: $white-color;
@@ -3584,6 +4169,7 @@ Coming Soon Area Style
 				margin-right: 35px;
 				font-size: 45px;
 				font-weight: 700;
+
 				span {
 					display: block;
 					text-transform: capitalize;
@@ -3591,15 +4177,19 @@ Coming Soon Area Style
 					font-size: 16px;
 					font-weight: normal;
 				}
+
 				&:last-child {
 					margin-right: 0;
+
 					&::before {
 						display: none;
 					}
 				}
+
 				&:first-child {
 					margin-left: 0;
 				}
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -3610,12 +4200,14 @@ Coming Soon Area Style
 				}
 			}
 		}
+
 		.newsletter-form {
 			position: relative;
 			max-width: 500px;
 			margin-left: auto;
 			margin-right: auto;
 			margin-top: 50px;
+
 			.input-newsletter {
 				display: block;
 				width: 100%;
@@ -3627,13 +4219,16 @@ Coming Soon Area Style
 				outline: 0;
 				transition: 0.5s;
 				border-radius: 10px;
+
 				&::placeholder {
 					color: $white-color;
 				}
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			button {
 				position: absolute;
 				right: 0;
@@ -3647,16 +4242,20 @@ Coming Soon Area Style
 				font-weight: 500;
 				font-size: 15px;
 				cursor: pointer;
+
 				&::after {
 					border-radius: 0;
 				}
+
 				&::before {
 					border-radius: 0;
 				}
+
 				&:hover {
 					color: $white-color;
 				}
 			}
+
 			#validator-newsletter {
 				color: $white-color;
 				font-size: 14px;
@@ -3668,7 +4267,7 @@ Coming Soon Area Style
 			}
 		}
 	}
-} 
+}
 
 /*
 Sign In & Log In  Area Style
@@ -3676,6 +4275,7 @@ Sign In & Log In  Area Style
 .user-area-all-style {
 	position: relative;
 	z-index: 1;
+
 	.contact-form-action {
 		background-color: $white-color;
 		border-radius: 4px;
@@ -3683,112 +4283,139 @@ Sign In & Log In  Area Style
 		padding: 40px;
 		max-width: 570px;
 		margin: auto;
+
 		.form-heading {
 			margin-bottom: 33px;
+
 			.form-title {
 				font-size: 35px;
 				color: #233d63;
 				margin-bottom: 10px;
 				text-transform: capitalize;
 			}
+
 			.form-desc {
 				font-size: 18px;
 				color: #677286;
 				font-weight: 500;
 			}
+
 			.reset-desc {
 				line-height: 30px;
 				margin-top: 15px;
+
 				a {
 					color: $main-color;
 				}
 			}
+
 			.reset-desc {
 				font-size: 16px;
+
 				a {
 					font-weight: 600;
 				}
 			}
 		}
+
 		form {
 			.submit-btn {
 				margin-top: 24px;
 			}
+
 			.default-btn {
 				font-size: 14px;
 				padding: 12px 20px;
+
 				&.btn-two {
 					display: table;
 					margin: 0px auto 0;
 					padding: 20px 35px;
 				}
 			}
+
 			.col-lg-4 {
 				&:nth-child(1) .default-btn {
 					background-color: #FF5733;
 				}
+
 				&:nth-child(2) .default-btn {
 					background-color: #3955bc;
 					display: table;
 					margin-left: auto;
 					margin-right: auto;
 				}
+
 				&:nth-child(3) .default-btn {
 					background-color: $main-color;
 					float: right;
 				}
 			}
+
 			.reset-btn {
 				margin-top: 0;
 			}
+
 			.form-condition {
 				margin-bottom: 20px;
+
 				.agree-label {
 					font-weight: 600;
+
 					a {
 						color: $main-color;
 					}
 				}
 			}
+
 			.form-group {
 				margin-bottom: 30px;
 			}
 		}
+
 		.account-desc {
 			margin: 25px auto 0;
 			display: table;
 			font-weight: 600;
+
 			a {
 				color: $main-color;
 				margin-left: 10px;
 				font-weight: 600;
 			}
 		}
+
 		#chb1 {
 			position: relative;
 			top: 1px;
 		}
+
 		#chb2 {
 			position: relative;
 			top: 1px;
 			;
 		}
+
 		.forget {
 			float: right;
 			color: $main-color;
 			font-weight: 600;
 		}
+
 		.now-register {
 			font-weight: 600;
 			float: right;
 			margin-bottom: 30px;
+
 			a {
 				color: $main-color;
 			}
 		}
+
 		.now-log-in {
 			color: $main-color;
 			font-weight: 600;
+
 			.font-q {
 				font-weight: 600;
 			}
@@ -3803,48 +4430,61 @@ Ask Question Area Style
 	background-color: $white-color;
 	box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
 	padding: 50px;
+
 	.section-title {
 		margin: -9px auto 40px;
 	}
+
 	h3 {
 		margin-bottom: 30px !important;
 		text-align: center;
 	}
+
 	.form-group {
 		margin-bottom: 30px;
+
 		.form-control {
 			border-radius: 4px;
 		}
 	}
+
 	.default-btn {
 		margin: auto;
 		display: table;
 	}
 }
+
 .list-unstyled {
-	color: #dc3545!important;
+	color: #dc3545 !important;
 	margin-top: 10px;
 }
+
 #msgSubmit {
-    position: absolute;
-    bottom: 8px;
-    right: 15px;
+	position: absolute;
+	bottom: 8px;
+	right: 15px;
 }
+
 .text-danger {
-    color: #dc3545!important;
+	color: #dc3545 !important;
 }
+
 .text-success {
-    color: #28a745!important;
+	color: #28a745 !important;
 }
+
 .inner-client-page {
 	background-color: #f5f5f5 !important;
+
 	.single-client {
 		margin-bottom: 193px;
 	}
+
 	.client-img {
 		h3 {
 			color: $heading-color;
 		}
+
 		span {
 			color: $body-color;
 		}
@@ -3856,6 +4496,7 @@ Ask Question Area Style
 =====================================================*/
 .team-inner-area {
 	.single-team {
+
 		// background-color: #060542;
 		&:hover {
 			transform: translateY(-5px);
@@ -3872,38 +4513,47 @@ Blog Details Area Style
 			position: relative;
 			background-color: #f5f5f5;
 		}
+
 		.article-content {
 			margin-top: 30px;
+
 			.entry-meta {
 				margin-bottom: -10px;
+
 				ul {
 					padding-left: 0;
-					margin-bottom: 0; 
+					margin-bottom: 0;
 					list-style-type: none;
+
 					li {
 						position: relative;
 						display: inline-block;
 						color: $main-color;
 						margin-right: 25px;
 						font-size: 14px;
+
 						span {
 							display: inline-block;
 							color: $main-color;
 							font-weight: 500;
 							margin-right: 5px;
 						}
+
 						a {
 							display: inline-block;
 							color: #666666;
 							font-size: 13px;
+
 							&:hover {
 								color: $main-color;
 							}
 						}
+
 						i {
 							color: $main-color;
 							margin-right: 2px;
 						}
+
 						&::before {
 							content: '';
 							position: absolute;
@@ -3913,8 +4563,10 @@ Blog Details Area Style
 							height: 1px;
 							background: $main-color;
 						}
+
 						&:last-child {
 							margin-right: 0;
+
 							&::before {
 								display: none;
 							}
@@ -3922,10 +4574,12 @@ Blog Details Area Style
 					}
 				}
 			}
+
 			h3 {
 				margin-bottom: 13px;
 				margin-top: 25px;
 			}
+
 			.wp-block-gallery.columns-3 {
 				padding-left: 0;
 				list-style-type: none;
@@ -3935,24 +4589,29 @@ Blog Details Area Style
 				margin-left: -10px;
 				margin-bottom: 30px;
 				margin-top: 30px;
+
 				li {
 					flex: 0 0 33.3333%;
 					max-width: 33.3333%;
 					padding-right: 10px;
 					padding-left: 10px;
+
 					figure {
 						margin-bottom: 0;
 					}
 				}
 			}
 		}
+
 		.article-footer {
 			display: flex;
 			flex-wrap: wrap;
 			margin-top: 30px;
+
 			.article-tags {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				span {
 					display: inline-block;
 					color: $main-color;
@@ -3961,32 +4620,39 @@ Blog Details Area Style
 					position: relative;
 					top: 4px;
 				}
+
 				a {
 					display: inline-block;
 					color: #666666;
 					font-weight: 600;
+
 					&:hover {
 						color: $main-color;
 					}
 				}
 			}
+
 			.article-share {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				.social {
 					padding-left: 0;
 					list-style-type: none;
 					text-align: right;
 					margin-bottom: 0;
+
 					li {
 						display: inline-block;
 						margin-left: 5px;
+
 						span {
 							display: inline-block;
 							margin-right: 2px;
 							font-weight: 500;
 							color: #666666;
 						}
+
 						a {
 							display: block;
 							color: $white-color;
@@ -3997,6 +4663,7 @@ Blog Details Area Style
 							background-color: $main-color;
 							text-align: center;
 							font-size: 14px;
+
 							&:hover {
 								animation: rubberBand 1s linear;
 							}
@@ -4005,10 +4672,12 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.post-navigation {
 			margin-top: 30px;
 		}
 	}
+
 	blockquote {
 		overflow: hidden;
 		background-color: #f7f7f7;
@@ -4018,6 +4687,7 @@ Blog Details Area Style
 		margin-bottom: 20px;
 		margin-top: 20px;
 		border-radius: $border-radius;
+
 		p {
 			color: $heading-color;
 			line-height: 1.6;
@@ -4026,9 +4696,11 @@ Blog Details Area Style
 			font-weight: 600;
 			font-size: 17px !important;
 		}
+
 		cite {
 			display: none;
 		}
+
 		&::before {
 			color: $main-color;
 			content: "\ed67";
@@ -4036,11 +4708,12 @@ Blog Details Area Style
 			left: 50px;
 			top: -50px;
 			z-index: -1;
-			font-family:'boxicons';
+			font-family: 'boxicons';
 			font-size: 140px;
 			font-weight: 900;
 			opacity: 0.5;
 		}
+
 		&::after {
 			content: '';
 			position: absolute;
@@ -4053,17 +4726,21 @@ Blog Details Area Style
 			margin-bottom: 20px;
 		}
 	}
+
 	.post-navigation {
 		border-top: 1px solid #eeeeee;
 		border-bottom: 1px solid #eeeeee;
 		padding-top: 20px;
 		padding-bottom: 20px;
+
 		.navigation-links {
 			display: flex;
 			flex-wrap: wrap;
+
 			.nav-previous {
 				flex: 0 0 50%;
 				max-width: 50%;
+
 				a {
 					i {
 						margin-right: 0;
@@ -4073,24 +4750,28 @@ Blog Details Area Style
 					}
 				}
 			}
+
 			.nav-next {
 				flex: 0 0 50%;
 				max-width: 50%;
 				text-align: right;
+
 				a {
 					i {
 						margin-left: 0;
 						font-size: 20px;
-						position: relative; 
+						position: relative;
 						top: 4px;
 					}
 				}
 			}
+
 			div {
 				a {
 					display: inline-block;
 					font-weight: 600;
 					color: $heading-color;
+
 					&:hover {
 						color: $main-color;
 					}
@@ -4098,16 +4779,19 @@ Blog Details Area Style
 			}
 		}
 	}
+
 	.comments-area {
 		padding: 25px;
 		margin-top: 30px;
 		box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
 		background-color: $white-color;
+
 		.comments-title {
 			position: relative;
 			margin-bottom: 30px;
 			line-height: initial;
 			font-size: 22px;
+
 			&::before {
 				content: '';
 				height: 25px;
@@ -4119,32 +4803,39 @@ Blog Details Area Style
 				transform: translateY(-50%);
 			}
 		}
+
 		ol {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		ul {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		.comment-list {
 			padding: 0;
 			margin: 0;
 			list-style-type: none;
 		}
+
 		.children {
 			margin-left: 40px;
 		}
+
 		.comment-body {
 			border-bottom: 1px solid #eeeeee;
 			padding-left: 65px;
 			font-size: 14px;
 			margin-bottom: 20px;
 			padding-bottom: 20px;
+
 			.reply {
 				margin-top: 15px;
+
 				a {
 					border: 1px solid #ded9d9;
 					color: $heading-color;
@@ -4156,6 +4847,7 @@ Blog Details Area Style
 					z-index: 1;
 					font-size: 13px;
 					font-weight: 600;
+
 					&:hover {
 						color: $white-color;
 						background-color: $main-color;
@@ -4164,14 +4856,17 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.comment-meta {
 			margin-bottom: .8em;
 		}
+
 		.comment-author {
 			font-size: 16px;
 			margin-bottom: 0.4em;
 			position: relative;
 			z-index: 2;
+
 			.avatar {
 				height: 50px;
 				left: -65px;
@@ -4179,40 +4874,49 @@ Blog Details Area Style
 				width: 50px;
 				border-radius: 50%;
 			}
+
 			.fn {
 				font-weight: 600;
 				color: $heading-color;
 				font-size: 15px;
 			}
+
 			.says {
 				display: none;
 			}
 		}
+
 		.comment-metadata {
 			color: #666666;
 			letter-spacing: 0.01em;
 			text-transform: uppercase;
 			font-size: 13px;
 			font-weight: 500;
+
 			a {
 				color: #666666;
 				font-size: 11px;
+
 				&:hover {
 					color: $main-color;
 				}
 			}
 		}
+
 		.comment-content {
 			p {
 				font-size: 14px;
 			}
 		}
+
 		.comment-respond {
 			margin-top: 30px;
+
 			.comment-reply-title {
 				margin-bottom: 15px;
 				position: relative;
 				font-size: 22px;
+
 				&::before {
 					content: '';
 					height: 25px;
@@ -4223,25 +4927,29 @@ Blog Details Area Style
 					top: 50%;
 					transform: translateY(-50%);
 				}
+
 				#cancel-comment-reply-link {
 					display: inline-block;
 				}
 			}
+
 			.comment-form {
 				overflow: hidden;
 			}
+
 			.comment-form-comment {
 				margin-bottom: 30px;
 				float: left;
 				width: 100%;
 			}
+
 			label {
 				display: block;
 				font-weight: 500;
 				color: $heading-color;
 				margin-bottom: 5px;
 			}
-			
+
 			input[type="datetime-local"] {
 				display: block;
 				width: 100%;
@@ -4250,22 +4958,26 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="week"] {
 				display: block;
 				width: 100%;
-				background-color: #f7f7f7;  
+				background-color: #f7f7f7;
 				border: 1px solid #eeeeee;
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="month"] {
 				display: block;
 				width: 100%;
@@ -4274,10 +4986,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="text"] {
 				display: block;
 				width: 100%;
@@ -4286,10 +5000,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="email"] {
 				display: block;
 				width: 100%;
@@ -4298,10 +5014,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="url"] {
 				display: block;
 				width: 100%;
@@ -4310,10 +5028,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="password"] {
 				display: block;
 				width: 100%;
@@ -4322,10 +5042,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="search"] {
 				display: block;
 				width: 100%;
@@ -4334,10 +5056,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="tel"] {
 				display: block;
 				width: 100%;
@@ -4346,10 +5070,12 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			input[type="number"] {
 				display: block;
 				width: 100%;
@@ -4358,50 +5084,59 @@ Blog Details Area Style
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			textarea {
 				display: block;
 				width: 100%;
-				background-color: #f7f7f7; 
+				background-color: #f7f7f7;
 				border: 1px solid #eeeeee;
 				padding: 0.625em 0.7375em;
 				outline: 0;
 				transition: 0.5s;
+
 				&:focus {
 					border-color: $main-color;
 				}
 			}
+
 			.comment-form-author {
 				float: left;
 				width: 50%;
 				padding-right: 10px;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-email {
 				float: left;
 				width: 50%;
 				padding-left: 12px;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-url {
 				float: left;
 				width: 100%;
 				margin-bottom: 20px;
 			}
+
 			.comment-form-cookies-consent {
 				width: 100%;
 				float: left;
 				position: relative;
 				padding-left: 20px;
 				margin-bottom: 20px;
+
 				input {
 					position: absolute;
 					left: 0;
 					top: 6px;
 				}
+
 				label {
 					display: inline-block;
 					margin: 0;
@@ -4409,9 +5144,11 @@ Blog Details Area Style
 					font-weight: normal;
 				}
 			}
+
 			.form-submit {
 				float: left;
 				width: 100%;
+
 				input {
 					background: $main-color;
 					border: none;
@@ -4425,19 +5162,21 @@ Blog Details Area Style
 					transition: 0.5s;
 					font-weight: 500;
 					font-size: 14px;
+
 					&:hover {
 						color: $white-color;
 						background-color: $heading-color;
 					}
+
 					&:focus {
 						color: $white-color;
-						background-color: $main-color;  
+						background-color: $main-color;
 					}
 				}
 			}
 		}
 	}
-	
+
 	/*
 	Sidebar Widget Area Style
 	================================*/
@@ -4446,12 +5185,15 @@ Blog Details Area Style
 			margin-top: 35px;
 			background-color: $white-color;
 			box-shadow: 0px 0px 29px 0px rgba(102, 102, 102, 0.08);
+
 			.post-wrap {
 				padding: 20px;
 			}
+
 			&:first-child {
 				margin-top: 0;
 			}
+
 			.widget-title {
 				text-transform: capitalize;
 				position: relative;
@@ -4461,6 +5203,7 @@ Blog Details Area Style
 				padding: 10px 20px;
 				color: $heading-color;
 				position: relative;
+
 				&::before {
 					content: "";
 					position: absolute;
@@ -4472,16 +5215,20 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_search {
 			form {
 				position: relative;
+
 				label {
 					display: block;
 					margin-bottom: 0;
 				}
+
 				.screen-reader-text {
 					display: none;
 				}
+
 				.search-field {
 					background-color: transparent;
 					height: 50px;
@@ -4491,10 +5238,12 @@ Blog Details Area Style
 					display: block;
 					outline: 0;
 					transition: 0.5s;
+
 					&:focus {
-						border-color:$main-color;
+						border-color: $main-color;
 					}
 				}
+
 				button {
 					position: absolute;
 					right: 0;
@@ -4507,25 +5256,30 @@ Blog Details Area Style
 					background-color: $main-color;
 					transition: 0.5s;
 					cursor: pointer;
+
 					&:hover {
 						background-color: $heading-color;
 					}
 				}
 			}
 		}
+
 		.widget-posts-thumb {
 			position: relative;
 			overflow: hidden;
+
 			.item {
 				overflow: hidden;
 				margin-bottom: 10px;
 				padding-bottom: 10px;
 				border-bottom: 1px solid #efefef;
+
 				&:last-child {
 					margin-bottom: 0;
 					border-bottom: none;
 					padding-bottom: 0;
 				}
+
 				.thumb {
 					float: left;
 					height: 80px;
@@ -4533,6 +5287,7 @@ Blog Details Area Style
 					position: relative;
 					width: 80px;
 					margin-right: 15px;
+
 					.fullimage {
 						width: 80px;
 						height: 80px;
@@ -4543,21 +5298,27 @@ Blog Details Area Style
 						position: relative;
 						background-color: $heading-color;
 					}
+
 					.fullimage.bg1 {
 						background-image: url(/images/blog-details/popular-posts-1.png);
 					}
+
 					.fullimage.bg2 {
 						background-image: url(/images/blog-details/popular-posts-2.png);
 					}
+
 					.fullimage.bg3 {
 						background-image: url(/images/blog-details/popular-posts-3.png);
 					}
+
 					.fullimage.bg4 {
 						background-image: url(/images/blog-details/popular-posts-4.png);
 					}
 				}
+
 				.info {
 					overflow: hidden;
+
 					span {
 						display: block;
 						color: #666666;
@@ -4567,14 +5328,17 @@ Blog Details Area Style
 						font-size: 12px;
 						font-weight: 500;
 					}
+
 					.title {
 						margin-bottom: 0;
 						line-height: 1.5;
 						font-size: 16px;
 						font-weight: 600;
+
 						a {
 							display: inline-block;
 							color: #474c40;
+
 							&:hover {
 								color: $main-color;
 							}
@@ -4583,11 +5347,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_recent_entries {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					margin-bottom: 12px;
@@ -4596,9 +5362,11 @@ Blog Details Area Style
 					line-height: 1.5;
 					font-size: 15px;
 					font-weight: 600;
+
 					&:last-child {
 						margin-bottom: 0;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -4608,6 +5376,7 @@ Blog Details Area Style
 						left: 0;
 						top: 7px;
 					}
+
 					.post-date {
 						display: block;
 						font-size: 13px;
@@ -4617,11 +5386,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_categories {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					padding-bottom: 10px;
@@ -4631,10 +5402,12 @@ Blog Details Area Style
 					font-size: 15px;
 					font-weight: 600;
 					border-bottom: 1px solid #efefef;
+
 					&:last-child {
 						margin-bottom: 0;
 						border-bottom: none;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -4645,30 +5418,36 @@ Blog Details Area Style
 						top: 8px;
 						clip-path: polygon(50% 0%, 100% 50%, 50% 100%, 0% 50%);
 					}
+
 					a {
 						display: block;
 						color: #666666;
 						font-weight: normal;
 						font-size: 14px;
+
 						span {
 							float: right;
 							font-size: 13px;
 						}
+
 						&:hover {
 							color: $main-color;
 						}
 					}
+
 					.post-count {
 						float: right;
 					}
 				}
 			}
 		}
+
 		.widget_meta {
 			ul {
 				padding: 0;
 				margin: 0;
 				list-style-type: none;
+
 				li {
 					position: relative;
 					padding-bottom: 10px;
@@ -4678,15 +5457,19 @@ Blog Details Area Style
 					font-size: 15px;
 					font-weight: 500;
 					border-bottom: 1px solid #efefef;
+
 					a {
 						color: $body-color;
+
 						&:hover {
 							color: $main-color;
 						}
 					}
+
 					&:last-child {
 						margin-bottom: 0;
 					}
+
 					&::before {
 						background: $main-color;
 						position: absolute;
@@ -4700,11 +5483,13 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_tag_cloud {
 			.widget-title {
 				margin-bottom: 0;
 			}
 		}
+
 		.tagcloud {
 			a {
 				display: inline-block;
@@ -4715,10 +5500,12 @@ Blog Details Area Style
 				border: 1px dashed #eeeeee;
 				margin-top: 10px;
 				margin-right: 10px;
+
 				&:hover {
 					background-color: $main-color;
 					color: $white-color;
 				}
+
 				&:focus {
 					background-color: $main-color;
 					color: $white-color;
@@ -4726,6 +5513,7 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_services_list {
 			ul {
 				padding-left: 0;
@@ -4733,6 +5521,7 @@ Blog Details Area Style
 				margin-bottom: 0;
 				box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.04);
 				background-color: $white-color;
+
 				li {
 					a {
 						display: block;
@@ -4745,6 +5534,7 @@ Blog Details Area Style
 						color: #5d6576;
 						z-index: 1;
 						font-weight: 500;
+
 						&::before {
 							content: "";
 							position: absolute;
@@ -4757,16 +5547,19 @@ Blog Details Area Style
 							opacity: 0;
 							visibility: hidden;
 						}
+
 						i {
 							position: absolute;
 							right: 15px;
 							top: 50%;
 							transform: translateY(-50%);
 						}
+
 						&:hover {
 							background-color: $main-color;
 							color: $white-color;
 							padding-left: 20px;
+
 							&::before {
 								opacity: 1;
 								visibility: visible;
@@ -4774,16 +5567,19 @@ Blog Details Area Style
 							}
 						}
 					}
+
 					a.active {
 						background-color: $main-color;
 						color: $white-color;
 						padding-left: 20px;
+
 						&::before {
 							opacity: 1;
 							visibility: visible;
 							width: 5px;
 						}
 					}
+
 					&:last-child {
 						a {
 							border-bottom: none;
@@ -4792,6 +5588,7 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.widget_download {
 			ul {
 				padding-left: 0;
@@ -4799,6 +5596,7 @@ Blog Details Area Style
 				margin-bottom: 0;
 				box-shadow: 0 0 1.25rem rgba(108, 118, 134, 0.04);
 				background-color: $white-color;
+
 				li {
 					a {
 						display: block;
@@ -4811,6 +5609,7 @@ Blog Details Area Style
 						color: #5d6576;
 						z-index: 1;
 						font-weight: 500;
+
 						&::before {
 							content: "";
 							position: absolute;
@@ -4823,16 +5622,19 @@ Blog Details Area Style
 							opacity: 0;
 							visibility: hidden;
 						}
+
 						i {
 							position: absolute;
 							right: 15px;
 							top: 50%;
 							transform: translateY(-50%);
 						}
+
 						&:hover {
 							background-color: $main-color;
 							color: $white-color;
 							padding-left: 20px;
+
 							&::before {
 								opacity: 1;
 								visibility: visible;
@@ -4840,16 +5642,19 @@ Blog Details Area Style
 							}
 						}
 					}
+
 					a.active {
 						background-color: $main-color;
 						color: $white-color;
 						padding-left: 20px;
+
 						&::before {
 							opacity: 1;
 							visibility: visible;
 							width: 5px;
 						}
 					}
+
 					&:last-child {
 						a {
 							border-bottom: none;
@@ -4858,13 +5663,14 @@ Blog Details Area Style
 				}
 			}
 		}
+
 		.info time {
 			font-size: 13px;
 			color: #929292;
 			display: block;
 			margin-bottom: 4px;
 		}
-	} 
+	}
 }
 
 /*
@@ -4879,6 +5685,7 @@ Contact Info Area Style
 		padding: 30px;
 		transition: all 0.5s;
 		border-radius: $border-radius;
+
 		i {
 			display: block;
 			color: $main-color;
@@ -4891,75 +5698,92 @@ Contact Info Area Style
 			border: 2px dotted $main-color;
 			border-radius: 50%;
 		}
+
 		h3 {
 			transition: all 0.5s;
 		}
+
 		p {
 			margin: 0;
 		}
+
 		a {
 			color: $body-color;
 			transition: all 0.5s;
 		}
+
 		&:hover {
 			background-color: $main-color;
+
 			i {
 				color: $white-color;
 				border-color: $white-color;
 			}
+
 			h3 {
 				color: $white-color;
 			}
+
 			p {
 				color: $white-color;
 			}
+
 			a {
 				color: $white-color;
 			}
 		}
 	}
 }
+
 #map {
-    height: 445px;
+	height: 445px;
 }
 
 /*
 Main Contact Area Style
 =====================================================*/
-.main-contact-area { 
+.main-contact-area {
 	.contact-wrap {
 		.section-title {
 			text-align: center !important;
 			max-width: 600px;
+
 			h2 {
 				margin-bottom: 10px;
 			}
 		}
+
 		.form-group {
 			margin-bottom: 30px;
 		}
+
 		max-width: unset;
+
 		.default-btn {
 			margin: auto;
 			display: table;
 			cursor: pointer;
 		}
+
 		.contact-form {
 			background-color: $white-color;
 			box-shadow: $box-shadow;
 			padding: 50px;
-			border-radius: $border-radius; 
+			border-radius: $border-radius;
+
 			#msgSubmit {
 				position: unset;
 				text-align: center;
 				margin-top: 20px;
 			}
+
 			.hidden {
 				display: none;
 			}
 		}
+
 		.form-control {
-			border-radius: $border-radius !important; 
+			border-radius: $border-radius !important;
 		}
 	}
 }
@@ -4991,16 +5815,20 @@ Service Details Area Style
 		padding: 15px 20px;
 		margin-bottom: 0;
 	}
+
 	.service-card {
 		margin-bottom: 30px;
 		background-color: $white-color;
 		box-shadow: 0 0 20px 3px rgba(0, 0, 0, 0.05);
 	}
+
 	.service-list {
 		margin-bottom: 30px;
+
 		&:last-child {
 			margin-bottom: 0;
 		}
+
 		ul {
 			list-style-type: none;
 			margin: 0;
@@ -5016,6 +5844,7 @@ Service Details Area Style
 					color: $heading-color;
 					display: block;
 				}
+
 				i {
 					float: right;
 					width: 27px;
@@ -5028,13 +5857,16 @@ Service Details Area Style
 					text-align: center;
 					transition: all 0.5s;
 				}
+
 				&:hover {
 					background-color: $main-color;
 					color: $white-color;
+
 					i {
 						background-color: $white-color;
 						color: $main-color;
 					}
+
 					a {
 						color: $white-color;
 					}
@@ -5042,15 +5874,18 @@ Service Details Area Style
 			}
 		}
 	}
+
 	.service-faq {
 		.faq-accordion {
 			.accordion {
 				.accordion-item {
 					box-shadow: none;
 				}
+
 				.accordion-title {
 					font-size: 17px;
 					font-weight: 600;
+
 					span {
 						top: 11px;
 					}
@@ -5058,25 +5893,31 @@ Service Details Area Style
 			}
 		}
 	}
+
 	.paint {
 		margin-bottom: 15px;
 	}
 }
+
 .service-details-wrap {
 	.mb-30 {
 		margin-bottom: 30px;
 	}
+
 	.service-img {
 		margin-bottom: 30px;
 	}
+
 	h3 {
 		margin-bottom: 20px;
 		font-size: 28px;
 	}
+
 	ul {
 		margin-top: 30px;
 		margin-bottom: 30px;
 		padding-left: 0;
+
 		li {
 			display: inline-block;
 			font-weight: 600;
@@ -5084,6 +5925,7 @@ Service Details Area Style
 			font-size: 14px;
 			padding-left: 30px;
 			position: relative;
+
 			i {
 				width: 20px;
 				height: 20px;
@@ -5100,16 +5942,20 @@ Service Details Area Style
 				left: 0;
 			}
 		}
+
 		.paint {
 			margin-right: 30px;
 		}
 	}
+
 	.car-service-list-wrap {
 		margin-bottom: 35px;
 		margin-top: 25px;
+
 		.car-service-list {
 			ul {
 				margin: 0;
+
 				li {
 					margin-bottom: 15px;
 					display: block;
@@ -5121,8 +5967,10 @@ Service Details Area Style
 			}
 		}
 	}
+
 	.list-unstyled {
 		margin: 0;
+
 		li {
 			color: #dc3545;
 			padding-left: 0 !important;
@@ -5131,6 +5979,7 @@ Service Details Area Style
 			margin-top: 10px;
 		}
 	}
+
 	#msgSubmit {
 		top: 60px;
 		left: 0;
@@ -5150,22 +5999,27 @@ Service Details Area Style
 		font-size: 40px;
 		margin-bottom: 15px;
 	}
+
 	h2 {
 		font-size: 35px;
 		margin-bottom: 15px;
 	}
+
 	h3 {
 		font-size: 30px;
 		margin-bottom: 15px;
 	}
+
 	h4 {
 		font-size: 25px;
 		margin-bottom: 15px;
 	}
+
 	h5 {
 		font-size: 22px;
 		margin-bottom: 15px;
 	}
+
 	h6 {
 		font-size: 20px;
 		margin-bottom: 15px;
@@ -5179,19 +6033,22 @@ Service Details Area Style
 	text-align: center;
 	position: relative;
 	background-attachment: fixed;
+
 	&:before {
-    background: linear-gradient(to left top,#ff2c9c,#ff287b,#ff395a,#ff5137,#ff6a00);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
-    content: "";
-    opacity: .95;
+		background: linear-gradient(to left top, #ff2c9c, #ff287b, #ff395a, #ff5137, #ff6a00);
+		position: absolute;
+		height: 100%;
+		width: 100%;
+		top: 0;
+		left: 0;
+		content: "";
+		opacity: .95;
 	}
+
 	.cta-content {
-    position: relative;
+		position: relative;
 		margin-bottom: 30px;
+
 		span {
 			color: #fff;
 			text-transform: uppercase;
@@ -5199,6 +6056,7 @@ Service Details Area Style
 			display: block;
 			margin-bottom: 5px;
 		}
+
 		h3 {
 			color: #fff;
 			font-size: 55px;

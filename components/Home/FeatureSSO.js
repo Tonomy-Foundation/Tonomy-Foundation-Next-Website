@@ -2,17 +2,17 @@ import Link from 'next/link';
 
 const FeatureSSO = () => {
     return (
-        <section className="about-area pb-100">
+        <section className="about-area pb-100" id="feature-sso" style={{ paddingTop: "60px" }}>
             <div className="container">
                 <div className="row align-items-center">
-                    
+
                     <div className="col-lg-6">
                         <div className="about-content">
                             <span>Seamless, Sovereign, Secure</span>
                             <h2>Sovereign Single Sign-On</h2>
                             <p>Experience the ease of sovereign single sign-on with Tonomy ID. Say goodbye to multiple logins and cumbersome authentication processes as our app provides a seamless and secure way to access your platforms with just one click.
                             </p>
-                            
+
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6">
                                     <ul>
