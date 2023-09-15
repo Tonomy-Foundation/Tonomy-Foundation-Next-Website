@@ -1,45 +1,4 @@
 import React, { Component } from 'react';
-import { Table, tbody, td, TableContainer, thead, tr, Paper, createTheme, ThemeProvider } from '@mui/material';
-
-const theme = createTheme({
-    typography: {
-        fontFamily: '"Open Sans", sans-serif',
-    },
-});
-
-const ComparisonTable2 = () => {
-    return (
-        <table className="table comparison-table">
-            <thead>
-                <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <th scope="row">1</th>
-                    <td>Mark</td>
-                    <td>Otto</td>
-                    <td>@mdo</td>
-                </tr>
-                <tr>
-                    <th scope="row">2</th>
-                    <td>Jacob</td>
-                    <td>Thornton</td>
-                    <td>@fat</td>
-                </tr>
-                <tr>
-                    <th scope="row">3</th>
-                    <td>Larry the Bird</td>
-                    <td>@twitter</td>
-                </tr>
-            </tbody>
-        </table>
-    )
-}
 
 const ComparisonTable = () => {
 
@@ -62,6 +21,12 @@ const ComparisonTable = () => {
                     </tr>
                 </thead>
                 <tbody>
+                    <tr>
+                        <td>Strengths / Weaknesses</td>
+                        <td>Usability + Security / Not cross-chain</td>
+                        <td>General purpose cross-chain / Usability</td>
+                        <td>Usability / Security + Only for 1 App</td>
+                    </tr>
                     <tr>
                         <td>Account Creation & Login **</td>
                         <td>1 min 20 seconds</td>
@@ -91,6 +56,12 @@ const ComparisonTable = () => {
                         <td>Android, iOS</td>
                         <td >Android, iOS, Desktop</td>
                         <td >Web wallet</td>
+                    </tr>
+                    <tr>
+                        <td>Open Source</td>
+                        <td><i className="bx bx-check"></i></td>
+                        <td ><div><i className="bx bx-x" /> Mobile</div><div><i className="bx bx-check" /> Desktop</div></td>
+                        <td ><i className="bx bx-x"></i></td>
                     </tr>
                     <tr>
                         <td><div>Free Account Creation</div><div>(User doesn't pay)</div></td>
@@ -144,11 +115,10 @@ class Comparison extends Component {
                     <div className="section-title">
                         <span>Comparison</span>
                         <h2>Tonomy ID Compared to Other Wallets</h2>
-                        <p>Learn about the different ways wallets can be implemented and what the differences are. Each wallet below has different strengths and weaknesses.</p>
+                        <p>Learn about the different Antelope wallets and what their differences are. Each wallet below has different strengths and weaknesses.</p>
                     </div>
 
                     <ComparisonTable />
-                    <ComparisonTable2 />
 
                 </div>
             </section>
