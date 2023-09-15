@@ -28,18 +28,8 @@ const MainBanner = () => {
                     </div>
 
                     <div className="col-lg-6">
-                        {/* Main Image */}
-                        {/* <div className="banner-main-img banner-one-main-img">
+                        <div className="banner">
                             <img
-                                src="/images/home-two/main-img2.png"
-                                alt="Image"
-                            />
-                        </div> */}
-
-                        {/* Banner Shape Images */}
-                        <div className="banner-img">
-                            <img
-                                // className="animate__animated animate__fadeInDown animate__faster"
                                 src="/images/antelope-banner.png"
                                 alt="Image"
                             />
