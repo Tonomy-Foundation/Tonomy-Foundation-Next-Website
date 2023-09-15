@@ -3227,48 +3227,42 @@ Pricing Area Style
 }
 
 .comparison-table {
-  th {
-    text-align: center;
-  }
-
-  td:nth-child(1) {
-    font-weight: bold;
-  }
-
   /* All columns after the first */
-  td:nth-child(n+2) {
-    text-align: center;
-  }
-
   /* Second column */
-  td:nth-child(2) {
-    background-color: rgba(29, 211, 248, 0.1);
-  }
-
-  th:nth-child(2) {
-    background-color: rgba(29, 211, 248, 0.1);
-  }
-
   /* Icon in a circle */
-  i.bx {
-    font-size: 2rem;
-    width: 40px;
-    height: 40px;
-    background-color: #daf6fd;
-    line-height: 24px;
-    border-radius: 50%;
-    text-align: center;
-    padding: 8px 0;
-  }
-
-  i.bx-check {
-    color: green;
-  }
-
-  i.bx-x {
-    color: red;
-  }
 }
+.comparison-table th {
+  text-align: center;
+}
+.comparison-table td:nth-child(1) {
+  font-weight: bold;
+}
+.comparison-table td:nth-child(n+2) {
+  text-align: center;
+}
+.comparison-table td:nth-child(2) {
+  background-color: rgba(29, 211, 248, 0.1);
+}
+.comparison-table th:nth-child(2) {
+  background-color: rgba(29, 211, 248, 0.1);
+}
+.comparison-table i.bx {
+  font-size: 2rem;
+  width: 40px;
+  height: 40px;
+  background-color: #daf6fd;
+  line-height: 24px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 8px 0;
+}
+.comparison-table i.bx-check {
+  color: green;
+}
+.comparison-table i.bx-x {
+  color: red;
+}
+
 
 .single-pricing ul li .bx-x {
   color: red;
