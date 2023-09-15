@@ -40,8 +40,10 @@ export default class MyApp extends App {
   }
 
   componentDidMount() {
-    injectMatomoAnalytics();
-    injectGoogleTagManager();
+    if (process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io') {
+      injectMatomoAnalytics();
+      injectGoogleTagManager();
+    }
   }
 
   render() {
