@@ -55,10 +55,10 @@ class Testimonials extends Component {
                             </div>
                         </SwiperSlide>
 
-                        {/* <SwiperSlide>
+                        <SwiperSlide>
                             <div className="single-client">
                                 <i className="quotes flaticon-left-quotes-sign"></i>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,do eiusmod tempor incididunt ut labore et dolore.</p>
+                                <p>Tonomy ID elegantly solves the dilemma between decentralisation and smooth onboarding for new users and unlocks the new primitives of web3 identity standards for the general public with a strong emphasis on privacy and self sovereignty.</p>
 
                                 <ul>
                                     <li><i className="bx bxs-star"></i></li>
@@ -69,12 +69,12 @@ class Testimonials extends Component {
                                 </ul>
 
                                 <div className="client-img">
-                                    <img src="/images/clients/client2.jpg" alt="Image" />
-                                    <h3>Axon Detos</h3>
-                                    <span>CEO</span>
+                                    <img src="/images/testimonials/sofiane-delloue.jpg" alt="Image" />
+                                    <h3>Sofiane Delloue</h3>
+                                    <span>Architect at New Foundation</span>
                                 </div>
                             </div>
-                        </SwiperSlide> */}
+                        </SwiperSlide>
 
                         {/* <SwiperSlide>
                             <div className="single-client">
