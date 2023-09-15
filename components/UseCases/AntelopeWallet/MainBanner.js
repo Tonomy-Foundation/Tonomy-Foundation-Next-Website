@@ -9,7 +9,7 @@ const MainBanner = () => {
                     <div className="col-lg-6">
                         <div className="banner-text">
                             <h1>Empowering Antelope Ecosystems for Mainstream Adoption</h1>
-                            <p>An Antelope and Self-sovereign Identity (SSI) wallet built for user control and mainstream-ready user experience. Tonomy ID for Telos, EOS, WAX, UX Network and other Antelope chains.</p>
+                            <p>Tonomy ID is an Antelope and Self-sovereign Identity (SSI) wallet built for user control and mainstream-ready user experience. Tonomy ID is for Telos, EOS, WAX, UX Network and other Antelope chains.</p>
 
                             <div className="banner-btn">
                                 <Link href="/">
