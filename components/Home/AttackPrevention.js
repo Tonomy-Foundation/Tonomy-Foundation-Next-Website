@@ -23,9 +23,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-cloud-computing"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Database Breaches</a>
-                  </Link>
+                  <a>Database Breaches</a>
                 </h3>
                 <p>Storing user data and private keys on users' devices eliminates the risk of attackers targeting and compromising centralized databases.</p>
               </div>
@@ -35,9 +33,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-interactivity"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Man-in-the-Middle Attacks</a>
-                  </Link>
+                  <a>Man-in-the-Middle Attacks</a>
                 </h3>
                 <p>The use of encryption and digital signatures prevents attackers from intercepting and modifying data in transit, safeguarding against unauthorized tampering or eavesdropping.</p>
               </div>
@@ -47,9 +43,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-blockchain"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Insider Threats</a>
-                  </Link>
+                  <a>Insider Threats</a>
                 </h3>
                 <p>With decentralised user data, the risk of insider attacks and malicious insiders gaining unauthorized access to sensitive information is mitigated.</p>
               </div>
@@ -59,9 +53,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-target"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Phishing Attacks</a>
-                  </Link>
+                  <a>Phishing Attacks</a>
                 </h3>
                 <p>With password-less login and storing private keys locally reduces the vulnerability to phishing attacks where attackers attempt to trick users into revealing their credentials or sensitive data.</p>
               </div>
@@ -71,9 +63,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-choice"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Denial-of-Service (DoS) Attacks</a>
-                  </Link>
+                  <a>Denial-of-Service (DoS) Attacks</a>
                 </h3>
                 <p>By moving user data to devices, the impact of DoS attacks targeting centralized servers can be minimized, ensuring continued access to personal information.</p>
               </div>
@@ -83,9 +73,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-deep-learning"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Tampering and Data Integrity Attacks</a>
-                  </Link>
+                  <a>Tampering and Data Integrity Attacks</a>
                 </h3>
                 <p>End-to-end digital signatures and encryption ensure that data remains intact and unaltered during transit, mitigating the risk of tampering and maintaining data integrity.</p>
               </div>
@@ -95,9 +83,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-chip"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Identity Spoofing</a>
-                  </Link>
+                  <a>Identity Spoofing</a>
                 </h3>
                 <p>Digital signatures provide a reliable means to verify the authenticity of senders, preventing malicious actors from impersonating legitimate entities and reducing the risk of identity spoofing attacks.</p>
               </div>
@@ -107,9 +93,7 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-lock"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Brute Force Attacks</a>
-                  </Link>
+                  <a>Brute Force Attacks</a>
                 </h3>
                 <p>User data stored on devices makes it more challenging for attackers to launch brute force attacks against centralized databases or authentication systems.</p>
               </div>
@@ -119,9 +103,9 @@ class AttackPrevention extends Component {
               <div className="single-offer">
                 <i className="flaticon-shield"></i>
                 <h3>
-                  <Link href="/service-details">
-                    <a>Server Exploitation</a>
-                  </Link>
+
+                  <a>Server Exploitation</a>
+
                 </h3>
                 <p>Moving user data and private keys off servers removes the attack surface for server-based vulnerabilities, such as code injection or privilege escalation.</p>
               </div>
