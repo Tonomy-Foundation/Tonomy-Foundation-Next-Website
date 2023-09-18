@@ -5,15 +5,13 @@ class Impact extends Component {
     render() {
         return (
             <section className="offer-area gray-bg ptb-100">
-			    <div className="container">
+                <div className="container">
                     <div className="row">
                         <div className="col-lg-4 col-sm-6">
                             <div className="service-card">
                                 <i className="flaticon-chip"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Seamless Customer Onboarding</a>
-                                    </Link>
+                                    <a>Seamless Customer Onboarding</a>
                                 </h3>
                                 <p>Expedite KYC processes and enhance user experience with Tonomy ID's seamless and secure customer onboarding.</p>
                             </div>
@@ -23,9 +21,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-vr"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>KYC Compliance Made Easy</a>
-                                    </Link>
+                                    <a>KYC Compliance Made Easy</a>
                                 </h3>
                                 <p>Meet stringent regulatory requirements effortlessly using Tonomy ID's automated and reliable KYC identity verification.</p>
                             </div>
@@ -35,9 +31,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-blockchain"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Fraud-Proof Data Management</a>
-                                    </Link>
+                                    <a>Fraud-Proof Data Management</a>
                                 </h3>
                                 <p>Safeguard financial records and transaction data with Tonomy ID's tamper-proof digital signatures, ensuring data integrity and authenticity.</p>
                             </div>
@@ -47,9 +41,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-target"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Secure Digital Transactions</a>
-                                    </Link>
+                                    <a>Secure Digital Transactions</a>
                                 </h3>
                                 <p>Protect high-value transactions with Tonomy ID's advanced security features, reducing the risk of unauthorized access and fraud.</p>
                             </div>
@@ -59,9 +51,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-choice"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Compliant Data Sharing</a>
-                                    </Link>
+                                    <a>Compliant Data Sharing</a>
                                 </h3>
                                 <p>Facilitate secure data sharing between financial institutions and authorized parties, ensuring privacy and compliance with data protection regulations.</p>
                             </div>
@@ -71,9 +61,7 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-deep-learning"></i>
                                 <h3>
-                                    <Link href="/service-details">
-                                        <a>Multi-Party Signatures</a>
-                                    </Link>
+                                    <a>Multi-Party Signatures</a>
                                 </h3>
                                 <p>Enable secure collaboration between multiple stakeholders for complex financial agreements, using Tonomy ID's multi-party signature capabilities.</p>
                             </div>

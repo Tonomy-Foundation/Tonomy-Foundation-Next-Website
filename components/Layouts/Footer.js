@@ -108,52 +108,52 @@ class Footer extends Component {
                                     <h3>Services</h3>
                                     <ul>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Big Data
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     UI/UX Design
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Desktop Application
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Mobile Application
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Product Engineering
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                         <li>
-                                            <Link href="/service-details">
+                                            
                                                 <a>
                                                     <i className="right-icon bx bx-chevrons-right"></i>
                                                     Machine Learning
                                                 </a>
-                                            </Link>
+                                            
                                         </li>
                                     </ul>
                                 </div>
