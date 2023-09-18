@@ -4,7 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import TagManager from 'react-gtm-module';
 
-// Matomo array
+// Matomo settings variable
+// https://developer.matomo.org/guides/tracking-javascript-guide
 let _paq = [];
 if (typeof window !== 'undefined') {
     if (window._paq) {
@@ -15,6 +16,7 @@ if (typeof window !== 'undefined') {
 
 function injectMatomoAnalytics() {
     /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+    // https://developer.matomo.org/guides/tracking-javascript-guide
     _paq.push(['requireCookieConsent']);
     _paq.push(['trackPageView']);
     _paq.push(['enableLinkTracking']);
@@ -41,20 +43,18 @@ function acceptMatomoCookies() {
 }
 
 function acceptGoogleCookies() {
+    // https://developers.google.com/tag-platform/tag-manager/templates/consent-apis#consent_state_and_consent_types
     TagManager.dataLayer({
-        dataLayer: {
-            event: 'cookieConsent',
-            cookieConsent: true
-        }
+        ad_storage: 'granted',
+        analytics_storage: 'granted',
     });
 }
 
 function rejectGoogleCookies() {
+    // https://developers.google.com/tag-platform/tag-manager/templates/consent-apis#consent_state_and_consent_types
     TagManager.dataLayer({
-        dataLayer: {
-            event: 'cookieConsent',
-            cookieConsent: false
-        }
+        ad_storage: 'denied',
+        analytics_storage: 'denied',
     });
 }
 
@@ -64,16 +64,23 @@ function rejectMatomoCookies() {
 }
 
 function injectGoogleTagManager() {
+    // Disable ad_storage and analytics_storage layer to disable cookies
+    // https://developers.google.com/tag-platform/tag-manager/templates/consent-apis#consent_state_and_consent_types
+    // https://support.google.com/tagmanager/answer/10718549?hl=en
     TagManager.initialize({
-        gtmId: 'G-736JT4GEW4'
+        gtmId: 'G-736JT4GEW4',
+        dataLayer: {
+            ad_storage: 'denied',
+            analytics_storage: 'denied',
+        }
     })
 }
 
 function injectAnalytics() {
-    // if (process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io') {
-    injectMatomoAnalytics();
-    injectGoogleTagManager();
-    // }
+    if (process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io') {
+        injectMatomoAnalytics();
+        injectGoogleTagManager();
+    }
 }
 
 const PrivacyConsent = () => {
