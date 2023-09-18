@@ -70,7 +70,7 @@ function injectGoogleTagManager() {
     // https://developers.google.com/tag-platform/tag-manager/templates/consent-apis#consent_state_and_consent_types
     // https://support.google.com/tagmanager/answer/10718549?hl=en
     TagManager.initialize({
-        gtmId: 'GTM-NJ39RRKL',
+        gtmId: 'G-736JT4GEW4',
         dataLayer: {
             ad_storage: 'denied',
             analytics_storage: 'denied',
