@@ -4,6 +4,8 @@ import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import TagManager from 'react-gtm-module';
 
+const LOCALHOST_CONSENT_GIVEN = 'cookieConsent';
+
 // Matomo settings variable
 // https://developer.matomo.org/guides/tracking-javascript-guide
 let _paq = [];
@@ -68,7 +70,7 @@ function injectGoogleTagManager() {
     // https://developers.google.com/tag-platform/tag-manager/templates/consent-apis#consent_state_and_consent_types
     // https://support.google.com/tagmanager/answer/10718549?hl=en
     TagManager.initialize({
-        gtmId: 'G-736JT4GEW4',
+        gtmId: 'GTM-NJ39RRKL',
         dataLayer: {
             ad_storage: 'denied',
             analytics_storage: 'denied',
@@ -76,8 +78,12 @@ function injectGoogleTagManager() {
     })
 }
 
+function shouldInjectAnalytics() {
+    return process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io';
+}
+
 function injectAnalytics() {
-    if (process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io') {
+    if (shouldInjectAnalytics()) {
         injectMatomoAnalytics();
         injectGoogleTagManager();
     }
@@ -90,14 +96,14 @@ const PrivacyConsent = () => {
 
 
     function onAccept() {
-        localStorage.setItem('cookieConsent', 'true');
+        localStorage.setItem(LOCALHOST_CONSENT_GIVEN, 'true');
         acceptMatomoCookies();
         acceptGoogleCookies();
         setShow(false);
     }
 
     function onReject() {
-        localStorage.setItem('cookieConsent', 'false');
+        localStorage.setItem(LOCALHOST_CONSENT_GIVEN, 'false');
         rejectMatomoCookies();
         rejectGoogleCookies();
         setShow(false);
@@ -105,7 +111,7 @@ const PrivacyConsent = () => {
 
     useEffect(() => {
         console.log("_paq", _paq);
-        const cookieConsent = localStorage.getItem('cookieConsent');
+        const cookieConsent = localStorage.getItem(LOCALHOST_CONSENT_GIVEN);
         if (cookieConsent !== 'true' && cookieConsent !== 'false') {
             if (page !== '/privacy-notice/') {
                 setShow(true);
