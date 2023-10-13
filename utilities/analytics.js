@@ -1,4 +1,3 @@
-import { useEffect } from 'react';
 import { getEnvironment } from './config';
 import { initializeGoogleTags } from './googleTags';
 
