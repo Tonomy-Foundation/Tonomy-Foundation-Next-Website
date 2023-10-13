@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { gtag_report_conversion_contact_us } from "../../utilities/gtagConversions";
+import { gtag_report_conversion_contact_us } from "../../utilities/googleTags";
 
 const ContactForm = () => {
   return (

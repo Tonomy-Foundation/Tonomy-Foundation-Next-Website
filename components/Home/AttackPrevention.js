@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { gtag_report_conversion_visit_whitepaper } from '../../utilities/gtagConversions';
+import { gtag_report_conversion_visit_whitepaper } from '../../utilities/googleTags';
 
 class AttackPrevention extends Component {
   render() {

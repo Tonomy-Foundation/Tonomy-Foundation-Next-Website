@@ -1,7 +1,7 @@
 
 import React, { Component } from "react";
 import Link from "next/link";
-import { gtag_report_conversion_read_developer_docs } from "../../utilities/gtagConversions";
+import { gtag_report_conversion_read_developer_docs } from "../../utilities/googleTags";
 
 export default class PricingOptions extends Component {
 

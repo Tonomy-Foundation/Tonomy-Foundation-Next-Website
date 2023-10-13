@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import { BOOKING_LINK } from "../Home/MainBanner";
-import { gtag_report_conversion_book_discovery } from "../../utilities/gtagConversions";
+import { gtag_report_conversion_book_discovery } from "../../utilities/googleTags";
 
 class PageBanner extends Component {
   render() {

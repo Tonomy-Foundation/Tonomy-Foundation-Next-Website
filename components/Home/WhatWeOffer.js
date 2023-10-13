@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { gtag_report_conversion_join_discord } from '../../utilities/gtagConversions';
+import { gtag_report_conversion_join_discord } from '../../utilities/googleTags';
 
 const WhatWeOffer = () => {
 
