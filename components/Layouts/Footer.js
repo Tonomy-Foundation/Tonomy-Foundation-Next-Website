@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import { BOOKING_LINK } from "../Home/MainBanner";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utilities/googleTags";
 
 let iconBackground = { backgroundColor: "#29C7E2" };
 
@@ -31,8 +31,7 @@ class Footer extends Component {
                     <br /> <br />
                     <a
                       className="default-btn btn-two"
-                      href={BOOKING_LINK}
-                      target="_blank"
+                      onClick={gtag_report_conversion_book_discovery}
                     >
                       Free Consultation Meeting
                     </a>
@@ -46,7 +45,7 @@ class Footer extends Component {
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
-                        <a href="https://discord.gg/95J74ZbAgw" target="_blank">
+                        <a onClick={gtag_report_conversion_join_discord}>
                           <i className="icon bx bxl-discord bx-md"></i>
                         </a>
                       </li>
