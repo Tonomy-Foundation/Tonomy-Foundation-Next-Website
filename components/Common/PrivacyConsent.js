@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import { sleep } from '../../utilities/time';
 import { getEnvironment } from '../../utilities/config';
 
 function injectScriptInHead(id, _script) {
@@ -8,9 +7,10 @@ function injectScriptInHead(id, _script) {
         const script = document.createElement('script');
         script.id = id;
         script.type = 'text/javascript';
-        if (_script.async) script.async;
+        if (_script.async) script.async = true;
         if (_script.src) script.src = _script.src;
         if (_script.innerHTML) script.innerHTML = _script.innerHTML;
+        if (_script.onload) script.onload = _script.onload;
         document.head.appendChild(script);
     }
 }
@@ -24,16 +24,12 @@ function injectMatomoAnalytics() {
     } else if (getEnvironment() === 'development') {
         containerId = 'Lj4VYEcS_dev_8466b1cf90f83bb3339d2417';
     }
-    const scriptHtml = `
-        var _mtm = window._mtm = window._mtm || [];
-        _mtm.push({'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start'});
-        (function() {
-            var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-            g.async=true; g.src='https://cdn.matomo.cloud/tonomy.matomo.cloud/container_${containerId}.js'; s.parentNode.insertBefore(g,s);
-        })();`
+
+    var _mtm = window._mtm = window._mtm || [];
+    _mtm.push({ 'mtm.startTime': (new Date().getTime()), 'event': 'mtm.Start' });
 
     // Inject the above script into the head of the page if it is not there already
-    injectScriptInHead('matomo', { innerHTML: scriptHtml });
+    injectScriptInHead('matomo', { async: true, src: `https://cdn.matomo.cloud/tonomy.matomo.cloud/container_${containerId}.js` });
 }
 
 // From Google Tags
@@ -44,16 +40,20 @@ function injectMatomoAnalytics() {
 // https://ads.google.com/aw/tagsettings?ocid=1404064964&euid=670195084&__u=3704246316&uscid=1404064964&__c=4633174436&authuser=0&subid=nl-nl-awhp-g-aw-c-home-signin%21o2-adshp-hv-q4-22
 async function injectGoogleTagManager() {
     if (getEnvironment() === 'production') {
+        console.log("injecting gtag")
+        injectScriptInHead('google-tag-manager', {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
+            onLoad: function () {
+                console.log('injecting google tag manager');
+                window.dataLayer = window.dataLayer || [];
+                function gtag() { dataLayer.push(arguments); }
+                gtag('js', new Date());
 
-        injectScriptInHead('google-tag-manager', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449' });
-
-        await sleep(1000);
-
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'AW-11302960449');
+                gtag('config', 'AW-11302960449');
+                console.log('injected google tag manager');
+            }
+        });
     }
 }
 
@@ -71,7 +71,6 @@ function injectAnalytics() {
 
 const PrivacyConsent = () => {
     useEffect(() => {
-        console.log('injecting cookies')
         injectAnalytics();
     }, []);
 
