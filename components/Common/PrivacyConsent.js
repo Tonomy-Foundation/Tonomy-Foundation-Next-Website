@@ -9,8 +9,6 @@ function getEnvironment() {
     } else if (window.location.origin === 'http://localhost:3000' || window.location.origin.endsWith('vercel.app')) {
         return 'development';
     } else {
-        console.info('window.location.origin', window.location.origin);
-        console.info('NODE_ENV', process.env.NODE_ENV);
         throw new Error('Unknown environment');
     }
 }
@@ -82,6 +80,9 @@ function injectCookieYes() {
 }
 
 function injectAnalytics() {
+    console.info('window.location.origin', window.location.origin);
+    console.info('NODE_ENV', process.env.NODE_ENV);
+
     injectMatomoAnalytics();
     injectGoogleTagManager();
     injectCookieYes();
