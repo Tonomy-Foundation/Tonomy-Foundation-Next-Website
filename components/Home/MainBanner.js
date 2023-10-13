@@ -3,7 +3,7 @@ import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 import Lottie from "lottie-react";
 import animatedData from "../assets/main-banner-animation.json";
-import { gtag_report_conversion_book_discovery } from "../../utilities/gtagConversions";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_visit_whitepaper } from "../../utilities/gtagConversions";
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 
@@ -65,7 +65,7 @@ const MainBanner = () => {
                     target="_blank"
                     href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view"
                   >
-                    <a target="_blank" className="default-btn active">
+                    <a target="_blank" className="default-btn active" onClick={gtag_report_conversion_visit_whitepaper}>
                       Read the White Paper
                     </a>
                   </Link>

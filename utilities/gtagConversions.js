@@ -13,7 +13,7 @@ export function gtag_report_conversion_book_discovery(url) {
     return false;
 }
 
-function gtag_report_conversion_visit_whitepaper(url) {
+export function gtag_report_conversion_visit_whitepaper(url) {
     var callback = function () {
         if (typeof (url) != 'undefined') {
             window.location = url;
@@ -26,7 +26,7 @@ function gtag_report_conversion_visit_whitepaper(url) {
     return false;
 }
 
-function gtag_report_conversion_read_developer_docs(url) {
+export function gtag_report_conversion_read_developer_docs(url) {
     var callback = function () {
         if (typeof (url) != 'undefined') {
             window.location = url;
@@ -39,7 +39,7 @@ function gtag_report_conversion_read_developer_docs(url) {
     return false;
 }
 
-function gtag_report_conversion_contact_us(url) {
+export function gtag_report_conversion_contact_us(url) {
     var callback = function () {
         if (typeof (url) != 'undefined') {
             window.location = url;
@@ -52,7 +52,7 @@ function gtag_report_conversion_contact_us(url) {
     return false;
 }
 
-function gtag_report_conversion_join_discord(url) {
+export function gtag_report_conversion_join_discord(url) {
     var callback = function () {
         if (typeof (url) != 'undefined') {
             window.location = url;

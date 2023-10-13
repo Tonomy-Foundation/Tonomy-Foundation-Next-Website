@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
 import Link from "next/link";
-import { gtag_report_conversion_book_discovery } from "../../utilities/gtagConversions";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utilities/gtagConversions";
 
 class ContactInfo extends Component {
 
@@ -47,6 +47,7 @@ class ContactInfo extends Component {
                 <i className="bx bx-support"></i>
                 <h3>Chat with us:</h3>
                 <a
+                  onClick={gtag_report_conversion_join_discord}
                   href="https://www.discord.gg/QqVJz5XF8d"
                   target="_blank"
                 >

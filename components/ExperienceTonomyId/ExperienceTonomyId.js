@@ -1,5 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
+import { gtag_report_conversion_read_developer_docs } from "../../utilities/gtagConversions";
 const ExperienceTonomyId = () => {
   return (
     <>
@@ -45,7 +46,7 @@ const ExperienceTonomyId = () => {
               </div>
               <div className="center">
                 <Link href="https://docs.tonomy.foundation">
-                  <a target="_blank" className="default-btn white">
+                  <a target="_blank" className="default-btn white" onClick={gtag_report_conversion_read_developer_docs}>
                     Developer Documentation
                   </a>
                 </Link>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
+import { gtag_report_conversion_read_developer_docs } from '../../utilities/gtagConversions';
 
 class Navbar extends Component {
     _isMounted = false;
@@ -137,7 +138,7 @@ class Navbar extends Component {
 
                                     <li className="nav-item">
                                         <Link href="https://docs.tonomy.foundation">
-                                            <a target="_blank" className="nav-link">Developer Docs</a>
+                                            <a target="_blank" className="nav-link" onClick={gtag_report_conversion_read_developer_docs}>Developer Docs</a>
                                         </Link>
 
 
