@@ -2,7 +2,6 @@ import { BOOKING_LINK } from "../components/Home/MainBanner";
 import { getEnvironment } from "./config";
 
 export function gtag() {
-    console.log('gtag()', arguments)
     dataLayer.push(arguments);
 }
 
@@ -70,7 +69,7 @@ export function gtag_report_conversion_contact_us(url) {
 export function gtag_report_conversion_join_discord(url) {
     if (getEnvironment() === 'production') {
         var callback = function () {
-            window.open("https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view", "_blank");
+            window.open("https://www.discord.gg/QqVJz5XF8d", "_blank");
         };
         gtag('event', 'conversion', {
             'send_to': 'AW-11302960449/jYj2CJCi8OsYEMH61Y0q',
