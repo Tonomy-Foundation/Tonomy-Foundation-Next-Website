@@ -44,16 +44,15 @@ async function injectGoogleTagManager() {
     injectScriptInHead('google-tag-manager', {
         async: true,
         src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
-        onLoad: function () {
-            console.log('injecting google tag manager');
-            window.dataLayer = window.dataLayer || [];
-            function gtag() { dataLayer.push(arguments); }
-            gtag('js', new Date());
-
-            gtag('config', 'AW-11302960449');
-            console.log('injected google tag manager');
-        }
     });
+
+    console.log('injecting google tag manager');
+    window.dataLayer = window.dataLayer || [];
+    window.gtag = function () { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11302960449');
+    console.log('injected google tag manager');
     // }
 }
 
