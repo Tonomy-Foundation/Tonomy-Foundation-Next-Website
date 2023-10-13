@@ -1,15 +1,15 @@
 import { getEnvironment } from "./config";
 
-export function initializeGoogleTags() {
-    window.dataLayer = window.dataLayer || [];
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11302960449');
-}
-
 export function gtag() {
     console.log('gtag()', arguments)
     dataLayer.push(arguments);
+}
+
+export function initializeGoogleTags() {
+    window.dataLayer = window.dataLayer || [];
+
+    gtag('js', new Date());
+    gtag('config', 'AW-11302960449');
 }
 
 export function gtag_report_conversion_book_discovery(url) {
@@ -28,18 +28,18 @@ export function gtag_report_conversion_book_discovery(url) {
 }
 
 export function gtag_report_conversion_visit_whitepaper(url) {
-    if (getEnvironment() === 'production') {
-        var callback = function () {
-            if (typeof (url) != 'undefined') {
-                window.location = url;
-            }
-        };
-        gtag('event', 'conversion', {
-            'send_to': 'AW-11302960449/3RQlCIei8OsYEMH61Y0q',
-            'event_callback': callback
-        });
-        return false;
-    }
+    // if (getEnvironment() === 'production') {
+    var callback = function () {
+        if (typeof (url) != 'undefined') {
+            window.location = url;
+        }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-11302960449/3RQlCIei8OsYEMH61Y0q',
+        'event_callback': callback
+    });
+    return false;
+    // }
 }
 
 export function gtag_report_conversion_read_developer_docs(url) {

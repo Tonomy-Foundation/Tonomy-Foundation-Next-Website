@@ -41,7 +41,6 @@ function injectMatomoAnalytics() {
 // https://ads.google.com/aw/tagsettings?ocid=1404064964&euid=670195084&__u=3704246316&uscid=1404064964&__c=4633174436&authuser=0&subid=nl-nl-awhp-g-aw-c-home-signin%21o2-adshp-hv-q4-22
 async function injectGoogleTagManager() {
     // if (getEnvironment() === 'production') {
-    console.log("injecting gtag")
     injectScriptInHead('google-tag-manager', {
         async: true,
         src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
