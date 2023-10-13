@@ -77,6 +77,6 @@ export function gtag_report_conversion_join_discord(url) {
         });
         return false;
     } else {
-        window.open("https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view", "_blank");
+        window.open("https://www.discord.gg/QqVJz5XF8d", "_blank");
     }
 }
