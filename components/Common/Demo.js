@@ -2,6 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import FsLightbox from "fslightbox-react";
+import { gtag_report_conversion_read_developer_docs } from "../../utilities/googleTags";
 
 const Demo = () => {
   const [toggler, setToggler] = useState(false);
@@ -45,11 +46,9 @@ const Demo = () => {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href="https://docs.tonomy.foundation">
-                    <a target="_blank" className="default-btn active">
-                      Read the Docs
-                    </a>
-                  </Link>
+                  <a className="default-btn active" onClick={gtag_report_conversion_read_developer_docs}>
+                    Read the Docs
+                  </a>
                 </div>
               </div>
             </div>

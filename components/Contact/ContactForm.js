@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { gtag_report_conversion_contact_us } from "../../utilities/googleTags";
 
 const ContactForm = () => {
   return (
@@ -69,7 +70,7 @@ const ContactForm = () => {
                       </div>
                     </div>
                     <div className="col-lg-12 col-sm-12">
-                      <button type="submit" className="default-btn btn-two">
+                      <button type="submit" className="default-btn btn-two" onClick={gtag_report_conversion_contact_us}>
                         Send Message
                       </button>
                     </div>

@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import { BOOKING_LINK } from "../Home/MainBanner";
 import Link from "next/link";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utilities/googleTags";
 
 class ContactInfo extends Component {
-  
+
   render() {
     const contactPage = this.props.contactPage;
 
@@ -21,7 +21,7 @@ class ContactInfo extends Component {
                     <p>Contact form</p>
                   </a>
                 </Link>
-                  
+
                 <br></br>
               </div>
             </div>
@@ -31,8 +31,7 @@ class ContactInfo extends Component {
                 <i className="bx bx-calendar"></i>
                 <h3>Book a discovery meeting:</h3>
                 <a
-                  href={BOOKING_LINK}
-                  target="_blank"
+                  onClick={gtag_report_conversion_book_discovery}
                 >
                   <p>Book</p>
                 </a>
@@ -45,8 +44,7 @@ class ContactInfo extends Component {
                 <i className="bx bx-support"></i>
                 <h3>Chat with us:</h3>
                 <a
-                  href="https://www.discord.gg/QqVJz5XF8d"
-                  target="_blank"
+                  onClick={gtag_report_conversion_join_discord}
                 >
                   <p>Join our Discord</p>
                 </a>
