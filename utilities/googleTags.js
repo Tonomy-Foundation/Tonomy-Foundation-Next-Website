@@ -23,6 +23,8 @@ export function gtag_report_conversion_book_discovery(url) {
             'event_callback': callback
         });
         return false;
+    } else {
+        window.open(BOOKING_LINK, "_blank")
     }
 }
 
@@ -36,6 +38,8 @@ export function gtag_report_conversion_visit_whitepaper(url) {
             'event_callback': callback
         });
         return false;
+    } else {
+        window.open("https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view", "_blank");
     }
 }
 
@@ -49,6 +53,8 @@ export function gtag_report_conversion_read_developer_docs(url) {
             'event_callback': callback
         });
         return false;
+    } else {
+        window.open("https://docs.tonomy.foundation", "_blank");
     }
 }
 
@@ -71,5 +77,7 @@ export function gtag_report_conversion_join_discord(url) {
             'event_callback': callback
         });
         return false;
+    } else {
+        window.open("https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view", "_blank");
     }
 }
