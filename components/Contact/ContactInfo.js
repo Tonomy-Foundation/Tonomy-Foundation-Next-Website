@@ -1,9 +1,10 @@
 import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
 import Link from "next/link";
+import { gtag_report_conversion_book_discovery } from "../Common/gtagConversions";
 
 class ContactInfo extends Component {
-  
+
   render() {
     const contactPage = this.props.contactPage;
 
@@ -21,7 +22,7 @@ class ContactInfo extends Component {
                     <p>Contact form</p>
                   </a>
                 </Link>
-                  
+
                 <br></br>
               </div>
             </div>
@@ -31,6 +32,7 @@ class ContactInfo extends Component {
                 <i className="bx bx-calendar"></i>
                 <h3>Book a discovery meeting:</h3>
                 <a
+                  onClick={gtag_report_conversion_book_discovery}
                   href={BOOKING_LINK}
                   target="_blank"
                 >

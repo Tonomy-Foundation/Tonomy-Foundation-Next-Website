@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import { BOOKING_LINK } from "../Home/MainBanner";
+import { gtag_report_conversion_book_discovery } from "./gtagConversions";
 
 class PageBanner extends Component {
   render() {
@@ -29,7 +30,7 @@ class PageBanner extends Component {
         </div>
         <div className="flex-container text-center pt-4">
 
-          <a className="default-btn btn-two" href={BOOKING_LINK} target="_blank">
+          <a className="default-btn btn-two" href={BOOKING_LINK} target="_blank" onClick={gtag_report_conversion_book_discovery}>
             Free Consultation Meeting
           </a>
         </div>

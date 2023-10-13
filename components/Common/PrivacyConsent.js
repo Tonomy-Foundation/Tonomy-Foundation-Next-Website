@@ -80,9 +80,6 @@ function injectCookieYes() {
 }
 
 function injectAnalytics() {
-    console.info('window.location.origin', window.location.origin);
-    console.info('NODE_ENV', process.env.NODE_ENV);
-
     injectMatomoAnalytics();
     injectGoogleTagManager();
     injectCookieYes();

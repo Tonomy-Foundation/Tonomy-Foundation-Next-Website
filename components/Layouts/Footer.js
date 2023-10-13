@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Link from "next/link";
 import { BOOKING_LINK } from "../Home/MainBanner";
+import { gtag_report_conversion_book_discovery } from "../Common/gtagConversions";
 
 let iconBackground = { backgroundColor: "#29C7E2" };
 
@@ -32,6 +33,7 @@ class Footer extends Component {
                     <a
                       className="default-btn btn-two"
                       href={BOOKING_LINK}
+                      onClick={gtag_report_conversion_book_discovery}
                       target="_blank"
                     >
                       Free Consultation Meeting
