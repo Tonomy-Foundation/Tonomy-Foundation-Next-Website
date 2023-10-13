@@ -1,17 +1,6 @@
 import { useEffect } from 'react';
-import { sleep } from './time';
-
-function getEnvironment() {
-    if (window.location.origin === 'https://tonomy.io') {
-        return 'production';
-    } else if (window.location.origin === 'https://staging-website.tonomy.io') {
-        return 'staging';
-    } else if (window.location.origin === 'http://localhost:3000' || window.location.origin.endsWith('vercel.app')) {
-        return 'development';
-    } else {
-        throw new Error('Unknown environment');
-    }
-}
+import { sleep } from '../../utilities/time';
+import { getEnvironment } from '../../utilities/config';
 
 function injectScriptInHead(id, _script) {
     const script = document.getElementById(id);
@@ -25,8 +14,6 @@ function injectScriptInHead(id, _script) {
         document.head.appendChild(script);
     }
 }
-
-
 
 // From Matomo Cloud
 // https://tonomy.matomo.cloud/index.php?module=TagManager&action=dashboard&idContainer=Lj4VYEcS&idSite=1&period=day&date=yesterday

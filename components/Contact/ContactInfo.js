@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { BOOKING_LINK } from "../Home/MainBanner";
 import Link from "next/link";
-import { gtag_report_conversion_book_discovery } from "../Common/gtagConversions";
+import { gtag_report_conversion_book_discovery } from "../../utilities/gtagConversions";
 
 class ContactInfo extends Component {
 
