@@ -6,10 +6,10 @@ function getEnvironment() {
         return 'production';
     } else if (process.env.NODE_ENV === 'production' && window.location.origin === 'http://staging.tonomy.io') {
         return 'staging';
-    } else if (process.env.NODE_ENV === 'development' && window.location.origin === 'http://localhost:3000') {
+    } else if (process.env.NODE_ENV === 'development' && (window.location.origin === 'http://localhost:3000' || window.location.origin.endsWith('vercel.app'))) {
         return 'development';
     } else {
-        throw new Error('Unknown environment');
+        throw new Error('Unknown environment', process.env.NODE_ENV, window.location.origin);
     }
 }
 
