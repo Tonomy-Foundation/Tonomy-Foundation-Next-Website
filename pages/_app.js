@@ -12,7 +12,7 @@ import "../styles/responsive.css";
 import App from "next/app";
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
-import PrivacyConsent from "../components/Common/PrivacyConsent";
+import { injectAnalytics } from "../utilities/analytics";
 
 
 export default class MyApp extends App {
@@ -21,6 +21,10 @@ export default class MyApp extends App {
       clearTimeout(this.timerHandle);
       this.timerHandle = 0;
     }
+  }
+
+  componentDidMount() {
+    injectAnalytics();
   }
 
   render() {
@@ -32,7 +36,6 @@ export default class MyApp extends App {
           <link rel="shortcut icon" type="image/x-icon" href="/images/tonomy-logo48.png" />
         </Head>
 
-        <PrivacyConsent />
         <Component {...pageProps} />
 
         {/* Go Top Button */}

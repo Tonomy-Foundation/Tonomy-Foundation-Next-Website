@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { getEnvironment } from '../../utilities/config';
-import { initializeGoogleTags } from '../../utilities/googleTags';
+import { getEnvironment } from './config';
+import { initializeGoogleTags } from './googleTags';
 
 function injectScriptInHead(id, _script) {
     const script = document.getElementById(id);
@@ -55,18 +55,8 @@ function injectCookieYes() {
     }
 }
 
-function injectAnalytics() {
+export function injectAnalytics() {
     injectMatomoAnalytics();
     injectGoogleTagManager();
     injectCookieYes();
 }
-
-const PrivacyConsent = () => {
-    useEffect(() => {
-        injectAnalytics();
-    }, []);
-
-    return (<></>);
-}
-
-export default PrivacyConsent;
