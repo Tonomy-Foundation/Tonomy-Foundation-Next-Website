@@ -61,14 +61,9 @@ const MainBanner = () => {
                     </a>
                   </Link>
 
-                  <Link
-                    target="_blank"
-                    href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view"
-                  >
-                    <a target="_blank" className="default-btn active" onClick={gtag_report_conversion_visit_whitepaper}>
-                      Read the White Paper
-                    </a>
-                  </Link>
+                  <a className="default-btn active" onClick={gtag_report_conversion_visit_whitepaper}>
+                    Read the White Paper
+                  </a>
                 </div>
               </div>
             </div>

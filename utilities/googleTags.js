@@ -30,9 +30,7 @@ export function gtag_report_conversion_book_discovery(url) {
 export function gtag_report_conversion_visit_whitepaper(url) {
     // if (getEnvironment() === 'production') {
     var callback = function () {
-        if (typeof (url) != 'undefined') {
-            window.location = url;
-        }
+        window.open("https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view", "_blank");
     };
     gtag('event', 'conversion', {
         'send_to': 'AW-11302960449/3RQlCIei8OsYEMH61Y0q',
