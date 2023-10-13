@@ -34,7 +34,6 @@ function injectMatomoAnalytics() {
 
     // Inject the above script into the head of the page if it is not there already
     injectScriptInHead('matomo', { innerHTML: scriptHtml });
-    console.log('injected matomo for environment', getEnvironment());
 }
 
 // From Google Tags
@@ -55,14 +54,12 @@ async function injectGoogleTagManager() {
         gtag('js', new Date());
 
         gtag('config', 'AW-11302960449');
-        console.log('injected google tag manager');
     }
 }
 
 function injectCookieYes() {
     if (getEnvironment() === 'production') {
         injectScriptInHead('cookieyes', { src: 'https://cdn-cookieyes.com/client_data/c5a48a66a801939ac8cc7e81/script.js' });
-        console.log('injected cookieyes');
     }
 }
 
