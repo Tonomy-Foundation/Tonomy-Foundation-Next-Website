@@ -45,7 +45,7 @@ class Footer extends Component {
                         </a>
                       </li>
                       <li className="item mx-2 mb-3">
-                        <a onClick={gtag_report_conversion_join_discord}>
+                        <a onClick={gtag_report_conversion_join_discord} style={{ color: '#d9d6d6' }}>
                           <i className="icon bx bxl-discord bx-md"></i>
                         </a>
                       </li>
