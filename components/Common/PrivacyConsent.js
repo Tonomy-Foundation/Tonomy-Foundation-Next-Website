@@ -2,14 +2,16 @@ import { useEffect } from 'react';
 import { sleep } from './time';
 
 function getEnvironment() {
-    if (process.env.NODE_ENV === 'production' && window.location.origin === 'https://tonomy.io') {
+    if (window.location.origin === 'https://tonomy.io') {
         return 'production';
-    } else if (process.env.NODE_ENV === 'production' && window.location.origin === 'http://staging.tonomy.io') {
+    } else if (window.location.origin === 'http://staging.tonomy.io') {
         return 'staging';
-    } else if (process.env.NODE_ENV === 'development' && (window.location.origin === 'http://localhost:3000' || window.location.origin.endsWith('vercel.app'))) {
+    } else if (window.location.origin === 'http://localhost:3000' || window.location.origin.endsWith('vercel.app')) {
         return 'development';
     } else {
-        throw new Error('Unknown environment', process.env.NODE_ENV, window.location.origin);
+        console.info('window.location.origin', window.location.origin);
+        console.info('NODE_ENV', process.env.NODE_ENV);
+        throw new Error('Unknown environment');
     }
 }
 
