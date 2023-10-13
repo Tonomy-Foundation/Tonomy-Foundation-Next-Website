@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { getEnvironment } from '../../utilities/config';
+import { initializeGoogleTags } from '../../utilities/googleTags';
 
 function injectScriptInHead(id, _script) {
     const script = document.getElementById(id);
@@ -45,14 +46,7 @@ async function injectGoogleTagManager() {
         async: true,
         src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
     });
-
-    console.log('injecting google tag manager');
-    window.dataLayer = window.dataLayer || [];
-    window.gtag = function () { dataLayer.push(arguments); }
-    gtag('js', new Date());
-
-    gtag('config', 'AW-11302960449');
-    console.log('injected google tag manager');
+    initializeGoogleTags();
     // }
 }
 

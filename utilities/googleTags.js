@@ -1,5 +1,17 @@
 import { getEnvironment } from "./config";
 
+export function initializeGoogleTags() {
+    window.dataLayer = window.dataLayer || [];
+    gtag('js', new Date());
+
+    gtag('config', 'AW-11302960449');
+}
+
+export function gtag() {
+    console.log('gtag()', arguments)
+    dataLayer.push(arguments);
+}
+
 export function gtag_report_conversion_book_discovery(url) {
     if (getEnvironment() === 'production') {
         var callback = function () {
