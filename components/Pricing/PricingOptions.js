@@ -228,9 +228,7 @@ export default class PricingOptions extends Component {
                                                 </li>
                                             </ul>
 
-                                            <Link href="https://docs.tonomy.foundation">
-                                                <a target="_blank" className="default-btn" onClick={gtag_report_conversion_read_developer_docs}>Read the docs</a>
-                                            </Link>
+                                            <a className="default-btn" onClick={gtag_report_conversion_read_developer_docs}>Read the docs</a>
                                         </div>
                                     </div>
 

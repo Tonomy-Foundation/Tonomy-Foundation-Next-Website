@@ -40,13 +40,13 @@ function injectMatomoAnalytics() {
 // From Google Ads
 // https://ads.google.com/aw/tagsettings?ocid=1404064964&euid=670195084&__u=3704246316&uscid=1404064964&__c=4633174436&authuser=0&subid=nl-nl-awhp-g-aw-c-home-signin%21o2-adshp-hv-q4-22
 async function injectGoogleTagManager() {
-    // if (getEnvironment() === 'production') {
-    injectScriptInHead('google-tag-manager', {
-        async: true,
-        src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
-    });
-    initializeGoogleTags();
-    // }
+    if (getEnvironment() === 'production') {
+        injectScriptInHead('google-tag-manager', {
+            async: true,
+            src: 'https://www.googletagmanager.com/gtag/js?id=AW-11302960449',
+        });
+        initializeGoogleTags();
+    }
 }
 
 function injectCookieYes() {

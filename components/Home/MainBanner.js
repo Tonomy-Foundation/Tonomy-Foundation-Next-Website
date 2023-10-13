@@ -55,11 +55,9 @@ const MainBanner = () => {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href={BOOKING_LINK}>
-                    <a onClick={gtag_report_conversion_book_discovery} target="_blank" className="default-btn">
-                      Free consultation session
-                    </a>
-                  </Link>
+                  <a onClick={gtag_report_conversion_book_discovery} className="default-btn">
+                    Free consultation session
+                  </a>
 
                   <a className="default-btn active" onClick={gtag_report_conversion_visit_whitepaper}>
                     Read the White Paper

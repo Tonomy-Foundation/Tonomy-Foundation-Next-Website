@@ -137,11 +137,7 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="https://docs.tonomy.foundation">
-                                            <a target="_blank" className="nav-link" onClick={gtag_report_conversion_read_developer_docs}>Developer Docs</a>
-                                        </Link>
-
-
+                                        <a className="nav-link" onClick={gtag_report_conversion_read_developer_docs}>Developer Docs</a>
                                     </li>
 
                                     <li className="nav-item">

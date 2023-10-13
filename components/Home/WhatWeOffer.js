@@ -125,9 +125,7 @@ const WhatWeOffer = () => {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
-                                                        <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join Us</a>
-                                                    </Link>
+                                                    <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -178,9 +176,7 @@ const WhatWeOffer = () => {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
-                                                        <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join Us</a>
-                                                    </Link>
+                                                    <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join Us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -243,9 +239,7 @@ const WhatWeOffer = () => {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
-                                                        <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join us</a>
-                                                    </Link>
+                                                    <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join us</a>
                                                 </div>
                                             </div>
                                         </div>
@@ -297,9 +291,7 @@ const WhatWeOffer = () => {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
-                                                        <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join us</a>
-                                                    </Link>
+                                                    <a className="default-btn" onClick={gtag_report_conversion_join_discord}>Join us</a>
                                                 </div>
                                             </div>
                                         </div>

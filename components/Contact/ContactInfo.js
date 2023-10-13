@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { BOOKING_LINK } from "../Home/MainBanner";
 import Link from "next/link";
 import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utilities/googleTags";
 
@@ -33,8 +32,6 @@ class ContactInfo extends Component {
                 <h3>Book a discovery meeting:</h3>
                 <a
                   onClick={gtag_report_conversion_book_discovery}
-                  href={BOOKING_LINK}
-                  target="_blank"
                 >
                   <p>Book</p>
                 </a>
@@ -48,8 +45,6 @@ class ContactInfo extends Component {
                 <h3>Chat with us:</h3>
                 <a
                   onClick={gtag_report_conversion_join_discord}
-                  href="https://www.discord.gg/QqVJz5XF8d"
-                  target="_blank"
                 >
                   <p>Join our Discord</p>
                 </a>

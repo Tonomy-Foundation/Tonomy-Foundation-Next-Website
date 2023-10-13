@@ -12,11 +12,9 @@ class AttackPrevention extends Component {
             <h2>A Sovereign Architecture To Prevent Cybersecurity Attacks</h2>
             <p>Tonomy ID <strong>removes</strong> or significantly reduces these attacks using it's unique sovereign architecture.</p>
 
-            <Link href="https://www.canva.com/design/DAFnktNOWKU/Ps1zXw3XICaEMiB0R4Ghkg/view">
-              <a target="_blank" className="default-btn white" onClick={gtag_report_conversion_visit_whitepaper}>
-                Read the White Paper
-              </a>
-            </Link>
+            <a className="default-btn white" onClick={gtag_report_conversion_visit_whitepaper}>
+              Read the White Paper
+            </a>
           </div>
 
           <div className="row">

@@ -46,11 +46,9 @@ const Demo = () => {
                 </p>
 
                 <div className="banner-btn">
-                  <Link href="https://docs.tonomy.foundation">
-                    <a target="_blank" className="default-btn active" onClick={gtag_report_conversion_read_developer_docs}>
-                      Read the Docs
-                    </a>
-                  </Link>
+                  <a className="default-btn active" onClick={gtag_report_conversion_read_developer_docs}>
+                    Read the Docs
+                  </a>
                 </div>
               </div>
             </div>
