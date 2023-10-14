@@ -17,12 +17,11 @@ class About extends Component {
         <Navbar />
         <Head>
           <title>
-            Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled
-            Data Protection
+            Unchain Trust: Tonomy ID Reinventing Supply Chain Security
           </title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
+            content="We empower you to modernize your supply chain powered by self-sovereign identity technology. We enable full data portability and interoperability by creating the framework to move data across multiple parties. This enables full scale privacy whilst being able to hold every actor of your supply chain accountable."
           />
         </Head>
 

@@ -106,7 +106,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
 
-                                            {/* <li className="nav-item">
+                                            <li className="nav-item">
                                                 <Link href="/supply-chain" activeClassName="active">
                                                     <a className="nav-link">Supply Chain</a>
                                                 </Link>
@@ -116,7 +116,7 @@ class Navbar extends Component {
                                                 <Link href="/telecommunications" activeClassName="active">
                                                     <a className="nav-link">Telecommunications</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
                                         </ul>
                                     </li>
 
