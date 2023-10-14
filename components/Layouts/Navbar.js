@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
-import { gtag_report_conversion_read_developer_docs } from '../../utilities/googleTags';
+import { gtag_report_conversion_read_developer_docs } from '../../utils/googleTags';
 
 class Navbar extends Component {
     _isMounted = false;

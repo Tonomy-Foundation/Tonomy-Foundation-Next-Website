@@ -12,7 +12,7 @@ import "../styles/responsive.css";
 import App from "next/app";
 import Head from "next/head";
 import GoTop from "../components/Shared/GoTop";
-import { injectAnalytics } from "../utilities/analytics";
+import { injectAnalytics } from "../utils/analytics";
 
 
 export default class MyApp extends App {

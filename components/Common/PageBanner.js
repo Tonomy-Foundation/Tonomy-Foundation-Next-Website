@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import { gtag_report_conversion_book_discovery } from "../../utilities/googleTags";
+import { gtag_report_conversion_book_discovery } from "../../utils/googleTags";
 
 class PageBanner extends Component {
   render() {
