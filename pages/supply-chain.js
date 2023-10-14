@@ -21,7 +21,7 @@ class About extends Component {
           </title>
           <meta
             name="description"
-            content="We empower you to modernize your supply chain powered by self-sovereign identity technology. We enable full data portability and interoperability by creating the framework to move data across multiple parties. This enables full scale privacy whilst being able to hold every actor of your supply chain accountable."
+            content="Tonomy ID revolutionizes supply chain security with self-sovereign identity technology. Enable data portability, privacy, and accountability across your supply chain. Prevent costly data breaches, fraud, and disruptions. Trust Tonomy ID for tamper-resistant blockchain technology, verified supplier identities, and real-time product authentication. Enhance data integrity, sustainability, and ethical sourcing. Choose Tonomy ID for workforce identity management, compliance, unparalleled security, and reliable support. Safeguard employee, customer, supplier, and product data with our robust solutions."
           />
         </Head>
 

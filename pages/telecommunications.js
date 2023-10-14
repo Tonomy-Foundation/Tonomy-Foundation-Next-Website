@@ -19,7 +19,7 @@ class About extends Component {
           <title>Telecommunications Demands Cutting Edge Cybersecurity</title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
+            content="Tonomy ID offers a compliant Identity Management Framework to safeguard your telecom customers. Prevent data breaches and SIM Swap attacks, saving millions of dollars. Streamline customer onboarding, ensure secure subscriber authentication, and boost compliance with KYC processes. Protect payment information and facilitate secure data sharing while enhancing customer trust. Choose Tonomy ID for robust cybersecurity tailored to telecom providers' needs. Secure sensitive data, documents, and payment information effortlessly with self-sovereign architecture and GDPR compliance."
           />
         </Head>
 
