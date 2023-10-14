@@ -77,20 +77,14 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/finance-and-banking" activeClassName="active">
-                                                    <a className="nav-link">Finance and Banking</a>
-                                                </Link>
-                                            </li>
-
-                                            {/* <li className="nav-item">
                                                 <Link href="/ecommerce" activeClassName="active">
                                                     <a className="nav-link">eCommerce</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
 
                                             <li className="nav-item">
-                                                <Link href="/web3-and-ssi" activeClassName="active">
-                                                    <a className="nav-link">Web3 and SSI</a>
+                                                <Link href="/finance-and-banking" activeClassName="active">
+                                                    <a className="nav-link">Finance and Banking</a>
                                                 </Link>
                                             </li>
 
@@ -115,6 +109,12 @@ class Navbar extends Component {
                                             <li className="nav-item">
                                                 <Link href="/telecommunications" activeClassName="active">
                                                     <a className="nav-link">Telecommunications</a>
+                                                </Link>
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/web3-and-ssi" activeClassName="active">
+                                                    <a className="nav-link">Web3 and SSI</a>
                                                 </Link>
                                             </li>
                                         </ul>
