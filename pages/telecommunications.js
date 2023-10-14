@@ -16,7 +16,7 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
+          <title>Telecommunications Demands Cutting Edge Cybersecurity</title>
           <meta
             name="description"
             content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
