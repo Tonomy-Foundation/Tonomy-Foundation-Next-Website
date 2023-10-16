@@ -9,7 +9,7 @@ class Statistics extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="business-content">
-                                <h2>Supply Chain & Cybersecurity Statistics</h2>
+                                <h2>Supply Chain Cybersecurity Statistics</h2>
                             </div>
 
                             <div className="single-business">
