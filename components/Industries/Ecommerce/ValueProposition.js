@@ -7,8 +7,8 @@ class ValueProposition extends Component {
                 <div className="container">
                     <div className="section-title">
                         <span>Why Choose Us</span>
-                        <h2>Tonomy ID's Zero-Knowlege Architecture Takes Your Security Defense to the Next Level</h2>
-                        <p>Secure your financial world with Tonomy ID's revolutionary approach. Feel the power of data stored on users' phones, shielding against breaches and theft. Empower your clients, employees and users with password-less SSO, MFA, and sovereign keys. Make a choice that resonates – choose Tonomy ID for unmatched peace of mind.</p>
+                        <h2>Why Tonomy ID is Your Perfect eCommerce Partner </h2>
+                        <p>Explore the myriad benefits of choosing Tonomy ID as your ultimate eCommerce security partner. With its cutting-edge technology, Tonomy ID offers robust protection against cyber threats, ensuring a seamless and secure online shopping experience for your customers. Elevate your business's credibility and customer trust with this reliable and user-friendly security solution.</p>
                     </div>
 
                     <div className="row align-items-center">
@@ -17,13 +17,18 @@ class ValueProposition extends Component {
                                 <ul>
                                     <li>
                                         <span><i className="flaticon-technical-support"></i></span>
-                                        <h3>€1.5 M saved per company</h3>
-                                        <p>Money saved in fines, reputation damage and containment cost for mid-enterprise companies in the finance and banking sector.</p>
+                                        <h3>Top-Tier Data Security</h3>
+                                        <p>Tonomy ID guarantees ironclad data protection. With user-controlled digital identities and blockchain-backed security, your eCommerce platform becomes impenetrable to data breaches, safeguarding your customers' sensitive information.</p>
                                     </li>
                                     <li className="ml">
                                         <span><i className="flaticon-shield"></i></span>
-                                        <h3>97% less server-breaches and impact</h3>
-                                        <p>Save your time and compliance work by reducing server-breaches. Take reputation to the next level by guaranteed credential theft protection.</p>
+                                        <h3>Effortless GDPR Compliance</h3>
+                                        <p>Achieving GDPR compliance is effortless with Tonomy ID. By storing user data on their devices, you automatically meet GDPR standards. This simplicity boosts customer trust and keeps regulators at bay.</p>
+                                    </li>
+                                    <li className="ml">
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>Enhanced Trustworthiness</h3>
+                                        <p>Security breaches can shatter trust. Tonomy ID's robust security measures show your commitment to safeguarding data, enhancing your eCommerce brand's trustworthiness and customer loyalty.</p>
                                     </li>
                                 </ul>
                             </div>
@@ -32,16 +37,22 @@ class ValueProposition extends Component {
                         <div className="col-lg-6">
                             <div className="choose-content">
                                 <ul>
-                                <li className="ml-25">
+                                    <li className="ml-25">
                                         <span><i className="flaticon-support"></i></span>
-                                        <h3>36 days reduced containment time</h3>
-                                        <p>Faster containment time allows your team to focus on the most important work.</p>
+                                        <h3>Frictionless User Experience</h3>
+                                        <p>Say goodbye to cumbersome login processes. Tonomy ID's one-click sovereign sign-on ensures a seamless user experience. Your customers will love the convenience, resulting in higher satisfaction and sales.</p>
                                     </li>
 
                                     <li className="ml">
                                         <span><i className="flaticon-shield"></i></span>
-                                        <h3>€700,000 reduced phishing and password attack impact</h3>
-                                        <p>Using our secure password-less single-sign on with multi-factor authentication.</p>
+                                        <h3>Tailor-Made Solutions</h3>
+                                        <p>Customize your identity solutions to fit your eCommerce needs. Tonomy ID's plug-and-play architecture lets you choose the features that matter most, whether it's secure data sharing, KYC verification, or more.</p>
+                                    </li>
+
+                                    <li className="ml">
+                                        <span><i className="flaticon-shield"></i></span>
+                                        <h3>Future-Ready Identity Management</h3>
+                                        <p> eCommerce is ever-evolving, and Tonomy ID ensures you're ready for whatever comes next. Embrace cutting-edge tech and standards, future-proofing your identity management system and staying ahead of industry changes.</p>
                                     </li>
                                 </ul>
                             </div>

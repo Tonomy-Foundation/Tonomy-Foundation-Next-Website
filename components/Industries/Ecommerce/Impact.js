@@ -11,9 +11,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-chip"></i>
                                 <h3>
-                                    <a>Seamless Customer Onboarding</a>
+                                    <a>Effortless Checkout with Tonomy ID</a>
                                 </h3>
-                                <p>Expedite KYC processes and enhance user experience with Tonomy ID's seamless and secure customer onboarding.</p>
+                                <p>Reduce Cart Abandonment, Boost Conversions With Tonomy ID, customers enjoy smooth checkout processes, reducing cart abandonment and supercharging e-commerce conversions.</p>
                             </div>
                         </div>
 
@@ -21,9 +21,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-vr"></i>
                                 <h3>
-                                    <a>KYC Compliance Made Easy</a>
+                                    <a>Personalized Shopping Made Secure and Private</a>
                                 </h3>
-                                <p>Meet stringent regulatory requirements effortlessly using Tonomy ID's automated and reliable KYC identity verification.</p>
+                                <p>With Tonomy ID, enjoy tailored shopping experiences based on your profile and preferences, boosting satisfaction and loyalty.</p>
                             </div>
                         </div>
 
@@ -31,9 +31,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-blockchain"></i>
                                 <h3>
-                                    <a>Fraud-Proof Data Management</a>
+                                    <a>Reduced Fraud</a>
                                 </h3>
-                                <p>Safeguard financial records and transaction data with Tonomy ID's tamper-proof digital signatures, ensuring data integrity and authenticity.</p>
+                                <p>E-commerce platforms integrating Tonomy ID benefit from its sophisticated fraud detection algorithms, effectively reducing chargebacks and financial losses caused by fraudulent transactions.</p>
                             </div>
                         </div>
 
@@ -41,9 +41,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-target"></i>
                                 <h3>
-                                    <a>Secure Digital Transactions</a>
+                                    <a>Trust & Loyalty: Tonomy ID's Clear Consent & Reputation Boost</a>
                                 </h3>
-                                <p>Protect high-value transactions with Tonomy ID's advanced security features, reducing the risk of unauthorized access and fraud.</p>
+                                <p>At Tonomy ID, our focus is clear: we build trust and foster customer loyalty. We achieve this by ensuring transparent consent practices and maintaining a strong reputation. This paves the way for lasting success for e-commerce brands.</p>
                             </div>
                         </div>
 
@@ -51,9 +51,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-choice"></i>
                                 <h3>
-                                    <a>Compliant Data Sharing</a>
+                                    <a>Data Privacy Compliance</a>
                                 </h3>
-                                <p>Facilitate secure data sharing between financial institutions and authorized parties, ensuring privacy and compliance with data protection regulations.</p>
+                                <p>E-commerce businesses utilizing Tonomy ID ensure compliance with stringent data protection regulations, bolstering customer confidence and avoiding legal repercussions.</p>
                             </div>
                         </div>
 
@@ -61,9 +61,9 @@ class Impact extends Component {
                             <div className="service-card">
                                 <i className="flaticon-deep-learning"></i>
                                 <h3>
-                                    <a>Multi-Party Signatures</a>
+                                    <a>Mobile Shopping Made Easy</a>
                                 </h3>
-                                <p>Enable secure collaboration between multiple stakeholders for complex financial agreements, using Tonomy ID's multi-party signature capabilities.</p>
+                                <p>Elevate your online experience with Tonomy ID's mobile-friendly authentication. Simplify logins, enhance security, and enjoy convenient mobile transactions. Your trusted partner in digital shopping.</p>
                             </div>
                         </div>
                     </div>

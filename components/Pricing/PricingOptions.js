@@ -1,7 +1,7 @@
 
 import React, { Component } from "react";
 import Link from "next/link";
-import { gtag_report_conversion_read_developer_docs } from "../../utilities/googleTags";
+import { gtag_report_conversion_read_developer_docs } from "../../utils/googleTags";
 
 export default class PricingOptions extends Component {
 
@@ -29,8 +29,7 @@ export default class PricingOptions extends Component {
                     <div className="section-title">
                         <h2>Our Pricing Plan For You</h2>
                         <p>
-                            We offer a variety of solutions for you to help you get started
-                            using Tonomy technologies!
+                            Make use of Tonomy ID‘s IaaS offering at no cost for up to 1000 users and scale to production at anytime.
                         </p>
                         <p>
                             On average, our security technologies can mitigate on average €30 per user

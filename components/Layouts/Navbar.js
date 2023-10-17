@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../../utils/ActiveLink';
-import { gtag_report_conversion_read_developer_docs } from '../../utilities/googleTags';
+import { gtag_report_conversion_read_developer_docs } from '../../utils/googleTags';
 
 class Navbar extends Component {
     _isMounted = false;
@@ -77,20 +77,14 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="/finance-and-banking" activeClassName="active">
-                                                    <a className="nav-link">Finance and Banking</a>
-                                                </Link>
-                                            </li>
-
-                                            {/* <li className="nav-item">
                                                 <Link href="/ecommerce" activeClassName="active">
                                                     <a className="nav-link">eCommerce</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
 
                                             <li className="nav-item">
-                                                <Link href="/web3-and-ssi" activeClassName="active">
-                                                    <a className="nav-link">Web3 and SSI</a>
+                                                <Link href="/finance-and-banking" activeClassName="active">
+                                                    <a className="nav-link">Finance and Banking</a>
                                                 </Link>
                                             </li>
 
@@ -106,7 +100,7 @@ class Navbar extends Component {
                                                 </Link>
                                             </li>
 
-                                            {/* <li className="nav-item">
+                                            <li className="nav-item">
                                                 <Link href="/supply-chain" activeClassName="active">
                                                     <a className="nav-link">Supply Chain</a>
                                                 </Link>
@@ -116,7 +110,13 @@ class Navbar extends Component {
                                                 <Link href="/telecommunications" activeClassName="active">
                                                     <a className="nav-link">Telecommunications</a>
                                                 </Link>
-                                            </li> */}
+                                            </li>
+
+                                            <li className="nav-item">
+                                                <Link href="/web3-and-ssi" activeClassName="active">
+                                                    <a className="nav-link">Web3 and SSI</a>
+                                                </Link>
+                                            </li>
                                         </ul>
                                     </li>
 

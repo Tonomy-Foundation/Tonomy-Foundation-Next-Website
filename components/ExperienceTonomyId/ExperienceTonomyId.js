@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Head from "next/head";
-import { gtag_report_conversion_read_developer_docs } from "../../utilities/googleTags";
+import { gtag_report_conversion_read_developer_docs } from "../../utils/googleTags";
 
 const ExperienceTonomyId = () => {
   return (

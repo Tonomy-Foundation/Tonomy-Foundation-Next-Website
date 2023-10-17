@@ -3,7 +3,7 @@ import Link from "next/link";
 import FsLightbox from "fslightbox-react";
 import Lottie from "lottie-react";
 import animatedData from "../assets/main-banner-animation.json";
-import { gtag_report_conversion_book_discovery, gtag_report_conversion_visit_whitepaper } from "../../utilities/googleTags";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_visit_whitepaper } from "../../utils/googleTags";
 
 export const BOOKING_LINK = "https://cal.com/shayan-salehis-btb8mk/30min";
 

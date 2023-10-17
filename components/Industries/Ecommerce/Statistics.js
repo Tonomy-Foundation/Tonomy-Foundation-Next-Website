@@ -9,23 +9,25 @@ class Statistics extends Component {
                     <div className="row align-items-center">
                         <div className="col-lg-6">
                             <div className="business-content">
-                                <h2>Cybersecurity in Finance and Banking</h2>
+                                <h2>Cybersecurity in eCommerce</h2>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-chip"></i>
-                                <h3>Fraud's Rising Surge</h3>
-                                <p>Confront the surge of digital identity fraud engulfing finance and banking. Embrace Tonomy ID to reclaim control and protect against relentless cyber adversaries.</p>
+                                <h3>Data Breaches Threaten eCommerce Trust</h3>
+                                <p>Identity theft and data breaches erode consumer trust. Tonomy ID offers robust security to safeguard eCommerce transactions and protect user privacy.</p>
                             </div>
 
                             <div className="single-business">
                                 <i className="flaticon-blockchain"></i>
-                                <h3>The Growing Cyber Menace</h3>
-                                <p>Uncover the alarming cybersecurity gaps in finance and banking. Tonomy ID stands as a fortress, shielding against relentless digital threats and data breaches.</p>
+                                <h3>Streamlining User Authentication in eCommerce</h3>
+                                <p>Complex authentication processes hinder conversions. Tonomy ID simplifies and secures user access, enhancing the shopping experience and boosting eCommerce success.</p>
                             </div>
 
                             <div className="business-btn">
-                                <Link href="https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most">
+                                <Link href="https://terranovasecurity.com/cyber-security-statistics/">
+
+                                    {/* https://www.statista.com/topics/9240/e-commerce-fraud/#topicOverview */}
                                     <a className="default-btn" target="_blank">
                                         Read Source
                                     </a>
@@ -37,37 +39,30 @@ class Statistics extends Component {
                             <div className="row">
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">€16.6 M</span></h2>
-                                        <p>Avg. yearly cost of banking cyberattacks</p>
-                                        {/* https://www.sangfor.com/blog/cybersecurity/cyber-attacks-on-banks-devastate-financial-sector */}
+                                        <h2><span className="target">38%</span></h2>
+                                        <p>% of worldwide reported scams occurring on eCommerce apps</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">42%</span></h2>
-                                        <p>% of all breaches that target banks</p>
-                                        {/* https://fortunly.com/statistics/data-breach-statistics/#:~:text=Key%20Statistics%20on%20Data%20Breaches,164.6%20million%20successful%20data%20breaches */}
+                                        <h2><span className="target">$40 Billion</span></h2>
+                                        <p>Losses in 2022 due to online payment fraud in the US</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
-                                        <h2><span className="target">54%</span></h2>
-                                        <p>Banks that dealt with document forgery last year</p>
-                                        {/* https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/ */}
+                                        <h2><span className="target">Double</span></h2>
+                                        <p>Expected growth of fraud detection and prevention market 2023 - 2027</p>
                                     </div>
                                 </div>
 
                                 <div className="col-lg-6 col-sm-6 counter-nth">
                                     <div className="single-counter">
 
-                                    <h2><span className="target">€450,000</span></h2>
-                                        <p>Avg. Identity Fraud Incident Cost</p>
-                                        {/* https://www.insiderintelligence.com/content/identity-fraud-costing-banks-big-it-s-burdening-small-banks-most
-                                        
-                                        https://regulaforensics.com/news/identity-fraud-cost-nearly-half-a-million-us-dollars-to-every-third-bank/
-                                        */}
+                                        <h2><span className="target">70%</span></h2>
+                                        <p>Victims of online shopping scams that suffer financial losses</p>
                                     </div>
                                 </div>
                             </div>
