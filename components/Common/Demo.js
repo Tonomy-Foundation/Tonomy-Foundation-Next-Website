@@ -2,7 +2,7 @@ import React from "react";
 import Link from "next/link";
 import { useState } from "react";
 import FsLightbox from "fslightbox-react";
-import { gtag_report_conversion_read_developer_docs } from "../../utilities/googleTags";
+import { gtag_report_conversion_read_developer_docs } from "../../utils/googleTags";
 
 const Demo = () => {
   const [toggler, setToggler] = useState(false);

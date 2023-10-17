@@ -16,10 +16,10 @@ class About extends Component {
       <>
         <Navbar />
         <Head>
-          <title>Unleashing Trust in Finance and Banking: Tonomy ID's Unparalleled Data Protection</title>
+          <title>Simplify Your Ecommerce: Tonomy ID Enables Seamless Secure Payment and Solutions</title>
           <meta
             name="description"
-            content="Defend against credential theft, phishing, and server breaches. Compliance by default, fraud-proof data, and seamless identity verification build trust in finance and banking."
+            content="Upgrade your online store with Tonomy ID for enhanced security, privacy, and convenience. Protect your data, prevent data breaches, and enjoy a safer eCommerce future. Reduce cart abandonment, offer personalized shopping experiences, and boost loyalty. Trust Tonomy ID for top-tier data security, effortless GDPR compliance, and a frictionless user experience. Your perfect eCommerce partner for the evolving digital landscape."
           />
         </Head>
 

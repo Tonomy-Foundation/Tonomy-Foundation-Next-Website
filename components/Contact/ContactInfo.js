@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Link from "next/link";
-import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utilities/googleTags";
+import { gtag_report_conversion_book_discovery, gtag_report_conversion_join_discord } from "../../utils/googleTags";
 
 class ContactInfo extends Component {
 

@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-import { gtag_report_conversion_visit_whitepaper } from '../../utilities/googleTags';
+import { gtag_report_conversion_visit_whitepaper } from '../../utils/googleTags';
 
 class Features extends Component {
   render() {

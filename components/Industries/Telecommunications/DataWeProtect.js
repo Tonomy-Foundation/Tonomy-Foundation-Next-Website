@@ -25,7 +25,7 @@ const DataWeProtect = () => {
                 <div className="section-title">
                     <span></span>
                     <h2>Data We Protect</h2>
-                    <p>Tonomy ID safeguards data with end-to-end encryption, tamper-proof digital signatures, and secure user-owned wallets, ensuring unparalleled protection against breaches and unauthorized access.</p>
+                    <p> Protect your customers most sensitive data.</p>
                 </div>
 
                 <div className="tab industries-list-tab">
@@ -39,7 +39,7 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-machine-learning"></i>
-                                        <h3>Client Confidential Information</h3>
+                                        <h3>Personal Information & Documents</h3>
                                         <p>Client Trust Preserved</p>
                                     </span>
                                 </li>
@@ -49,8 +49,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-artificial-intelligence"></i>
-                                        <h3>Legal Agreements</h3>
-                                        <p>Secure Contracts, Smooth Transactions</p>
+                                        <h3>Identity and Authentication Data</h3>
+                                        <p>Secure Access, Smooth Experiences</p>
                                     </span>
                                 </li>
 
@@ -59,8 +59,8 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-health"></i>
-                                        <h3>Tax Documents</h3>
-                                        <p>Privacy in Financial Reporting</p>
+                                        <h3>Communication Metadata</h3>
+                                        <p>End-to-end Encrypted</p>
                                     </span>
                                 </li>
 
@@ -69,13 +69,13 @@ const DataWeProtect = () => {
                                 >
                                     <span>
                                         <i className="flaticon-automation"></i>
-                                        <h3>Customer Identification Documents</h3>
-                                        <p>Trustworthy Customer Verification</p>
+                                        <h3>Client Payment Information</h3>
+                                        <p>Secure Payments, Easy Checkout</p>
                                     </span>
                                 </li>
                             </ul>
                         </div>
-                        
+
                         <div className="col-lg-9">
                             <div className="tab_content">
                                 {/* Tab item #1 */}
@@ -89,24 +89,23 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Client Confidential Information</h3>
-                                                <p>Confidential client information, such as account details, investment preferences, and personal data, forms the bedrock of the banking relationship. </p>
-                                                <p>Safeguarding this sensitive information is vital to maintain client trust, comply with data protection laws, and prevent data breaches that could lead to financial losses and reputational damage.</p>
-                                                
+                                                <h3>Personal Information & Documents</h3>
+                                                <p>By leveraging self-sovereign architecture and GDPR compliance, telecom companies can securely manage and control their customers' sensitive data.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Trust
+                                                                Name
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                Address
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Emails
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -115,20 +114,20 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Phone Numbers
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fraud Prevention
+                                                                Identity Documentation
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Instant Verification
+                                                                Trust Preserved
                                                             </li>
                                                         </ul>
                                                     </div>
                                                 </div>
-                                            
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -138,29 +137,29 @@ const DataWeProtect = () => {
                                         </div>
                                     </div>
                                 </div>
-                                
+
                                 {/* Tab item #2 */}
                                 <div id="tab2" className="tabs_item">
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Legal Agreements and Contracts</h3>
-                                                <p>Legal agreements and contracts establish the terms and conditions governing financial deals, loans, and partnerships. Protecting these documents with tamper-proof digital signatures ensures their authenticity and enforceability, reducing the risk of disputes and streamlining financial transactions.</p>
+                                                <h3>Identity and Authentication Data</h3>
+                                                <p>The tamper-resistant blockchain and sovereign single sign-on features help prevent unauthorized access and identity-related cyber threats.</p>
 
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Authenticity
+                                                                Usernames
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Enforceable
+                                                                Passwords
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Biometric Information
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -169,11 +168,11 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Legal Compliance
+                                                                Metadata
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Electronic Signatures
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
@@ -182,7 +181,7 @@ const DataWeProtect = () => {
                                                         </ul>
                                                     </div>
                                                 </div>
-                                                
+
                                                 {/* <div className="text-center">
                                                     <Link href="/services">
                                                         <a className="default-btn">Discover More</a>
@@ -210,24 +209,23 @@ const DataWeProtect = () => {
 
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Tax Documents</h3>
-                                                <p>Tax documents, including income statements and tax returns, contain sensitive financial information essential for accurate tax reporting.</p>
-                                                <p>With Tonomy ID's tamper-resistant digital signatures, banks can secure these documents and prevent unauthorized access, protecting their clients' financial privacy and complying with tax regulations.</p>
-                                                
+                                                <h3>Communication Metadata</h3>
+                                                <p>Telecom companies can rely on Tonomy ID's decentralized data storage to minimize the risk of data leaks and unauthorized access to call records.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Data Security
+                                                                Call records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Privacy
+                                                                Messaging records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                Data Usage records
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -236,11 +234,11 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Purchase records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Approved eSIM records
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
@@ -265,24 +263,23 @@ const DataWeProtect = () => {
                                     <div className="row  align-items-center">
                                         <div className="col-lg-6">
                                             <div className="industries-content">
-                                                <h3>Customer Identification Documents</h3>
-                                                <p>Customer identification documents, such as passports, driver's licenses, and national ID cards, are crucial for verifying customer identities during onboarding and financial transactions.</p>
-                                                <p>Protecting these documents with Tonomy ID's secure digital signatures helps banks ensure reliable customer verification, reducing the risk of identity fraud and meeting compliance requirements.</p>
-                                                
+                                                <h3>Client Payment Information</h3>
+                                                <p>With privacy-first principles, users can control and selectively share and store their payment information on their own device.</p>
+
                                                 <div className="row">
                                                     <div className="col-lg-6 col-sm-6">
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Instant Verification
+                                                                Credit Card Information
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Compliance
+                                                                CVV Codes
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Fraud Prevention
+                                                                Bank Information
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -291,15 +288,15 @@ const DataWeProtect = () => {
                                                         <ul className="industries-item">
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Tamper Proof
+                                                                Billing Address
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                User-origin Guaranteed
+                                                                Receipts
                                                             </li>
                                                             <li>
                                                                 <i className="flaticon-checked"></i>
-                                                                Non-repudiation
+                                                                Invoices
                                                             </li>
                                                         </ul>
                                                     </div>
