@@ -31,7 +31,7 @@ const ContactForm = () => {
                       </div>
                     </div>
                     <div className="col-lg-12 col-sm-12">
-                      <button type="submit" onClick={e => btnSubmitClick(e)} className="default-btn btn-two">
+                      <button type="submit" className="default-btn btn-two">
                         Send Message
                       </button>
                     </div>
