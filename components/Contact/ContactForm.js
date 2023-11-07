@@ -2,7 +2,8 @@ import React, { useState } from "react";
 
 const ContactForm = () => {
   return (
-    <div id="contact-form" className="main-contact-area pb-100">
+    <div className="main-contact-area pb-100" id="contact-form">
+      <script src="https://web3forms.com/client/script.js" async defer></script>
       <div className="container">
         <div className="section-title">
         </div>
@@ -10,24 +11,54 @@ const ContactForm = () => {
         <div className="row align-items-center">
           <div className="col-lg-6 col-md-12">
             <div className="contact-wrap contact-pages mb-0">
-              <div className="contact-form"> 
-              {/* <form action="https://foundation.us12.list-manage.com/subscribe/post?u=fdd40ebf441b888a2d75c41fd&amp;id=da13b0c897&amp;f_id=004f09e0f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form"></form> */}
-              <form>
+              <div className="contact-form">
+                <form
+                  action="https://api.web3forms.com/submit"
+                  method="POST"
+                  id="mc-embedded-subscribe-form"
+                  name="mc-embedded-subscribe-form"
+                >
+                  <input
+                    type="hidden"
+                    name="access_key"
+                    value="2046cb66-4cd3-4564-ac99-95701ca65fd3"
+                  />
                   <div className="row">
                     <div className="col-lg-6 col-sm-6">
                       <div className="form-group">
-                        <input type="text" name="FNAME" placeholder="Name" className="form-control" id="mce-FNAME" required /> 
+                        <input
+                          type="text"
+                          name="name"
+                          placeholder="Name"
+                          className="form-control"
+                          id="mce-FNAME"
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-6 col-sm-6">
                       <div className="form-group">
-                        <input type="email" name="EMAIL" placeholder="Email" className="form-control" id="mce-EMAIL" required />
+                        <input
+                          type="email"
+                          name="email"
+                          placeholder="Email"
+                          className="form-control"
+                          id="mce-EMAIL"
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-12 col-md-12">
-                      <div className="form-group"> 
+                      <div className="form-group">
                         <textarea
-                          name="MMERGE3" cols="30" rows="6" id="mce-MMERGE3" placeholder="Write your message..."className="form-control" required />
+                          name="Message"
+                          cols="30"
+                          rows="6"
+                          id="mce-MMERGE3"
+                          placeholder="Write your message..."
+                          className="form-control"
+                          required
+                        />
                       </div>
                     </div>
                     <div className="col-lg-12 col-sm-12">
@@ -47,7 +78,6 @@ const ContactForm = () => {
             </div>
           </div>
         </div>
-
       </div>
     </div>
   );
