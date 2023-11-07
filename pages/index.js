@@ -1,6 +1,6 @@
 import MainBanner from '../components/HomeOne/MainBanner'
 import Features from '../components/HomeOne/Features'
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import Solutions from '../components/HomeOne/Solutions'
 import Services from '../components/HomeOne/Services'
 import JoinTonomy from "../components/HomeOne/JoinTonomy"
 import Navbar from '../components/Layouts/Navbar'
@@ -19,7 +19,7 @@ const Index = () => {
 
             <Features />
 
-            <WhyChooseUs />
+            <Solutions />
 
             <Services />
 
