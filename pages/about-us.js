@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import Navbar from "../components/Layouts/Navbar";
 import PageBanner from "../components/Common/PageBanner";
-import TeamTwo from "../components/Common/TeamTwo";
+import Team from "../components/About/Team";
 import Partner from "../components/Common/Partner";
 import Footer from "../components/Layouts/Footer";
 import Head from "next/head";
@@ -26,7 +26,7 @@ class About1 extends Component {
           activePageText="Building Ecosystems of Trust"
         />
 
-        <TeamTwo />
+        <Team />
 
         <div className="pb-50">
           <Partner />
