@@ -23,9 +23,9 @@ class About1 extends Component {
         </Head>
         <PageBanner
           pageTitle="About us"
-          // homePageUrl="/"
-          // homePageText="Home"
-          // activePageText="About us"
+          homePageUrl="/"
+          homePageText="The Tonomy Foundation"
+          activePageText="Building Ecosystems of Trust"
         />
 
         {/* <About /> */}
