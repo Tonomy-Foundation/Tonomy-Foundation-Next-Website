@@ -6,6 +6,7 @@ import WhatWeOffer from "../components/HomeOne/WhatWeOffer"
 import Navbar from '../components/Layouts/Navbar'
 import Footer from '../components/Layouts/Footer'
 import Partner from '../components/Common/Partner';
+import MissionVision from '../components/HomeOne/MissionVision'
 
 const Index = () => {
     return (
@@ -13,6 +14,8 @@ const Index = () => {
             <Navbar />
 
             <MainBanner />
+
+            <MissionVision />
 
             <Features />
 
