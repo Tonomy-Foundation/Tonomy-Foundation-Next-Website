@@ -12,7 +12,6 @@ import "../styles/responsive.css";
 
 import App from "next/app";
 import Head from "next/head";
-import Loader from "../components/Shared/Loader";
 import GoTop from "../components/Shared/GoTop";
 import { injectAnalytics } from "../utils/analytics";
 
