@@ -89,8 +89,38 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
+                                                <Link href="https://tonomy.network" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Tonomy Network</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
                                                 <Link href="https://tonomy.io" activeClassName="active">
-                                                    <a className="nav-link">Tonomy ID</a>
+                                                    <a className="nav-link" target="_blank">Tonomy ID</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="https://theblockstalk.medium.com/civic-participation-tool-upgrade-to-openstad-e7aed01c5271" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Tonomy Participate</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="https://github.com/w3c-ccg/verifiable-conditions" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">W3C Conditional Proofs</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="https://github.com/Tonomy-Foundation/antelope-did-spec" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Antelope DID</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="https://blog.tonomy.foundation/tonomy-foundation-brings-delegated-multi-signatures-to-decentralized-identity-foundations-did-jwt-51c726b89f0e" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">DIF SSI Libraries</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="https://github.com/Tonomy-Foundation/Antelope-SSI-Toolkit/blob/master/README.md" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Antelope SSI Toolkit</a>
                                                 </Link>
                                             </li>
                                         </ul>

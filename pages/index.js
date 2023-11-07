@@ -1,12 +1,12 @@
-import Navbar from '../components/Layouts/Navbar'
 import MainBanner from '../components/HomeOne/MainBanner'
 import Features from '../components/HomeOne/Features'
-import WhyChooseUs from '../components/HomeOne/WhyChooseUs'
+import Solutions from '../components/HomeOne/Solutions'
 import Services from '../components/HomeOne/Services'
+import JoinTonomy from "../components/HomeOne/JoinTonomy"
+import Navbar from '../components/Layouts/Navbar'
 import Footer from '../components/Layouts/Footer'
 import Partner from '../components/Common/Partner';
-import Newsletter from '../components/Common/Newsletter'
-import WhatWeOffer from "../components/HomeOne/WhatWeOffer"
+import MissionVision from '../components/HomeOne/MissionVision'
 
 const Index = () => {
     return (
@@ -15,19 +15,17 @@ const Index = () => {
 
             <MainBanner />
 
+            <MissionVision />
+
             <Features />
 
-            <WhyChooseUs />
+            <Solutions />
 
             <Services />
-            
-            <WhatWeOffer/>
-            
-            {/* <MakeYourBusiness /> */}
+
+            <JoinTonomy />
 
             <Partner />
-
-            {/* <Newsletter/> */}
 
             <Footer />
         </>

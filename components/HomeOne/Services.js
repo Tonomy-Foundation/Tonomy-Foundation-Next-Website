@@ -6,11 +6,15 @@ const Services = () => {
       <div className="container">
         <div className="section-title">
           <span></span>
-          <h2>Why Tonomy?</h2>
+          <h2>Why Work with Us?</h2>
           <p>
-          Tonomy is a powerful and reliable tool for managing digital identity and transactions. 
-          Its open source nature and self-sovereign identity technology make it a highly secure and efficient solution for government agencies and commercial companies. By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.
+            Tonomy builds powerful and reliable tool for managing digital identities and transactions.
+            Its open source nature and Self-sovereign Identity and other Web3 technologies
+            make it a highly secure and efficient solution for government agencies and
+            commercial companies.
           </p>
+          <p>
+            By using Tonomy, you can enjoy the benefits of a streamlined and trustworthy digital identification process with less friction.</p>
         </div>
         <div className="row">
           <div className="col-lg-4 col-sm-6">
@@ -22,7 +26,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              Using self-sovereign identity (SSI) and other cutting-edge technologies to provide secure and efficient solutions for government agencies and commercial companies.
+                Using self-sovereign identity (SSI) and other cutting-edge technologies to provide secure and efficient solutions for government agencies and commercial companies.
               </p>
             </div>
           </div>
@@ -36,8 +40,8 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              GDPR compliance refers to protect the personal data privacy of individuals 
-              and give them control over how their information is collected, used, and shared.
+                GDPR compliance refers to protect the personal data privacy of individuals
+                and give them control over how their information is collected, used, and shared.
               </p>
             </div>
           </div>
@@ -51,8 +55,8 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              Open governance refers to the principles and practices of 
-              transparency, accountability, and participation in the decision-making processes of an organization.
+                Open governance refers to the principles and practices of
+                transparency, accountability, and participation in the decision-making processes of an organization.
               </p>
             </div>
           </div>
@@ -66,7 +70,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              We take great care to ensure that all of our products and solutions are designed to protect sensitive information and prevent unauthorized access.
+                We take great care to ensure that all of our products and solutions are designed to protect sensitive information and prevent unauthorized access.
               </p>
             </div>
           </div>
@@ -80,8 +84,8 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              Our organization aims to provide secure and efficient access to data through 
-              the use of open source solutions for digital identity and self-sovereign identity technology.
+                Our organization aims to provide secure and efficient access to data through
+                the use of open source solutions for digital identity and self-sovereign identity technology.
               </p>
             </div>
           </div>
@@ -95,7 +99,7 @@ const Services = () => {
                 </Link>
               </h3>
               <p>
-              We aim to improve organizational efficiency processes through open source solutions like digital identity, DAO, and governance systems to reduce administrative friction.
+                We aim to improve organizational efficiency processes through open source solutions like digital identity, DAO, and governance systems to reduce administrative friction.
               </p>
             </div>
           </div>

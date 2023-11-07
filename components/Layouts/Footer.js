@@ -22,13 +22,6 @@ class Footer extends Component {
                       className="rounded mx-auto d-block"
                     />
                   </a>
-                  <div className="flex-container text-center">
-                    <span>Contact us for a free consultation meeting</span>
-                    <a className="default-btn btn-two" href="https://cal.com/shayan-salehis-btb8mk/30min" target="_blank">
-                      Free Consultation Meeting
-                    </a>
-                  </div>
-                  <br />
 
                   <div className="flex-container FooterLogoDiv">
                     <ul className="social-icons d-flex flex-wrap justify-content-center">

@@ -5,38 +5,18 @@ import Head from "next/head";
 const MainBanner = () => {
   return (
     <>
-      <Head>
-        <script
-          type="text/javascript"
-          dangerouslySetInnerHTML={{
-            __html: `
-            var _paq = window._paq = window._paq || [];
-            _paq.push(['trackPageView']);
-            _paq.push(['enableLinkTracking']);
-            (function() {
-              var u="https://tonomy.matomo.cloud/";
-              _paq.push(['setTrackerUrl', u+'matomo.php']);
-              _paq.push(['setSiteId', '1']);
-              var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
-              g.async=true; g.src='//cdn.matomo.cloud/tonomy.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
-            })();
-          `,
-          }}
-        />
-      </Head>
       <section className="main-banner-area main-banner-area-one">
         <div className="container-fluid">
           <div className="row align-items-center">
             <div className="col-lg-6 pl-10">
               <div className="banner-text">
                 <h1>The Tonomy Foundation</h1>
+                <h2>Building Ecosystems of Trust</h2>
                 <p>
-                  We at the Tonomy Foundation. We are a Dutch non-profit
-                  foundation,we are dedicated to developing open source
-                  solutions for digital identity using self-sovereign identity
-                  (SSI) technology. Our goal is to make it easier for government
-                  agencies and commercial companies to securely and efficiently
-                  manage digital interactions and transactions.
+                  We are a Dutch non-profit foundation dedicated to research and development of
+                  open-source solutions to enable ecosystems to flourish. Our experienced team uses
+                  the latest technologies like blockchain (web3) and self-sovereign identity (SSI)
+                  to build systems that are secure, and mainstream ready.
                 </p>
 
                 <div className="banner-btn">
