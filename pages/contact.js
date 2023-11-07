@@ -18,7 +18,7 @@ class Contact extends Component {
           />
         </Head>
         <PageBanner
-          pageTitle="About us"
+          pageTitle="Contact us"
           homePageUrl="/"
           homePageText="The Tonomy Foundation"
           activePageText="Building Ecosystems of Trust"

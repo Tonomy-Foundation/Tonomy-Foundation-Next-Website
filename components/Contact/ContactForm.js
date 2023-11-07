@@ -1,18 +1,10 @@
 import React, { useState } from "react";
 
- 
-
 const ContactForm = () => {
   return (
-    <div className="main-contact-area pb-100">
+    <div id="contact-form" className="main-contact-area pb-100">
       <div className="container">
         <div className="section-title">
-          {/* <span>Contact Us</span> */}
-          {/* <h2>Drop us a message for any query</h2> */}
-          {/* <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque quibusdam deleniti porro praesentium.
-            Aliquam minus quisquam velit in at nam.
-          </p> */}
         </div>
 
         <div className="row align-items-center">
@@ -51,7 +43,7 @@ const ContactForm = () => {
 
           <div className="col-lg-6 col-md-12">
             <div className="contact-img">
-              <img src="/images/contact-img.webp" alt="Image" />
+              <img src="/images/contact-img.png" alt="Image" />
             </div>
           </div>
         </div>
