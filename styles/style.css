@@ -4391,8 +4391,6 @@ Team Area Four Style
   margin-bottom: 20px;
   min-height: 500px;
   max-height: 700px;
-  margin-bottom: 30px;
-  -webkit-transition: all 0.6s ease;
   transition: all 0.6s ease;
   background-color: #fff;
 }
@@ -4400,11 +4398,10 @@ Team Area Four Style
 .single-team .team-single-img {
   position: relative;
   margin-top: 15px;
+  margin-bottom: 30px;
   justify-content: center;
   align-items: center;
   display: flex;
-  margin-bottom: 55px;
-  min-height: 356px;
 }
 
 .single-team .team-single-img img {
