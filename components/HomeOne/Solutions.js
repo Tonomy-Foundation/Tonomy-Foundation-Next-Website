@@ -4,17 +4,16 @@ export default function OurSolutions() {
   return (
     <section className="choose-ue-area pb-100">
       <div className="container">
-        <div className="row">
-          <div className="col-12">
-            <div className="choose-title big-span">
-              <h2>Our Application Solutions</h2>
-              <span>We build web3 compatible, high security and mainstream-ready application systems.</span>
-            </div>
-          </div>
-        </div>
 
-        <div className="row align-items-center">
+        <div className="row">
           <div className="col-lg-6">
+            <div className="row">
+              <div className="choose-title big-span">
+                <h2>Our Application Solutions</h2>
+                <span>We build web3 compatible, high security and mainstream-ready application systems.</span>
+              </div>
+            </div>
+
             <div className="choose-content">
               <ul>
                 <li>
@@ -81,30 +80,14 @@ export default function OurSolutions() {
             </div>
           </div>
 
-          <div className="col-lg-6 pl-50">
-            <div className="choose-img">
-              <img src="/images/teamwork.svg" alt="Image" />
-            </div>
-          </div>
-        </div>
-
-        <div className="row">
-          <div className="col-12">
-            <div className="choose-title choose-title-right big-span">
-              <h2>Our Infrastructure Solutions</h2>
-              <span>We make major contributions to the libraries in the broader web3 and self-sovereign identity ecosystems.</span>
-            </div>
-          </div>
-        </div>
-
-        <div className="row align-items-center">
-          <div className="col-lg-6 pl-50">
-            <div className="choose-img">
-              <img src="/images/teamwork.svg" alt="Image" />
-            </div>
-          </div>
-
           <div className="col-lg-6">
+            <div className="row">
+              <div className="choose-title choose-title-right big-span">
+                <h2>Our Infrastructure Solutions</h2>
+                <span>We make major contributions to the libraries in the broader web3 and self-sovereign identity ecosystems.</span>
+              </div>
+            </div>
+
             <div className="choose-content choose-content-right">
               <ul>
                 <li className="ml">
@@ -189,7 +172,6 @@ export default function OurSolutions() {
                     </Link>
                   </div>
                 </li>
-
 
               </ul>
             </div>
