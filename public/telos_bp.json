@@ -1,0 +1,62 @@
+{
+    "producer_account_name": "telosuknodes",
+    "org": {
+        "candidate_name": "Telos UK",
+        "website": "https://telosuk.io",
+        "code_of_conduct": "https://steemit.com/eos/@bodget/eos-uk-block-producer-agreed-code-of-conduct",
+        "ownership_disclosure": "https://steemit.com/telos/@roger-telosuk/telos-uk-block-producer-candidate-announcement",
+        "phone": "TF_Registry",
+        "email": "bp@telosuk.io",
+        "branding": {
+            "logo_256": "https://telosuk.io/telos-uk-logo-256.png",
+            "logo_1024": "https://telosuk.io/telos-uk-logo-1024.png",
+            "logo_svg": "https://telosuk.io/telos-uk-logo.svg"
+        },
+        "location": {
+            "name": "Nottingham",
+            "country": "GB",
+            "latitude": 52.9047081,
+            "longitude": -1.1510991
+        },
+        "social": {
+            "twitter": "telosuknodes",
+            "youtube": "channel/UCGxatJjuafURvxMDKXwi8WA/videos",
+            "telegram": "EOS_Nottingham"
+        }
+    },
+    "nodes": [
+        {
+            "location": {
+                "name": "Falkenstein",
+                "country": "DE",
+                "latitude": 50.478639,
+                "longitude": 12.334751
+            },
+            "node_type": "query",
+            "api_endpoint": "http://api.telosuk.io",
+            "ssl_endpoint": "https://api.telosuk.io",
+            "features": [
+                "chain-api"
+            ]
+        },
+        {
+            "location": {
+                "name": "Falkenstein",
+                "country": "DE",
+                "latitude": 50.478639,
+                "longitude": 12.334751
+            },
+            "node_type": "seed",
+            "p2p_endpoint": "p2p.telosuk.io:9876"
+        },
+        {
+            "location": {
+                "name": "Falkenstein",
+                "country": "DE",
+                "latitude": 50.478639,
+                "longitude": 12.334751
+            },
+            "node_type": "producer"
+        }
+    ]
+}
