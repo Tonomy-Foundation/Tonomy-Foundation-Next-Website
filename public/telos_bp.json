@@ -2,11 +2,11 @@
     "producer_account_name": "telosuknodes",
     "org": {
         "candidate_name": "Telos UK",
-        "website": "https://telosuk.io",
+        "website": "https://tonomy.foundation",
         "code_of_conduct": "https://steemit.com/eos/@bodget/eos-uk-block-producer-agreed-code-of-conduct",
         "ownership_disclosure": "https://steemit.com/telos/@roger-telosuk/telos-uk-block-producer-candidate-announcement",
         "phone": "TF_Registry",
-        "email": "bp@telosuk.io",
+        "email": "developers@tonomy.foundation",
         "branding": {
             "logo_256": "https://telosuk.io/telos-uk-logo-256.png",
             "logo_1024": "https://telosuk.io/telos-uk-logo-1024.png",
@@ -19,9 +19,10 @@
             "longitude": -1.1510991
         },
         "social": {
-            "twitter": "telosuknodes",
-            "youtube": "channel/UCGxatJjuafURvxMDKXwi8WA/videos",
-            "telegram": "EOS_Nottingham"
+            "twitter": "tonomyF",
+            "telegram": "tonomyFoundation",
+            "linkedin": "tonomy-foundation",
+            "github": "Tonomy-Foundation"
         }
     },
     "nodes": [
