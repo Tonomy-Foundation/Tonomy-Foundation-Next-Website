@@ -20,18 +20,18 @@ export default function OurSolutions() {
                   <span>
                     01 <i className="flaticon-diamond"></i>
                   </span>
-                  <h3>Tonomy Network</h3>
+                  <h3>Pangea Virtual Nation</h3>
                   <p className="product-tag">
-                    Private Investment Round
+                    Private Token-Sale
                   </p>
                   <p>
-                    A decentralized, blazing-fast, modular & truly democratically governed EVM-compatible
-                    Blockchain network with a Self-Sovereign-Identity layer designed for sharing W3C VCs
-                    (Private data) combined with a set of out-of-the-box applications & tools for
-                    projects building on the network.
+                  Pangea introduces an innovative digital platform for collaborative global governance.
+                  Leveraging the robust Tonomy Governance OS, Pangea is a blueprint for a system where
+                  collective decision-making on global issues is transparent, inclusive, and effective.
+                  It ensures high integrity in governance, fostering trust among global citizens and between entities.
                   </p>
                   <div>
-                    <Link href="https://tonomy.network">
+                    <Link href="https://pangea.web4.world">
                       <a className="default-btn" target="_blank">Visit Website</a>
                     </Link>
                   </div>
@@ -115,6 +115,26 @@ export default function OurSolutions() {
                   <span>
                     05 <i className="flaticon-technical-support"></i>
                   </span>
+                  <h3>Telos UK</h3>
+                  <p className="product-tag">
+                    Telos Mainnet Block Producer
+                  </p>
+                  <p>
+                    Tonomy Foundation runs a high-performance block producer on the <a href="https://telos.net" target="_blank">Telos</a> mainnet.
+                    We use Ansible IaaC solution to efficiently manage protocol and server upgrades while
+                    adhering to the high performance and governance standards of the network.
+                  </p>
+                  <div>
+                    <Link href="/telos-uk">
+                      <a className="default-btn">Read More</a>
+                    </Link>
+                  </div>
+                </li>
+
+                <li className="ml">
+                  <span>
+                    06 <i className="flaticon-technical-support"></i>
+                  </span>
                   <h3>Antelope DID</h3>
                   <p className="product-tag">
                     Written, Built and Adopted
@@ -134,7 +154,7 @@ export default function OurSolutions() {
 
                 <li className="ml">
                   <span>
-                    06 <i className="flaticon-technical-support"></i>
+                    07 <i className="flaticon-technical-support"></i>
                   </span>
                   <h3>DIF SSI Libraries</h3>
                   <p className="product-tag">
@@ -156,7 +176,7 @@ export default function OurSolutions() {
 
                 <li className="ml">
                   <span>
-                    07 <i className="flaticon-technical-support"></i>
+                    08 <i className="flaticon-technical-support"></i>
                   </span>
                   <h3>Antelope SSI Toolkit</h3>
                   <p className="product-tag">

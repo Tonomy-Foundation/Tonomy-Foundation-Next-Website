@@ -2,15 +2,15 @@
     "producer_account_name": "telosuknodes",
     "org": {
         "candidate_name": "Telos UK",
-        "website": "https://tonomy.foundation",
+        "website": "https://tonomy.foundation/telos-uk",
         "code_of_conduct": "https://steemit.com/eos/@bodget/eos-uk-block-producer-agreed-code-of-conduct",
         "ownership_disclosure": "https://steemit.com/telos/@roger-telosuk/telos-uk-block-producer-candidate-announcement",
         "phone": "TF_Registry",
         "email": "developers@tonomy.foundation",
         "branding": {
-            "logo_256": "https://telosuk.io/telos-uk-logo-256.png",
-            "logo_1024": "https://telosuk.io/telos-uk-logo-1024.png",
-            "logo_svg": "https://telosuk.io/telos-uk-logo.svg"
+            "logo_256": "https://tonomy.foundation/images/telos/telos-uk-logo-256.png",
+            "logo_1024": "https://tonomy.foundation/images/telos/telos-uk-logo-1024.png",
+            "logo_svg": "https://tonomy.foundation/images/telos/telos-uk-logo.svg"
         },
         "location": {
             "name": "Nottingham",
