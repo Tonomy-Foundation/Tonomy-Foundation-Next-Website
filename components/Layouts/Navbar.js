@@ -89,8 +89,8 @@ class Navbar extends Component {
 
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
-                                                <Link href="https://tonomy.network" activeClassName="active">
-                                                    <a className="nav-link" target="_blank">Tonomy Network</a>
+                                                <Link href="https://pangea.web4.world" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Pangea Virtual Nation</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
@@ -111,6 +111,11 @@ class Navbar extends Component {
                                             <li className="nav-item">
                                                 <Link href="https://github.com/Tonomy-Foundation/antelope-did-spec" activeClassName="active">
                                                     <a className="nav-link" target="_blank">Antelope DID</a>
+                                                </Link>
+                                            </li>
+                                            <li className="nav-item">
+                                                <Link href="/telos-uk" activeClassName="active">
+                                                    <a className="nav-link">Telos UK</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
