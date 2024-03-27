@@ -124,7 +124,7 @@ export default function WhatWeOffer() {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                    <Link href="https://discord.gg/8zDf8AF3ja">
                                                         <a className="default-btn" target="_blank">Join Us</a>
                                                     </Link>
                                                 </div>
@@ -177,7 +177,7 @@ export default function WhatWeOffer() {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                    <Link href="https://discord.gg/8zDf8AF3ja">
                                                         <a className="default-btn" target="_blank">Join Us</a>
                                                     </Link>
                                                 </div>
@@ -242,7 +242,7 @@ export default function WhatWeOffer() {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                    <Link href="https://discord.gg/8zDf8AF3ja">
                                                         <a className="default-btn" target="_blank">Join us</a>
                                                     </Link>
                                                 </div>
@@ -296,7 +296,7 @@ export default function WhatWeOffer() {
                                                 </div>
 
                                                 <div className="text-center">
-                                                    <Link href="https://www.discord.gg/QqVJz5XF8d">
+                                                    <Link href="https://discord.gg/8zDf8AF3ja">
                                                         <a className="default-btn" target="_blank">Join us</a>
                                                     </Link>
                                                 </div>

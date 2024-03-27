@@ -29,11 +29,11 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-calendar"></i>
                 <h3>Book a discovery meeting:</h3>
-                  <Link href="https://cal.com/shayan-salehis-btb8mk/30min">
-                      <a>
-                      Book
-                      </a>
-                  </Link>
+                <Link href="https://cal.com/tonomy-foundation/sales-30min">
+                  <a>
+                    Book
+                  </a>
+                </Link>
                 <br></br>
               </div>
             </div>
@@ -42,11 +42,11 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-support"></i>
                 <h3>Chat with us:</h3>
-                <Link href="https://discord.com/invite/QqVJz5XF8d">
-                      <a>
-                      Book
-                      </a>
-                  </Link>
+                <Link href="https://discord.com/invite/8zDf8AF3ja">
+                  <a>
+                    Book
+                  </a>
+                </Link>
                 <br></br>
               </div>
             </div>
