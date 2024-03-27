@@ -29,7 +29,7 @@ class ContactInfo extends Component {
               <div className="single-contact-info">
                 <i className="bx bx-calendar"></i>
                 <h3>Book a discovery meeting:</h3>
-                <Link href="https:///tonomy-foundation/sales-30min">
+                <Link href="https:///cal.com/tonomy-foundation/sales-30min">
                   <a>
                     Book
                   </a>
