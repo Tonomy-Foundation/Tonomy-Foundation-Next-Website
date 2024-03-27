@@ -35,7 +35,7 @@ class Footer extends Component {
                       </li>
                       <li className="item mx-2 mb-3">
                         <a
-                          href="https://discord.gg/95J74ZbAgw"
+                          href="https://discord.gg/8zDf8AF3ja"
                           target="_blank"
                         >
                           <i className="icon bx bxl-discord bx-md"></i>
