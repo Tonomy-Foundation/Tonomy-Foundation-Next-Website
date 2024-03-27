@@ -21,7 +21,7 @@ const MainBanner = () => {
 
                 <div className="banner-btn">
                   <Link
-                    href="https://www.discord.gg/QqVJz5XF8d"
+                    href="https://discord.gg/8zDf8AF3ja"
                     target="_blank"
                   >
                     <a className="default-btn">Join us!</a>
