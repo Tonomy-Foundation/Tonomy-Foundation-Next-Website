@@ -112,7 +112,7 @@ class Testimonials extends Component {
 
                                 <div className="client-img">
                                     <img height="70" src="/images/testimonials/roger-davies.jpg" alt="Image" />
-                                    <h3>Rover Davies</h3>
+                                    <h3>Roger Davies</h3>
                                     <span>Founder <a href="https://openkeywords.com" target="_blank">openkeywords.com</a></span>
                                 </div>
                             </div>
