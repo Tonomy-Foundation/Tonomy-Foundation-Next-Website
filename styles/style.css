@@ -2058,8 +2058,8 @@ Choose Us Area Style
   transform: translateY(-5px);
 }
 
-.choose-title.choose-title-right {
-  text-align: right;
+.choose-title.choose-title-center {
+  text-align: center;
 }
 
 /*

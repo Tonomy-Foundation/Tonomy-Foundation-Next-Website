@@ -8,7 +8,7 @@ export default function OurSolutions() {
         <div className="row">
           <div className="col-lg-6">
             <div className="row">
-              <div className="choose-title big-span">
+              <div className="choose-title choose-title-center big-span">
                 <h2>Our Application Solutions</h2>
                 <span>We build web3 compatible, high security and mainstream-ready application systems.</span>
               </div>
@@ -25,10 +25,10 @@ export default function OurSolutions() {
                     Private Token-Sale
                   </p>
                   <p>
-                  Pangea introduces an innovative digital platform for collaborative global governance.
-                  Leveraging the robust Tonomy Governance OS, Pangea is a blueprint for a system where
-                  collective decision-making on global issues is transparent, inclusive, and effective.
-                  It ensures high integrity in governance, fostering trust among global citizens and between entities.
+                    Pangea introduces an innovative digital platform for collaborative global governance.
+                    Leveraging the robust Tonomy Governance OS, Pangea is a blueprint for a system where
+                    collective decision-making on global issues is transparent, inclusive, and effective.
+                    It ensures high integrity in governance, fostering trust among global citizens and between entities.
                   </p>
                   <div>
                     <Link href="https://pangea.web4.world">
@@ -82,7 +82,7 @@ export default function OurSolutions() {
 
           <div className="col-lg-6">
             <div className="row">
-              <div className="choose-title choose-title-right big-span">
+              <div className="choose-title choose-title-center big-span">
                 <h2>Our Infrastructure Solutions</h2>
                 <span>We make major contributions to the libraries in the broader web3 and self-sovereign identity ecosystems.</span>
               </div>
