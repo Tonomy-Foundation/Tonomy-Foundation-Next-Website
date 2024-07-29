@@ -11,20 +11,29 @@ const MainBanner = () => {
             <div className="col-lg-6 pl-10">
               <div className="banner-text">
                 <h1>The Tonomy Foundation</h1>
-                <h2>Building Ecosystems of Trust</h2>
+                <h2>Building The Pangea Virtual Nation
+                  <img src="/images/pangea-logo.png" width="40" height="40" alt="Pangea Virtual Nation" />
+                </h2>
                 <p>
-                  We are a Dutch non-profit foundation dedicated to research and development of
-                  open-source solutions to enable ecosystems to flourish. Our experienced team uses
-                  the latest technologies like blockchain (web3) and self-sovereign identity (SSI)
-                  to build systems that are secure, and mainstream ready.
+                  We are a Dutch non-profit foundation dedicated to building the Pangea Virtual Nation,
+                  a global sovereign digital community. Our mission is to create a comprehensive digital
+                  ecosystem using cutting-edge technologies such as digital democracy, blockchain,
+                  artificial intelligence, and self-sovereign identity in a seamless and secure platform.
                 </p>
 
+
                 <div className="banner-btn">
+                  <Link
+                    href="https://pangea.web4.world"
+                    target="_blank"
+                  >
+                    <a className="default-btn">Pangea Website</a>
+                  </Link>
                   <Link
                     href="https://discord.gg/8zDf8AF3ja"
                     target="_blank"
                   >
-                    <a className="default-btn">Join us!</a>
+                    <a className="default-btn">Join our Community!</a>
                   </Link>
                 </div>
               </div>
