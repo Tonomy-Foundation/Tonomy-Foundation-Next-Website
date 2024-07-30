@@ -1194,6 +1194,15 @@ jumpx Nav Area Style
   font-size: 25px;
 }
 
+.pangea-navbar {
+  display: flex;
+  align-items: center;
+}
+
+.pangea-navbar .pangea-navbar-link {
+  margin-left: 3px !important;
+}
+
 .navbar-area nav .navbar-nav .nav-item {
   position: relative;
   padding-top: 10px;
@@ -2049,8 +2058,8 @@ Choose Us Area Style
   transform: translateY(-5px);
 }
 
-.choose-title.choose-title-right {
-  text-align: right;
+.choose-title.choose-title-center {
+  text-align: center;
 }
 
 /*
