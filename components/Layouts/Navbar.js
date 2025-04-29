@@ -68,10 +68,10 @@ class Navbar extends Component {
                                     </li>
 
                                     <li className="nav-item">
-                                        <Link href="https://pangea.web4.world" activeClassName="active">
+                                        <Link href="https://tonomy.io" activeClassName="active">
                                             <div className="pangea-navbar">
-                                                <img src="/images/pangea-logo.png" width="20" height="20" alt="Pangea Virtual Nation" />
-                                                <a className="nav-link pangea-navbar-link" target="_blank">Pangea</a>
+                                                <img src="/images/tonomy-logo256.png" width="20" height="20" alt="Tonomy logo" />
+                                                <a className="nav-link pangea-navbar-link" target="_blank">Tonomy</a>
                                             </div>
                                         </Link>
                                     </li>
