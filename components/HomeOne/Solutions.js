@@ -20,18 +20,18 @@ export default function OurSolutions() {
                   <span>
                     01 <i className="flaticon-diamond"></i>
                   </span>
-                  <h3>Pangea Virtual Nation</h3>
+                  <h3>Tonomy</h3>
                   <p className="product-tag">
-                    Private Token-Sale
+                    Active Token Sale
                   </p>
                   <p>
-                    Pangea introduces an innovative digital platform for collaborative global governance.
-                    Leveraging the robust Tonomy Governance OS, Pangea is a blueprint for a system where
+                    Tonomy introduces an innovative digital platform for autonomous ID and collaborative global governance.
+                    Leveraging the robust Tonomy Governance OS, Tonomy is a blueprint for a system where
                     collective decision-making on global issues is transparent, inclusive, and effective.
                     It ensures high integrity in governance, fostering trust among global citizens and between entities.
                   </p>
                   <div>
-                    <Link href="https://pangea.web4.world">
+                    <Link href="https://tonomy">
                       <a className="default-btn" target="_blank">Visit Website</a>
                     </Link>
                   </div>

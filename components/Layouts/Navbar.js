@@ -97,9 +97,14 @@ class Navbar extends Component {
                                         </a>
 
                                         <ul className="dropdown-menu">
+                                        <li className="nav-item">
+                                                <Link href="https://tonomy.io" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">Tonomy Network</a>
+                                                </Link>
+                                            </li>
                                             <li className="nav-item">
-                                                <Link href="https://pangea.web4.world" activeClassName="active">
-                                                    <a className="nav-link" target="_blank">Pangea Virtual Nation</a>
+                                                <Link href="https://tonomy.io" activeClassName="active">
+                                                    <a className="nav-link" target="_blank">$TONO Token</a>
                                                 </Link>
                                             </li>
                                             <li className="nav-item">
