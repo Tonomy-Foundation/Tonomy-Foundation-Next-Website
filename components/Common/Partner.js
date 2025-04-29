@@ -63,6 +63,12 @@ class Partner extends Component {
                                 </a>
                             </div>
 
+                            <div className="single-brand">
+                                <a href="https://tonomy.io" target="_blank">
+                                    <img src="/images/tonomy-logo256.png" style={{height:"100px"}} alt="Image" />
+                                </a>
+                            </div>
+
                             {/* <div className="single-brand">
         <a href="#" target="_blank">
             <img src="/images/brands/brand9.png" alt="Image" />

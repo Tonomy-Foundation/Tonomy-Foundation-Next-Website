@@ -11,23 +11,24 @@ const MainBanner = () => {
             <div className="col-lg-6 pl-10">
               <div className="banner-text">
                 <h1>The Tonomy Foundation</h1>
-                <h2>Building The Pangea Virtual Nation
-                  <img src="/images/pangea-logo.png" width="40" height="40" alt="Pangea Virtual Nation" />
+                <h2>
+                  <img src="/images/tonomy-logo256.png" width="40" height="40" style={{marginRight: "10px"}} alt="Tonomy logo" />
+                  Building The Tonomy Network
                 </h2>
                 <p>
-                  We are a Dutch non-profit foundation dedicated to building the Pangea Virtual Nation,
-                  a global sovereign digital community. Our mission is to create a comprehensive digital
-                  ecosystem using cutting-edge technologies such as digital democracy, blockchain,
-                  artificial intelligence, and self-sovereign identity in a seamless and secure platform.
+                  We are a Dutch non-profit foundation dedicated to building the Tonomy network and $TONO token. Our mission
+                  is to create a comprehensive and autonimous digital ecosystem using cutting-edge technologies
+                  such as self-sovereign identity, digital democracy, blockchain, and artificial intelligence
+                  in a seamless and secure platform.
                 </p>
 
 
                 <div className="banner-btn">
                   <Link
-                    href="https://pangea.web4.world"
+                    href="https://tonomy.io"
                     target="_blank"
                   >
-                    <a className="default-btn">Pangea Website</a>
+                    <a className="default-btn">Tonomy Website</a>
                   </Link>
                   <Link
                     href="https://discord.gg/8zDf8AF3ja"
